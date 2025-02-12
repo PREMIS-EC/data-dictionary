@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xml:id="eventIdentifier" xmlns="http://www.tei-c.org/ns/1.0">
+    <head>
+        <!-- PREMIS Semantic unit 2.1.0 -->
+        <abbr>2.1</abbr>
+        <gi>eventIdentifier</gi>                        
+    </head>         
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>eventIdentifierType</p>
+        <p>eventIdentifierValue</p>
+    </div>         
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>A designation used to identify the Event uniquely within the preservation repository system.</p>
+    </div>
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p>Each Event recorded by the preservation repository must have a unique identifier to allow it to be related to Objects, Agents, and other Events.</p>
+    </div>
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>Container</p>
+    </div> 
+    <div type="examples">
+        <!-- PREMIS Examples -->
+        <p></p>
+    </div>
+    <div type="entity">
+        <p>
+            <list type="simple">
+                <label>Obligation</label>
+                <item>Mandatory</item>
+                <label>Repeatability</label>
+                <item>Not Repeatable</item>
+            </list>
+        </p>
+    </div>
+    <div type="creationmaintenance">
+        <!-- PREMIS Creation / Maintenance -->
+        <p>The <bold>eventIdentifier</bold> is likely to be system generated. There is no global scheme or standard for these identifiers. The identifier is therefore not repeatable.</p>
+    </div>
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p></p>
+    </div>
+</div>
+

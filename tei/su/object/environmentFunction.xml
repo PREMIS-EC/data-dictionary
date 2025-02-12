@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="environmentFunction">
+    <head>
+        
+        <!-- PREMIS Semantic unit 1.9.0 -->
+        <abbr>1.9</abbr>
+        <gi>environmentFunction</gi>
+        
+    </head>
+    
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>environmentFunctionType</p>
+        <p>environmentFunctionLevel</p>
+    </div>
+    
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>A hierarchical description of the function of the environment used to
+            render or execute an object. </p>
+    </div>
+    
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p>This information describes the inherent nature of the environment which,
+            in turn, specifies its function. It will not change over time and is not
+            dependent on the way the environment is used. Types, such as software,
+            documentation, hardware, must be described through an extensible
+            vocabulary. It inherits from the previous PREMIS environment
+            <bold>software</bold> and <bold>hardware</bold> semantic unit containers
+            that specified fine-grained <bold>swType</bold> and <bold>hwType</bold>
+            vocabulary. It is important to capture the type and use of an
+            environment to express:</p>
+        <list type="ordered">
+            <item>What is the type of the environment, such as hardware, software
+                or documentation.</item>
+            <item>A refinement of the type to isolate where in the rendering
+                stack the Intellectual Entity is used, such as plugin, driver,
+                application, peripheral or specification.</item>
+        </list>
+        
+    </div>
+    
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p><bold>environmentFunction</bold> can be used to describe the nature of an
+            environment (whether it is hardware, software or documentation). This
+            can be done on multiple, increasingly specific, hierarchical levels
+            until the appropriate level of granularity has been reached. Multiple,
+            hierarchical levels of description should be described in separate,
+            repeated <bold>environmentFunction</bold> semantic unit containers. This can
+            also be done by recording only the most specific level of granularity.
+            For example, an environment Intellectual Entity describing a particular
+            version of an operating system is also of the more generic type
+            “software;” thus two levels of description (“software”, then “operating
+            system”) describe the function. If it proved necessary, a third-level
+            description could be added. There is no limit to the number of levels,
+            although it is unlikely that a deep hierarchy will be necessary.</p>
+    </div>
+    
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>Container</p>
+    </div>
+    
+    <div type="entity">
+        <!-- PREMIS Object category -->
+        <p>
+            <list type="simple">
+                <head>PREMIS Intellectual Entity</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Repeatable</item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS Representation</head>
+                <label>Applicability</label>
+                <item>Not applicable</item>
+                <label>Obligation</label>
+                <item></item>
+                <label>Repeatability</label>
+                <item></item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS File</head>
+                <label>Applicability</label>
+                <item>Not applicable</item>
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item></item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS Bitstream</head>
+                <label>Applicability</label>
+                <item>Not applicable</item>
+                <label>Obligation</label>
+                <item></item>
+                <label>Repeatability</label>
+                <item></item>
+            </list>
+        </p>
+    </div>
+</div>

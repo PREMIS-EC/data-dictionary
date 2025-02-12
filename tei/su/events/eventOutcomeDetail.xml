@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"  xml:id="eventOutcomeDetail">
+    <head>
+        <!-- PREMIS Semantic unit 2.5.2 -->
+        <abbr>2.5.2</abbr>        
+        <gi>eventOutcomeDetail</gi>        
+    </head>       
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>Defined externally</p>
+    </div>       
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>A detailed description of the result or product of the Event.</p>
+    </div>       
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p>An Event outcome may be sufficiently complex that a coded description is not adequate to document it.</p>
+    </div>  
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>Container</p>
+    </div>
+    <div type="examples">
+        <!-- PREMIS Examples -->
+        <p></p>
+    </div>
+    <div type="entity">
+        <p>
+            <list type="simple">
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Repeatable</item>
+            </list>
+        </p>
+    </div>
+    <div type="creationmaintenance">
+        <!-- PREMIS Creation / Maintenance -->
+        <p></p>
+    </div>
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p>This may be used to record all error and warning messages issued by a program involved in the Event or to record a pointer to an error log. If the Event was a validity check (e.g., profile conformance) any anomalies or quirks discovered would be recorded here. All subunits of this semantic unit are optional. At least one subunit (i.e. <bold>eventOutcomeDetailNote</bold> and/or <bold>eventOutcomeDetailExtension</bold>) must be present if this container is included.</p>
+    </div>
+</div>
+

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="creatingApplication">
+    <head>
+        
+        <!-- PREMIS Semantic unit 1.5.5.0 -->
+        <abbr>1.5.5</abbr>
+        <gi>creatingApplication</gi>
+        
+    </head>
+    
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>creatingApplicationName</p>
+        <p>creatingApplicationVersion</p>
+        <p>dateCreatedByApplication</p>
+        <p>creatingApplicationExtension</p>
+    </div>
+    
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>Information about the application that created the object.</p>
+    </div>
+    
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p>Information about the creating application, including the version of the
+            application and the date the file was created, can be useful for problem
+            solving purposes. For example, it is not uncommon for certain versions
+            of software to be known for causing conversion errors or introducing
+            artifacts. It is also useful to determine whatrendering software is
+            available for the digital object. For example, if you know that the
+            Distiller program created the PDF file, you know it will be renderable
+            with (among other programs) Adobe Reader.</p>
+    </div>
+    
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p>This semantic unit applies both to objects created outside of the
+            repository and subsequently ingested, and to objects created by the
+            repository, for example, through migration Events. The
+            <bold>creatingApplication</bold> container is repeatable if more than
+            one application processed the object in turn. For example, a file could
+            be created by Microsoft Word and later turned into a PDF using Adobe
+            Acrobat. Details of both the Word and Acrobat applications may be
+            recorded. However, if both files are stored in the repository, each
+            fileshould be completely described as an Object entity and linked by
+            using relationship information with a <bold>relationshipType</bold>
+            “derivation." The container may also be repeated to record the creating
+            application before the object was ingested as well as the creating
+            application used as part of the ingest process. For example, an HTML
+            filewas created pre-ingest using Dreamweaver, and the Web crawler
+            Heritrix then captured a snapshot of the files as part of ingest.
+            <bold>creatingApplication</bold> is a frequently used semantic unit;
+            however, with the introduction of more detailed environment capability,
+            best practice should be to use an environment Object rather than this
+            semantic unit. The use of environment Objects allows repositories to
+            build complex relationships between objects and their creating or
+            rendering environments. It also allows for the recording of
+            relationships between environments themselves, for example, to expose
+            dependencies between multiple components of complex software stacks. For
+            more information on using environment Objects, see section “Special
+            Topics”. However, unlike environment
+            Objects, <bold>creatingApplication</bold> enables the description of
+            different creating applications at different composition levels of the
+            Object. It is also supported for backward compatibility. Rather than
+            having each repository record this locally, it is preferable to share
+            this information using environment registries.</p>
+    </div>
+    
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>Container</p>
+    </div>
+    
+    <div type="entity">
+        <!-- PREMIS Object category -->
+        <p>
+            <list type="simple">
+                <head>Intellectual Entity / Representation</head>
+                <label>Applicability</label>
+                <item>Not applicable</item>
+                <label>Obligation</label>
+                <item></item>
+                <label>Repeatability</label>
+                <item></item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS File</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Repeatable</item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS Bitstream</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Repeatable</item>
+            </list>
+        </p>
+    </div>
+    
+    <div type="creationmaintenance">
+        <!-- PREMIS Creation / Maintenance -->
+        <p>If the object was created by the repository, assignment of creating
+            application information should be straightforward.If the object was
+            created outside the repository, it is possible this information could be
+            supplied by the depositor. It might also be extracted from the file
+            itself; the name of the creating application is often embedded within
+            the file.</p>
+    </div>
+</div>
+

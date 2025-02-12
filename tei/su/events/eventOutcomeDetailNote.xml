@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"  xml:id="eventOutcomeDetailNote">
+    <head>
+        <!-- PREMIS Semantic unit 2.5.2.1 -->
+        <abbr>2.5.2.1</abbr>        
+        <gi>eventOutcomeDetailNote</gi>        
+    </head>       
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>None</p>
+    </div>       
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>A detailed description of the result or product of the Event in textual form.</p>
+    </div>       
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p>Additional information in textual form may be needed about the outcome of the Event.</p>
+    </div>  
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>None</p>
+    </div>
+    <div type="examples">
+        <!-- PREMIS Examples -->
+        <p>
+            <list type="ordered">
+                <item>LZW compressed file</item>                
+                <item>Non-standard tags found in header</item>
+            </list>
+        </p>
+    </div>
+    <div type="entity">
+        <p>
+            <list type="simple">
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Repeatable</item>
+            </list>
+        </p>
+    </div>
+    <div type="creationmaintenance">
+        <!-- PREMIS Creation / Maintenance -->
+        <p></p>
+    </div>
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p></p>
+    </div>
+</div>
+

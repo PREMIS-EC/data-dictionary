@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="contentLocationValue">
+    <head>
+        
+        <!-- PREMIS Semantic unit 1.7.1.2 -->
+        <abbr>1.7.1.2</abbr>
+        <gi>contentLocationValue</gi>
+        
+    </head>
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>None</p>
+    </div>
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>The reference to the location of the content used by the storage
+            system.</p>
+    </div>
+    
+    <!-- PREMIS Rationale -->
+    
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p> This could be a fully qualified path and filename, or the information
+            used by a resolution system (e.g., a handle), or the native information
+            used by a storage management system. For a bitstream or filestream, this
+            would probably be the reference point and offset of the starting
+            position of the bitstream within a file. It is up to the repository to
+            determine the level of granularity that should be recorded.</p>
+    </div>
+    
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>None</p>
+    </div>
+    
+    <div type="entity">
+        <!-- PREMIS Object category -->
+        <p>
+            <list type="simple">
+                <head>Intellectual Entity / Representation</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Mandatory</item>
+                <label>Repeatability</label>
+                <item>Not repeatable</item>
+            </list>
+            <list type="ordered">
+                <head>Examples</head>
+                <item>Shel4, box 3</item>
+                <item>DA592.B76 [Shelfmark]</item>
+                <item>3054257BF4C21B4000001ABF [RFID number]</item>
+                <item>http://wwasearch.loc.gov/107th/200212107035/</item>
+                <item>http://house.gov/langevin/</item>
+                <item>hdl:loc.pnp/cph.3b34188</item>
+                <item>c:\apache2\htdocs\index.html</item>
+                <item>/home/web/public_html/index.html</item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS Representation</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Mandatory</item>
+                <label>Repeatability</label>
+                <item>Not repeatable</item>
+            </list>
+            <list type="ordered">
+                <head>Examples</head>
+                <item>http://wwasearch.loc.gov/107th/200212107035/</item>
+                <item>http://house.gov/langevin/</item>
+                <item>hdl:loc.pnp/cph.3b34188</item>
+                <item>c:\apache2\htdocs\index.html</item>
+                <item>/home/web/public_html/index.html</item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS File</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Mandatory</item>
+                <label>Repeatability</label>
+                <item>Not repeatable</item>
+            </list>
+            <list type="ordered">
+                <head>Examples</head>
+                <item>64 [offset from start of file
+                    c:\apache2\htdocs\image\logo.gif]</item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS Bitstream</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Mandatory</item>
+                <label>Repeatability</label>
+                <item>Not repeatable</item>
+            </list>
+            <list type="ordered">
+                <head>Examples</head>
+                <item>Phys</item>
+                <item>Shelfmark</item>
+                <item>RFID number</item>
+            </list>
+        </p>
+    </div>
+    <div type="creationmaintenance">
+        <!-- PREMIS Creation / Maintenance -->
+        <p>Inhibitors are more likely to be present on an object ingested by the
+            repository than applied by the repository itself. It is hard to detect
+            during ingest if a file is encrypted, but this may be known from the
+            context in which it is ingested. Therefore, information about inhibitors
+            should be supplied as metadata with submitted objects when possible.</p>
+    </div>
+</div>
+

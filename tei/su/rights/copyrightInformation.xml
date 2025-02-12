@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="copyrightInformation">
+    <head>
+        <!-- PREMIS Semantic unit 4.1.3.0 -->
+        <abbr>4.1.3</abbr>
+        <gi>copyrightInformation</gi>
+    </head>
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>copyrightStatus</p>
+        <p>copyrightJurisdiction</p>
+        <p>copyrightStatusDeterminationDate</p>
+        <p>copyrightNote</p>
+        <p>copyrightDocumentationIdentifier</p>
+        <p>copyrightApplicableDates</p>
+    </div>
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>Information about the copyright status of the object(s).</p>
+    </div>
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p/>
+    </div>
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>Container</p>
+    </div>
+    <div type="examples">
+        <!-- PREMIS Examples -->
+        <p/>
+    </div>
+    <div type="entity">
+        <p>
+            <list type="simple">
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Not repeatable</item>
+            </list>
+        </p>
+    </div>
+    <div type="creationmaintenance">
+        <!-- PREMIS Creation / Maintenance -->
+        <p/>
+    </div>
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p>When <bold>rightsBasis</bold> is “copyright”, <bold>copyrightInformation</bold>
+            should be provided. Repositories may need to extend this with more
+            detailed information. See the California Digital Library's copyrightMD
+            schema (<ref target="http://www.cdlib.org/groups/rmg//"
+                >http://www.cdlib.org/groups/rmg//</ref>) for an example of a more
+            detailed scheme.</p>
+    </div>
+</div>
+

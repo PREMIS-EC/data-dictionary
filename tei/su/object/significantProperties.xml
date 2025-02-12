@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="significantProperties">
+    
+    <head>
+        
+        <!-- PREMIS Semantic unit 1.4.0 -->
+        <abbr>1.4</abbr>
+        <gi>significantProperties</gi>
+        
+    </head>
+    
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>significantPropertiesType</p>
+        <p>significantPropertiesValue</p>
+        <p>significantPropertiesExtension</p>
+    </div>
+    
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>Characteristics of a particular object subjectively determined to be
+            important to maintain through preservation actions.</p>
+    </div>
+    
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p>Objects that have the same technical properties may still differ as to
+            the properties that should be preserved for future presentation or
+            use.</p>
+    </div>
+    
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p>At least one of the <gi>significantPropertiesValue</gi> and
+            <bold>significantPropertiesExtension</bold> subunits must be present if
+            this container is included, or both may be used.</p>
+        <p>The choice of whether a property is significant is subjective. Some of
+            these properties can be directly measured while others can only be
+            determined subjectively. </p>
+        <p>For example, a PDF may contain links that are not considered important
+            and JavaScript that is considered important. Or future migrations of a
+            TIFF image may require optimization for line clarity or for color; the
+            option chosen would depend upon a curatorial judgment of the significant
+            properties of the image.</p>
+        <p> Listing significant properties implies that the repository plans to
+            preserve these properties across time and requires them to survive
+            preservation action acceptably; for example, to be maintained during
+            emulation orafter format migration. It also implies that the repository
+            would note when preservation action results in modification of
+            significant properties.</p>
+        <p>In practice, significant properties might be used as measures of DATA
+            DICTIONARY preservation success, as part of quality checking the results
+            of a preservation action or evaluating the efficacy of a preservation
+            method. For example, if the listed significant properties are not
+            maintained after application of a particular preservation method, it may
+            indicate a failure of the process or that the method is not well suited
+            to the type of material.</p>
+        <p>More experience with digital preservation is needed to determine the best
+            ways of representing significant properties in general, and of
+            representing modification of significant properties.</p>
+        <p>The semantic units included in the <bold>significantProperties</bold>
+            container aim to provide a flexible structure for describing significant
+            properties, allowing general types of aspects, facets or attributes of
+            an object to be declared and to be paired with specific significant
+            details about the object pertaining to that aspect, facet or
+            attribute.</p>
+        <p>For example, some repositories may define significant properties for
+            objects related to facets of content, appearance, structure, behavior,
+            and context. Examples of facet:detail pairs in this case are as follows
+            (note that each facet:detail pair should be contained in a separate,
+            repeated <bold>significantPropertiescontainer</bold>):
+            <bold>significantPropertiesType</bold>= “content”</p>
+        <p><bold>significantPropertiesValue</bold>= “all textual content and images”</p>
+        <p><bold>significantPropertiesType</bold>= “behavior” significantPropertiesValue
+            = “editable”</p>
+        <p>Other repositories may choose to describe significant properties at a
+            more granular attribute level; for example:</p>
+        <p><bold>significantPropertiesType</bold>= “page count”</p>
+        <p><bold>significantPropertiesValue</bold>= “7”</p>
+        <p><bold>significantPropertiesType</bold>= “page width”</p>
+        <p><bold>significantPropertiesValue</bold>= “210 mm”</p>
+        <p>Further work on determining and describing significant properties may
+            yield more detailed schemes to facilitate general description.</p>
+        <p>Representing modification of significant properties as a result of
+            preservation action also requires further work. One possible way
+            involves the use of Object and Event information: Object A has the
+            significant properties volume and timing, which are recorded as
+            <bold>significantProperties</bold> of A. In migrated version B, the
+            timing is modified, which is noted in the <bold>eventOutcome</bold> of the
+            migration Event. Only volume is listed as a significant property of
+            B.</p>
+    </div>
+    
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>Container</p>
+    </div>
+    
+    <div type="entity">
+        <!-- PREMIS Object category -->
+        <p>
+            <list type="simple">
+                <head>Intellectual Entity / Representation</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Repeatable</item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS File</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Repeatable</item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS Bitstream</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Repeatable</item>
+            </list>
+        </p>
+    </div>
+    
+    <div type="creationmaintenance">
+        <!-- PREMIS Creation / Maintenance -->
+        <p xml:lang="en">Significant properties may pertain to all objects of a
+            certain class; for example, the repository can decide that for all PDF
+            files, only the content need be preserved. In other cases for example,
+            for media art, the significant properties may be unique to each
+            individual object. Where values are unique, they must be supplied by the
+            submitter or provided by the curatorial staff of the repsoitory.</p>
+        
+    </div>
+</div>
+

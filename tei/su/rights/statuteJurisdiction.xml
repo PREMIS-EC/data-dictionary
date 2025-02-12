@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="statuteJurisdiction">
+    <head>
+        <!-- PREMIS Semantic unit 4.1.5.1 -->
+        <abbr>4.1.5.1</abbr>
+        <gi>statuteJurisdiction</gi>
+    </head>
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>None</p>
+    </div>
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>The country or other political body enacting the statute.</p>
+    </div>
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p>The connection between the object and the Rights granted is based on
+            jurisdiction.</p>
+    </div>
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>Values should be taken from <ref
+                target="https://www.iso.org/iso-3166-country-codes.html"
+                >ISO 3166</ref> if applicable.</p>
+    </div>
+    <div type="examples">
+        <!-- PREMIS Examples -->
+        <p>
+            <list type="ordered">
+                <item>us</item>                
+                <item>de</item>
+            </list>
+        </p>
+    </div>
+    <div type="entity">
+        <p>
+            <list type="simple">
+                <label>Obligation</label>
+                <item>Mandatory</item>
+                <label>Repeatability</label>
+                <item>Not repeatable</item>
+            </list>
+        </p>
+    </div>
+    <div type="creationmaintenance">
+        <!-- PREMIS Creation / Maintenance -->
+        <p/>
+    </div>
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p/>
+    </div>
+</div>
+

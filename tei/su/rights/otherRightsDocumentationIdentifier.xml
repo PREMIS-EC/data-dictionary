@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="otherRightsDocumentationIdentifier">
+    <head>
+        <!-- PREMIS Semantic unit 4.1.6.1.0 -->
+        <abbr>4.1.6.1</abbr>
+        <gi>otherRightsDocumentationIdentifier</gi>
+    </head>
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>otherRightsDocumentationIdentifierType</p>
+        <p>otherRightsDocumentationIdentifierValue</p>
+        <p>otherRightsDocumentationRole</p>
+    </div>
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>A designation used to uniquely identify documentation supporting the
+            specified Rights within the repository system, when the basis for these
+            Rights is something other than copyright, license or statute.</p>
+    </div>
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p>This semantic unit provides a mechanism to link to documentation for
+            <bold>rightsBasis</bold> values other than those granted through
+            copyright, license, or statute. The Rights basis may be specified in
+            <gi>otherRightsBasis</gi>.</p>
+    </div>
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>Container</p>
+    </div>
+    <div type="examples">
+        <!-- PREMIS Examples -->
+        <p/>
+    </div>
+    <div type="entity">
+        <p>
+            <list type="simple">
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Repeatable</item>
+            </list>
+        </p>
+    </div>
+    <div type="creationmaintenance">
+        <!-- PREMIS Creation / Maintenance -->
+        <p>The semantic unit is repeatable because there may be more than one
+            document that provides information about the Rights.</p>
+    </div>
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p>This semantic unit is intended to refer to a document recording the
+            granting of permission, the expression of requirements or restrictions,
+            or other information supporting the specified <bold>rightsBasis</bold>. If
+            repeated, use <bold>otherRightsDocumentationRole</bold> to distinguish the
+            role of the given documentation.</p>
+    </div>
+</div>
+

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xml:id="eventDateTime" xmlns="http://www.tei-c.org/ns/1.0">
+    <head>
+        <!-- PREMIS Semantic unit 2.3.0 -->
+        <abbr>2.3</abbr>
+        <gi>eventDateTime</gi>        
+    </head>       
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>None</p>
+    </div>       
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>The single date and time, or date and time range, at or during which the Event occurred.</p>
+    </div>       
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p></p>
+    </div>    
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>To aid machine processing, value should use a structured form. To facilitate exchange of PREMIS-conformant metadata, use of standard conventions, for instance as used in the date elements in the PREMIS schema, is recommended.</p>
+    </div>
+    <div type="examples">
+        <!-- PREMIS Examples -->
+        <p>
+            <list type="ordered">
+                <item>20050704T071530-0500 [July 4, 2005 at 7:15:30 a.m. EST]</item>                
+                <item>2006-07-16T19:20:30+01:00</item>                
+                <item>20050705T0715-0500/20050705T0720-0500 [from 7:15 a.m. EST to 7:20 a.m. EST on July 4, 2005]</item>                
+                <item>2004-03-17 [March 17, 2004, only the date is known]</item>
+            </list>
+        </p>
+    </div>
+    <div type="entity">
+        <p>
+            <list type="simple">
+                <label>Obligation</label>
+                <item>Mandatory</item>
+                <label>Repeatability</label>
+                <item>Notrepeatable</item>
+            </list>
+        </p>
+    </div>
+    <div type="creationmaintenance">
+        <!-- PREMIS Creation / Maintenance -->
+        <p></p>
+    </div>
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p>Recommended practice is to record the most specific time possible and to designate the time zone.</p>
+    </div>
+</div>
+

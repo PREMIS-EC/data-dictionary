@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"  xml:id="eventOutcome">
+    <head>
+        <!-- PREMIS Semantic unit 2.5.1 -->
+        <abbr>2.5.1</abbr>        
+        <gi>eventOutcome</gi>        
+    </head>       
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>None</p>
+    </div>       
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>A categorization of the overall result of the Event in terms of success, partial success, or failure.</p>
+    </div>       
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p>A coded way of representing the outcome of an Event may be useful for machine processing and reporting. If, for example, a fixity check fails, the Event record provides both an actionable and a permanent record.</p>
+    </div>  
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>Value should be taken from a controlled vocabulary.</p>
+    </div>
+    <div type="examples">
+        <!-- PREMIS Examples -->
+        <p>
+            <list type="ordered">
+                <item>00 [a code meaning “action successfully completed”]</item>                
+                <item>CV-01 [a code meaning “checksum validated”]</item>
+            </list>
+        </p>
+    </div>
+    <div type="entity">
+        <p>
+            <list type="simple">
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Repeatable</item>
+            </list>
+        </p>
+    </div>
+    <div type="creationmaintenance">
+        <!-- PREMIS Creation / Maintenance -->
+        <p></p>
+    </div>
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p>Recommended practice is to use a controlled vocabulary that a system can act upon automatically. Because this is inherently a local vocabulary, there is no general one available. More detail about the outcome may be recorded in <bold>eventOutcomeDetail</bold>. Recommended practice is to define Events with sufficient granularity that each Event has a single outcome.</p>
+    </div>
+</div>
+

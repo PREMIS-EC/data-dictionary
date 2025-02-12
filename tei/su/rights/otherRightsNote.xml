@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="otherRightsNote">
+    <head>
+        <!-- PREMIS Semantic unit 4.1.6.4.0 -->
+        <abbr>4.1.6.4</abbr>
+        <gi>otherRightsNote</gi>
+    </head>
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>None</p>
+    </div>
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>Additional information about the Rights of the object.</p>
+    </div>
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p/>
+    </div>
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>Value should be taken from a controlled vocabulary. A controlled
+            vocabulary is available at: <ref
+                target="http://id.loc.gov/vocabulary/preservation/actionsGranted.html"
+                >http://id.loc.gov/vocabulary/preservation/actionsGranted.html</ref></p>
+    </div>
+    <div type="examples">
+        <!-- PREMIS Examples -->
+        <p>
+            <list type="ordered">
+                <item>80-year rule</item>
+            </list>
+        </p>
+    </div>
+    <div type="entity">
+        <p>
+            <list type="simple">
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Repeatable</item>
+            </list>
+        </p>
+    </div>
+    <div type="creationmaintenance">
+        <!-- PREMIS Creation / Maintenance -->
+        <p/>
+    </div>
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p/>
+    </div>
+</div>
+

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="relatedEnvironmentCharacteristic">
+    <head>
+        
+        <!-- PREMIS Semantic unit 1.13.6-->
+        <abbr>1.13.6</abbr>
+        <gi>relatedEnvironmentCharacteristic</gi>
+        
+    </head>
+    
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>None</p>
+    </div>
+    
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>An assessment of the extent to which the described environment supports
+            its purpose.</p>
+    </div>
+    
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p>If multiple environments are described, this element can help to
+            distinguish between them.</p>
+    </div>
+    
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p>If an environment could be described as both “minimum” and “recommended,”
+            use “recommended.” “Known to work” implies the object is supported by
+            the described environment but the repository doesn’t know if this
+            environment is minimum or recommended.</p>
+    </div>
+    
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>Value should be taken from a controlled vocabulary. A controlled
+            vocabulary is available at:
+            <ref target="http://id.loc.gov/vocabulary/preservation/environmentCharacteristic">http://id.loc.gov/vocabulary/preservation/environmentCharacteristic</ref>.
+        </p>
+    </div>
+    
+    <div type="entity">
+        <!-- PREMIS Object category -->
+        <p>
+            <list type="simple">
+                <head>Intellectual Entity / Representation</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Not repeatable</item>
+            </list>
+            <list type="ordered">
+                <head>Examples</head>
+                <item>unspecified (Representation)</item>
+                <item>minimum (Representation)</item>
+                <item>known to work (Representation)</item>
+                <item>recommended (Representation)</item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS File</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Not repeatable</item>
+            </list>
+            <list type="ordered">
+                <head>Examples</head>
+                <item>unspecified</item>
+                <item>minimum</item>
+                <item>unspecified</item>
+                <item>minimum</item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS Bitstream</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Not repeatable</item>
+            </list>
+            <list type="ordered">
+                <head>Examples</head>
+                <item>unspecified</item>
+                <item>minimum</item>
+                <item>unspecified</item>
+                <item>minimum</item>
+            </list>
+        </p>
+    </div>
+    <div type="creationmaintenance">
+        <!-- PREMIS Creation / Maintenance -->
+        <p>This value could be supplied by the submitter or by the repository. If
+            environment software and hardware information is obtained from an
+            environment registry, <boldi>relatedEnvironmentCharacteristic</boldi> might
+            also be obtained from the registry. Note however that the criteria for
+            “recommended” may be different for different repositories.</p>
+    </div>
+</div>
+

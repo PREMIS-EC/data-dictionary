@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="rightsGranted">
+    <head>
+        <!-- PREMIS Semantic unit 4.1.7.0 -->
+        <abbr>4.1.7</abbr>
+        <gi>rightsGranted</gi>
+    </head>
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>act</p>
+        <p>restriction</p>
+        <p>termOfGrant</p>
+        <p>termOfRestriction</p>
+        <p>rightsGrantedNote</p>
+    </div>
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>The action(s) that the granting agency has allowed the repository.</p>
+    </div>
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p/>
+    </div>
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>Container</p>
+    </div>
+    <div type="examples">
+        <!-- PREMIS Examples -->
+        <p/>
+    </div>
+    <div type="entity">
+        <p>
+            <list type="simple">
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Repeatable</item>
+            </list>
+        </p>
+    </div>
+    <div type="creationmaintenance">
+        <!-- PREMIS Creation / Maintenance -->
+        <p/>
+    </div>
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p/>
+    </div>
+</div>
+

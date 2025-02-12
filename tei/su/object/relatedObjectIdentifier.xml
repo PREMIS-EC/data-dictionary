@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="relatedObjectIdentifier">
+    <head>
+        
+        <!-- PREMIS Semantic unit 1.13.3.0-->
+        <abbr>1.13.3</abbr>
+        <gi>relatedObjectIdentifier</gi>
+        
+    </head>
+    
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>relatedObjectIdentifierType</p>
+        <p>relatedObjectIdentifierValue</p>
+        <p>relatedObjectSequence</p>
+    </div>
+    
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>The identifier and sequential context of the related Object.</p>
+    </div>
+    
+    <!-- PREMIS Rationale -->
+    
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p>The related Object may or may not be held within the preservation
+            repository. Recommended practice is that objects reside within the
+            repository unless there is a good reason to reference an external
+            Object. Internal and external references should be unambiguous.</p>
+    </div>
+    
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>Container</p>
+    </div>
+    
+    <div type="entity">
+        <!-- PREMIS Object category -->
+        <p>
+            <list type="simple">
+                <head>Intellectual Entity / Representation</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Mandatory</item>
+                <label>Repeatability</label>
+                <item>Repeatable</item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS File</head>
+                <label>Applicability</label>
+                <item>Not applicable</item>
+                <label>Obligation</label>
+                <item>Mandatory</item>
+                <label>Repeatability</label>
+                <item>Repeatable</item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS Bitstream</head>
+                <label>Applicability</label>
+                <item>Not applicable</item>
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Repeatable</item>
+            </list>
+        </p>
+    </div>
+</div>
+

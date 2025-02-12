@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"  xml:id="agentIdentifier">
+    <head>
+        <!-- PREMIS Semantic unit 3.1.0 -->
+        <abbr>3.1</abbr>
+        <gi>agentIdentifier</gi>
+        
+    </head>       
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>agentIdentifierType</p>
+        <p>agentIdentifierValue</p>
+    </div>       
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>The designation used to uniquely identify the Agent within a preservation repository system.</p>
+    </div>       
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p>Each Agent associated with the preservation repository must have a unique identifier to allow it to be related to Events and Rights statements.</p>
+    </div>  
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>Container</p>
+    </div>
+    <div type="examples">
+        <!-- PREMIS Examples -->
+        <p></p>
+    </div>
+    <div type="entity">
+        <p>
+            <list type="simple">
+                <label>Obligation</label>
+                <item>Mandatory</item>
+                <label>Repeatability</label>
+                <item>Repeatable</item>
+            </list>
+        </p>
+    </div>
+    <div type="creationmaintenance">
+        <!-- PREMIS Creation / Maintenance -->
+        <p>An identifier may be created by the repository system, or it may be created or assigned outside of the repository. Similarly, identifiers can be automatically or manually generated. Recommended practice is for repositories to use an identifier automatically created by the repository as the primary identifier in order to ensure that identifiers are unique and usable by the repository. Externally assigned identifiers can be used as secondary identifiers in order to link an Agent to information held outside the repository.</p>
+    </div>
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p>Identifiers must be unique within the repository. The <bold>agentIdentifier</bold> is repeatable in order to allow both repository-assigned and externally-assigned identifiers to be recorded. See Creation/Maintenance notes, above.</p>
+    </div>
+</div>
+

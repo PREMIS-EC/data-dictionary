@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"  xml:id="linkingAgentIdentifierType">
+    <head>
+        <!-- PREMIS Semantic unit 2.6.1 -->
+        <abbr>2.6.1</abbr>
+        <gi>linkingAgentIdentifierType</gi>        
+    </head>       
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>None</p>
+    </div>       
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>A designation of the domain in which the linking Agent identifier is unique.</p>
+    </div>       
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p></p>
+    </div>  
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>Must be an existing agentIdentifierType value.</p>
+    </div>
+    <div type="examples">
+        <!-- PREMIS Examples -->
+        <p>
+            <list type="ordered">
+                <item>[see examples for agentIdentifierType]</item>
+            </list>
+        </p>
+    </div>
+    <div type="entity">
+        <p>
+            <list type="simple">
+                <label>Obligation</label>
+                <item>Mandatory</item>
+                <label>Repeatability</label>
+                <item>Repeatable</item>
+            </list>
+        </p>
+    </div>
+    <div type="creationmaintenance">
+        <!-- PREMIS Creation / Maintenance -->
+        <p></p>
+    </div>
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p></p>
+    </div>
+</div>
+

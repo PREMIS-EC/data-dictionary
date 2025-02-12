@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="environmentDesignationNote">
+    <head>
+        
+        <!-- PREMIS Semantic unit 1.10.4.0 -->
+        <abbr>1.10.4</abbr>
+        <gi>environmentDesignationNote</gi>
+        
+    </head>
+    
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>None</p>
+    </div>
+    
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>Any further information required to enhance the correct specification of
+            the environment.</p>
+    </div>
+    
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p>This semantic unit allows further information to be added in an
+            unstructured way. This information could include restrictions, known
+            issues, issues fixed in this release, information on execution time,
+            etc.</p>
+    </div>
+    
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p>The Data Dictionary does not prescribe when to use a designation note and
+            when to include the note in the name or version. For example, it is
+            possible to describe the “Ubuntu 12.04 32 bit” operating system in a
+            number of ways including:</p>
+        <list type="ordered">
+            <item>Name= “Ubuntu”, Version = “12.04”, Designation Note = “32
+                bit”</item>
+            <item>Name= “Ubuntu 32 bit” Version = “12.04” </item>
+            <item>Name= “Ubuntu” Version = “12.04 32-bit”</item>
+            <item>Name= “Ubuntu 12.04 32 bit” </item>
+        </list>
+        <p>All of these are acceptable, and which is used will depend on naming
+            conventions in use within the repository, common usage by the individual
+            or organization producing the environment, and other factors.</p>
+    </div>
+    
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>Value should be taken from a controlled vocabulary.</p>
+    </div>
+    
+    <div type="entity">
+        <!-- PREMIS Object category -->
+        <p>
+            <list type="simple">
+                <head>PREMIS Intellectual Entity</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Repeatable</item>
+            </list>
+            <list type="ordered">
+                <head>Examples</head>
+                <item>32 bit</item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS Representation</head>
+                <label>Applicability</label>
+                <item>Not applicable</item>
+                <label>Obligation</label>
+                <item></item>
+                <label>Repeatability</label>
+                <item></item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS File</head>
+                <label>Applicability</label>
+                <item>Not applicable</item>
+                <label>Obligation</label>
+                <item></item>
+                <label>Repeatability</label>
+                <item></item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS Bitstream</head>
+                <label>Applicability</label>
+                <item>Not applicable</item>
+                <label>Obligation</label>
+                <item></item>
+                <label>Repeatability</label>
+                <item></item>
+            </list>
+        </p>
+    </div>
+</div>
+

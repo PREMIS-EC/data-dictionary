@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="signatureValidationRules">
+    <head>
+        
+        <!-- PREMIS Semantic unit 1.8.1.5.0 -->
+        <abbr>1.8.1.5</abbr>
+        <gi>signatureValidationRules</gi>
+        
+    </head>
+    
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>None</p>
+    </div>
+    
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>The operations to be performed in order to validate the digital
+            signature.</p>
+    </div>
+    
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p>The repository should not assume that the procedure for validating any
+            particular signature will be known many years in the future without
+            documentation.</p>
+    </div>
+    
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p>This may include the canonicalization method used before calculating the
+            message digest, if the object was normalized before signing. This value
+            could also be a pointer to archive documentation.</p>
+    </div>
+    
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>None</p>
+    </div>
+    
+    <div type="entity">
+        <!-- PREMIS Object category -->
+        <p>
+            <list type="simple">
+                <head>Intellectual Entity / Representation</head>
+                <label>Applicability</label>
+                <item>Not applicable</item>
+                <label>Obligation</label>
+                <item>Mandatory</item>
+                <label>Repeatability</label>
+                <item>Not repeatable</item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS File</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Mandatory</item>
+                <label>Repeatability</label>
+                <item>Not repeatable</item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS Bitstream</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Mandatory</item>
+                <label>Repeatability</label>
+                <item>Not repeatable</item>
+            </list>
+        </p>
+    </div>
+    
+    <div type="creationmaintenance">
+        <!-- PREMIS Creation / Maintenance -->
+        <p>Inhibitors are more likely to be present on an object ingested by the
+            repository than applied by the repository itself. It is hard to detect
+            during ingest if a file is encrypted, but this may be known from the
+            context in which it is ingested. Therefore, information about inhibitors
+            should be supplied as metadata with submitted objects when possible.</p>
+    </div>
+</div>
+

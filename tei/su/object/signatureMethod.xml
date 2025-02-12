@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="signatureMethod">
+    <head>
+        
+        <!-- PREMIS Semantic unit 1.8.1.3.0 -->
+        <abbr>1.8.1.3</abbr>
+        <gi>signatureMethod</gi>
+        
+    </head>
+    
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>None</p>
+    </div>
+    
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>A designation for the encryption and hash algorithms used for signature
+            generation.</p>
+    </div>
+    
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p>The same algorithms must be used for signature validation.</p>
+    </div>
+    
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p>Recommended practice is to use the following naming convention:name the
+            encryption algorithm first, followed by a hyphen, followed by the name
+            of the hash (message digest) algorithm.</p>
+    </div>
+    
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>Value should be taken from a controlled vocabulary. A controlled
+            vocabulary is available at:
+            <ref target="http://id.loc.gov/vocabulary/preservation/signatureMethod.html">http://id.loc.gov/vocabulary/preservation/signatureMethod.html</ref>.</p>
+    </div>
+    
+    <div type="entity">
+        <!-- PREMIS Object category -->
+        <p>
+            <list type="simple">
+                <head>Intellectual Entity / Representation</head>
+                <label>Applicability</label>
+                <item>Not applicable</item>
+                <label>Obligation</label>
+                <item></item>
+                <label>Repeatability</label>
+                <item></item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS File</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Mandatory</item>
+                <label>Repeatability</label>
+                <item>Not repeatable</item>
+            </list>
+            <list type="ordered">
+                <item>DSA-SHA1</item>
+                <item>RSA-SHA1</item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS Bitstream</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Mandatory</item>
+                <label>Repeatability</label>
+                <item>Not repeatable</item>
+            </list>
+            <list type="ordered">
+                <item>DSA-SHA1</item>
+                <item>RSA-SHA1</item>
+            </list>
+        </p>
+    </div>
+</div>
+

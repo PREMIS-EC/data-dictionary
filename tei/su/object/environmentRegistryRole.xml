@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="environmentRegistryRole">
+    <head>
+        
+        <!-- PREMIS Semantic unit 1.11.3.0 -->
+        <abbr>1.11.3</abbr>
+        <gi>environmentRegistryRole</gi>
+        
+    </head>
+    
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>None</p>
+    </div>
+    
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>The purpose or expected use of the external registry.</p>
+    </div>
+    
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p>Registries could be used for different purposes or may not provide an
+            identical match to the Intellectual Entity described in PREMIS. For
+            example, one registry may only provide skeleton records that are
+            sufficient to allow an environment to be formally identified (or might
+            only describe a family of environments while the PREMIS object describes
+            a more specific version within that family). An alternative registry may
+            provide an exact match and provide much more detailed information needed
+            to actually use the environment.</p>
+    </div>
+    
+    <!-- PREMIS Usage notes -->
+    
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>Value should be taken from a controlled vocabulary. A controlled
+            vocabulary is available at:
+            <ref target="http://id.loc.gov/vocabulary/preservation/environmentRegistryRole">http://id.loc.gov/vocabulary/preservation/environmentRegistryRole</ref>.</p>
+    </div>
+    
+    <div type="entity">
+        <!-- PREMIS Object category -->
+        <p>
+            <list type="simple">
+                <head>PREMIS Intellectual Entity</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Not repeatable</item>
+            </list>
+            <list type="ordered">
+                <head>Examples</head>
+                <item>Identification</item>
+                <item>Specification</item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS Representation</head>
+                <label>Applicability</label>
+                <item>Not applicable</item>
+                <label>Obligation</label>
+                <item></item>
+                <label>Repeatability</label>
+                <item></item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS File</head>
+                <label>Applicability</label>
+                <item>Not applicable</item>
+                <label>Obligation</label>
+                <item></item>
+                <label>Repeatability</label>
+                <item></item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS Bitstream</head>
+                <label>Applicability</label>
+                <item>Not applicable</item>
+                <label>Obligation</label>
+                <item></item>
+                <label>Repeatability</label>
+                <item></item>
+            </list>
+        </p>
+    </div>
+</div>
+

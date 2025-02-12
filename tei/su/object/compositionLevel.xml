@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="compositionLevel">
+    <head>
+        
+        <!-- PREMIS Semantic unit 1.5.1 -->
+        <abbr>1.5.1</abbr>
+        <gi>compositionLevel</gi>
+        
+    </head>
+    
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>None</p>
+    </div>
+    
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>An indication of whether the Object is subject to one or more processes
+            of decoding or unbundling.</p>
+    </div>
+    
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p>A file or bitstream can be encoded with compression, encryption, etc., or
+            bundled with other files or bitstreams into larger packages. Knowing the
+            order in which these actions are taken is important if the original
+            Object or Objects must be recovered.</p>
+    </div>
+    
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p>A file or bitstream can be subject to multiple encodings that must be
+            decoded in reverse order (highest to lowest). For example, file A may be
+            compressed to create file B, which is encrypted to create file C. To
+            recreate a copy of the base file A, one would have to decrypt file C to
+            create file B and then decompress file B to create file A. A
+            <bold>compositionLevel</bold> of zero indicates that the object is a
+            base object and not subject to further decoding, while a level of 1 or
+            higher indicates that one or more decodings must be applied. Numbering
+            goes lowest to highest (first encoded = 0). 0 is base object; 1-n are
+            subsequent encodings. The <bold>compositionLevel</bold> should be set
+            whenever possible, however it is permitted to omit (or use “unknown”) if
+            it not possible to calculate this. Use 0 if there is only one
+            <bold>compositionLevel</bold>. When multiple file objects are bundled
+            together as filestreams within a package file object (e.g., a ZIP file),
+            the individual filestream objects are not composition levels of the
+            package file object. They should be considered separate objects, each
+            with their own composition levels. For example, two encrypted files
+            zipped together and stored in an archive as one file object would be
+            described as three separate objects, each with its own associated
+            metadata. The storage location of the two inner objects would point to
+            the ZIP file, but the ZIP file itself would have only a single
+            composition level (of zero) whose format would be “zip.” See “Object
+            characteristics and composition level”.</p>
+    </div>
+    
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>Non-negative integers (or “unknown”)</p>
+    </div>
+    
+    <div type="entity">
+        <!-- PREMIS Object category -->
+        <p>
+            <list type="simple">
+                <head>Intellectual Entity / Representation</head>
+                <label>Applicability</label>
+                <item>Not applicable</item>
+                <label>Obligation</label>
+                <item></item>
+                <label>Repeatability</label>
+                <item></item>
+            </list>
+            <list type="ordered">
+                <head>Examples</head>
+                <item></item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS File</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Not repeatable</item>
+            </list>
+            <list type="ordered">
+                <head>Examples</head>
+                <item>0</item>
+                <item>1</item>
+                <item>2</item>
+                <item>Unknown</item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS Bitstream</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Not repeatable</item>
+            </list>
+            <list type="ordered">
+                <head>Examples</head>
+                <item>0</item>
+                <item>1</item>
+                <item>2</item>
+                <item>Unknown</item>
+            </list>
+        </p>
+    </div>
+    
+    <div type="creationmaintenance">
+        <!-- PREMIS Creation / Maintenance -->
+        <p>Composition level will generally be supplied by the repository, which
+            should attempt to supply this value automatically. If the object was
+            created by the repository, the creating routine knows the composition
+            level and can supply this metadata. If the object is being ingested by
+            the repository, repository programs will have to attempt to identify the
+            composition level from the object itself or from externally supplied
+            metadata.</p>
+    </div>
+</div>
+

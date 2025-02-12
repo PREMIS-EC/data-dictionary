@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="environmentExtension">
+    <head>
+        
+        <!-- PREMIS Semantic unit 1.12.0 -->
+        <abbr>1.12</abbr>
+        <gi>environmentExtension</gi>
+        
+    </head>
+    
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>None</p>
+    </div>
+    
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>A container to include semantic units defined outside of PREMIS.</p>
+    </div>
+    
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p>There may be a need to extend PREMIS defined units.</p>
+    </div>
+    
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p>For more granularity or use of externally defined semantic units,
+            extensibility is provided. Either local semantic units or metadata using
+            another specified metadata scheme may be included in addition to PREMIS
+            defined semantic units. When using an extension schema, a reference to
+            that schema must be provided. See further guidance in “Extensibility”. If the extension is about the name, version or overall
+            designation of the environment, use
+            <bold>environmentDesignationExtension.</bold>
+            <bold>environmentExtension</bold> is used for additional
+            <bold>environmentcharacteristics</bold> not covered by PREMIS, for
+            instance environment-specific metadata that is defined externally. It is
+            not a replacement for units specified in PREMIS.If multiple extensions
+            are needed (e.g., for different purposes), the container
+            <bold>environmentExtension</bold> is repeated. Also, if extensions from
+            different external schemas are needed, <bold>environmentExtension</bold>
+            should be repeated.It is recommended to give information about the
+            metadata used in <bold>environmentExtension</bold> including date the
+            metadata was created, status of the metadata, internal linking IDs, type
+            of metadata used and its version, message digest and message digest
+            algorithm of the metadata, and type of identifier for external metadata
+            links.</p>
+    </div>
+    
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>None</p>
+    </div>
+    
+    <div type="entity">
+        <!-- PREMIS Object category -->
+        <p>
+            <list type="simple">
+                <head>PREMIS Intellectual Entity</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Repeatable</item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS Representation</head>
+                <label>Applicability</label>
+                <item>Not applicable</item>
+                <label>Obligation</label>
+                <item></item>
+                <label>Repeatability</label>
+                <item></item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS File</head>
+                <label>Applicability</label>
+                <item>Not applicable</item>
+                <label>Obligation</label>
+                <item></item>
+                <label>Repeatability</label>
+                <item></item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS Bitstream</head>
+                <label>Applicability</label>
+                <item>Not applicable</item>
+                <label>Obligation</label>
+                <item></item>
+                <label>Repeatability</label>
+                <item></item>
+            </list>
+        </p>
+    </div>
+</div>
+

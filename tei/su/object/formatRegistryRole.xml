@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="formatRegistryRole">
+    <head>
+        
+        <!-- PREMIS Semantic unit 1.5.4.2.3 -->
+        <abbr>1.5.4.2.3</abbr>
+        <gi>formatRegistryRole</gi>
+        
+    </head>
+    
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>None</p>
+    </div>
+    
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>The purpose or expected use of the registry.</p>
+    </div>
+    
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p>The same <bold>format</bold> may be defined in different registries for
+            different purposes. For example, one registry may give detailed format
+            specifications while another has profile information / information about
+            software support and dependencies. If multiple registries are recorded,
+            this semantic unit can be used to distinguish among them.</p>
+    </div>
+    
+    <!-- PREMIS Usage notes -->
+    
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>Value should be taken from a controlled vocabulary. A controlled
+            vocabulary is available at:
+            <ref target="http://id.loc.gov/vocabulary/preservation/formatRegistryRole.html">http://id.loc.gov/vocabulary/preservation/formatRegistryRole.html</ref>. </p>
+    </div>
+    
+    <div type="entity">
+        <!-- PREMIS Object category -->
+        <p>
+            <list type="simple">
+                <head>Intellectual Entity / Representation</head>
+                <label>Applicability</label>
+                <item>Not applicable</item>
+                <label>Obligation</label>
+                <item></item>
+                <label>Repeatability</label>
+                <item></item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS File</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Not repeatable</item>
+            </list>
+            <list type="ordered">
+                <head>Examples</head>
+                <item>Specification</item>
+                <item>Validation profile</item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS Bitstream</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Not repeatable</item>
+            </list>
+            <list type="ordered">
+                <head>Examples</head>
+                <item>Specification</item>
+                <item>Validation profile</item>
+            </list>
+        </p>
+    </div>
+</div>
+

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="rightsExtension">
+    <head>
+        <!-- PREMIS Semantic unit 4.2.0 -->
+        <abbr>4.2</abbr>
+        <gi>rightsExtension</gi>
+    </head>
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>Defined externally</p>
+    </div>
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>A container to include semantic units defined outside of PREMIS.</p>
+    </div>
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p>There may be a need to replace or extend PREMIS defined units.</p>
+    </div>
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>Container</p>
+    </div>
+    <div type="examples">
+        <!-- PREMIS Examples -->
+        <p/>
+    </div>
+    <div type="entity">
+        <p>
+            <list type="simple">
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Repeatable</item>
+            </list>
+        </p>
+    </div>
+    <div type="creationmaintenance">
+        <!-- PREMIS Creation / Maintenance -->
+        <p/>
+    </div>
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p>For more granularity or to use externally defined semantic units,
+            extensibility is provided. Either local semantic units or metadata using
+            another specified metadata scheme may be included instead of or in
+            addition to PREMIS defined semantic units. When using an extension
+            schema, a reference to that schema must be provided. See further
+            guidance in “Extensibility,” <!--TODO: INSERT LINK HERE-->. Either
+            <bold>rightsStatement</bold> or <bold>rightsExtension</bold> must be present
+            if the <bold>Rights</bold> entity is included. If the
+            <bold>rightsExtension</bold> container needs to be associated explicitly
+            with any PREMIS subunit under Rights, the container <bold>Rights</bold> is
+            repeated. Also, if extensions from different external schemas are
+            needed, Rights should be repeated. It is recommended to give information
+            about the metadata used in <bold>rightsExtension</bold> including date the
+            metadata was created, status of the metadata, internal linking IDs, type
+            of metadata used and its version, message digest and message digest
+            algorithm of the metadata, and type of identifier for external metadata
+            links.</p>
+    </div>
+</div>
+

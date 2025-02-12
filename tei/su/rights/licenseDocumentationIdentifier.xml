@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="licenseDocumentationIdentifier">
+    <head>
+        <!-- PREMIS Semantic unit 4.1.4.1 -->
+        <abbr>4.1.4.1</abbr>
+        <gi>licenseDocumentationIdentifier</gi>
+    </head>
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p> licenseDocumentationIdentifierType</p>
+        <p> licenseDocumentationIdentifierValue</p>
+        <p> licenseDocumentationRole</p>
+    </div>
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>A designation used to identify uniquely documentation supporting the
+            specified Rights granted by license within the repository system.</p>
+    </div>
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p/>
+    </div>
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>Container</p>
+    </div>
+    <div type="examples">
+        <!-- PREMIS Examples -->
+        <p/>
+    </div>
+    <div type="entity">
+        <p>
+            <list type="simple">
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Repeatable</item>
+            </list>
+        </p>
+    </div>
+    <div type="creationmaintenance">
+        <!-- PREMIS Creation / Maintenance -->
+        <p/>
+    </div>
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p>This semantic unit is intended to refer to a document recording the
+            granting of permission when the Rights basis is license. For some
+            repositories this may be a formal signed contract with a customer. If
+            the granting agreement is verbal, this could point to a memo by the
+            repository documenting the verbal agreement. The identifier is optional
+            because the agreement may not be stored in a repository with an
+            identifier. For example, in the case of a verbal agreement the entire
+            agreement may be included or described in the <bold>licenseTerms</bold>. If
+            repeated, use <bold>licenseDocumentationRole</bold> to distinguish the role
+            of the given documentation. This replaces the semantic unit in PREMIS
+            version 2.1 which was called <bold>licenseIdentifier</bold>.</p>
+    </div>
+</div>
+

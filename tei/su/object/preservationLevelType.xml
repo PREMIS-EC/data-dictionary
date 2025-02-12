@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="preservationLevelType">
+    
+    <head>
+        
+        <!-- PREMIS Semantic unit 1.3.1 -->
+        <abbr>1.3.1</abbr>
+        <gi>preservationLevelType</gi>
+        
+    </head>
+    
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>None</p>
+    </div>
+    
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>A value indicating the type of preservation functions expected to be
+            applied to the Object for this preservation level.</p>
+    </div>
+    
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p>Digital preservation functionality can be typed to express various
+            aspects of the preservation. For instance bit-safety can represent a
+            preservation level type, where values of this type can be used to
+            express degree of replication and independence between copies. Likewise
+            logical preservation can represent a type, where values of this type
+            express whether functional preservation is done via format migration,
+            emulation etc.</p>
+    </div>
+    
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p>Only one <bold>preservationLevelType</bold> may be recorded per
+            <bold>preservationLevel</bold> container. If a further
+            <bold>preservationLevelType</bold> applies to the Object in a different
+            context, a separate <bold>preservationLevel</bold> container should be
+            repeated.</p>
+    </div>
+    
+    <div type="datatype">
+        <p>Value should be taken from a controlled vocabulary.</p>
+    </div>
+    
+    <div type="entity">
+        <!-- PREMIS Object category -->
+        <p>
+            <list type="simple">
+                <head>Intellectual Entity / Representation</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Mandatory</item>
+                <label>Repeatability</label>
+                <item>Not repeatable</item>
+            </list>
+            <list type="ordered">
+                <head>Examples</head>
+                <item>Bit preservation</item>
+                <item>Logical/functional</item>
+                <item>Preservation</item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS File</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Mandatory</item>
+                <label>Repeatability</label>
+                <item>Not repeatable</item>
+            </list>
+            <list type="ordered">
+                <head>Examples</head>
+                <item>Bit preservation</item>
+                <item>Logical/functional</item>
+                <item>Preservation</item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS Bitstream</head>
+                <label>Applicability</label>
+                <item></item>
+                <label>Obligation</label>
+                <item></item>
+                <label>Repeatability</label>
+                <item></item>
+            </list>
+        </p>
+        <div type="creationmaintenance">
+            <!-- PREMIS Creation / Maintenance -->
+            <p>The <bold>preservationLevelType</bold> may be assigned by the repository
+                or requested by the depositor and submitted as metadata.</p>
+        </div>
+    </div>
+</div>
+

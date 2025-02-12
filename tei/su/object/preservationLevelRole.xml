@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="preservationLevelRole">
+    
+    <head>
+        
+        <!-- PREMIS Semantic unit 1.3.3 -->
+        <abbr>1.3.3</abbr>
+        <gi>preservationLevelRole</gi>
+        
+    </head>
+    
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>None</p>
+    </div>
+    
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>A value indicating the context in which a set of preservation options is
+            applicable.</p>
+    </div>
+    
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p>Repositories may assign <bold>preservationLevelValues</bold> in different
+            contexts which must be differentiated, and may need to record more than
+            one context. This allows a distinction, for example, between the
+            intended preservation level and the current achievable preservation
+            level. Note: This is distinct from the <bold>preservationLevelType</bold>
+            which distinguishes the purpose of the <bold>preservationLevel</bold>.</p>
+    </div>
+    
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p>This optional semantic unit qualifies the sense or context in which the
+            <bold>preservationLevelValue</bold> in the current preservationLevel
+            container is applied. For example, a repository may have a legislated
+            obligation to “fully preserve” object X (which is of format F) but is
+            presently only capable of preserving objects of format F at a
+            “bit-level”. The repository may need to record both the required or
+            intended level of preservation (e.g.
+            <bold>preservationLevelRole</bold>=“requirement”) and the current capability
+            (e.g. <bold>preservationLevelRole</bold>=“capability”). In transferring
+            custody of material from one repository to another, it may also be
+            important for the receiving repository to know the sense in which
+            <bold>preservationLevelValue</bold> should be understood. A receiving
+            repository may not need to know a “capability” preservation level of
+            which the transferring repository was capable (as this will have little
+            bearing on its own capabilities), but it needs to know any preservation
+            level “requirements” for material for which it is now taking
+            responsibility. It is good practice to specify
+            <bold>preservationLevelRole</bold> for clarity even if the repository
+            only assigns <bold>preservationLevelValue</bold> in one sense or context. If
+            more than one <bold>preservationLevel</bold> is recorded with the same
+            <bold>preservationLevelType</bold>, <bold>preservationLevelRole</bold>
+            should always be supplied. If more than one sense or context needs to be
+            expressed for the same object, (e.g. both the “requirement” and
+            “capability” are recorded), separate <bold>preservationLevel</bold>
+            containers should be used.</p>
+    </div>
+    
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>Value should be taken from a controlled vocabulary. A controlled
+            vocabulary list is available at:
+            <ref target="http://id.loc.gov/vocabulary/preservation/preservationLevelRole.htm">http://id.loc.gov/vocabulary/preservation/preservationLevelRole.htm</ref></p>
+    </div>
+    
+    <div type="entity">
+        <!-- PREMIS Object category -->
+        <p>
+            <list type="simple">
+                <head>Intellectual Entity / Representation</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Not repeatable</item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS File</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Not repeatable</item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS Bitstream</head>
+                <label>Applicability</label>
+                <item>Not applicable</item>
+                <label>Obligation</label>
+                <item></item>
+                <label>Repeatability</label>
+                <item></item>
+            </list>
+        </p>
+    </div>
+</div>
+

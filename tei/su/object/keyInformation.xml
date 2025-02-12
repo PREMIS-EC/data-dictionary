@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="keyInformation">
+    <head>
+        
+        <!-- PREMIS Semantic unit 1.8.1.7.0 -->
+        <abbr>1.8.1.7</abbr>
+        <gi>keyInformation</gi>
+        
+    </head>
+    
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>Extensible container</p>
+    </div>
+    
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>Information about the signer’s public key needed to validate the digital
+            signature.</p>
+    </div>
+    
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p>To validate a digital signature for an object, one first recalculates the
+            message digest for the object, and then uses the public key of the
+            signer to verify that the value of the signature
+            (<bold>signatureValue</bold>) is correct. The repository must therefore
+            have the public key value and some assurance that it truly belongs to
+            the signer.</p>
+    </div>
+    
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p>Different types of keys will have different structures and parameters.
+            PREMIS does not define the structure of this container. Recommended
+            practice is to represent key values as defined for “KeyInfo” in the
+            W3C’s XML-Signature Syntax and Processing <ref
+                target="http://www.w3.org/TR/2002/REC-xmldsig-core-20020212/"
+                >(http://www.w3.org/TR/2002/REC-xmldsig-core-20020212/)</ref>.</p>
+    </div>
+    
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>None</p>
+    </div>
+    
+    <div type="entity">
+        <!-- PREMIS Object category -->
+        <p>
+            <list type="simple">
+                <head>Intellectual Entity / Representation</head>
+                <label>Applicability</label>
+                <item>Not applicable</item>
+                <label>Obligation</label>
+                <item></item>
+                <label>Repeatability</label>
+                <item></item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS File</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Not repeatable</item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS Bitstream</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Not repeatable</item>
+            </list>
+        </p>
+    </div>
+    
+    <div type="creationmaintenance">
+        <!-- PREMIS Creation / Maintenance -->
+        <p>Inhibitors are more likely to be present on an object ingested by the
+            repository than applied by the repository itself. It is hard to detect
+            during ingest if a file is encrypted, but this may be known from the
+            context in which it is ingested. Therefore, information about inhibitors
+            should be supplied as metadata with submitted objects when possible.</p>
+    </div>
+</div>
+

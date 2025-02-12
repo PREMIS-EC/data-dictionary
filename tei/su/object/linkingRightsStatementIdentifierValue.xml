@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="linkingRightsStatementIdentifierValue">
+    <head>
+        
+        <!-- PREMIS Semantic unit 1.15.2.0-->
+        <abbr>1.15.2</abbr>
+        <gi>linkingRightsStatementIdentifierValue</gi>
+        
+    </head>
+    
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>None</p>
+    </div>
+    
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>A designation of the domain within which the
+            <gi>linkingRightsStatementIdentifier</gi> is unique.</p>
+    </div>
+    
+    <!-- PREMIS Rationale -->
+    
+    <!-- PREMIS Usage notes -->
+    
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>Must be an existing <bold>rightsStatementIdentifierType</bold> value.</p>
+    </div>
+    
+    <div type="entity">
+        <!-- PREMIS Object category -->
+        <p>
+            <list type="simple">
+                <head>Intellectual Entity / Representation</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Mandatory</item>
+                <label>Repeatability</label>
+                <item>Not repeatable</item>
+            </list>
+            <list type="ordered">
+                <head>Examples</head>
+                <item>URI</item>
+                <item>LCCN</item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS File</head>
+                <label>Applicability</label>
+                <item>Not applicable</item>
+                <label>Obligation</label>
+                <item>Mandatory</item>
+                <label>Repeatability</label>
+                <item>Not repeatable</item>
+            </list>
+            <list type="ordered">
+                <head>Examples</head>
+                <item>URI</item>
+                <item>LCCN</item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS Bitstream</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Mandatory</item>
+                <label>Repeatability</label>
+                <item>Not repeatable</item>
+            </list>
+            <list type="ordered">
+                <head>Examples</head>
+                <item>URI</item>
+                <item>LCCN</item>
+            </list>
+        </p>
+    </div>
+</div>
+

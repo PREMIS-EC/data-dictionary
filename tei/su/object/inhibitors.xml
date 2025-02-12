@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="inhibitors">
+    <head>
+        
+        <!-- PREMIS Semantic unit 1.5.6.0 -->
+        <abbr>1.5.6</abbr>
+        <gi>inhibitors</gi>
+        
+    </head>
+    
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>inhibitorType</p>
+        <p>inhibitorTarget</p>
+        <p>inhibitorKey</p>
+    </div>
+    
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>Features of the object that inhibit access, use, or migration.</p>
+    </div>
+    
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p>Format information may indicate whether a file is encrypted, but the
+            nature of the encryption also must be recorded, as well as the access
+            key.</p>
+    </div>
+    
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p>Some file formats allow encryption for embedded bitstreams. Some file
+            formats such as PDF use passwords to control access to content or
+            specific functions. Although this is actually implemented at the
+            bitstream level, for preservation purposes it is effectively managed at
+            the file level; that is, passwords would not be recorded for
+            individually addressable bitstreams. For certain types of inhibitor
+            keys, more granularity may be requiredin local applications. If the
+            inhibitor key information is identical to key information in digital
+            signatures, use those semantic units.</p>
+    </div>
+    
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>Container</p>
+    </div>
+    
+    <div type="entity">
+        <!-- PREMIS Object category -->
+        <p>
+            <list type="simple">
+                <head>Intellectual Entity / Representation</head>
+                <label>Applicability</label>
+                <item>Not applicable</item>
+                <label>Obligation</label>
+                <item></item>
+                <label>Repeatability</label>
+                <item></item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS File</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Repeatable</item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS Bitstream</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Repeatable</item>
+            </list>
+        </p>
+    </div>
+    
+    <div type="creationmaintenance">
+        <!-- PREMIS Creation / Maintenance -->
+        <p>Inhibitors are more likely to be present on an object ingested by the
+            repository than applied by the repository itself. It is hard to detect
+            during ingest if a file is encrypted, but this may be known from the
+            context in which it is ingested. Therefore, information about inhibitors
+            should be supplied as metadata with submitted objects when possible.</p>
+    </div>
+</div>
+

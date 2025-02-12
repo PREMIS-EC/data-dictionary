@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"  xml:id="linkingRightsStatementIdentifier">
+    <head>
+        <!-- PREMIS Semantic unit 3.8.0 -->
+        <abbr>3.8</abbr>
+        <gi>linkingRightsStatementIdentifier</gi>
+        
+    </head>       
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>linkingRightsStatementIdentifierType</p>
+        <p>linkingRightsStatementIdentifierValue</p>
+    </div>       
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>An identifier for a Rights statement associated with the Agent.</p>
+        
+    </div>       
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p>A repository may choose to link from a Rights statement to an Agent or from an Agent to a Rights statement or both.</p>
+    </div>  
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>Container</p>
+    </div>
+    <div type="examples">
+        <!-- PREMIS Examples -->
+        <p></p>
+    </div>
+    <div type="entity">
+        <p>
+            <list type="simple">
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Repeatable</item>
+            </list>
+        </p>
+    </div>
+    <div type="creationmaintenance">
+        <!-- PREMIS Creation / Maintenance -->
+        <p></p>
+    </div>
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p>Linking semantic units are mandatory in the sense that a repository needs to know the information, but are defined as optional because PREMIS does not specify in which direction the linkage should be.</p>
+    </div>
+</div>
+

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="significantPropertiesValue">
+    
+    <head>
+        
+        <!-- PREMIS Semantic unit 1.4.2 -->
+        <abbr>1.4.2</abbr>
+        <gi>significantPropertiesValue</gi>
+    </head>
+    
+    <div type="semanticcomponents">
+        <p>None</p>
+    </div>
+    
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>Description of a characteristic of a particular object which has been
+            determined subjectively to be important to maintain through preservation
+            actions.</p>
+    </div>
+    
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p>Repositories may choose to describe significant properties based on a
+            particular aspect or attribute of an object.</p>
+    </div>
+    
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p>If facet:detail pairs are used, the content of
+            <bold>significantPropertiesValue</bold> should describe the significant
+            properties of the object relevant to the aspect, facet, or attribute
+            declared in the <bold>significantPropertiesType</bold> with which it is
+            paired. If facet:detail pairs are not used,
+            <bold>significantPropertiesValue</bold> may be used to freely to
+            describe any characteristic of an object.
+            <bold>significantPropertiesValue</bold> is not repeatable. Multiple
+            significant properties should be described in separate, repeated
+            <bold>significantProperties</bold> container units.</p>
+    </div>
+    
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>None</p>
+    </div>
+    
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>None</p>
+    </div>
+    
+    <div type="entity">
+        <!-- PREMIS Object category -->
+        <p>
+            <list type="simple">
+                <head>Intellectual Entity / Representation</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>At least one of the <bold>significantPropertiesValue</bold> and
+                    <bold>significantPropertiesExtension</bold> subunits must be
+                    present if this container is included, or both may be
+                    used.</item>
+                <label>Repeatability</label>
+                <item>Not repeatable</item>
+            </list>
+            <list type="ordered">
+                <head>Examples</head>
+                <item>[for a Web page containing animation that is not considered
+                    essential] Content only.</item>
+                <item>[For detail associated with a
+                    <bold>significantPropertiesType</bold> of “behavior”] hyperlinks
+                    traversable</item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS File</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>At least one of the <bold>significantPropertiesValue</bold> and
+                    <bold>significantPropertiesExtension</bold> subunits must be
+                    present if this container is included, or both may be
+                    used.</item>
+                <label>Repeatability</label>
+                <item>Not repeatable</item>
+            </list>
+            <list type="ordered">
+                <head>Examples</head>
+                <item>[for a word processed document with embedded links that are
+                    not considered essential] Content only.</item>
+                <item>[For detail associated with a
+                    <bold>significantPropertiesType</bold> of “behavior”]
+                    editable</item>
+                <item>[For detail associated with a
+                    <bold>significantPropertiesType</bold> of “page width”] 210
+                    mm</item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS Bitstream</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>At least one of the <bold>significantPropertiesValue</bold> and
+                    <bold>significantPropertiesExtension</bold> subunits must be
+                    present if this container is included, or both may be
+                    used.</item>
+                <label>Repeatability</label>
+                <item>Not repeatable</item>
+            </list>
+            <list type="ordered">
+                <head>Examples</head>
+                <item>[for a PDF with an embedded graph, where the lines’ color
+                    determines the lines’ meaning] Color.</item>
+                <item>[For detail associated with a
+                    <bold>significantPropertiesType</bold> of “appearance”]
+                    Color.</item>
+            </list>
+        </p>
+    </div>
+</div>
+

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="relatedObjectIdentifierType">
+    <head>
+        
+        <!-- PREMIS Semantic unit 1.13.3.1-->
+        <abbr>1.13.3.1</abbr>
+        <gi>relatedObjectIdentifierType</gi>
+        
+    </head>
+    
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>None</p>
+    </div>
+    
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>A designation of the domain within which the identifier is unique.</p>
+    </div>
+    
+    <!-- PREMIS Rationale -->
+    
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p>If the related Object is held within the preservation repository, this
+            semantic unit should set to the value of that Object’s
+            <bold>objectIdentifierType.</bold></p>
+    </div>
+    
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>Value should be taken from a controlled vocabulary.</p>
+    </div>
+    
+    <div type="entity">
+        <!-- PREMIS Object category -->
+        <p>
+            <list type="simple">
+                <head>Intellectual Entity / Representation</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Mandatory</item>
+                <label>Repeatability</label>
+                <item>Not repeatable</item>
+            </list>
+            <list type="ordered">
+                <head>Examples</head>
+                <item>[see examples for <bold>objectIdentifierType</bold>]</item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS File</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Mandatory</item>
+                <label>Repeatability</label>
+                <item>Not repeatable</item>
+            </list>
+            <list type="ordered">
+                <head>Examples</head>
+                <item>[see examples for <bold>objectIdentifierType</bold>]</item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS Bitstream</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Mandatory</item>
+                <label>Repeatability</label>
+                <item>Not repeatable</item>
+            </list>
+            <list type="ordered">
+                <head>Examples</head>
+                <item>[see examples for <bold>objectIdentifierType</bold>]</item>
+            </list>
+        </p>
+    </div>
+</div>
+

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="objectIdentifierType">
+    
+    <head type="sematicunit">
+        <abbr>1.1.1</abbr>
+        <!-- PREMIS Semantic unit 1.1.1 -->
+        <gi>objectIdentifierType</gi>
+    </head>
+    
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>None</p>
+    </div>
+    
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>A designation of the domain within which the object identifier is
+            unique.</p>
+    </div>
+    
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p>Identifier values cannot be assumed to be unique across domains; the
+            combination of <bold>objectIdentifierType</bold> and
+            <bold>objectIdentifierValue</bold> should ensure uniqueness.</p>
+    </div>
+    
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p>The type of the identifier may be implicit within the repository as long
+            as it can be explicitly communicated when the digital object is
+            disseminated outside of it.</p>
+    </div>
+    
+    <div type="datatype">
+        <p>Value should be taken from a controlled vocabulary. A controlled
+            vocabulary is available at <ref
+                target="http://id.loc.gov/vocabulary/identifiers.html"
+                >http://id.loc.gov/vocabulary/identifiers.html</ref>.</p>
+    </div>
+    
+    <div type="entity">
+        <!-- PREMIS Object category -->
+        <p>
+            <list type="simple">
+                <head>Intellectual Entity / Representation</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Mandatory</item>
+                <label>Repeatability</label>
+                <item>Not-repeatable</item>
+            </list>
+            <list type="ordered">
+                <head>Examples</head>
+                <item>ISBN (Intellectual Entity)</item>
+                <item>DOI (Intellectual Entity)</item>
+                <item>DLC</item>
+                <item>DRS</item>
+                <item>hdl:4263537</item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS File</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Mandatory</item>
+                <label>Repeatability</label>
+                <item>Not-repeatable</item>
+            </list>
+            <list type="ordered">
+                <head>Examples</head>
+                <item>DLC</item>
+                <item>DRS</item>
+                <item>hdl:4263537</item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS Bitstream</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Mandatory</item>
+                <label>Repeatability</label>
+                <item>Not-repeatable</item>
+            </list>
+            <list type="ordered">
+                <head>Examples</head>
+                <item>DLC</item>
+                <item>DRS</item>
+                <item>hdl:4263537</item>
+            </list>
+        </p>
+    </div>
+</div>
+

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"  xml:id="eventOutcomeInformation">
+    <head>
+        <!-- PREMIS Semantic unit 2.5.0 -->
+        <abbr>2.5</abbr>        
+        <gi>eventOutcomeInformation</gi>        
+    </head>       
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>eventOutcome</p>
+        <p>eventOutcomeDetail</p>
+    </div>       
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>Information about the outcome of an Event.</p>
+    </div>       
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p></p>
+    </div>  
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>Container</p>
+    </div>
+    <div type="examples">
+        <!-- PREMIS Examples -->
+        <p></p>
+    </div>
+    <div type="entity">
+        <p>
+            <list type="simple">
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Repeatable</item>
+            </list>
+        </p>
+    </div>
+    <div type="creationmaintenance">
+        <!-- PREMIS Creation / Maintenance -->
+        <p></p>
+    </div>
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p>A repository may wish to supplement a coded <bold>eventOutcome</bold> value with additional information in <bold>eventOutcomeDetail</bold>. Since Events may have more than one outcome, the container is repeatable. All subunits of this semantic unit are optional. At least one subunit (i.e. <bold>eventOutcome</bold> or <bold>eventOutcomeDetail</bold>) must be present if this container is included.</p>
+    </div>
+</div>
+

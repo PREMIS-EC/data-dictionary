@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="rightsStatementIdentifier">
+    <head>
+        <!-- PREMIS Semantic unit 4.1.1 -->
+        <abbr>4.1.1</abbr>
+        <gi>rightsStatementIdentifier</gi>
+    </head>
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>rightsStatementIdentifierType</p>
+        <p>rightsStatementIdentifierValue</p>
+    </div>
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>The designation used to identify the Rights statement uniquely within a
+            preservation repository system.</p>
+    </div>
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p>Each statement of Rights associated with the preservation repository must
+            have a unique identifier to allow it to be related to Events and
+            Agents.</p>
+    </div>
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>Container</p>
+    </div>
+    <div type="examples">
+        <!-- PREMIS Examples -->
+        <p/>
+    </div>
+    <div type="entity">
+        <p>
+            <list type="simple">
+                <label>Obligation</label>
+                <item>Mandatory</item>
+                <label>Repeatability</label>
+                <item>Not repeatable</item>
+            </list>
+        </p>
+    </div>
+    <div type="creationmaintenance">
+        <!-- PREMIS Creation / Maintenance -->
+        <p>The <bold>rightsStatementIdentifier</bold> is likely to be system generated.
+            There is no global scheme or standard for these identifiers. The
+            identifier is therefore not repeatable.</p>
+    </div>
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p>Identifiers must be unique within the repository.</p>
+    </div>
+</div>
+

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="licenseNote">
+    <head>
+        <!-- PREMIS Semantic unit 4.1.4.3 -->
+        <abbr>4.1.4.3</abbr>
+        <gi>licenseNote</gi>
+    </head>
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>None</p>
+    </div>
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>Additional information about the license.</p>
+    </div>
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p/>
+    </div>
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p/>
+    </div>
+    <div type="examples">
+        <!-- PREMIS Examples -->
+        <p>
+            <list type="ordered">
+                <item>License is embedded in XMP block in file header.</item>
+            </list>
+        </p>
+    </div>
+    <div type="entity">
+        <p>
+            <list type="simple">
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Repeatable</item>
+            </list>
+        </p>
+    </div>
+    <div type="creationmaintenance">
+        <!-- PREMIS Creation / Maintenance -->
+        <p/>
+    </div>
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p>Information about the terms of the license should go in
+            <bold>licenseTerms</bold>. <bold>licenseNote</bold> is intended for other
+            types of information related to the license, such as contact persons,
+            action dates, or interpretations. The note may also indicate the
+            location of the license, for example, if it is available online or
+            embedded in the object itself.</p>
+    </div>
+</div>
+

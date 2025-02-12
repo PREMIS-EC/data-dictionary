@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="relationship">
+    <head>
+        
+        <!-- PREMIS Semantic unit 1.13.0 -->
+        <abbr>1.13</abbr>
+        <gi>relationship</gi>
+        
+    </head>
+    
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>relationshipType</p>
+        <p>relationshipSubType</p>
+        <p>relatedObjectIdentifier</p>
+        <p>relatedEventIdentifier</p>
+        <p>relatedEnvironmentPurpose</p>
+        <p>relatedEnvironmentCharacteristic</p>
+    </div>
+    
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>Information about a relationship between this Object and one or more
+            other Objects.</p>
+    </div>
+    
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p>A preservation repository must know how to assemble complex objects from
+            component parts (structural relationships), rigorously track digital
+            provenance (derivation relationships) and document the links between
+            parts of a rendering stack in a Representation Information Network
+            (dependency and documentation links). Documentation about relationships
+            between different objects is crucial to these purposes.</p>
+    </div>
+    
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p>Most preservation repositories will want to record all relevant
+            relationships.In complex scenarios, PREMIS might not be able to express
+            rich enough structural relationships to be the only source of structural
+            metadata. Many formats for representing structural information may be
+            used instead of the semantic units specified here. This information must
+            be recorded, and some implementations may record it by using other
+            structures (e.g. METS). Structural relationships between the fileand
+            representation level are necessary to reconstruct a representation in
+            order to ascertain that the representation is renderable. A record of
+            structural relationships at the representation level may be necessary to
+            render the representation. Structural relationships at the bitstream
+            level can relate bitstreams within a file. Structural relationships
+            between Intellectual Entities may be used to record logical containment,
+            such as between an article and an issue, or physical containment, such
+            as between a page and a book. Derivative relationships at the file,
+            representation and Intellectual Entity level are important for
+            documenting digital provenance.</p>
+    </div>
+    
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>Container</p>
+    </div>
+    
+    <div type="entity">
+        <!-- PREMIS Object category -->
+        <p>
+            <list type="simple">
+                <head>PREMIS Intellectual Entity</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Repeatable</item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS Representation</head>
+                <label>Applicability</label>
+                <item>Not applicable</item>
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Repeatable</item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS File</head>
+                <label>Applicability</label>
+                <item>Not applicable</item>
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Repeatable</item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS Bitstream</head>
+                <label>Applicability</label>
+                <item>Not applicable</item>
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Repeatable</item>
+            </list>
+        </p>
+    </div>
+</div>
+

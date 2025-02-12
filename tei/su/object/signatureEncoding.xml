@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="signatureEncoding">
+    <head>
+        
+        <!-- PREMIS Semantic unit 1.8.1.1.0 -->
+        <abbr>1.8.1.1</abbr>
+        <gi>signatureEncoding</gi>
+        
+    </head>
+    
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>None</p>
+    </div>
+    
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>The encoding used for the values of <bold>signatureValue</bold>,
+            <bold>keyInformation.</bold></p>
+    </div>
+    
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p>The values of <bold>signatureValue</bold> and <gi>keyInformation</gi> cannot
+            be interpreted correctly if the encoding is unknown.</p>
+    </div>
+    
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>Value should be taken from a controlled vocabulary. A controlled
+            vocabulary is available at:
+            <ref target="http://id.loc.gov/vocabulary/preservation/signatureEncoding.html">http://id.loc.gov/vocabulary/preservation/signatureEncoding.html</ref>.</p>
+    </div>
+    
+    <div type="entity">
+        <p>
+            <!-- PREMIS Object category -->
+            <list type="simple">
+                <head>Intellectual Entity / Representation</head>
+                <label>Applicability</label>
+                <item>Not applicable</item>
+                <label>Obligation</label>
+                <item></item>
+                <label>Repeatability</label>
+                <item></item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS File</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Mandatory</item>
+                <label>Repeatability</label>
+                <item>Not-repeatable</item>
+            </list>
+            <list type="ordered">
+                <item>Base64</item>
+                <item>Ds:CrytoBinary</item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS Bitstream</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Mandatory</item>
+                <label>Repeatability</label>
+                <item>Not-repeatable</item>
+            </list>
+            <list type="ordered">
+                <item>Base64</item>
+                <item>Ds:CrytoBinary</item>
+            </list>
+        </p>
+    </div>
+    
+    <div type="creationmaintenance">
+        <!-- PREMIS Creation / Maintenance -->
+        <p>Inhibitors are more likely to be present on an object ingested by the
+            repository than applied by the repository itself. It is hard to detect
+            during ingest if a file is encrypted, but this may be known from the
+            context in which it is ingested. Therefore, information about inhibitors
+            should be supplied as metadata with submitted objects when possible.</p>
+    </div>
+</div>
+

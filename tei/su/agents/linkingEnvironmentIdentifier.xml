@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"  xml:id="linkingEnvironmentIdentifier">
+    <head>
+        <!-- PREMIS Semantic unit 3.9.0 -->
+        <abbr>3.9</abbr>
+        <gi>linkingEnvironmentIdentifier</gi>
+        
+    </head>       
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>linkingEnvironmentIdentifierType</p>
+        <p>linkingEnvironmentIdentifierValue</p>
+        <p>linkingEnvironmentRole</p>
+    </div>       
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>The objectIdentifier of an environment Object associated with the Agent.</p>
+    </div>       
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p>Allows implementers to link the Agent to an environment Object, if the Agent is hardware or software that has been preserved in some way in the repository and has been described as an environment Object.</p>
+    </div>  
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>Container</p>
+    </div>
+    <div type="examples">
+        <!-- PREMIS Examples -->
+        <p>
+            <list type="ordered">
+                <item>Allows implementers to link the Agent to an environment Object, if the Agent is hardware or software that has been preserved in some way in the repository and has been described as an environment Object.</item>
+            </list>
+        </p>
+    </div>
+    <div type="entity">
+        <p>
+            <list type="simple">
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Repeatable</item>
+            </list>
+        </p>
+    </div>
+    <div type="creationmaintenance">
+        <!-- PREMIS Creation / Maintenance -->
+        <p></p>
+    </div>
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p>Although the semantic unit is named <bold>linkingEnvironmentIdentifier</bold>, it links an Agent to an Object. <bold>LinkingEnvironmentIdentifierType</bold> and <bold>linkingEnvironmentIdentifierValue</bold> must therefore match <bold>objectIdentifierType</bold> and <bold>objectIdentifierValue</bold> in the related environment Object.</p>
+    </div>
+</div>
+

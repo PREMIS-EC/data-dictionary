@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="significantPropertiesExtension">
+    
+    <head>
+        
+        <!-- PREMIS Semantic unit 1.4.3 -->
+        <abbr>1.4.3</abbr>
+        <gi>significantPropertiesExtension</gi>
+    </head>
+    
+    <div type="semanticcomponents">
+        <p>Defined externally</p>
+    </div>
+    
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>A container to include semantic units defined outside of PREMIS for
+            significant properties.</p>
+    </div>
+    
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p>There may be a need to replace or extend PREMIS defined units.</p>
+    </div>
+    
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p xml:lang="en">For more granularity or use of externally defined semantic
+            units, extensibility is provided. Either local semantic units or
+            metadata using another specified metadata scheme may be included in
+            addition to PREMIS defined semantic units. When using an extension
+            schema, a reference to that schema must be provided. See further
+            guidance in “Extensibility”.</p>
+        <p>All of this semantic unit’s subunits are optional. At least one of the
+            <bold>significantPropertiesValue</bold> and
+            <bold>significantPropertiesExtension</bold> subunits must be present if
+            the <bold>significantProperties</bold> container is included.</p>
+        <p>If the <bold>significantPropertiesExtension</bold> container needs to be
+            associated explicitly with any PREMIS subunit under
+            significantProperties, the container <bold>significantProperties</bold> is
+            repeated. Also, if extensions from different external schemas are
+            needed, <bold>significantProperties</bold> should be repeated.</p>
+        <p>It is recommended to give information about the metadata used in
+            <bold>significantPropertiesExtension</bold> including date the metadata
+            was created, status of the metadata, internal linking IDs, type of
+            metadata used and its version, message digest and message digest
+            algorithm of the metadata, and type of identifier for external metadata
+            links.</p>
+    </div>
+    <div type="entity">
+        <!-- PREMIS Object category -->
+        <p>
+            <list type="simple">
+                <head>Intellectual Entity / Representation</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Repeatability</label>
+                <item>Repeatable</item>
+                <label>Obligation</label>
+                <item>At least one of the <bold>significantPropertiesValue</bold> and
+                    <bold>significantPropertiesExtension</bold> subunits must be
+                    present if the <bold>significantProperties</bold> container is
+                    included, or both may be used</item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS File</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Repeatability</label>
+                <item>Repeatable</item>
+                <label>Obligation</label>
+                <item>At least one of the <bold>significantPropertiesValue</bold> and
+                    <bold>significantPropertiesExtension</bold> subunits must be
+                    present if the <bold>significantPropertiescontainer</bold> is
+                    included, or both may be used</item>
+                <label>Repeatability</label>
+                <item>Not repeatable</item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS Bitstream</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>At least one of the <bold>significantPropertiesValue</bold> and
+                    <bold>significantPropertiesExtension</bold> subunits must be
+                    present if the <bold>significantPropertiescontainer</bold> is
+                    included, or both may be used</item>
+                <label>Repeatability</label>
+                <item>Repeatable</item>
+            </list>
+        </p>
+    </div>
+</div>
+

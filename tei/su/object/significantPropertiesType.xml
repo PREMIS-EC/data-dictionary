@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="significantPropertiesType">
+    
+    <head>
+        
+        <!-- PREMIS Semantic unit 1.4.1 -->
+        <abbr>1.4.1</abbr>
+        <gi>significantPropertiesType</gi>
+    </head>
+    
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>None</p>
+    </div>
+    
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>The aspect, facet, or attribute of an object which is being recorded as a
+            significant property.</p>
+    </div>
+    
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p>Repositories may choose to describe significant properties based on a
+            particular aspect or attribute of an object.</p>
+    </div>
+    
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p>This semantic unit is optional and may be used as part of a facet:detail
+            pair with <bold>significantPropertiesValue.</bold></p>
+    </div>
+    
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>Container</p>
+    </div>
+    
+    <div type="entity">
+        <!-- PREMIS Object category -->
+        <p>
+            <list type="simple">
+                <head>Intellectual Entity / Representation</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Not repeatable</item>
+            </list>
+            <list type="ordered">
+                <head>IE / R Example</head>
+                <item>content</item>
+                <item>structure</item>
+                <item>behavior</item>
+                <item>page count</item>
+                <item>page width</item>
+                <item>typeface</item>
+                <item>hyperlinks</item>
+                <item>image count</item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS File</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Not repeatable</item>
+            </list>
+            <list type="ordered">
+                <head>File Example</head>
+                <item>content</item>
+                <item>structure</item>
+                <item>behavior</item>
+                <item>page count</item>
+                <item>page width</item>
+                <item>typeface</item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS Bitstream</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Not repeatable</item>
+            </list>
+            <list type="ordered">
+                <head>Bitstream Example</head>
+                <item>[for an embedded image] color space</item>
+            </list>
+        </p>
+    </div>
+</div>
+

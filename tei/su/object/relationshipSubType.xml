@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="relationshipSubType">
+    <head>
+        
+        <!-- PREMIS Semantic unit 1.13.2.0-->
+        <abbr>1.13.2</abbr>
+        <gi>relationshipSubType</gi>
+        
+    </head>
+    
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>None</p>
+    </div>
+    
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>A specific characterization of the nature of the relationship documented
+            in relationshipType.</p>
+    </div>
+    
+    <!-- PREMIS Rationale -->
+    
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p>A repository may find it necessary to define more or less granular
+            relationships than those values in the available controlled vocabulary.
+            For derivation relationships, note that the precise relationship may be
+            indicated by the type of the related Event. The relationship “has root”
+            is applicable only to the representation, because it implies that a
+            compound object (i.e. one made up of multiple files) requires that one
+            file be picked up first as its root to render it. In the metadata for
+            the representation, “has root” identifies that particular file.</p>
+    </div>
+    
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>Value should be taken from a controlled vocabulary. A controlled
+            vocabulary is available at:
+            <ref target="http://id.loc.gov/vocabulary/preservation/relationshipSubType.html">http://id.loc.gov/vocabulary/preservation/relationshipSubType.html</ref>.</p>
+    </div>
+    
+    <div type="entity">
+        <!-- PREMIS Object category -->
+        <p>
+            <list type="simple">
+                <head>Intellectual Entity / Representation</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Mandatory</item>
+                <label>Repeatability</label>
+                <item>Not repeatable</item>
+            </list>
+            <list type="ordered">
+                <head>Examples</head>
+                <item>Has root</item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS File</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Mandatory</item>
+                <label>Repeatability</label>
+                <item>Not repeatable</item>
+            </list>
+            <list type="ordered">
+                <head>Examples</head>
+                <item>Is source of</item>
+                <item>Has part</item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS Bitstream</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Mandatory</item>
+                <label>Repeatability</label>
+                <item>Not repeatable</item>
+            </list>
+            <list type="ordered">
+                <head>Examples</head>
+                <item>Has source</item>
+                <item>Is part of</item>
+            </list>
+        </p>
+    </div>
+</div>
+

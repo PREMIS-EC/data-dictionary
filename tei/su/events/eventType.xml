@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xml:id="eventType" xmlns="http://www.tei-c.org/ns/1.0">
+    <head>
+        <!-- PREMIS Semantic unit 2.2.0 -->
+        <abbr>2.2</abbr>
+        <gi>eventType</gi>        
+    </head>       
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>None</p>
+    </div>       
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>A categorization of the nature of the Event.</p>
+    </div>       
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p>Categorizing Events will aid the preservation repository in machine processing of Event information, particularly in reporting.</p>
+    </div>  
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>Value should be taken from a controlled vocabulary. A controlled vocabulary is available at: <ref target="http://id.loc.gov/vocabulary/preservation/eventType">http://id.loc.gov/vocabulary/preservation/eventType</ref>.</p>
+    </div>
+    <div type="examples">
+        <!-- PREMIS Examples -->
+        <p>
+            <list type="ordered">
+                <item>E77 [a code used within a repository for a particular Event type]</item>                
+                <item>ingestion</item>                
+                <item>migration</item>                
+                <item>validation</item>
+            </list>
+        </p>
+    </div>
+    <div type="entity">
+        <p>
+            <list type="simple">
+                <label>Obligation</label>
+                <item>Mandatory</item>
+                <label>Repeatability</label>
+                <item>Not Repeatable</item>
+            </list>
+        </p>
+    </div>
+    <div type="creationmaintenance">
+        <!-- PREMIS Creation / Maintenance -->
+        <p></p>
+    </div>
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p>Some <bold>eventType</bold> values may be more generic than others: migration, normalization, and replication are in some instances more precise subtypes of the creation <bold>eventType</bold> value. “Creation” can be used when more precise terms do not apply, for example, when a digital object was first created by scanning from paper. In general, the level of specificity in recording the type of Event (e.g., whether the <bold>eventType</bold> indicates a transformation, a migration or a particular method of migration) is implementation specific and will depend upon how reporting and processing is done. Recommended practice is to record detailed information about the Event itself in <bold>eventDetailInformation</bold> rather than using a very granular value for <bold>eventType</bold>.</p>
+    </div>  
+</div>
+

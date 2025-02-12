@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="preservationLevelRationale">
+    
+    <head>
+        
+        <!-- PREMIS Semantic unit 1.3.4 -->
+        <abbr>1.3.4</abbr>
+        <gi>preservationLevelRationale</gi>
+        
+    </head>
+    
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>None</p>
+    </div>
+    
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>The reason a particular <bold>preservationLevelValue</bold> was applied to
+            the object.</p>
+    </div>
+    
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p>Application of a particular <bold>preservationLevelValue</bold> may require
+            justification, especially if it differs from that usually applied
+            according to repository policy. </p>
+    </div>
+    
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p>This optional semantic unit records the reason for applying the
+            <bold>preservationLevelValue</bold>. This information can be
+            particularly important when the assigned <bold>preservationLevelValue</bold>
+            differs from usual repository policy. For example, a repository may
+            normally assign a <bold>preservationLevelValue</bold> of “full preservation”
+            for JPEG2000 files, but detects that a particular file is defective.
+            This may mean that the repository’s preservation strategy for JPEG2000
+            may not be effective for this particular file, so the repository may
+            assign a <bold>preservationLevelValue</bold> of “bit-level preservation” to
+            this file , recording “defective file” as the rationale. Similarly,
+            legislative requirements or contractual agreements may require a higher
+            level of preservation to be assigned to a particular object than would
+            be assigned to that class of object according to usual policy. In this
+            case, the rationale for the assignment may be recorded as “legislation”
+            or “user pays”, for example. <bold>preservationLevelRationale</bold> may be
+            repeated if more than one reason needs to be recorded.</p>
+        
+        <div type="datatype">
+            <!-- PREMIS Data constraint -->
+            <p>None</p>
+        </div>
+        
+        <div type="entity">
+            <!-- PREMIS Object category -->
+            <p>
+                <list type="simple">
+                    <head>Intellectual Entity / Representation</head>
+                    <label>Applicability</label>
+                    <item>Applicable</item>
+                    <label>Obligation</label>
+                    <item>Optional</item>
+                    <label>Repeatability</label>
+                    <item>Repeatable</item>
+                </list>
+                <list type="ordered">
+                    <head>Examples</head>
+                    <item>user pays</item>
+                    <item>legislation</item>
+                </list>
+            </p>
+            <p>
+                <list type="simple">
+                    <head>PREMIS File</head>
+                    <label>Applicability</label>
+                    <item>Applicable</item>
+                    <label>Obligation</label>
+                    <item>Optional</item>
+                    <label>Repeatability</label>
+                    <item>Repeatable</item>
+                </list>
+                <list type="ordered">
+                    <head>Examples</head>
+                    <item>defective file</item>
+                    <item>bit-level preservation only available for this file</item>
+                </list>
+            </p>
+            <p>
+                <list type="simple">
+                    <head>PREMIS Bitstream</head>
+                    <label>Applicability</label>
+                    <item>Not applicable</item>
+                    <label>Obligation</label>
+                    <item></item>
+                    <label>Repeatability</label>
+                    <item></item>
+                </list>
+            </p>
+        </div>
+    </div>
+</div>
+

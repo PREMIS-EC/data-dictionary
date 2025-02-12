@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="act">
+    <head>
+        <!-- PREMIS Semantic unit 4.1.7.1.0 -->
+        <abbr>4.1.7.1</abbr>
+        <gi>act</gi>
+    </head>
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>None</p>
+    </div>
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>The action the preservation repository is allowed to take.</p>
+    </div>
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p/>
+    </div>
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>Value should be taken from a controlled vocabulary. A controlled
+            vocabulary is available at: <ref
+                target="http://id.loc.gov/vocabulary/preservation/actionsGranted.html"
+                >http://id.loc.gov/vocabulary/preservation/actionsGranted.html</ref></p>
+    </div>
+    <div type="examples">
+        <!-- PREMIS Examples -->
+        <p>
+            <list type="ordered">
+                <item>replicate</item>                
+                <item>modify</item>                
+                <item>use</item>                
+                <item>disseminate</item>
+            </list>
+        </p>
+    </div>
+    <div type="entity">
+        <p>
+            <list type="simple">
+                <label>Obligation</label>
+                <item>Mandatory</item>
+                <label>Repeatability</label>
+                <item>Not repeatable</item>
+            </list>
+        </p>
+    </div>
+    <div type="creationmaintenance">
+        <!-- PREMIS Creation / Maintenance -->
+        <p/>
+    </div>
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p>It is up to the preservation repository to decide how granular the
+            controlled vocabulary should be. It may be useful to employ the same
+            controlled values that the repository uses for <bold>eventType</bold>.</p>
+    </div>
+</div>
+

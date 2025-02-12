@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="statuteInformationDeterminationDate">
+    <head>
+        <!-- PREMIS Semantic unit 4.1.5.3 -->
+        <abbr>4.1.5.3</abbr>
+        <gi>statuteInformationDeterminationDate</gi>
+    </head>
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>None</p>
+    </div>
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>The date that the determination was made that the statute authorized the
+            permission(s) noted.</p>
+    </div>
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p>The permission in question may be the subject of some interpretation.
+            These assessments are made within a specific context and at a specific
+            time. At another time the context, and therefore the assessment, could
+            change. For this reason it can be important to record the date of the
+            decision.</p>
+    </div>
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>To aid machine processing, value should use a structured form. To
+            facilitate exchange of PREMIS-conformant metadata, use of standard
+            conventions, for instance as used in the date elements in the PREMIS
+            schema, is recommended.</p>
+    </div>
+    <div type="examples">
+        <!-- PREMIS Examples -->
+        <p>
+            <list type="ordered">
+                <item>2007-12-01</item>                
+                <item>20040223151047.0</item>
+            </list>
+        </p>
+    </div>
+    <div type="entity">
+        <p>
+            <list type="simple">
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Not repeatable</item>
+            </list>
+        </p>
+    </div>
+    <div type="creationmaintenance">
+        <!-- PREMIS Creation / Maintenance -->
+        <p/>
+    </div>
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p/>
+    </div>
+</div>
+

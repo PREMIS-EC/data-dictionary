@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="originalName">
+    <head>
+        
+        <!-- PREMIS Semantic unit 1.6.0 -->
+        <abbr>1.6</abbr>
+        <gi>originalName</gi>
+        
+    </head>
+    
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>None</p>
+    </div>
+    
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>The name of the object as submitted to or harvested by the repository,
+            before any renaming by the repository.</p>
+    </div>
+    
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p>This unit allows preservation system to rename files (for internal
+            management and storage purposes) but still retain the name of the object
+            that was submitted. The name used within the preservation repository may
+            not be known outside of the repository. A depositor might need to
+            request a file by its original name. Also, the repository may need to
+            reconstruct internal links for dissemination.</p>
+    </div>
+    
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p>This is designed to be used to hold the name supplied by the immediate
+            source before ingest by the repository. This may or may not be the
+            initial name that the object had (e.g., the source could have renamed a
+            file when it ingested it from a previous source and not retained its
+            initial name). In addition it may or may not be the name that the object
+            was called in the immediate source before the repository (e.g., the
+            source system might hold it with one name but rename it upon export to,
+            say, its truly original name). The original name of the object must be
+            designated in the Submission Information Package (SIP) (since the
+            repository cannot in general work it out by other means) although it may
+            or may not be the primary identifier of the object in the SIP. The
+            object may have other names in different contexts. When two repositories
+            are exchanging content, it would be important for the receiving
+            repository to know and record the name of the Intellectual Entity or
+            Representation at the originating repository. In the case of IEs or
+            representations, this may be a directory name.</p>
+    </div>
+    
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>None</p>
+    </div>
+    
+    <div type="entity">
+        <!-- PREMIS Object category -->
+        <p>
+            <list type="simple">
+                <head>Intellectual Entity / Representation</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Not repeatable</item>
+            </list>
+            <list type="ordered">
+                <head>Examples</head>
+                <item>"Animal Antics"</item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS File</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Not repeatable</item>
+            </list>
+            <list type="ordered">
+                <head>Examples</head>
+                <item/>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS Bitstream</head>
+                <label>Applicability</label>
+                <item>Not applicable</item>
+                <label>Obligation</label>
+                <item></item>
+                <label>Repeatability</label>
+                <item></item>
+            </list>
+        </p>
+    </div>
+    
+    <div type="creationmaintenance">
+        <!-- PREMIS Creation / Maintenance -->
+        <p>This value would always be supplied to the repository by the submitter or
+            harvesting application. How much of the file path to preserve would be
+            up to the repository.</p>
+    </div>
+</div>
+

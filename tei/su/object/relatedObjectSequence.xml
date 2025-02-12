@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="relatedObjectSequence">
+    <head>
+        
+        <!-- PREMIS Semantic unit 1.13.3.3-->
+        <abbr>1.13.3.3</abbr>
+        <gi>relatedObjectSequence</gi>
+        
+    </head>
+    
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>None</p>
+    </div>
+    
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>The order of the related Object relative to other Objects with the same
+            type of relationship.</p>
+    </div>
+    
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p>This semantic unit is particularly useful for structural relationships.
+            In order to reconstruct a representation, it may be necessary to know
+            the order of components with sibling or part-whole relationships. For
+            example, to render the pages of a book, it is necessary to know the
+            order of files representing pages.</p>
+    </div>
+    
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p>This semantic unit could be implemented in several ways. It might be
+            recorded explicitly in metadata as a sequence number or as a pointer. It
+            might be implicit in some other ordering of Objects, for example,
+            incrementing identifier values. The value of
+            <gi>relationshipSubType</gi> might imply the sequence (e.g., “is
+            preceding sibling,” “is following sibling”). There is no requirement
+            that sequence numbers must be unique or sequential. Some related Objects
+            have no inherent sequence, for example, unordered Web pages making up a
+            website. It is acceptable to either use the “dummy” sequence number
+            zero, or to omit completely. This semantic unit is applicable only for
+            structural relationships and is thus optional.</p>
+    </div>
+    
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>None</p>
+    </div>
+    
+    <div type="entity">
+        <!-- PREMIS Object category -->
+        <p>
+            <list type="simple">
+                <head>Intellectual Entity / Representation</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Not repeatable</item>
+            </list>
+            <list type="ordered">
+                <head>Examples</head>
+                <item>1</item>
+                <item>2</item>
+                <item>3</item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS File</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Not repeatable</item>
+            </list>
+            <list type="ordered">
+                <head>Examples</head>
+                <item>1</item>
+                <item>2</item>
+                <item>3</item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS Bitstream</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Not repeatable</item>
+            </list>
+            <list type="ordered">
+                <head>Examples</head>
+                <item>1</item>
+                <item>2</item>
+                <item>3</item>
+            </list>
+        </p>
+    </div>
+</div>
+

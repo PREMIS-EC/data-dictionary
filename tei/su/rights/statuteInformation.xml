@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="statuteInformation">
+    <head>
+        <!-- PREMIS Semantic unit 4.1.5.0 -->
+        <abbr>4.1.5</abbr>
+        <gi>statuteInformation</gi>
+    </head>
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>statuteJurisdiction</p>
+        <p>statuteCitation</p>
+        <p>statuteInformationDeterminationDate</p>
+        <p>statuteNote</p>
+        <p>statuteDocumentationIdentifier</p>
+        <p>statuteApplicableDates</p>
+    </div>
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>Information about the statute allowing use of the object.</p>
+    </div>
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p/>
+    </div>
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>Container</p>
+    </div>
+    <div type="examples">
+        <!-- PREMIS Examples -->
+        <p/>
+    </div>
+    <div type="entity">
+        <p>
+            <list type="simple">
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Repeatable</item>
+            </list>
+        </p>
+    </div>
+    <div type="creationmaintenance">
+        <!-- PREMIS Creation / Maintenance -->
+        <p/>
+    </div>
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p>When <bold>rightsBasis</bold> is “statute”, <bold>statuteInformation</bold>
+            should be provided.</p>
+    </div>
+</div>
+

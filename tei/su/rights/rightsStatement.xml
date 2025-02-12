@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="rightsStatement">
+    <head>
+        <!-- PREMIS Semantic unit 4.1.0 -->
+        <abbr>4.1</abbr>
+        <gi>rightsStatement</gi>
+    </head>
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>rightsStatementIdentifier</p>
+        <p>rightsBasis</p>
+        <p>copyrightInformation</p>
+        <p>licenseInformation</p>
+        <p>statuteInformation</p>
+        <p>otherRightsInformation</p>
+        <p>rightsGranted</p>
+        <p>linkingObjectIdentifier</p>
+        <p>linkingAgentIdentifier</p>
+    </div>
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>Documentation of the repository's Rights or indeed restrictions to
+            perform one or more acts.</p>
+    </div>
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p/>
+    </div>
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>Container</p>
+    </div>
+    <div type="examples">
+        <!-- PREMIS Examples -->
+        <p/>
+    </div>
+    <div type="entity">
+        <p>
+            <list type="simple">
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Repeatable</item>
+            </list>
+        </p>
+    </div>
+    <div type="creationmaintenance">
+        <!-- PREMIS Creation / Maintenance -->
+        <p/>
+    </div>
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p>This semantic unit is optional because in some cases Rights may be
+            unknown. Institutions are encouraged to record Rights information when
+            possible. Either <bold>rightsStatement</bold> or <bold>rightsExtension</bold>
+            must be present if the Rights entity is included. The
+            <bold>rightsStatement</bold> should be repeated when the act(s)
+            described has(have) more than one basis, or when different acts have
+            different bases.</p>
+    </div>
+</div>
+

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xml:id="eventIdentifierType" xmlns="http://www.tei-c.org/ns/1.0">
+    <head>
+        <!-- PREMIS Semantic unit 2.1.1 -->
+        <abbr>2.1.1</abbr>        
+        <gi>eventIdentifierType</gi>        
+    </head>       
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>None</p>
+    </div>       
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>A designation of the domain within which the Event identifier is unique.</p>
+    </div>    
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p></p>
+    </div>
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>Value should be taken from a controlled vocabulary.</p>
+    </div>
+    <div type="examples">
+        <!-- PREMIS Examples -->
+        <p>
+            <list type="ordered">
+                <item>FDA</item>                
+                <item>Stanford Repository Event ID</item>                
+                <item>UUID</item>                
+                <item>local</item>
+            </list>
+        </p>
+    </div>
+    <div type="entity">
+        <p>
+            <list type="simple">
+                <label>Obligation</label>
+                <item>Mandatory</item>
+                <label>Repeatability</label>
+                <item>Not Repeatable</item>
+            </list>
+        </p>
+    </div>
+    <div type="creationmaintenance">
+        <!-- PREMIS Creation / Maintenance -->
+        <p>For most preservation repositories, the <bold>eventIdentifierType</bold> will be its own internal numbering system. It can be implicit within the system and provided explicitly only if the data is exported.</p>
+    </div>
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p></p>
+    </div>
+</div>
+

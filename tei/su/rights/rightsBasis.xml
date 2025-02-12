@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="rightsBasis">
+    <head>
+        <!-- PREMIS Semantic unit 4.1.2.0 -->
+        <abbr>4.1.2</abbr>
+        <gi>rightsBasis</gi>
+    </head>
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>None</p>
+    </div>
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>Designation of the basis for the right or permission identified by the
+            <bold>rightsStatementIdentifier</bold>.</p>
+    </div>
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p/>
+    </div>
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p/>
+    </div>
+    <div type="examples">
+        <!-- PREMIS Examples -->
+        <p>
+            <list type="ordered">
+                <item>copyright</item>                
+                <item>license</item>                
+                <item>statute</item>                
+                <item>other</item>
+            </list>
+        </p>
+    </div>
+    <div type="entity">
+        <p>
+            <list type="simple">
+                <label>Obligation</label>
+                <item>Mandatory</item>
+                <label>Repeatability</label>
+                <item>Not repeatable</item>
+            </list>
+        </p>
+    </div>
+    <div type="creationmaintenance">
+        <!-- PREMIS Creation / Maintenance -->
+        <p/>
+    </div>
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p>When <bold>rightsBasis</bold> is “copyright”, <bold>copyrightInformation</bold>
+            should be provided. When <bold>rightsBasis</bold> is “license”,
+            <bold>licenseInformation</bold> should be provided. When
+            <bold>rightsBasis</bold> is “statute”, <bold>statuteInformation</bold>
+            should be provided. When <bold>rightsBasis</bold> is “other”,
+            <bold>otherRightsBasis</bold> (in <bold>otherRightsInformation</bold>
+            container) should be provided. If the Rights for the item are public
+            domain, use “copyright”. If they are Fair Use, use “statute”. If more
+            than one basis applies, the entire Rights entity should be repeated.</p>
+    </div>
+</div>
+

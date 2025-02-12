@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="statuteDocumentationIdentifier">
+    <head>
+        <!-- PREMIS Semantic unit 4.1.5.5 -->
+        <abbr>4.1.5.5</abbr>
+        <gi>statuteDocumentationIdentifier</gi>
+    </head>
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>statuteDocumentationIdentifierType</p>
+        <p>statuteDocumentationIdentifierValue</p>
+        <p>statuteDocumentationRole</p>
+    </div>
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>A designation used to uniquely identify documentation supporting the
+            specified Rights granted by statute within the repository system.</p>
+    </div>
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p/>
+    </div>
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>Container</p>
+    </div>
+    <div type="examples">
+        <!-- PREMIS Examples -->
+        <p/>
+    </div>
+    <div type="entity">
+        <p>
+            <list type="simple">
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Repeatable</item>
+            </list>
+        </p>
+    </div>
+    <div type="creationmaintenance">
+        <!-- PREMIS Creation / Maintenance -->
+        <p/>
+    </div>
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p>This semantic unit is intended to refer to a document detailing the
+            granting of permission when the Rights basis is statute. If repeated,
+            use <bold>statuteDocumentationRole</bold> to distinguish the role of the
+            given documentation.</p>
+    </div>
+</div>
+

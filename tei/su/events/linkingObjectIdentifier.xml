@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"  xml:id="linkingObjectIdentifier">
+    <head>
+        <!-- PREMIS Semantic unit 2.7.0 -->
+        <abbr>2.7</abbr>
+        <gi>linkingObjectIdentifier</gi>        
+    </head>       
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>linkingObjectIdentifierType</p>
+        <p>linkingObjectIdentifierValue</p>
+        <p>linkingObjectRole</p>
+    </div>       
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>Information about an Object associated with an Event.</p>
+    </div>       
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p>Digital provenance often requires that relationships between Objects and Events are documented.</p>
+    </div>  
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>Container</p>
+    </div>
+    <div type="examples">
+        <!-- PREMIS Examples -->
+        <p></p>
+    </div>
+    <div type="entity">
+        <p>
+            <list type="simple">
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Repeatable</item>
+            </list>
+        </p>
+    </div>
+    <div type="creationmaintenance">
+        <!-- PREMIS Creation / Maintenance -->
+        <p></p>
+    </div>
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p>Linking semantic units are mandatory in the sense that a repository needs to know the information, but are defined as optional because PREMIS does not specify in which direction the linkage should be.</p>
+    </div>
+</div>
+

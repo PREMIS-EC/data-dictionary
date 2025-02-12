@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="grantEndDate">
+    <head>
+        <!-- PREMIS Semantic unit 4.1.7.3.2 -->
+        <abbr>4.1.7.3.2</abbr>
+        <gi>endDate</gi>
+    </head>
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>None</p>
+    </div>
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>The date the granted permission expires.</p>
+    </div>
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p/>
+    </div>
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>To aid machine processing, value should use a structured form. To
+            facilitate exchange of PREMIS-conformant metadata, use of standard
+            conventions, for instance as used in the date elements in the PREMIS
+            schema, is recommended.</p>
+    </div>
+    <div type="examples">
+        <!-- PREMIS Examples -->
+        <p>
+            <list type="ordered">
+                <!-- KB the heading example comes from the div type -->
+                <item>2006-01-02</item>
+                
+                <item>20050723</item>
+            </list>
+        </p>
+    </div>
+    <div type="entity">
+        <p>
+            <list type="simple">
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Not repeatable</item>
+            </list>
+        </p>
+    </div>
+    <div type="creationmaintenance">
+        <!-- PREMIS Creation / Maintenance -->
+        <p/>
+    </div>
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p>Use “OPEN” for an open ended term of grant. Omit <bold>endDate</bold> if the
+            ending date is unknown or the permission statement applies to many
+            objects with different end dates.</p>
+    </div>
+</div>
+

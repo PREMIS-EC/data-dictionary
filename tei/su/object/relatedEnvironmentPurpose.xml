@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="relatedEnvironmentPurpose">
+    <head>
+        
+        <!-- PREMIS Semantic unit 1.13.5-->
+        <abbr>1.13.5</abbr>
+        <gi>relatedEnvironmentPurpose</gi>
+        
+    </head>
+    
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>None</p>
+    </div>
+    
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>The use(s) supported by the related environment.</p>
+    </div>
+    
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p>Different environments can support different uses of objects. For
+            example, the environment needed to edit and modify a file can be quite
+            different from the environment needed to render it.</p>
+    </div>
+    
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p>Other values might indicate the ability to transform, print, and
+            manipulate by program.</p>
+    </div>
+    
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>Values should be taken from a controlled vocabulary. A controlled
+            vocabulary is available at:
+            <ref target="http://id.loc.gov/vocabulary/preservation/environmentPurpose">http://id.loc.gov/vocabulary/preservation/environmentPurpose</ref>.</p>
+    </div>
+    
+    <div type="entity">
+        <!-- PREMIS Object category -->
+        <p>
+            <list type="simple">
+                <head>Intellectual Entity / Representation</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Repeatable</item>
+            </list>
+            <list type="ordered">
+                <head>Examples</head>
+                <item>render</item>
+                <item>edit</item>
+                <item>create</item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS File</head>
+                <label>Applicability</label>
+                <item>Not applicable</item>
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Repeatable</item>
+            </list>
+            <list type="ordered">
+                <head>Examples</head>
+                <item>render</item>
+                <item>edit</item>
+                <item>create</item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS Bitstream</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Repeatable</item>
+            </list>
+            <list type="ordered">
+                <head>Examples</head>
+                <item>render</item>
+                <item>edit</item>
+                <item>create</item>
+            </list>
+        </p>
+    </div>
+    <div type="creationmaintenance">
+        <!-- PREMIS Creation / Maintenance -->
+        <p>This value would have to be supplied by the Agent that provided the
+            hardware and/or software environment information, which might be the
+            submitter, the repository, or an environment registry.</p>
+    </div>
+</div>
+

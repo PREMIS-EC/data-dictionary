@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"  xml:id="linkingEnvironmentRole">
+    <head>
+        <!-- PREMIS Semantic unit 3.9.3 -->
+        <abbr>3.9.3</abbr>
+        <gi>linkingEnvironmentRole</gi>        
+    </head>       
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>None</p>
+    </div>       
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>The role of the environment Object associated with this Agent.</p>
+    </div>       
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p>A piece of software or hardware that is captured as an Agent can also be preserved in a repository and described as an environment Object: for example, as source code or an ISO disk image. The role allows one to record in what form the software or hardware has been preserved in the repository.</p>
+    </div>  
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>Value should be taken from a controlled vocabulary. A controlled vocabulary is available at: <ref target="http://id.loc.gov/vocabulary/preservation/linkingEnvironmentRole.html">http://id.loc.gov/vocabulary/preservation/linkingEnvironmentRole.html</ref>.</p>
+    </div>
+    <div type="examples">
+        <!-- PREMIS Examples -->
+        <p>
+            <list type="ordered">
+                <item>source code</item>                
+                <item>bytecode</item>                
+                <item>disk image</item>
+            </list>
+        </p>
+    </div>
+    <div type="entity">
+        <p>
+            <list type="simple">
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Repeatable</item>
+            </list>
+        </p>
+    </div>
+    <div type="creationmaintenance">
+        <!-- PREMIS Creation / Maintenance -->
+        <p></p>
+    </div>
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p></p>
+    </div>
+</div>              
+

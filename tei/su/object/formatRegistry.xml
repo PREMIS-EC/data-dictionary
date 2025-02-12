@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="formatRegistry">
+    <head>
+        
+        <!-- PREMIS Semantic unit 1.5.4.2 -->
+        <abbr>1.5.4.2</abbr>
+        <gi>formatRegistry</gi>
+        
+    </head>
+    
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>formatRegistryName</p>
+        <p>formatRegistryKey</p>
+        <p>formatRegistryRole</p>
+    </div>
+    
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>Identifies and/or gives further information about the format by reference
+            to an entry in a format registry.</p>
+    </div>
+    
+    <!-- PREMIS Rationale -->
+    
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p>Either <bold>formatDesignation</bold> or at least one instance of
+            <bold>formatRegistry</bold> is required. If more than one
+            <bold>formatRegistry</bold> needs to be recorded the format container
+            should be repeated to include each additional set of
+            <bold>formatRegistryinformation</bold>.</p>
+    </div>
+    
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>Container</p>
+    </div>
+    
+    <div type="entity">
+        <!-- PREMIS Object category -->
+        <p>
+            <list type="simple">
+                <head>Intellectual Entity / Representation</head>
+                <label>Applicability</label>
+                <item>Not applicable</item>
+                <label>Obligation</label>
+                <item></item>
+                <label>Repeatability</label>
+                <item></item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS File</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>At least one subunit must be present if this container is
+                    included.</item>
+                <label>Repeatability</label>
+                <item>Not repeatable</item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS Bitstream</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>At least one subunit must be present if this container is
+                    included.</item>
+                <label>Repeatability</label>
+                <item>Not repeatable</item>
+            </list>
+        </p>
+    </div>
+</div>
+

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="objectCharacteristicsFixity">
+    <head>
+        
+        <!-- PREMIS Semantic unit 1.5.2 -->
+        <abbr>1.5.2</abbr>
+        <gi>objectCharacteristicsFixity</gi>
+        
+    </head>
+    
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>compositionLevel</p>
+        <p>fixity</p>
+        <p>size</p>
+        <p>format</p>
+        <p>creatingApplication</p>
+        <p>inhibitors</p>
+        <p>objectCharacteristicsExtension</p>
+    </div>
+    
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>Information used to verify whether an object has been altered in an
+            undocumented or unauthorized way.</p>
+    </div>
+    
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p>There are some important technical properties that apply to objects of
+            any format. Detailed definition of format-specific properties is outside
+            the scope of this Data Dictionary, although such properties may be
+            included within <old>objectCharacteristicsExtension</old>.</p>
+    </div>
+    
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p>To perform a fixity check, a message digest calculated at some earlier
+            time is compared with a message digest calculated at a later time. If
+            the digests are the same, the object was not altered in the interim.
+            (Note that the terms “message digest” and “checksum” are commonly used
+            interchangeably. However, the term “checksum” is more correctly used for
+            the product of a cyclical redundancy check (CRC), whereas the term
+            “message digest” refers to the result of a cryptographic hash function,
+            which is what is referred to here.)The act of performing a fixity check
+            and the date it occurred would be recorded as an Event. The result of
+            the check would be recorded as the eventOutcome. Therefore, only the
+            <bold>messageDigestAlgorithm</bold> and <bold>messageDigest</bold> need to
+            be recorded as <gi>objectCharacteristics</gi> for future comparison.</p>
+        <p>Representation level: it could be argued that if a representation
+            consists of a single file or if all the files comprised by a
+            representation are combined (e.g., zipped) into a single file, then a
+            fixity check could be performed on the representation. However, in both
+            cases the fixity check is actually being performed on a file, which in
+            this case happens to be coincidental with a representation. Bitstream
+            level: message digests can be computed for bitstreams although they are
+            not as common as with files. For example, the JPX format, which is a
+            JPEG2000 format, supports the inclusion of MD5 or SHA-1 message digests
+            in internal metadata that was calculated on any range of bytes of the
+            file. For more information, see the special topic on “Fixity, integrity,
+            authenticity,”.</p>
+    </div>
+    
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>Container</p>
+    </div>
+    
+    <div type="entity">
+        <!-- PREMIS Object category -->
+        <p>
+            <list type="simple">
+                <head>Intellectual Entity / Representation</head>
+                <label>Applicability</label>
+                <item>Not applicable (see usage note)</item>
+                <label>Obligation</label>
+                <item></item>
+                <label>Repeatability</label>
+                <item></item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS File</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Repeatable</item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS Bitstream</head>
+                <label>Applicability</label>
+                <item>Applicable (see usage note)</item>
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Repeatable</item>
+            </list>
+        </p>
+    </div>
+    
+    <div type="creationmaintenance">
+        <!-- PREMIS Creation / Maintenance -->
+        <p xml:lang="en">Significant properties may pertain to all objects of a
+            certain class; for example, the repository can decide that for all PDF
+            files, only the content need be preserved. In other cases for example,
+            for media art, the significant properties may be unique to each
+            individual object. Where values are unique, they must be supplied by the
+            submitter or provided by the curatorial staff of the repsoitory.</p>
+    </div>
+</div>
+

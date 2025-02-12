@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"  xml:id="linkingEnvironmentIdentifierValue">
+    <head>
+        <!-- PREMIS Semantic unit 3.9.2 -->
+        <abbr>3.9.2</abbr>
+        <gi>linkingEnvironmentIdentifierValue</gi>        
+    </head>       
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p></p>
+    </div>       
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>The value of the <bold>linkingEnvironmentIdentifier</bold>.</p>
+    </div>       
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p></p>
+    </div>  
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>Must be an existing <bold>objectIdentifierValue</bold>.</p>
+    </div>
+    <div type="examples">
+        <!-- PREMIS Examples -->
+        <p>
+            <list type="ordered">
+                <!-- KB the heading example comes from the div type -->
+                <item>[see examples for <bold>objectIdentifierValue</bold>] <!--TODO: INSERT LINK HERE--></item>
+            </list>
+        </p>
+    </div>
+    <div type="entity">
+        <p>
+            <list type="simple">
+                <label>Obligation</label>
+                <item>Mandatory</item>
+                <label>Repeatability</label>
+                <item>Not repeatable</item>
+            </list>
+        </p>
+    </div>
+    <div type="creationmaintenance">
+        <!-- PREMIS Creation / Maintenance -->
+        <p></p>
+    </div>
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p></p>
+    </div>
+</div>
+

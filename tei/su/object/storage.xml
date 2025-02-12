@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="storage">
+    <head>
+        
+        <!-- PREMIS Semantic unit 1.7.0 -->
+        <abbr>1.7</abbr>
+        <gi>storage</gi>
+        
+    </head>
+    
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>contentLocation</p>
+        <p>storageMedium</p>
+    </div>
+    
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>Information about how and where an entity can be found. For bitstreams
+            this means the location within a file. For files this means the physical
+            location in one or more storage systems. Starting with PREMIS version
+            3.0, <bold>storage</bold> is applicable to representations. For physical
+            representations such as system disks or printed versions of digital
+            files, this means the location of the physical object, such as a shelf
+            location. For digital representations this means the location of the
+            digital object in a storage system, if all files in the representation
+            can be found in this same location. </p>
+    </div>
+    
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p>It is necessary for a repository to know where to locate objects and to
+            associate the <bold>contentLocation</bold> of digital objects with the
+            <bold>storageMedium</bold>.</p>
+    </div>
+    
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p>For digital representations and files, the <bold>storage</bold> container
+            should be repeated if there are two or more copies that are identical
+            bit-wise and managed as a unit, except for the medium on which they are
+            stored. To use this repetition, the copies must have a single
+            <bold>objectIdentifier</bold> and be managed as a single object by the
+            repository. Note that many storage systems (e.g., hierarchical storage
+            management systems, cloud storage providers etc.) will provide only a
+            single reference to an object even though it may store multiple copies.
+            For bitstreams, the <bold>storage</bold> container could be repeated if
+            there is more than one way of getting to the start of the bitstream
+            within a file (e.g., byte offset from start or byte offset from end).
+            For representations of physical Objects, the storage for both physical
+            copies of content (for example, a paper copy of a digital object) and
+            for physical environment instances (for example, a custom computer chip)
+            can be specified. See the “Environment” section in “Special Topics” for more information on physical Environments.</p>
+    </div>
+    
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>Container</p>
+    </div>
+    
+    <div type="entity">
+        <!-- PREMIS Object category -->
+        <p>
+            <list type="simple">
+                <head>Intellectual Entity / Representation</head>
+                <label>Applicability</label>
+                <item>Not applicable</item>
+                <label>Obligation</label>
+                <item></item>
+                <label>Repeatability</label>
+                <item></item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS File</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Repeatable</item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS Bitstream</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Repeatable</item>
+            </list>
+        </p>
+    </div>
+</div>
+

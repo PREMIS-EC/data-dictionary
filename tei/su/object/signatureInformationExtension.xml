@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="signatureInformationExtension">
+    <head>
+        
+        <!-- PREMIS Semantic unit 1.8.2.0 -->
+        <abbr>1.8.2</abbr>
+        <gi>signatureInformationExtension</gi>
+        
+    </head>
+    
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>Defined externally</p>
+    </div>
+    
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>Digital signature information using semantic units defined outside of
+            PREMIS.</p>
+    </div>
+    
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p>There may be a need to replace or extend PREMIS defined units.</p>
+    </div>
+    
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p>For more granularity or use of externally defined semantic units,
+            extensibility is provided. Either local semantic units or metadata using
+            another specified metadata scheme may be included instead of or in
+            addition to PREMIS defined semantic units. When using an extension
+            schema, a reference to that schema must be provided. See further
+            guidance in “Extensibility”. If the
+            <bold>signatureInformationExtension</bold> container needs to be
+            associated explicitly with any PREMIS subunit under
+            <bold>signatureInformation</bold>, the container
+            <bold>signatureInformation</bold> is repeated. Also, if extensions from
+            different external schemas are needed, <bold>signatureInformation</bold>
+            should be repeated.Use of the W3C’s XML-Signature Syntax and Processing
+            <ref target="http://www.w3.org/TR/2002/REC-xmldsig-core-20020212/"
+                >(http://www.w3.org/TR/2002/REC-xmldsig-core-20020212/)</ref> is
+            encouraged when applicable. It is recommended to give information about
+            the metadata used in <bold>signatureInformationExtension</bold> including
+            date the metadata was created, status of the metadata, internal linking
+            IDs, type of metadata used and its version, message digest and message
+            digest algorithm of the metadata, and type of identifier for external
+            metadata links.</p>
+    </div>
+    
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>Container</p>
+    </div>
+    
+    <div type="entity">
+        <!-- PREMIS Object category -->
+        <p>
+            <list type="simple">
+                <head>Intellectual Entity / Representation</head>
+                <label>Applicability</label>
+                <item>Not applicable</item>
+                <label>Obligation</label>
+                <item></item>
+                <label>Repeatability</label>
+                <item></item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS File</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Repeatable</item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS Bitstream</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Repeatable</item>
+            </list>
+        </p>
+    </div>
+</div>
+

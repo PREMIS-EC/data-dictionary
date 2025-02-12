@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="signatureInformation">
+    <head>
+        
+        <!-- PREMIS Semantic unit 1.8.0 -->
+        <abbr>1.8</abbr>
+        <gi>signatureInformation</gi>
+        
+    </head>
+    
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>signature</p>
+        <p>signatureInformationExtension</p>
+    </div>
+    
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>A container for PREMIS-defined and externally-defined digital signature
+            information, used to authenticate the signer of an object and/or the
+            information contained in the object.</p>
+    </div>
+    
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p>A repository may have a policy of generating digital signatures for files
+            on ingest, or may have a need to store and later validate incoming
+            digital signatures.</p>
+    </div>
+    
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p>Either <bold>signature</bold> or <bold>signatureInformationExtension</bold> may
+            be used. Use of <bold>signatureInformationExtension</bold> with the schema
+            defined in W3C’s XML-Signature Syntax and
+            Processing(<ref target="http://www.w3.org/TR/2002/REC-xmldsig-core-20020212/">http://www.w3.org/TR/2002/REC-xmldsig-core-20020212/</ref>) is
+            encouraged when applicable. See the discussion of digital signatures for more information on use of both
+            PREMIS-defined and externally-defined semantic units.</p>
+    </div>
+    
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>Container</p>
+    </div>
+    
+    <div type="entity">
+        <!-- PREMIS Object category -->
+        <p>
+            <list type="simple">
+                <head>Intellectual Entity / Representation</head>
+                <label>Applicability</label>
+                <item>Not applicable</item>
+                <label>Obligation</label>
+                <item></item>
+                <label>Repeatability</label>
+                <item></item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS File</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Repeatable</item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS Bitstream</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Repeatable</item>
+            </list>
+        </p>
+    </div>
+</div>
+

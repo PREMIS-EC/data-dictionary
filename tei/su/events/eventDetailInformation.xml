@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xml:id="eventDetailInformation" xmlns="http://www.tei-c.org/ns/1.0">
+    <head>
+        <!-- PREMIS Semantic unit 2.4.0 -->
+        <abbr>2.4</abbr>        
+        <gi>eventDetailInformation</gi>        
+    </head>       
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>eventDetail</p>
+        <p>eventDetailExtension</p>
+    </div>       
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>Additional information about the Event.</p>
+    </div>       
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p></p>
+    </div>  
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>Container</p>
+    </div>
+    <div type="examples">
+        <!-- PREMIS Examples -->
+        <p></p>
+    </div>
+    <div type="entity">
+        <p>
+            <list type="simple">
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Repeatable</item>
+            </list>
+        </p>
+    </div>
+    <div type="creationmaintenance">
+        <!-- PREMIS Creation / Maintenance -->
+        <p></p>
+    </div>
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p>All subunits of this semantic unit are optional but at least one subunit (i.e. <bold>eventDetail</bold> and/or <bold>eventDetailExtension</bold>) must be present if this container is included.</p>
+    </div>
+</div>
+

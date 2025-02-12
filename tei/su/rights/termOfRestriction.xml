@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="termOfRestriction">
+    <head>
+        <!-- PREMIS Semantic unit 4.1.7.4.0 -->
+        <abbr>4.1.7.4</abbr>
+        <gi>termOfRestriction</gi>
+    </head>
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>startDate</p>
+        <p>endDate</p>
+    </div>
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>The time period for the restriction granted.</p>
+    </div>
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p>The current definition of <bold>termOfGrant</bold> is "time period for the
+            permissions granted". This allows repositories to express information
+            about the Rights granted, but some repositories may need to express
+            time-bounded restrictions like embargoes. To express such restrictions,
+            use the semantic units of termOfRestriction: <bold>startDate</bold> for the
+            beginning of the embargo and <bold>endDate</bold> for the end of the
+            embargo.</p>
+    </div>
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>Container</p>
+    </div>
+    <div type="examples">
+        <!-- PREMIS Examples -->
+        <p/>
+    </div>
+    <div type="entity">
+        <p>
+            <list type="simple">
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Not repeatable</item>
+            </list>
+        </p>
+    </div>
+    <div type="creationmaintenance">
+        <!-- PREMIS Creation / Maintenance -->
+        <p/>
+    </div>
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p/>
+    </div>
+</div>
+

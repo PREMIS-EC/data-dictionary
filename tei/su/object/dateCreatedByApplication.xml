@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="dateCreatedByApplication">
+    <head>
+        
+        <!-- PREMIS Semantic unit 1.5.5.3 -->
+        <abbr>1.5.5.3</abbr>
+        <gi>dateCreatedByApplication</gi>
+        
+    </head>
+    
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>None</p>
+    </div>
+    
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>The actual or approximate date and time the object was created.</p>
+    </div>
+    
+    <!-- PREMIS Rationale -->
+    
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p>Use the most precise date available. This is the date the object was
+            created by the creating application, not the date any copy was made
+            externally or by the repository. For example, if a file is created by
+            Microsoft Word in 2001 and two copies are made in 2003, the
+            <bold>dateCreatedByApplication</bold> of all three files is 2001. The
+            date a file is written to storage can be recorded as an Event.If the
+            object itself contains internal creation and modification dates, the
+            modification date should be used as <bold>dateCreatedByApplication</bold>.
+            The creation date, in PREMIS terms, of an Object is the time that it was
+            last modified; that is, the last time the document was saved. This is
+            discussed in the 1:1 Principle INSERTLINKHERE section. If the
+            application is a Web harvester capturing an object at a point intime,
+            use the date captured as the creation date.</p>
+    </div>
+    
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>To aid machine processing, value should use a structured form. To
+            facilitate exchange of PREMIS-conformant metadata, use of standard
+            conventions, for instance as used in the date elements in the PREMIS
+            schema, is recommended.</p>
+    </div>
+    
+    <div type="entity">
+        <!-- PREMIS Object category -->
+        <p>
+            <list type="simple">
+                <head>Intellectual Entity / Representation</head>
+                <label>Applicability</label>
+                <item>Not applicable</item>
+                <label>Obligation</label>
+                <item></item>
+                <label>Repeatability</label>
+                <item></item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS File</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Not repeatable</item>
+            </list>
+            <list type="ordered">
+                <head>Examples</head>
+                <item>2000-12-01</item>
+                <item>20030223T151047</item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS Bitstream</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Not repeatable</item>
+            </list>
+            <list type="ordered">
+                <head>Examples</head>
+                <item>2000-12-01</item>
+                <item>20030223T151047</item>
+            </list>
+        </p>
+    </div>
+</div>
+

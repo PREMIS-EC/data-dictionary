@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="storageMedium">
+    <head>
+        
+        <!-- PREMIS Semantic unit 1.7.2.0 -->
+        <abbr>1.7.2</abbr>
+        <gi>storageMedium</gi>
+        
+    </head>
+    
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>None</p>
+    </div>
+    
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>The physical medium on which the object is stored (e.g., magnetic tape,
+            hard disk, CD-ROM, DVD).</p>
+    </div>
+    
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p>The repository needs to know the medium on which an object is stored if
+            it is to know how and when to do media refreshment and media
+            migration.</p>
+    </div>
+    
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p>In some cases this can be masked from direct repository management by
+            storage management systems. In such cases responsibility to manage for
+            technological obsolescence of storage media must be delegated to the
+            storage system. Digital preservation practitioners must maintain
+            responsibility to manage storage media and system obsolescence within
+            the combination of repository and storage systems. Usually this is done
+            at system level well above the details of individual objects. *Storage
+            media are only recorded for digital items. The storage locations of
+            physical items will be managed through traditional estate management,
+            and media management is not part of the digital repository. </p>
+    </div>
+    
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>Value should be taken from a controlled vocabulary. Example controlled
+            vocabularies are available at:
+            <ref target="http://id.loc.gov/vocabulary/preservation/storageMedium.html">http://id.loc.gov/vocabulary/preservation/storageMedium.html</ref> and
+            <ref target="http://metadataregistry.org/concept/list/vocabulary_id/145.html">http://metadataregistry.org/concept/list/vocabulary_id/145.html</ref>.</p>
+    </div>
+    
+    <div type="entity">
+        <!-- PREMIS Object category -->
+        <p>
+            <list type="simple">
+                <head>Intellectual Entity / Representation</head>
+                <label>Applicability</label>
+                <item>Not applicable</item>
+                <label>Obligation</label>
+                <item></item>
+                <label>Repeatability</label>
+                <item></item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS Representation</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Not repeatable</item>
+            </list>
+            <list type="ordered">
+                <item>Magnetic tape</item>
+                <item>Hard disk</item>
+                <item>TSM</item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS File</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Not repeatable</item>
+            </list>
+            <list type="ordered">
+                <item>Magnetic tape</item>
+                <item>Hard disk</item>
+                <item>TSM</item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS Bitstream</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Not repeatable</item>
+            </list>
+            <list type="ordered">
+                <item>Magnetic tape</item>
+                <item>Hard disk</item>
+                <item>TSM</item>
+            </list>
+        </p>
+    </div>
+</div>
+

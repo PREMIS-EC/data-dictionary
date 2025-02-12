@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="format">
+    <head>
+        
+        <!-- PREMIS Semantic unit 1.5.4 -->
+        <abbr>1.5.4</abbr>
+        <gi>format</gi>
+        
+    </head>
+    
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>formatDesignation</p>
+        <p>formatRegistry</p>
+        <p>formatNote</p>
+    </div>
+    
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>Identification of the format of a file or bitstream where format is
+            defined as the organization of digital information according to preset
+            specifications.</p>
+    </div>
+    
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p>Many preservation activities depend on detailed knowledge about the
+            format of the digital object. An accurate identification of format is
+            essential. The identification provided, whether by name or pointer to a
+            format registry, should be sufficient to associate the object with more
+            detailed format information.</p>
+    </div>
+    
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p>A bitstream embedded within a file may have different characteristics
+            from the larger file. For example, a bitstream in LaTeX format could be
+            embedded within an SGML file, or multiple images using different
+            colorspaces could be embedded within a TIFF file. <bold>format</bold> must
+            be recorded for every object. When the bitstream format can be
+            recognized by the repository and the repository might want to treat the
+            bitstream differently from the embedding file for preservation purposes,
+            <bold>format</bold> can be recorded for embedded bitstreams. At least
+            one subunit (i.e. either <bold>formatDesignation</bold> or
+            <bold>formatRegistry</bold>) must be present if this container is
+            included, or both may be used. If the subunit
+            (<bold>formatDesignation</bold> or <bold>formatRegistry</bold>) needs to be
+            repeated, the entire format container is repeated. This allows for
+            association of format designation with a particular set of format
+            registry information. For example, if the precise format cannot be
+            determined and two <bold>format</bold> designations are recorded, each is
+            given within a separate <bold>format</bold> container. In such cases the
+            <bold>formatNote</bold> element can be used to distinguish between the
+            cases where either (i) it is known that the file complies with multiple
+            format definitions or (ii) it is known that the file complies with one
+            of these formats but there is insufficient knowledge to distinguish
+            between them. The <bold>format</bold> container may also be repeated for
+            multiple format registry entries. If a file or bitstream is in an
+            unknown format then a <bold>formatDesignation</bold> element should be added
+            with formatName set to unknown. See “Format information”.</p>
+    </div>
+    
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>Container</p>
+    </div>
+    
+    <div type="entity">
+        <!-- PREMIS Object category -->
+        <p>
+            <list type="simple">
+                <head>Intellectual Entity / Representation</head>
+                <label>Applicability</label>
+                <item>Not applicable</item>
+                <label>Obligation</label>
+                <item></item>
+                <label>Repeatability</label>
+                <item></item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS File</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Mandatory</item>
+                <label>Repeatability</label>
+                <item>Repeatable</item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS Bitstream</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Mandatory</item>
+                <label>Repeatability</label>
+                <item>Repeatable</item>
+            </list>
+        </p>
+    </div>
+    
+    <div type="creationmaintenance">
+        <!-- PREMIS Creation / Maintenance -->
+        <p>The format of a file or bitstream should be ascertained by the repository
+            on ingest. Even if this information is provided by the submitter,
+            directly in metadata or indirectly via the filename extension,
+            recommended practice is to identify the format independently by parsing
+            the file when possible. If the format cannot be identified at the time
+            of ingest, it is valid to record that it is unknown, but the repository
+            should subsequently make an effort to identify the format, even if
+            manual intervention is required.</p>
+    </div>
+</div>
+

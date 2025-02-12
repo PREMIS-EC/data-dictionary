@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="environmentDesignationExtension">
+    <head>
+        
+        <!-- PREMIS Semantic unit 1.10.5.0 -->
+        <abbr>1.10.5</abbr>
+        <gi>environmentDesignationExtension</gi>
+        
+    </head>
+    
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>None</p>
+    </div>
+    
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>A container for describing the designation of an environment using
+            semantic units defined outside of PREMIS.</p>
+    </div>
+    
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p>There may be a need to supplement or replace PREMIS defined units.</p>
+    </div>
+    
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p>For more granularity or use of externally defined semantic units,
+            extensibility is provided. Either local semantic units or metadata using
+            another specified metadata scheme may be included in addition to PREMIS
+            defined semantic units. When using an extension schema, a reference to
+            that schema must be provided. See further guidance in “Extensibility”. If <bold>environmentDesignationExtension</bold>
+            needs to be associated explicitly with any PREMIS subunit under
+            environmentDesignation, the container <bold>environmentDesignation</bold> is
+            repeated. Also, if extensions from different external schemas are
+            needed, environmentDesignation should be repeated.
+            <bold>environmentDesignationExtension</bold> is used for additional
+            information about the environment designation beyond name and version in
+            a structured way. This can be either additional information (such as
+            release date, support dates for the software, manufacturing period for
+            hardware etc.) or a finer-grained expression of version information
+            (such as build number, serial number or installation guidelines). It is
+            recommended to give information about the metadata used in
+            <bold>environmentDesignationExtension</bold> including date the metadata
+            was created, status of the metadata, internal linking IDs, type of
+            metadata used and its version, message digest and message digest
+            algorithm of the metadata, and type of identifier for external metadata
+            links.</p>
+    </div>
+    
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>None</p>
+    </div>
+    
+    <div type="entity">
+        <!-- PREMIS Object category -->
+        <p>
+            <list type="simple">
+                <head>PREMIS Intellectual Entity</head>
+                <label>Applicability</label>
+                <item>Applicable</item>
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Repeatable</item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS Representation</head>
+                <label>Applicability</label>
+                <item>Not applicable</item>
+                <label>Obligation</label>
+                <item></item>
+                <label>Repeatability</label>
+                <item></item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS File</head>
+                <label>Applicability</label>
+                <item>Not applicable</item>
+                <label>Obligation</label>
+                <item></item>
+                <label>Repeatability</label>
+                <item></item>
+            </list>
+        </p>
+        <p>
+            <list type="simple">
+                <head>PREMIS Bitstream</head>
+                <label>Applicability</label>
+                <item>Not applicable</item>
+                <label>Obligation</label>
+                <item></item>
+                <label>Repeatability</label>
+                <item></item>
+            </list>
+        </p>
+    </div>
+</div>
+
