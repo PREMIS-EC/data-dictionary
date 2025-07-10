@@ -50,48 +50,41 @@
     <div type="entity">
         <!-- PREMIS Object category -->
         <p>
-            <list type="simple">
-                <head>Intellectual Entity / Representation</head>
-                <label>Applicability</label>
-                <item>Applicable</item>
-                <label>Repeatability</label>
-                <item>Repeatable</item>
-                <label>Obligation</label>
-                <item>At least one of the <bold>significantPropertiesValue</bold> and
-                    <bold>significantPropertiesExtension</bold> subunits must be
-                    present if the <bold>significantProperties</bold> container is
-                    included, or both may be used</item>
-            </list>
-        </p>
-        <p>
-            <list type="simple">
-                <head>PREMIS File</head>
-                <label>Applicability</label>
-                <item>Applicable</item>
-                <label>Repeatability</label>
-                <item>Repeatable</item>
-                <label>Obligation</label>
-                <item>At least one of the <bold>significantPropertiesValue</bold> and
-                    <bold>significantPropertiesExtension</bold> subunits must be
-                    present if the <bold>significantPropertiescontainer</bold> is
-                    included, or both may be used</item>
-                <label>Repeatability</label>
-                <item>Not repeatable</item>
-            </list>
-        </p>
-        <p>
-            <list type="simple">
-                <head>PREMIS Bitstream</head>
-                <label>Applicability</label>
-                <item>Applicable</item>
-                <label>Obligation</label>
-                <item>At least one of the <bold>significantPropertiesValue</bold> and
-                    <bold>significantPropertiesExtension</bold> subunits must be
-                    present if the <bold>significantPropertiescontainer</bold> is
-                    included, or both may be used</item>
-                <label>Repeatability</label>
-                <item>Repeatable</item>
-            </list>
+            <table cols="4">
+                <row role="label">
+                    <cell> </cell>
+                    <cell><bold>Intellectual Entity / Representation</bold></cell>
+                    <cell><bold>File</bold></cell>
+                    <cell><bold>Bitstream</bold></cell>
+                </row>
+                <row>
+                    <cell><bold>Applicability</bold></cell>
+                    <cell>Applicable</cell>
+                    <cell>Applicable</cell>
+                    <cell>Applicable</cell>
+                </row>
+                <row>
+                    <cell><bold>Repeatability</bold></cell>
+                    <cell>Repeatable</cell>
+                    <cell>Not repeatable</cell>
+                    <cell>Repeatable</cell>
+                </row>
+                <row>
+                    <cell><bold>Obligation</bold></cell>
+                    <cell>At least one of the <bold>significantPropertiesValue</bold> and
+                        <bold>significantPropertiesExtension</bold> subunits must be
+                        present if the <bold>significantProperties</bold> container is
+                        included, or both may be used</cell>
+                    <cell>At least one of the <bold>significantPropertiesValue</bold> and
+                        <bold>significantPropertiesExtension</bold> subunits must be
+                        present if the <bold>significantPropertiescontainer</bold> is
+                        included, or both may be used</cell>
+                    <cell>At least one of the <bold>significantPropertiesValue</bold> and
+                        <bold>significantPropertiesExtension</bold> subunits must be
+                        present if the <bold>significantPropertiescontainer</bold> is
+                        included, or both may be used</cell>
+                </row>
+            </table>
         </p>
     </div>
 </div>

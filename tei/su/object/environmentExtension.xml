@@ -55,48 +55,36 @@
     <div type="entity">
         <!-- PREMIS Object category -->
         <p>
-            <list type="simple">
-                <head>PREMIS Intellectual Entity</head>
-                <label>Applicability</label>
-                <item>Applicable</item>
-                <label>Obligation</label>
-                <item>Optional</item>
-                <label>Repeatability</label>
-                <item>Repeatable</item>
-            </list>
-        </p>
-        <p>
-            <list type="simple">
-                <head>PREMIS Representation</head>
-                <label>Applicability</label>
-                <item>Not applicable</item>
-                <label>Obligation</label>
-                <item></item>
-                <label>Repeatability</label>
-                <item></item>
-            </list>
-        </p>
-        <p>
-            <list type="simple">
-                <head>PREMIS File</head>
-                <label>Applicability</label>
-                <item>Not applicable</item>
-                <label>Obligation</label>
-                <item></item>
-                <label>Repeatability</label>
-                <item></item>
-            </list>
-        </p>
-        <p>
-            <list type="simple">
-                <head>PREMIS Bitstream</head>
-                <label>Applicability</label>
-                <item>Not applicable</item>
-                <label>Obligation</label>
-                <item></item>
-                <label>Repeatability</label>
-                <item></item>
-            </list>
+            <table cols="5">
+                <row role="label">
+                    <cell> </cell>
+                    <cell><bold>Intellectual Entity</bold></cell>
+                    <cell><bold>Representation</bold></cell>
+                    <cell><bold>File</bold></cell>
+                    <cell><bold>Bitstream</bold></cell>
+                </row>
+                <row>
+                    <cell><bold>Applicability</bold></cell>
+                    <cell>Applicable</cell>
+                    <cell>Not applicable</cell>
+                    <cell>Not applicable</cell>
+                    <cell>Not applicable</cell>
+                </row>
+                <row>
+                    <cell><bold>Repeatability</bold></cell>
+                    <cell>Repeatable</cell>
+                    <cell> </cell>
+                    <cell> </cell>
+                    <cell> </cell>
+                </row>
+                <row>
+                    <cell><bold>Obligation</bold></cell>
+                    <cell>Optional</cell>
+                    <cell> </cell>
+                    <cell> </cell>
+                    <cell> </cell>
+                </row>
+            </table>
         </p>
     </div>
 </div>

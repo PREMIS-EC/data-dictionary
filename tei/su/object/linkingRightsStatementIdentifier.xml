@@ -39,38 +39,33 @@
     
     <div type="entity">
         <!-- PREMIS Object category -->
-        <p>
-            <list type="simple">
-                <head>Intellectual Entity / Representation</head>
-                <label>Applicability</label>
-                <item>Applicable</item>
-                <label>Obligation</label>
-                <item>Optional</item>
-                <label>Repeatability</label>
-                <item>Repeatable</item>
-            </list>
-        </p>
-        <p>
-            <list type="simple">
-                <head>PREMIS File</head>
-                <label>Applicability</label>
-                <item>Applicable</item>
-                <label>Obligation</label>
-                <item>Optional</item>
-                <label>Repeatability</label>
-                <item>Repeatable</item>
-            </list>
-        </p>
-        <p>
-            <list type="simple">
-                <head>PREMIS Bitstream</head>
-                <label>Applicability</label>
-                <item>Applicable</item>
-                <label>Obligation</label>
-                <item>Optional</item>
-                <label>Repeatability</label>
-                <item>Repeatable</item>
-            </list>
+<p>
+            <table cols="4">
+                <row role="label">
+                    <cell> </cell>
+                    <cell><bold>Intellectual Entity / Representation</bold></cell>
+                    <cell><bold>File</bold></cell>
+                    <cell><bold>Bitstream</bold></cell>
+                </row>
+                <row>
+                    <cell><bold>Applicability</bold></cell>
+                    <cell>Applicable</cell>
+                    <cell>Applicable</cell>
+                    <cell>Applicable</cell>
+                </row>
+                <row>
+                    <cell><bold>Repeatability</bold></cell>
+                    <cell>Repeatable</cell>
+                    <cell>Repeatable</cell>
+                    <cell>Repeatable</cell>
+                </row>
+                <row>
+                    <cell><bold>Obligation</bold></cell>
+                    <cell>Optional</cell>
+                    <cell>Optional</cell>
+                    <cell>Optional</cell>
+                </row>
+            </table>
         </p>
     </div>
 </div>

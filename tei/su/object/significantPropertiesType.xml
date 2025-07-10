@@ -38,62 +38,58 @@
     
     <div type="entity">
         <!-- PREMIS Object category -->
+                    
         <p>
-            <list type="simple">
-                <head>Intellectual Entity / Representation</head>
-                <label>Applicability</label>
-                <item>Applicable</item>
-                <label>Obligation</label>
-                <item>Optional</item>
-                <label>Repeatability</label>
-                <item>Not repeatable</item>
-            </list>
-            <list type="ordered">
-                <head>IE / R Example</head>
-                <item>content</item>
-                <item>structure</item>
-                <item>behavior</item>
-                <item>page count</item>
-                <item>page width</item>
-                <item>typeface</item>
-                <item>hyperlinks</item>
-                <item>image count</item>
-            </list>
-        </p>
-        <p>
-            <list type="simple">
-                <head>PREMIS File</head>
-                <label>Applicability</label>
-                <item>Applicable</item>
-                <label>Obligation</label>
-                <item>Optional</item>
-                <label>Repeatability</label>
-                <item>Not repeatable</item>
-            </list>
-            <list type="ordered">
-                <head>File Example</head>
-                <item>content</item>
-                <item>structure</item>
-                <item>behavior</item>
-                <item>page count</item>
-                <item>page width</item>
-                <item>typeface</item>
-            </list>
-        </p>
-        <p>
-            <list type="simple">
-                <head>PREMIS Bitstream</head>
-                <label>Applicability</label>
-                <item>Applicable</item>
-                <label>Obligation</label>
-                <item>Optional</item>
-                <label>Repeatability</label>
-                <item>Not repeatable</item>
-            </list>
-            <list type="ordered">
-                <head>Bitstream Example</head>
-                <item>[for an embedded image] color space</item>
-            </list>
+            <table cols="4">
+                <row role="label">
+                    <cell> </cell>
+                    <cell><bold>Intellectual Entity / Representation</bold></cell>
+                    <cell><bold>File</bold></cell>
+                    <cell><bold>Bitstream</bold></cell>
+                </row>
+                <row>
+                    <cell><bold>Applicability</bold></cell>
+                    <cell>Applicable</cell>
+                    <cell>Applicable</cell>
+                    <cell>Applicable</cell>
+                </row>
+                <row>
+                    <cell><bold>Repeatability</bold></cell>
+                    <cell>Not repeatable</cell>
+                    <cell>Not repeatable</cell>
+                    <cell>Not repeatable</cell>
+                </row>
+                <row>
+                    <cell><bold>Obligation</bold></cell>
+                    <cell>Optional</cell>
+                    <cell>Optional</cell>
+                    <cell>Optional</cell>
+                </row>
+                <row>
+                    <cell><bold>Examples</bold></cell>
+                    <cell><list type="ordered">
+                            <item>content</item>
+                            <item>structure</item>
+                            <item>behavior</item>
+                            <item>page count</item>
+                            <item>page width</item>
+                            <item>typeface</item>
+                            <item>hyperlinks</item>
+                            <item>image count</item>
+                    </list></cell>
+                    <cell><list type="ordered">
+                            <item>content</item>
+                            <item>structure</item>
+                            <item>behavior</item>
+                            <item>page count</item>
+                            <item>page width</item>
+                            <item>typeface</item>
+                    </list></cell>
+                    <cell><list type="ordered">
+                            <item>[for an embedded image] color space</item>
+                    </list></cell>
+                </row>
+            </table>
         </p>
     </div>
 </div>

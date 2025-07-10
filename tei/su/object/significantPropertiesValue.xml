@@ -51,74 +51,70 @@
     
     <div type="entity">
         <!-- PREMIS Object category -->
-        <p>
-            <list type="simple">
-                <head>Intellectual Entity / Representation</head>
-                <label>Applicability</label>
-                <item>Applicable</item>
-                <label>Obligation</label>
-                <item>At least one of the <bold>significantPropertiesValue</bold> and
-                    <bold>significantPropertiesExtension</bold> subunits must be
-                    present if this container is included, or both may be
-                    used.</item>
-                <label>Repeatability</label>
-                <item>Not repeatable</item>
-            </list>
-            <list type="ordered">
-                <head>Examples</head>
-                <item>[for a Web page containing animation that is not considered
-                    essential] Content only.</item>
-                <item>[For detail associated with a
-                    <bold>significantPropertiesType</bold> of “behavior”] hyperlinks
-                    traversable</item>
-            </list>
-        </p>
-        <p>
-            <list type="simple">
-                <head>PREMIS File</head>
-                <label>Applicability</label>
-                <item>Applicable</item>
-                <label>Obligation</label>
-                <item>At least one of the <bold>significantPropertiesValue</bold> and
-                    <bold>significantPropertiesExtension</bold> subunits must be
-                    present if this container is included, or both may be
-                    used.</item>
-                <label>Repeatability</label>
-                <item>Not repeatable</item>
-            </list>
-            <list type="ordered">
-                <head>Examples</head>
-                <item>[for a word processed document with embedded links that are
-                    not considered essential] Content only.</item>
-                <item>[For detail associated with a
-                    <bold>significantPropertiesType</bold> of “behavior”]
-                    editable</item>
-                <item>[For detail associated with a
-                    <bold>significantPropertiesType</bold> of “page width”] 210
-                    mm</item>
-            </list>
-        </p>
-        <p>
-            <list type="simple">
-                <head>PREMIS Bitstream</head>
-                <label>Applicability</label>
-                <item>Applicable</item>
-                <label>Obligation</label>
-                <item>At least one of the <bold>significantPropertiesValue</bold> and
-                    <bold>significantPropertiesExtension</bold> subunits must be
-                    present if this container is included, or both may be
-                    used.</item>
-                <label>Repeatability</label>
-                <item>Not repeatable</item>
-            </list>
-            <list type="ordered">
-                <head>Examples</head>
-                <item>[for a PDF with an embedded graph, where the lines’ color
-                    determines the lines’ meaning] Color.</item>
-                <item>[For detail associated with a
-                    <bold>significantPropertiesType</bold> of “appearance”]
-                    Color.</item>
-            </list>
+           
+                <p>
+            <table cols="4">
+                <row role="label">
+                    <cell> </cell>
+                    <cell><bold>Intellectual Entity / Representation</bold></cell>
+                    <cell><bold>File</bold></cell>
+                    <cell><bold>Bitstream</bold></cell>
+                </row>
+                <row>
+                    <cell><bold>Applicability</bold></cell>
+                    <cell>Applicable</cell>
+                    <cell>Applicable</cell>
+                    <cell>Applicable</cell>
+                </row>
+                <row>
+                    <cell><bold>Repeatability</bold></cell>
+                    <cell>Not repeatable</cell>
+                    <cell>Not repeatable</cell>
+                    <cell>Not repeatable</cell>
+                </row>
+                <row>
+                    <cell><bold>Obligation</bold></cell>
+                    <cell>At least one of the <bold>significantPropertiesValue</bold> and
+                        <bold>significantPropertiesExtension</bold> subunits must be
+                        present if this container is included, or both may be
+                        used.</cell>
+                    <cell>At least one of the <bold>significantPropertiesValue</bold> and
+                        <bold>significantPropertiesExtension</bold> subunits must be
+                        present if this container is included, or both may be
+                        used.</cell>
+                    <cell>At least one of the <bold>significantPropertiesValue</bold> and
+                        <bold>significantPropertiesExtension</bold> subunits must be
+                        present if this container is included, or both may be
+                        used.</cell>
+                </row>
+                <row>
+                    <cell><bold>Examples</bold></cell>
+                    <cell><list type="ordered">
+                            <item>[for a Web page containing animation that is not considered
+                                essential] Content only.</item>
+                            <item>[For detail associated with a
+                                <bold>significantPropertiesType</bold> of “behavior”] hyperlinks
+                                traversable</item>
+                    </list></cell>
+                    <cell><list type="ordered">
+                            <item>[for a word processed document with embedded links that are
+                                not considered essential] Content only.</item>
+                            <item>[For detail associated with a
+                                <bold>significantPropertiesType</bold> of “behavior”]
+                                editable</item>
+                            <item>[For detail associated with a
+                                <bold>significantPropertiesType</bold> of “page width”] 210
+                                mm</item>
+                    </list></cell>
+                    <cell><list type="ordered">
+                            <item>[for a PDF with an embedded graph, where the lines’ color
+                                determines the lines’ meaning] Color.</item>
+                            <item>[For detail associated with a
+                                <bold>significantPropertiesType</bold> of “appearance”]
+                                Color.</item>
+                    </list></cell>
+                </row>
+            </table>
         </p>
     </div>
 </div>

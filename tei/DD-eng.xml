@@ -638,6 +638,9 @@
                     <p>
                         <table cols="1">
                             <row>
+                                <cell> </cell>
+                            </row>
+                            <row>
                                 <cell>premis:objectIdentifier</cell>
                             </row>
                             <row>
@@ -666,6 +669,9 @@
                             </row>
                             <row>
                                 <cell n="2">premis:relatedObjectIdentifierValue="http://natureweb/col1.galapagos6754/default.html"</cell>
+                            </row>
+                            <row>
+                                <cell> </cell>
                             </row>
                         </table>
                     </p>
@@ -697,6 +703,9 @@
                     <p>
                         <table cols="1">
                             <row>
+                                <cell> </cell>
+                            </row>
+                            <row>
                                 <cell>premis:objectIdentifier</cell>
                             </row>
                             <row>
@@ -726,11 +735,17 @@
                             <row>
                                 <cell n="2">premis:relatedObjectIdentifierValue="col1.galapagos6754"</cell>
                             </row>
+                            <row>
+                                <cell> </cell>
+                            </row>
                         </table>
                     </p>
                     <p>For its Intellectual Entity in PREMIS recording both identifiers and the
                         Event:</p>
                     <p><table cols="1">
+                            <row>
+                                <cell> </cell>
+                            </row>
                             <row>
                                 <cell>premis:objectIdentifier</cell>
                             </row>
@@ -763,6 +778,9 @@
                             </row>
                             <row>
                                 <cell n="1">Repository"premis:linkingEventIdentifierValue="E004"</cell>
+                            </row>
+                            <row>
+                                <cell> </cell>
                             </row>
                     </table>
                     </p>
@@ -994,6 +1012,9 @@
                             <italic>relationship</italic> as follows:</p>
                     <p><table cols="1">
                             <row>
+                                <cell> </cell>
+                            </row>
+                            <row>
                                 <cell>relationshipType = “derivation”</cell>
                             </row>
                             <row>
@@ -1017,6 +1038,9 @@
                             <row>
                                 <cell n="1">relatedEventIdentifierValue = “1”</cell>
                             </row>
+                            <row>
+                                <cell> </cell>
+                            </row>
                     </table>                         
                           </p>
                     <p>Note that since sequencing is not applicable, the semantic unit
@@ -1027,10 +1051,16 @@
                         to event 2 would be recorded as <italic>linkingEventIdentifier</italic>:</p>
                     <p><table cols="1">
                             <row>
+                                <cell> </cell>
+                            </row>
+                            <row>
                                 <cell>linkingEventIdentifierType = “local”</cell>
                             </row>
                             <row>
                                 <cell>linkingEventIdentifierValue = “2” </cell>
+                            </row>
+                            <row>
+                                <cell> </cell>
                             </row>
                     </table>
                         </p>
@@ -1146,6 +1176,9 @@
                         regardless of entity type:</p>
                     <p><table cols="1">
                             <row>
+                                <cell> </cell>
+                            </row>
+                            <row>
                                 <cell>[entity type]Identifier</cell>
                             </row>
                             <row>
@@ -1154,6 +1187,9 @@
                             <row>
                                 <cell n="1">[entity type]IdentifierValue:
                         identifier string</cell>
+                            </row>
+                            <row>
+                                <cell> </cell>
                             </row>
                     </table>
                     </p>
@@ -1171,6 +1207,9 @@
                             <row>
                                 <cell n="1">ObjectIdentifierValue: http://nrs.harvard.edu/urn-3:FHCL.Loeb:sa1</cell>
                             </row>
+                            <row>
+                                <cell> </cell>
+                            </row>
                     </table>
                     </p>
                     <p><table cols="1">
@@ -1183,6 +1222,9 @@
                             </row>
                             <row>
                                 <cell n="1">EventIdentifierValue: 716593</cell>
+                            </row>
+                            <row>
+                                <cell> </cell>
                             </row>
                     </table>
                     </p>

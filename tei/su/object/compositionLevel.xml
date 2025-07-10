@@ -112,6 +112,50 @@
                 <item>Unknown</item>
             </list>
         </p>
+        <p>
+            <table cols="4">
+                <row role="label">
+                    <cell> </cell>
+                    <cell><bold>Intellectual Entity / Representation</bold></cell>
+                    <cell><bold>File</bold></cell>
+                    <cell><bold>Bitstream</bold></cell>
+                </row>
+                <row>
+                    <cell><bold>Applicability</bold></cell>
+                    <cell>Not applicable</cell>
+                    <cell>Applicable</cell>
+                    <cell>Applicable</cell>
+                </row>
+                <row>
+                    <cell><bold>Repeatability</bold></cell>
+                    <cell> </cell>
+                    <cell>Not repeatable</cell>
+                    <cell>Not repeatable</cell>
+                </row>
+                <row>
+                    <cell><bold>Obligation</bold></cell>
+                    <cell> </cell>
+                    <cell>Optional</cell>
+                    <cell>Optional</cell>
+                </row>
+                <row>
+                    <cell><bold>Examples</bold></cell>
+                    <cell> </cell>
+                    <cell><list type="ordered">
+                            <item>0</item>
+                            <item>1</item>
+                            <item>2</item>
+                            <item>Unknown</item>
+                    </list></cell>
+                    <cell><list type="ordered">
+                            <item>0</item>
+                            <item>1</item>
+                            <item>2</item>
+                            <item>Unknown</item>
+                    </list></cell>
+                </row>
+            </table>
+        </p>
     </div>
     
     <div type="creationmaintenance">

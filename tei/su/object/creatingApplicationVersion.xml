@@ -30,45 +30,42 @@
     <div type="entity">
         <!-- PREMIS Object category -->
         <p>
-            <list type="simple">
-                <head>Intellectual Entity / Representation</head>
-                <label>Applicability</label>
-                <item>Not applicable</item>
-                <label>Obligation</label>
-                <item></item>
-                <label>Repeatability</label>
-                <item></item>
-            </list>
-        </p>
-        <p>
-            <list type="simple">
-                <head>PREMIS File</head>
-                <label>Applicability</label>
-                <item>Applicable</item>
-                <label>Obligation</label>
-                <item>Optional</item>
-                <label>Repeatability</label>
-                <item>Not repeatable</item>
-            </list>
-            <list type="ordered">
-                <head>Examples</head>
-                <item>2000</item>
-            </list>
-        </p>
-        <p>
-            <list type="simple">
-                <head>PREMIS Bitstream</head>
-                <label>Applicability</label>
-                <item>Applicable</item>
-                <label>Obligation</label>
-                <item>Optional</item>
-                <label>Repeatability</label>
-                <item>Not repeatable</item>
-            </list>
-            <list type="ordered">
-                <head>Examples</head>
-                <item>1.4</item>
-            </list>
+            <table cols="4">
+                <row role="label">
+                    <cell> </cell>
+                    <cell><bold>Intellectual Entity / Representation</bold></cell>
+                    <cell><bold>File</bold></cell>
+                    <cell><bold>Bitstream</bold></cell>
+                </row>
+                <row>
+                    <cell><bold>Applicability</bold></cell>
+                    <cell>Not applicable</cell>
+                    <cell>Applicable</cell>
+                    <cell>Applicable</cell>
+                </row>
+                <row>
+                    <cell><bold>Repeatability</bold></cell>
+                    <cell> </cell>
+                    <cell>Not repeatable</cell>
+                    <cell>Not repeatable</cell>
+                </row>
+                <row>
+                    <cell><bold>Obligation</bold></cell>
+                    <cell> </cell>
+                    <cell>Optional</cell>
+                    <cell>Optional</cell>
+                </row>
+                <row>
+                    <cell><bold>Examples</bold></cell>
+                    <cell> </cell>
+                    <cell><list type="ordered">
+                            <item>2000</item>
+                    </list></cell>
+                    <cell><list type="ordered">
+                            <item>1.4</item>
+                    </list></cell>
+                </row>
+            </table>
         </p>
     </div>
 </div>

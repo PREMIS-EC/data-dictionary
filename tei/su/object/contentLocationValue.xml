@@ -37,78 +37,61 @@
     <div type="entity">
         <!-- PREMIS Object category -->
         <p>
-            <list type="simple">
-                <head>Intellectual Entity / Representation</head>
-                <label>Applicability</label>
-                <item>Applicable</item>
-                <label>Obligation</label>
-                <item>Mandatory</item>
-                <label>Repeatability</label>
-                <item>Not repeatable</item>
-            </list>
-            <list type="ordered">
-                <head>Examples</head>
-                <item>Shel4, box 3</item>
-                <item>DA592.B76 [Shelfmark]</item>
-                <item>3054257BF4C21B4000001ABF [RFID number]</item>
-                <item>http://wwasearch.loc.gov/107th/200212107035/</item>
-                <item>http://house.gov/langevin/</item>
-                <item>hdl:loc.pnp/cph.3b34188</item>
-                <item>c:\apache2\htdocs\index.html</item>
-                <item>/home/web/public_html/index.html</item>
-            </list>
-        </p>
-        <p>
-            <list type="simple">
-                <head>PREMIS Representation</head>
-                <label>Applicability</label>
-                <item>Applicable</item>
-                <label>Obligation</label>
-                <item>Mandatory</item>
-                <label>Repeatability</label>
-                <item>Not repeatable</item>
-            </list>
-            <list type="ordered">
-                <head>Examples</head>
-                <item>http://wwasearch.loc.gov/107th/200212107035/</item>
-                <item>http://house.gov/langevin/</item>
-                <item>hdl:loc.pnp/cph.3b34188</item>
-                <item>c:\apache2\htdocs\index.html</item>
-                <item>/home/web/public_html/index.html</item>
-            </list>
-        </p>
-        <p>
-            <list type="simple">
-                <head>PREMIS File</head>
-                <label>Applicability</label>
-                <item>Applicable</item>
-                <label>Obligation</label>
-                <item>Mandatory</item>
-                <label>Repeatability</label>
-                <item>Not repeatable</item>
-            </list>
-            <list type="ordered">
-                <head>Examples</head>
-                <item>64 [offset from start of file
-                    c:\apache2\htdocs\image\logo.gif]</item>
-            </list>
-        </p>
-        <p>
-            <list type="simple">
-                <head>PREMIS Bitstream</head>
-                <label>Applicability</label>
-                <item>Applicable</item>
-                <label>Obligation</label>
-                <item>Mandatory</item>
-                <label>Repeatability</label>
-                <item>Not repeatable</item>
-            </list>
-            <list type="ordered">
-                <head>Examples</head>
-                <item>Phys</item>
-                <item>Shelfmark</item>
-                <item>RFID number</item>
-            </list>
+            <table cols="5">
+                <row role="label">
+                    <cell> </cell>
+                    <cell><bold>Intellectual Entity</bold></cell>
+                    <cell><bold>Representation</bold></cell>
+                    <cell><bold>File</bold></cell>
+                    <cell><bold>Bitstream</bold></cell>
+                </row>
+                <row>
+                    <cell><bold>Applicability</bold></cell>
+                    <cell>Not applicable</cell>
+                    <cell>Applicable</cell>
+                    <cell>Applicable</cell>
+                    <cell>Applicable</cell>
+                </row>
+                <row>
+                    <cell><bold>Repeatability</bold></cell>
+                    <cell> </cell>
+                    <cell>Not repeatable</cell>
+                    <cell>Not repeatable</cell>
+                    <cell>Not repeatable</cell>
+                </row>
+                <row>
+                    <cell><bold>Obligation</bold></cell>
+                    <cell> </cell>
+                    <cell>Mandatory</cell>
+                    <cell>Mandatory</cell>
+                    <cell>Mandatory</cell>
+                </row>
+                <row>
+                    <cell><bold>Examples</bold></cell>
+                    <cell> </cell>
+                    <cell><list type="ordered">
+                            <item>Shel4, box 3</item>
+                            <item>DA592.B76 [Shelfmark]</item>
+                            <item>3054257BF4C21B4000001ABF [RFID number]</item>
+                            <item>http://wwasearch.loc.gov/107th/200212107035/</item>
+                            <item>http://house.gov/langevin/</item>
+                            <item>hdl:loc.pnp/cph.3b34188</item>
+                            <item>c:\apache2\htdocs\index.html</item>
+                            <item>/home/web/public_html/index.html</item>
+                    </list></cell>
+                    <cell><list type="ordered">
+                            <item>http://wwasearch.loc.gov/107th/200212107035/</item>
+                            <item>http://house.gov/langevin/</item>
+                            <item>hdl:loc.pnp/cph.3b34188</item>
+                            <item>c:\apache2\htdocs\index.html</item>
+                            <item>/home/web/public_html/index.html</item>
+                    </list></cell>
+                    <cell><list type="ordered">
+                            <item>64 [offset from start of file
+                                c:\apache2\htdocs\image\logo.gif]</item>
+                    </list></cell>
+                </row>
+            </table>
         </p>
     </div>
     <div type="creationmaintenance">
