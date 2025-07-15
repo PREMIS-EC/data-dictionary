@@ -3578,19 +3578,42 @@
                         methodology that is not universally applicable.</p>
                     <p>The Data Dictionary defines the following structure:</p>
                     <p><!-- TODO: Table instead? Needs some formatting with indentions -->
-                        <list type="simple">
-                            <item>1.8 signatureInformation (O, R) [File, Bitstream]</item>
-                            <item>1.8.1 signature (O, R)</item>
-                            <item>1.8.1.1 signatureEncoding (M, NR) [File, Bitstream]</item>
-                            <item>1.8.1.2 signer (O, NR) [File, Bitstream]</item>
-                            <item>1.8.1.3 signatureMethod (M, NR) [File, Bitstream]</item>
-                            <item>1.8.1.4 signatureValue (M, NR) [File, Bitstream]</item>
-                            <item>1.8.1.5 signatureValidationRules (M, NR) [File, Bitstream]</item>
-                            <item>1.8.1.6 signatureProperties (O, R) [File, Bitstream]</item>
-                            <item>1.8.1.7 keyInformation (O, NR) [File, Bitstream]</item>
-                            <item>1.8.2 signatureInformationExtension (O, R) [File,
-                                Bitstream]</item>
-                        </list>
+                        
+                        <table cols="1">
+                            <row>
+                                <cell> </cell>
+                            </row>
+                            <row>
+                                <cell>1.8 signatureInformation (O, R) [File, Bitstream]</cell>
+                            </row>
+                            <row>
+                                <cell n="1">1.8.1 signature (O, R)</cell>
+                            </row>
+                            <row>
+                                <cell n="2">1.8.1.1 signatureEncoding (M, NR) [File, Bitstream]</cell>
+                            </row>
+                            <row>
+                                <cell n="2">1.8.1.2 signer (O, NR) [File, Bitstream]</cell>
+                            </row>
+                            <row>
+                                <cell n="2">1.8.1.3 signatureMethod (M, NR) [File, Bitstream]</cell>
+                            </row>
+                            <row>
+                                <cell n="2">1.8.1.4 signatureValue (M, NR) [File, Bitstream]</cell>
+                            </row>
+                            <row>
+                                <cell n="2">1.8.1.5 signatureValidationRules (M, NR) [File, Bitstream]</cell>
+                            </row>
+                            <row>
+                                <cell n="2">1.8.1.6 signatureProperties (O, R) [File, Bitstream]</cell>
+                            </row>
+                            <row>
+                                <cell n="2">1.8.1.7 keyInformation (O, NR) [File, Bitstream]</cell>
+                            </row>
+                            <row>
+                                <cell n="1">1.8.2 signatureInformationExtension (O, R) [File, Bitstream]</cell>
+                            </row>
+                        </table>
                     </p>
                     <p>The hash and encryption algorithms employed are recorded in
                             <italic>signatureMethod</italic>; for example, “DSA-SHA1” would indicate
