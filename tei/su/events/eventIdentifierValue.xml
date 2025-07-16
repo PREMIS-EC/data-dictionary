@@ -24,7 +24,7 @@
     <div type="examples">
         <!-- PREMIS Examples -->
         <p>
-            <list type="ordered">
+            <list type="example">
                 <item>[a binary integer]</item>                
                 <item>E-2004-11-13-000119</item>                
                 <item>58f202ac-22cf-11d1-b12d-002035b29092</item>

@@ -64,7 +64,7 @@
                 <row>
                     <cell><bold>Examples</bold></cell>
                     <cell> </cell>
-                    <cell><list type="ordered">
+                    <cell><list type="example">
                             <item>Text/sgml</item>
                             <item>image/tiff/geotiff</item>
                             <item>AdobePDF</item>
@@ -73,7 +73,7 @@
                             <item>base64</item>
                             <item>unknown</item>
                     </list></cell>
-                    <cell><list type="ordered">
+                    <cell><list type="example">
                             <item>LaTex</item>
                     </list></cell>
                 </row>

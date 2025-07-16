@@ -83,17 +83,17 @@
                 <row>
                     <cell><bold>Examples</bold></cell>
                     <cell> </cell>
-                    <cell><list type="ordered">
+                    <cell><list type="example">
                             <item>Magnetic tape</item>
                             <item>Hard disk</item>
                             <item>TSM</item>
                     </list></cell>
-                    <cell><list type="ordered">
+                    <cell><list type="example">
                             <item>Magnetic tape</item>
                             <item>Hard disk</item>
                             <item>TSM</item>
                     </list></cell>
-                    <cell><list type="ordered">
+                    <cell><list type="example">
                             <item>Magnetic tape</item>
                             <item>Hard disk</item>
                             <item>TSM</item>

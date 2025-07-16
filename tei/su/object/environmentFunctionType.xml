@@ -66,7 +66,7 @@
                 </row>
                 <row>
                     <cell><bold>Examples</bold></cell>
-                    <cell><list type="ordered">
+                    <cell><list type="example">
                             <item>Level 1 types: software, hardware.</item>
                             <item>Level 2 types: software application, software library,
                                 software driver, operating system, plugin, hardware

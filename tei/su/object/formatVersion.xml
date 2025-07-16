@@ -67,11 +67,11 @@
                 <row>
                     <cell><bold>Examples</bold></cell>
                     <cell> </cell>
-                    <cell><list type="ordered">
+                    <cell><list type="example">
                             <item>6.0</item>
                             <item>2003</item>
                     </list></cell>
-                    <cell><list type="ordered">
+                    <cell><list type="example">
                             <item>7.1</item>
                     </list></cell>
                 </row>

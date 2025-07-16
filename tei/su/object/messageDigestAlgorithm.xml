@@ -63,7 +63,7 @@
                 <row>
                     <cell><bold>Examples</bold></cell>
                     <cell> </cell>
-                    <cell><list type="ordered">
+                    <cell><list type="example">
                             <item>MD5</item>
                             <item>Adler-32</item>
                             <item>HAVAL</item>
@@ -74,7 +74,7 @@
                             <item>TIGER</item>
                             <item>WHIRLPOOL</item>
                     </list></cell>
-                    <cell><list type="ordered">
+                    <cell><list type="example">
                             <item>MD5</item>
                             <item>Adler-32</item>
                             <item>HAVAL</item>

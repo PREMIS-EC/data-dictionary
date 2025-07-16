@@ -61,11 +61,11 @@
                 <row>
                     <cell><bold>Examples</bold></cell>
                     <cell> </cell>
-                    <cell><list type="ordered">
+                    <cell><list type="example">
                             <item>PRONOM <ref target="http://www.nationalarchives.gov.uk/pronom">http://www.nationalarchives.gov.uk/pronom</ref> 
                                 Representation Information Registry Repository</item>
                     </list></cell>
-                    <cell><list type="ordered">
+                    <cell><list type="example">
                             <item>PRONOM <ref target="http://www.nationalarchives.gov.uk/pronom">http://www.nationalarchives.gov.uk/pronom</ref> 
                                 Representation Information Registry Repository</item>
                     </list></cell>

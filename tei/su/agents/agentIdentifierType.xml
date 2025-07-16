@@ -25,7 +25,7 @@
     <div type="examples">
         <!-- PREMIS Examples -->
         <p>
-            <list type="ordered">
+            <list type="example">
                 <item>LCNAF</item>                
                 <item>SAN</item>                
                 <item>DLC</item>                

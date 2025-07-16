@@ -71,19 +71,19 @@
                 </row>
                 <row>
                     <cell><bold>Examples</bold></cell>
-                    <cell><list type="ordered">
+                    <cell><list type="example">
                             <item>unspecified (Representation)</item>
                             <item>minimum (Representation)</item>
                             <item>known to work (Representation)</item>
                             <item>recommended (Representation)</item>
                     </list></cell>
-                    <cell><list type="ordered">
+                    <cell><list type="example">
                             <item>unspecified</item>
                             <item>minimum</item>
                             <item>unspecified</item>
                             <item>minimum</item>
                     </list></cell>
-                    <cell><list type="ordered">
+                    <cell><list type="example">
                             <item>unspecified</item>
                             <item>minimum</item>
                             <item>unspecified</item>

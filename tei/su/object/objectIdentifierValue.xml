@@ -56,11 +56,11 @@
                 </row>
                 <row>
                     <cell><bold>Examples</bold></cell>
-                    <cell><list type="ordered">
+                    <cell><list type="example">
                             <item>0 00 221804-6</item>
                             <item>0000000312</item>
                     </list></cell>
-                    <cell><list type="ordered">
+                    <cell><list type="example">
                             <item>IU2440</item>
                             <item>WAC1943.56</item>
                             <item>AMNH</item>
@@ -68,7 +68,7 @@
                             <item>1001/dig/pres/2004-024</item>
                             <item>http://nrs.harvard.edu/urn-3:FHCL.Loeb:sa1</item>
                     </list></cell>
-                    <cell><list type="ordered">
+                    <cell><list type="example">
                             <item>IU2440-1</item>
                             <item>IU2440-2</item>
                     </list></cell>

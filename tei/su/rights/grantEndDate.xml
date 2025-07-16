@@ -28,7 +28,7 @@
     <div type="examples">
         <!-- PREMIS Examples -->
         <p>
-            <list type="ordered">
+            <list type="example">
                 <!-- KB the heading example comes from the div type -->
                 <item>2006-01-02</item>
                 

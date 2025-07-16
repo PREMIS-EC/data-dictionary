@@ -29,7 +29,7 @@
     <div type="examples">
         <!-- PREMIS Examples -->
         <p>
-            <list type="ordered">
+            <list type="example">
                 <item>copyrighted = Under copyright.</item>
                 <item>publicdomain = In the public domain.</item>
                 <item>unknown = Copyright status of the resource is unknown.</item>

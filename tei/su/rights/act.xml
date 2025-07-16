@@ -27,7 +27,7 @@
     <div type="examples">
         <!-- PREMIS Examples -->
         <p>
-            <list type="ordered">
+            <list type="example">
                 <item>replicate</item>                
                 <item>modify</item>                
                 <item>use</item>                

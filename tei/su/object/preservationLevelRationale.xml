@@ -81,11 +81,11 @@
                     </row>
                     <row>
                         <cell><bold>Examples</bold></cell>
-                        <cell><list type="ordered">
+                        <cell><list type="example">
                                 <item>user pays</item>
                                 <item>legislation</item>
                         </list></cell>
-                        <cell><list type="ordered">
+                        <cell><list type="example">
                                 <item>defective file</item>
                                 <item>bit-level preservation only available for this file</item>
                         </list></cell>

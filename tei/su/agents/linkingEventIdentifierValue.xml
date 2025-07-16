@@ -24,7 +24,7 @@
     <div type="examples">
         <!-- PREMIS Examples -->
         <p>
-            <list type="ordered">
+            <list type="example">
                 <item>[see examples for eventIdentifierValue] <!--TODO: INSERT LINK HERE--></item>
             </list>
         </p>

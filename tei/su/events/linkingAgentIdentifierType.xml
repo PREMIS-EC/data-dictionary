@@ -24,7 +24,7 @@
     <div type="examples">
         <!-- PREMIS Examples -->
         <p>
-            <list type="ordered">
+            <list type="example">
                 <item>[see examples for agentIdentifierType]</item>
             </list>
         </p>

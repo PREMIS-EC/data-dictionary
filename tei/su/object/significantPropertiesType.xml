@@ -67,7 +67,7 @@
                 </row>
                 <row>
                     <cell><bold>Examples</bold></cell>
-                    <cell><list type="ordered">
+                    <cell><list type="example">
                             <item>content</item>
                             <item>structure</item>
                             <item>behavior</item>
@@ -77,7 +77,7 @@
                             <item>hyperlinks</item>
                             <item>image count</item>
                     </list></cell>
-                    <cell><list type="ordered">
+                    <cell><list type="example">
                             <item>content</item>
                             <item>structure</item>
                             <item>behavior</item>
@@ -85,7 +85,7 @@
                             <item>page width</item>
                             <item>typeface</item>
                     </list></cell>
-                    <cell><list type="ordered">
+                    <cell><list type="example">
                             <item>[for an embedded image] color space</item>
                     </list></cell>
                 </row>

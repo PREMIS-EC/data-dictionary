@@ -69,7 +69,7 @@
                 <row>
                     <cell><bold>Examples</bold></cell>
                     <cell> </cell>
-                    <cell><list type="ordered">
+                    <cell><list type="example">
                             <item>Shel4, box 3</item>
                             <item>DA592.B76 [Shelfmark]</item>
                             <item>3054257BF4C21B4000001ABF [RFID number]</item>
@@ -79,14 +79,14 @@
                             <item>c:\apache2\htdocs\index.html</item>
                             <item>/home/web/public_html/index.html</item>
                     </list></cell>
-                    <cell><list type="ordered">
+                    <cell><list type="example">
                             <item>http://wwasearch.loc.gov/107th/200212107035/</item>
                             <item>http://house.gov/langevin/</item>
                             <item>hdl:loc.pnp/cph.3b34188</item>
                             <item>c:\apache2\htdocs\index.html</item>
                             <item>/home/web/public_html/index.html</item>
                     </list></cell>
-                    <cell><list type="ordered">
+                    <cell><list type="example">
                             <item>64 [offset from start of file
                                 c:\apache2\htdocs\image\logo.gif]</item>
                     </list></cell>

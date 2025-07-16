@@ -89,14 +89,14 @@
                 </row>
                 <row>
                     <cell><bold>Examples</bold></cell>
-                    <cell><list type="ordered">
+                    <cell><list type="example">
                             <item>[for a Web page containing animation that is not considered
                                 essential] Content only.</item>
                             <item>[For detail associated with a
                                 <bold>significantPropertiesType</bold> of “behavior”] hyperlinks
                                 traversable</item>
                     </list></cell>
-                    <cell><list type="ordered">
+                    <cell><list type="example">
                             <item>[for a word processed document with embedded links that are
                                 not considered essential] Content only.</item>
                             <item>[For detail associated with a
@@ -106,7 +106,7 @@
                                 <bold>significantPropertiesType</bold> of “page width”] 210
                                 mm</item>
                     </list></cell>
-                    <cell><list type="ordered">
+                    <cell><list type="example">
                             <item>[for a PDF with an embedded graph, where the lines’ color
                                 determines the lines’ meaning] Color.</item>
                             <item>[For detail associated with a

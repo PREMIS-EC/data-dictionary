@@ -24,7 +24,7 @@
     <div type="examples">
         <!-- PREMIS Examples -->
         <p>
-            <list type="ordered">
+            <list type="example">
                 <item>20050704T071530-0500 [July 4, 2005 at 7:15:30 a.m. EST]</item>                
                 <item>2006-07-16T19:20:30+01:00</item>                
                 <item>20050705T0715-0500/20050705T0720-0500 [from 7:15 a.m. EST to 7:20 a.m. EST on July 4, 2005]</item>                

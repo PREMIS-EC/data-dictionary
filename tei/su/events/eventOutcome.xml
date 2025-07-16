@@ -24,7 +24,7 @@
     <div type="examples">
         <!-- PREMIS Examples -->
         <p>
-            <list type="ordered">
+            <list type="example">
                 <item>00 [a code meaning “action successfully completed”]</item>                
                 <item>CV-01 [a code meaning “checksum validated”]</item>
             </list>

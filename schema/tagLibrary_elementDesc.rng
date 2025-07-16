@@ -138,6 +138,8 @@
                         <!-- KB 3rd July 2018 added value -->
                         <value>ordered</value>
                         <value>simple</value>
+                        <!-- KB 20250716 value added -->
+                        <value>example</value>
                     </choice>
                 </attribute>
             </optional>

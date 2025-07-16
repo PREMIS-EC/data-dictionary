@@ -65,7 +65,7 @@
                 </row>
                 <row>
                     <cell><bold>Examples</bold></cell>
-                    <cell><list type="ordered">
+                    <cell><list type="example">
                             <item>Version 12.04</item>
                     </list></cell>
                     <cell> </cell>

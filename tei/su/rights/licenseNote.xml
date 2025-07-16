@@ -25,7 +25,7 @@
     <div type="examples">
         <!-- PREMIS Examples -->
         <p>
-            <list type="ordered">
+            <list type="example">
                 <item>License is embedded in XMP block in file header.</item>
             </list>
         </p>

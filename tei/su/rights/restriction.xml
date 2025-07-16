@@ -25,7 +25,7 @@
     <div type="examples">
         <!-- PREMIS Examples -->
         <p>
-            <list type="ordered">
+            <list type="example">
                 <item>No more than three</item>                
                 <item>Allowed only after one year of archival retention has
                     elapsed</item>                

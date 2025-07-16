@@ -124,9 +124,7 @@
                 <html lang="en" xml:lang="en">
                         <head>
                                 <title>
-                                        <xsl:value-of select="if ($EAD-TL) then $EAD-html-title
-                                                else if ($EAC-CPF-TL) then $EAC-CPF-html-title
-                                                else 'Tag Library'">
+                                        <xsl:value-of select="'PREMIS Data Dictionary'">
                                         </xsl:value-of>
                                 </title>
                                 <meta content="en" http-equiv="content-language"/>
@@ -228,8 +226,7 @@
                                 <xsl:when test="@type='elements'">
                                         <div class="toc1">
                                                 <a href="#{generate-id()}">
-                                                  <!-- Karin: Add selection of value based upon the xml:id??? -->
-                                                  <xsl:value-of select="$elements"/>
+                                                  <xsl:value-of select="tei:div[@type='Introduction']/tei:head"/>
                                                 </a>
                                         </div>
                                         <div class="toc2">
@@ -418,6 +415,39 @@
                                                 <xsl:apply-templates/>
                                                 <br/>
                                                 <!--<br/>-->
+                                        </xsl:for-each>
+                                </div>
+                        </xsl:otherwise>
+                </xsl:choose>
+        </xsl:template>
+        
+        <xsl:template match="tei:list[@type='example']">
+                <!-- List with examples -->
+                <xsl:if test="tei:head">
+                        <div>
+                                <strong><xsl:value-of select="tei:head"/></strong>
+                        </div>
+                </xsl:if>
+                <xsl:choose>
+                        <xsl:when test="tei:label">
+                                <xsl:for-each select="tei:label">
+                                        <div class="leftcolList" >
+                                                <xsl:apply-templates/>
+                                        </div>
+                                        <div class="content">
+                                                <xsl:for-each
+                                                        select="following-sibling::tei:item[1]">
+                                                        <xsl:apply-templates/>
+                                                </xsl:for-each>
+                                        </div>
+                                </xsl:for-each>
+                        </xsl:when>
+                        <xsl:otherwise>
+                                <div class="blockIndent">
+                                        
+                                        <xsl:for-each select="tei:item">
+                                                <xsl:apply-templates/>
+                                                <br/>
                                         </xsl:for-each>
                                 </div>
                         </xsl:otherwise>

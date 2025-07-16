@@ -64,7 +64,7 @@
                 </row>
                 <row>
                     <cell><bold>Examples</bold></cell>
-                    <cell><list type="ordered">
+                    <cell><list type="example">
                             <item>1, 2</item>
                     </list></cell>
                     <cell> </cell>

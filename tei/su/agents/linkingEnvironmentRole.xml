@@ -24,7 +24,7 @@
     <div type="examples">
         <!-- PREMIS Examples -->
         <p>
-            <list type="ordered">
+            <list type="example">
                 <item>source code</item>                
                 <item>bytecode</item>                
                 <item>disk image</item>

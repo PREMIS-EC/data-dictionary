@@ -70,7 +70,7 @@
                 <row>
                     <cell><bold>Examples</bold></cell>
                     <cell>
-                        <list type="ordered">
+                        <list type="example">
                             <item>ISBN (Intellectual Entity)</item>
                             <item>DOI (Intellectual Entity)</item>
                             <item>DLC</item>
@@ -78,12 +78,12 @@
                             <item>hdl:4263537</item>
                         </list>
                     </cell>
-                    <cell><list type="ordered">
+                    <cell><list type="example">
                             <item>DLC</item>
                             <item>DRS</item>
                             <item>hdl:4263537</item>
                     </list></cell>
-                    <cell><list type="ordered">
+                    <cell><list type="example">
                             <item>DLC</item>
                             <item>DRS</item>
                             <item>hdl:4263537</item>

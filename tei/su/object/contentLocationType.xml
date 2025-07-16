@@ -68,18 +68,18 @@
                 <row>
                     <cell><bold>Examples</bold></cell>
                     <cell> </cell>
-                    <cell><list type="ordered">
+                    <cell><list type="example">
                             <item>Physical storage location</item>
                             <item>Shelfmark</item>
                             <item>RFID number</item>
                     </list></cell>
-                    <cell><list type="ordered">
+                    <cell><list type="example">
                             <item>URI</item>
                             <item>handle</item>
                             <item>NTFS</item>
                             <item>EXT3</item>
                     </list></cell>
-                    <cell><list type="ordered">
+                    <cell><list type="example">
                             <item>Byte offset</item>
                     </list></cell>
                 </row>

@@ -31,7 +31,7 @@
             that specified fine-grained <bold>swType</bold> and <bold>hwType</bold>
             vocabulary. It is important to capture the type and use of an
             environment to express:</p>
-        <list type="ordered">
+        <list type="example">
             <item>What is the type of the environment, such as hardware, software
                 or documentation.</item>
             <item>A refinement of the type to isolate where in the rendering
