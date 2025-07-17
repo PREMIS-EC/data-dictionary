@@ -19,7 +19,6 @@
     xpath-default-namespace="http://www.tei-c.org/ns/1.0" extension-element-prefixes="exslt"
     version="2.0">
     
-    <!-- TODO: TOC getting headings from appendixes into TOC -->
     <!-- TODO: examples list, make sure there is line breaks so the text dont flow over to next cell. -->
 
     <!-- variables passed from the build script to the XSLT -->
@@ -478,8 +477,21 @@
                                 <fo:leader leader-pattern="dots"/>
                                 <fo:page-number-citation ref-id="{generate-id(.)}"/>
                             </fo:basic-link>
-                        </fo:inline>
+                        </fo:inline>                        
                     </fo:block>
+                    <xsl:for-each select="tei:div">
+                        <fo:block text-align="left" text-align-last="justify">
+                        
+                            <fo:inline>
+                            <fo:basic-link internal-destination="{generate-id(.)}">
+                                <xsl:value-of select="tei:head"/>
+                                <fo:leader leader-pattern="dots"/>
+                                <fo:page-number-citation ref-id="{generate-id(.)}"/>
+                            </fo:basic-link>
+                            </fo:inline>
+                        
+                        </fo:block>
+                    </xsl:for-each>
                 </xsl:when>
             </xsl:choose>
         </xsl:for-each>
@@ -522,6 +534,19 @@
                             </fo:basic-link>
                         </fo:inline>
                     </fo:block>
+                    <xsl:for-each select="tei:div">
+                        <fo:block text-align="left" text-align-last="justify">
+                            
+                            <fo:inline>
+                                <fo:basic-link internal-destination="{generate-id(.)}">
+                                    <xsl:value-of select="tei:head"/>
+                                    <fo:leader leader-pattern="dots"/>
+                                    <fo:page-number-citation ref-id="{generate-id(.)}"/>
+                                </fo:basic-link>
+                            </fo:inline>
+                            
+                        </fo:block>
+                    </xsl:for-each>
                 </xsl:when>
             </xsl:choose>
         </xsl:for-each>
@@ -589,7 +614,14 @@
                     </fo:list-item-label>
                     <fo:list-item-body start-indent="body-start()">
                         <fo:block>
-                            <xsl:apply-templates/>
+                            <xsl:choose>
+                               <xsl:when test="string-length(.) > 20">
+                            <xsl:call-template name="zero_width_space_1">
+                                <xsl:with-param name="data" select="."/>
+                            </xsl:call-template>
+                            </xsl:when>
+                                <xsl:otherwise><xsl:apply-templates/></xsl:otherwise>
+                            </xsl:choose>
                         </fo:block>
                         <fo:block>
                             <!-- If epmty line is wanted inbetween the rows this should be used -->
@@ -1301,15 +1333,23 @@
             text-align="left" page-break-before="always" id="{generate-id(.)}">
             <fo:marker marker-class-name="taglibrary-head">
                 <fo:block>
-                    <xsl:value-of select="$appendix"/>
-                    <xsl:text> </xsl:text>
-                    <xsl:value-of select="@n"/>
+                    <xsl:value-of select="tei:head"/>
                 </fo:block>
             </fo:marker>
-            <xsl:value-of select="$appendix"/>
-            <xsl:text> </xsl:text>
-            <xsl:value-of select="@n"/>
-            <xsl:text>:</xsl:text>
+            <xsl:value-of select="tei:head"/>
+        </fo:block>
+        <xsl:apply-templates/>
+    </xsl:template>
+    
+    <xsl:template match="tei:back/tei:div/tei:div">
+        <fo:block font-size="24pt" font-weight="bold" space-before="18pt" space-after="12pt"
+            text-align="left" page-break-before="avoid" id="{generate-id(.)}">
+            <fo:marker marker-class-name="taglibrary-head">
+                <fo:block>
+                    <xsl:value-of select="tei:head"/>
+                </fo:block>
+            </fo:marker>
+            <xsl:value-of select="tei:head"/>
         </fo:block>
         <xsl:apply-templates/>
     </xsl:template>
@@ -1707,11 +1747,11 @@
             <xsl:value-of select="tei:head"/>
         </fo:inline>
         <xsl:call-template name="newLine"/>
-        <fo:table width="150mm" display-align="center" margin-bottom="12pt" space-after="75pt" >
-            <fo:table-column column-number="1" column-width="25%" border-style="none" border-width="2pt"/>                       
-            <fo:table-column column-number="2" column-width="25%" border-style="none" border-width="2pt" text-align="left"/> 
-            <fo:table-column column-number="3" column-width="25%" border-style="none" border-width="2pt" text-align="left"/>
-            <fo:table-column column-number="4" column-width="25%" border-style="none" border-width="2pt" text-align="left"/>
+        <fo:table width="180mm" display-align="center" margin-bottom="12pt" space-after="75pt" >
+            <fo:table-column column-number="1" column-width="16%" border-style="none" border-width="2pt"/>                       
+            <fo:table-column column-number="2" column-width="28%" border-style="none" border-width="2pt" text-align="left" /> 
+            <fo:table-column column-number="3" column-width="28%" border-style="none" border-width="2pt" text-align="left" />
+            <fo:table-column column-number="4" column-width="28%" border-style="none" border-width="2pt" text-align="left" overflow="auto" wrap-option="wrap" hyphenate="true"/>
             <fo:table-body>
                 <xsl:for-each select="tei:row">
                     <fo:table-row border-style="none" border-width="1pt">
@@ -1724,13 +1764,6 @@
                 </xsl:for-each>
             </fo:table-body>
         </fo:table>
-        <!--<xsl:for-each select="tei:row">
-            <xsl:for-each select="tei:cell">
-                <xsl:apply-templates/>
-            </xsl:for-each>
-            <xsl:call-template name="newLine"/>            
-        </xsl:for-each>-->
-        <!--<fo:inline margin-bottom="12pt"><xsl:call-template name="newLine"/></fo:inline> -->  
     </xsl:template>
     
     <xsl:template match="tei:table[@cols='5']">
@@ -1739,12 +1772,12 @@
             <xsl:value-of select="tei:head"/>
         </fo:inline>
         <xsl:call-template name="newLine"/>
-        <fo:table width="150mm" display-align="center" margin-bottom="12pt" space-after="75pt" >
-            <fo:table-column column-number="1" column-width="20%" border-style="none" border-width="2pt"/>                       
-            <fo:table-column column-number="2" column-width="20%" border-style="none" border-width="2pt" text-align="left"/> 
-            <fo:table-column column-number="3" column-width="20%" border-style="none" border-width="2pt" text-align="left"/>
-            <fo:table-column column-number="4" column-width="20%" border-style="none" border-width="2pt" text-align="left"/>
-            <fo:table-column column-number="5" column-width="20%" border-style="none" border-width="2pt" text-align="left"/>
+        <fo:table width="180mm" display-align="center" margin-bottom="12pt" space-after="75pt" >
+            <fo:table-column column-number="1" column-width="16%" border-style="none" border-width="2pt"/>                       
+            <fo:table-column column-number="2" column-width="21%" border-style="none" border-width="2pt" text-align="left"/> 
+            <fo:table-column column-number="3" column-width="21%" border-style="none" border-width="2pt" text-align="left"/>
+            <fo:table-column column-number="4" column-width="21%" border-style="none" border-width="2pt" text-align="left"/>
+            <fo:table-column column-number="5" column-width="21%" border-style="none" border-width="2pt" text-align="left"/>
             <fo:table-body>
                 <xsl:for-each select="tei:row">
                     <fo:table-row border-style="none" border-width="1pt">
@@ -1766,5 +1799,30 @@
         <!--<fo:inline margin-bottom="12pt"><xsl:call-template name="newLine"/></fo:inline> -->  
     </xsl:template>
     
+    <xsl:template name="zero_width_space_1">
+        <xsl:param name="data"/>
+        <xsl:param name="counter" select="0"/>
+        <xsl:choose>
+            <xsl:when test="$counter &lt; string-length($data)">
+                <xsl:value-of select='concat(substring($data,$counter,1),"&#8203;")'/>
+                <xsl:call-template name="zero_width_space_2">
+                    <xsl:with-param name="data" select="$data"/>
+                    <xsl:with-param name="counter" select="$counter+1"/>
+                </xsl:call-template>
+            </xsl:when>
+            <xsl:otherwise>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+    
+    <xsl:template name="zero_width_space_2">
+        <xsl:param name="data"/>
+        <xsl:param name="counter"/>
+        <xsl:value-of select='concat(substring($data,$counter,1),"&#8203;")'/>
+        <xsl:call-template name="zero_width_space_1">
+            <xsl:with-param name="data" select="$data"/>
+            <xsl:with-param name="counter" select="$counter+1"/>
+        </xsl:call-template>
+    </xsl:template>
 
 </xsl:stylesheet>

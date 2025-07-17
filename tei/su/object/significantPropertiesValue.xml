@@ -74,16 +74,16 @@
                 </row>
                 <row>
                     <cell><bold>Obligation</bold></cell>
-                    <cell>At least one of the <bold>significantPropertiesValue</bold> and
-                        <bold>significantPropertiesExtension</bold> subunits must be
+                    <cell>At least one of the <bold>significantProperties-Value</bold> and
+                        <bold>significantProperties-Extension</bold> subunits must be
                         present if this container is included, or both may be
                         used.</cell>
-                    <cell>At least one of the <bold>significantPropertiesValue</bold> and
-                        <bold>significantPropertiesExtension</bold> subunits must be
+                    <cell>At least one of the <bold>significantProperties-Value</bold> and
+                        <bold>significantProperties-Extension</bold> subunits must be
                         present if this container is included, or both may be
                         used.</cell>
-                    <cell>At least one of the <bold>significantPropertiesValue</bold> and
-                        <bold>significantPropertiesExtension</bold> subunits must be
+                    <cell>At least one of the <bold>significantProperties-Value</bold> and
+                        <bold>significantProperties-Extension</bold> subunits must be
                         present if this container is included, or both may be
                         used.</cell>
                 </row>

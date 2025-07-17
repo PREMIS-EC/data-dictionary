@@ -1,37 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="environmentFunctionType">
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="environmentFunctionType">
     <head>
-        
         <!-- PREMIS Semantic unit 1.9.1 -->
         <abbr>1.9.1</abbr>
         <gi>environmentFunctionType</gi>
-        
     </head>
-    
+
     <div type="semanticcomponents">
         <!-- PREMIS Semantic components -->
         <p>None</p>
     </div>
-    
+
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>A description of the environment at a given level within the
-            environmental stack.</p>
+        <p>A description of the environment at a given level within the environmental stack.</p>
     </div>
-    
+
     <!-- PREMIS Rationale -->
-    
+
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>The type values used at the higher levels are more generic and those used
-            at the lower levels are more specific.</p>
+        <p>The type values used at the higher levels are more generic and those used at the lower
+            levels are more specific.</p>
     </div>
-    
+
     <div type="datatype">
         <!-- PREMIS Data constraint -->
         <p>Container</p>
     </div>
-    
+
     <div type="entity">
         <!-- PREMIS Object category -->
         <p>
@@ -67,11 +65,19 @@
                 <row>
                     <cell><bold>Examples</bold></cell>
                     <cell><list type="example">
-                            <item>Level 1 types: software, hardware.</item>
-                            <item>Level 2 types: software application, software library,
-                                software driver, operating system, plugin, hardware
-                                architecture, hardware peripheral, chip.</item>
-                    </list></cell>
+                            <item><bold>Level 1 types:</bold></item>
+                            <item>software</item>
+                            <item>hardware</item>
+                            <item><bold>Level 2 types:</bold></item>
+                            <item>software application</item>
+                            <item>software library</item>
+                            <item>software driver</item>
+                            <item>operating system</item>
+                            <item>plugin</item>
+                            <item>hardware architecture</item>
+                            <item>hardware peripheral</item>
+                            <item>chip</item>
+                        </list></cell>
                     <cell> </cell>
                     <cell> </cell>
                     <cell> </cell>
@@ -80,4 +86,3 @@
         </p>
     </div>
 </div>
-

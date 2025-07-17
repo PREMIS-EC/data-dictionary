@@ -45,7 +45,7 @@
             case, the rationale for the assignment may be recorded as “legislation”
             or “user pays”, for example. <bold>preservationLevelRationale</bold> may be
             repeated if more than one reason needs to be recorded.</p>
-        
+    </div>
         <div type="datatype">
             <!-- PREMIS Data constraint -->
             <p>None</p>
@@ -95,5 +95,5 @@
             </p>
         </div>
     </div>
-</div>
+
 
