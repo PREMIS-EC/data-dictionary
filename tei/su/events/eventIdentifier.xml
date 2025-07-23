@@ -7,8 +7,8 @@
     </head>         
     <div type="semanticcomponents">
         <!-- PREMIS Semantic components -->
-        <p>eventIdentifierType</p>
-        <p>eventIdentifierValue</p>
+        <p>2.1.1 eventIdentifierType</p>
+        <p>2.1.2 eventIdentifierValue</p>
     </div>         
     <div type="definition">
         <!-- PREMIS Definition -->

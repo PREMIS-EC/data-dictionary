@@ -19,8 +19,8 @@
     xpath-default-namespace="http://www.tei-c.org/ns/1.0" extension-element-prefixes="exslt"
     version="2.0">
     
-    <!-- TODO: examples list, make sure there is line breaks so the text dont flow over to next cell. -->
-
+    <!-- TODO: TOC doesnt get the correct id for the heading on the start page of the enteties so that is not clickable in the toc -->
+    
     <!-- variables passed from the build script to the XSLT -->
     <xsl:param name="SAA" as="xs:string" required="yes"/>
     <xsl:param name="ISBN" as="xs:string" required="yes"/>
@@ -429,12 +429,9 @@
     <xsl:template match="tei:body | tei:back" mode="toclong">
         <xsl:for-each select="tei:div">
             <xsl:choose>
-                <!-- Karin få in valet här! -->
                 <xsl:when test="@type = ['elements', 'rights', 'agents', 'objects', 'events']">
                     <fo:block role="H2" font-size="1.5em" font-weight="bold" text-align="left" text-align-last="justify">
-                        <!-- Karin: Add selection of value based upon the xml:id??? -->
                         <xsl:value-of select="normalize-space(tei:div[@type='Introduction']/tei:head)"/>
-                        <!--<xsl:value-of select="$elements"/>-->
                         <fo:leader leader-pattern="dots"/>
                         <fo:page-number-citation ref-id="{generate-id(.)}"/>
                     </fo:block>
@@ -442,7 +439,7 @@
                         <fo:block text-align="left" text-align-last="justify">
                            <fo:inline>
                                 <fo:basic-link internal-destination="{generate-id(.)}">
-                                    <xsl:value-of select="tei:head/tei:gi"/>
+                                    <xsl:value-of select="concat(tei:head/tei:abbr, ' ', tei:head/tei:gi)"/>
                                     <fo:leader leader-pattern="dots"/>
                                     <fo:page-number-citation ref-id="{generate-id(.)}"/>
                                 </fo:basic-link>
@@ -500,12 +497,11 @@
     <xsl:template match="tei:body | tei:back" mode="tocshort">
         <xsl:for-each select="tei:div">
             <xsl:choose>
-                <!-- få in valet här! -->
+                <!-- TODO: This is the short toc all SU is not part of it so no need for concat(tei:head/tei:abbr, ' ', tei:head/tei:gi) ?? -->
                 <xsl:when test="@type = ['elements', 'rights', 'agents', 'objects', 'events']">
                     <fo:block role="H2" font-size="1.5em" font-weight="bold" margin-top=".83em" margin-bottom=".83em" text-align="left" text-align-last="justify">
                         <fo:inline>
                             <fo:basic-link internal-destination="{generate-id(.)}">
-                                <!-- Karin: Add selection of value based upon the xml:id??? -->
                                 <xsl:value-of select="$elements"/>
                                 <fo:leader leader-pattern="dots"/>
                                 <fo:page-number-citation ref-id="{generate-id(.)}"/>
@@ -635,7 +631,6 @@
 
     <xsl:template match="tei:list[@type = 'simple']">
         <!-- List with only text -->
-        <!-- Need to make the space between rows smaller -->
         <xsl:if test="tei:head">
             <fo:block font-weight="bold" space-before="18pt" space-after="12pt"
                 text-align="left">
@@ -697,33 +692,32 @@
             <!--            <xsl:value-of select="$headingtranslations/*:terms/*:term[@name=$parttitle]/*:translation[@lang=$currentLanguage]"/>-->
             <fo:marker marker-class-name="taglibrary-head">
                 <fo:block>
-                    <!-- Karin: Add selection of value based upon the xml:id??? -->
+                    
                     <xsl:variable name="parttitle">
                         <!-- <xsl:value-of select="current()/@type"/>  -->
                         <xsl:value-of select="current()/@xml:id"/>
+                        
                     </xsl:variable>
                     <xsl:value-of select="$headingtranslations/*:terms/*:term[@name = $parttitle]/*:translation[@lang = $currentLanguage]"/>
+                    
                 </fo:block>
             </fo:marker>
-            <!-- Karin: Add selection of value based upon the xml:id??? -->
+            
             <xsl:variable name="parttitle">
+                
                 <xsl:value-of select="current()/@xml:id"/>
                 <!-- <xsl:value-of select="current()/@type"/>  -->
             </xsl:variable>
             <xsl:value-of select="$headingtranslations/*:terms/*:term[@name = $parttitle]/*:translation[@lang = $currentLanguage]"/>
         </fo:block>
-        <!-- Added inclusion of introduction to all sections -->
         <xsl:apply-templates select="tei:div[@type = 'Introduction']"/>
         <xsl:for-each select="tei:div[@type = 'elementDocumentation']">
             <fo:block role="H1" font-size="2em" font-weight="bold"
                 text-align="left" page-break-before="always" id="{generate-id()}" margin-top=".67em" margin-bottom=".67em">
                 <fo:marker marker-class-name="taglibrary-head">
-                    <!-- elements have an id starting with elem- @xml:id-->
-                    <fo:block id="{concat('elem-', tei:head/tei:gi)}">
-                        <!-- Ta bort <> -->
-                        <!-- <xsl:text>&lt;</xsl:text> -->
-                        <xsl:value-of select="tei:head/tei:gi"/>
-                        <!-- <xsl:text>&gt;</xsl:text> -->
+                    <fo:block id="{concat(tei:head/tei:abbr, ' ', tei:head/tei:gi)}">
+                        <xsl:value-of select="concat(tei:head/tei:abbr, ' ', tei:head/tei:gi)"/>
+                       
                     </fo:block>
                 </fo:marker>
                 <xsl:choose>
@@ -731,11 +725,10 @@
                         <xsl:value-of select="$semanticunit"/>
                     </xsl:when>
                     <xsl:otherwise>
-                        <!-- <xsl:text>&lt;</xsl:text> -->
                         <xsl:value-of select="tei:head/tei:abbr"/>
                         <xsl:value-of select="' '"/>
                         <xsl:value-of select="tei:head/tei:gi"/>
-                        <!-- <xsl:text>&gt;</xsl:text> -->
+                        
                     </xsl:otherwise>
                 </xsl:choose>
             </fo:block>
@@ -1578,15 +1571,25 @@
                 <xsl:when test="contains(., '(')">
                         <!-- remove "(revised in x.y.z)" text from title -->
                         <fo:basic-link
+                            internal-destination="{normalize-space(substring-before(concat(., '('), '('))}">
+                            <xsl:value-of select="normalize-space(.)"/>
+                            <!--
+                                <fo:basic-link
                             internal-destination="{concat('elem-', normalize-space(substring-before(concat(., '('), '(')))}">
                             <xsl:value-of select="normalize-space(.)"/>
+                            -->
                         </fo:basic-link>
+                    <xsl:call-template name="newLine"/>
                 </xsl:when>
                 <xsl:otherwise>
                     <fo:basic-link
-                            internal-destination="{concat('elem-', translate(normalize-space(.), ':',''))}" color="blue">
+                            internal-destination="{translate(normalize-space(.), ':','')}" color="blue">
                             <xsl:value-of select="normalize-space(.)"/>
+                        <!-- <fo:basic-link
+                            internal-destination="{concat('elem-', translate(normalize-space(.), ':',''))}" color="blue">
+                            <xsl:value-of select="normalize-space(.)"/> -->
                         </fo:basic-link>
+                    <xsl:call-template name="newLine"/>
                 </xsl:otherwise>
             </xsl:choose>
             <xsl:if test="position() ne last()">

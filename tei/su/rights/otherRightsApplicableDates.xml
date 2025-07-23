@@ -8,19 +8,23 @@
     </head>
     <div type="semanticcomponents">
         <!-- PREMIS Semantic components -->
-        <p/>
+        <p>4.1.6.3.1 startDate</p>
+        <p>4.1.6.3.2 endDate</p>
     </div>
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p/>
+        <p>The date range during which the particular right apply or applied to
+            the content. This is distinct from termOfGrant, which applies to a
+            particular act expressed in rightsGranted and may differ from the
+            period of time the license, statute or other basis applies to the content.</p>
     </div>
     <div type="rationale">
         <!-- PREMIS Rationale -->
-        <p/>
+        <p>Specific dates may apply to the particular Rights granted.</p>
     </div>
     <div type="datatype">
         <!-- PREMIS Data constraint -->
-        <p/>
+        <p>Container</p>
     </div>
     <div type="examples">
         <!-- PREMIS Examples -->
@@ -42,7 +46,10 @@
     </div>
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p/>
+        <p>The repository may wish to retain the history of Rights and
+            restrictions associated with the content over time. Associating active
+            dates with particular Rights bases allows applications to identify
+            which of several <bold>rightsStatements</bold> are in force at a given time.</p>
     </div>
 </div>
 

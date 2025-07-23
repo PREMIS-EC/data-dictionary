@@ -10,11 +10,11 @@
     
     <div type="semanticcomponents">
         <!-- PREMIS Semantic components -->
-        <p>environmentName</p>
-        <p>environmentVersion</p>
-        <p>environmentOrigin</p>
-        <p>environmentDesignationNote</p>
-        <p>environmentDesignationExtension</p>
+        <p>1.10.1 environmentName</p>
+        <p>1.10.2 environmentVersion</p>
+        <p>1.10.3 environmentOrigin</p>
+        <p>1.10.4 environmentDesignationNote</p>
+        <p>1.10.5 environmentDesignationExtension</p>
     </div>
     
     <div type="definition">

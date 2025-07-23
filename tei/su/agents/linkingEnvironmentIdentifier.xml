@@ -8,9 +8,9 @@
     </head>       
     <div type="semanticcomponents">
         <!-- PREMIS Semantic components -->
-        <p>linkingEnvironmentIdentifierType</p>
-        <p>linkingEnvironmentIdentifierValue</p>
-        <p>linkingEnvironmentRole</p>
+        <p>3.9.1 linkingEnvironmentIdentifierType</p>
+        <p>3.9.2 linkingEnvironmentIdentifierValue</p>
+        <p>3.9.3 linkingEnvironmentRole</p>
     </div>       
     <div type="definition">
         <!-- PREMIS Definition -->

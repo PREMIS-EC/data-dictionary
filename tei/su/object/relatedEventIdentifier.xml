@@ -10,9 +10,9 @@
     
     <div type="semanticcomponents">
         <!-- PREMIS Semantic components -->
-        <p>relatedEventIdentifierType</p>
-        <p>relatedEventIdentifierValue</p>
-        <p>relatedEventSequence</p>
+        <p>1.13.4.1 relatedEventIdentifierType</p>
+        <p>1.13.4.2 relatedEventIdentifierValue</p>
+        <p>1.13.4.3 relatedEventSequence</p>
     </div>
     
     <div type="definition">

@@ -10,9 +10,9 @@
     
     <div type="semanticcomponents">
         <!-- PREMIS Semantic components -->
-        <p>environmentRegistryName</p>
-        <p>environmentRegistryKey</p>
-        <p>environmentRegistryRole</p>
+        <p>1.11.1 environmentRegistryName</p>
+        <p>1.11.2 environmentRegistryKey</p>
+        <p>1.11.3 environmentRegistryRole</p>
     </div>
     
     <div type="definition">

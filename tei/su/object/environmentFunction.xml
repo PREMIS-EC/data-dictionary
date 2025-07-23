@@ -10,8 +10,8 @@
     
     <div type="semanticcomponents">
         <!-- PREMIS Semantic components -->
-        <p>environmentFunctionType</p>
-        <p>environmentFunctionLevel</p>
+        <p>1.9.1 environmentFunctionType</p>
+        <p>1.9.2 environmentFunctionLevel</p>
     </div>
     
     <div type="definition">

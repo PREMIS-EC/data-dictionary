@@ -8,8 +8,8 @@
     </head>
     <div type="semanticcomponents">
         <!-- PREMIS Semantic components -->
-        <p>startDate</p>
-        <p>endDate</p>
+        <p>4.1.4.4.1 startDate</p>
+        <p>4.1.4.4.2 endDate</p>
     </div>
     <div type="definition">
         <!-- PREMIS Definition -->

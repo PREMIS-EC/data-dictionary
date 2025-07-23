@@ -8,9 +8,9 @@
     </head>
     <div type="semanticcomponents">
         <!-- PREMIS Semantic components -->
-        <p>statuteDocumentationIdentifierType</p>
-        <p>statuteDocumentationIdentifierValue</p>
-        <p>statuteDocumentationRole</p>
+        <p>4.1.5.5.1 statuteDocumentationIdentifierType</p>
+        <p>4.1.5.5.2 statuteDocumentationIdentifierValue</p>
+        <p>4.1.5.5.3 statuteDocumentationRole</p>
     </div>
     <div type="definition">
         <!-- PREMIS Definition -->

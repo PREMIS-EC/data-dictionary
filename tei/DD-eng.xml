@@ -32,7 +32,6 @@
                 <date when="2015"/>
                 <idno>978-0-8444-9582-8</idno>
                 <availability>
-                    <!-- Following PREMIS EC decsion on the 21st of April 2021 -->
                     <licence>This work is licensed under a Creative Commons Attribution 4.0
                         International License (CC BY 4.0). See <ref
                             target="http://creativecommons.org/licenses/by/4.0/"
@@ -65,8 +64,6 @@
                 <graphic url="premis-wiki-1.png"/>
             </titlePage>
             <div xml:lang="eng" type="EnglishIntroduction">
-                <!-- CONTENTS SECTION ENDS HERE -->
-                <!-- ACKNOWLEDGEMENTS SECTION STARTS HERE P. v -->
                 <div>
                     <head>ACKNOWLEDGMENTS</head>
                     <list type="simple">
@@ -174,8 +171,6 @@
                     </list>
 
                 </div>
-                <!-- ACKNOWLEDGEMENTS SECTION ENDS HERE -->
-                <!-- PREMIS WEB SITES & EMAILS SECTION STARTS HERE P. viii -->
                 <div>
 
                     <head>PREMIS WEBSITES &amp; EMAILS</head>
@@ -183,14 +178,13 @@
                     <p>PREMIS maintenance activity Web site: <ref
                             target="http://www.loc.gov/standards/premis/"
                             >http://www.loc.gov/standards/premis/</ref>.</p>
+                    <!-- TODO: Update link nd email for PIG -->
                     <p>PREMIS Implementers' Group discussion list: pig@loc.gov. To subscribe, send
                         an e-mail to listserv@loc.gov with the message, "subscribe pig [your
                         name]".</p>
                     <p>Please send comments and questions to premis@loc.gov.</p>
 
                 </div>
-                <!-- PREMIS WEB SITES & EMAILS SECTION ENDS HERE -->
-                <!-- INTRODUCTION STARTS HERE P. 1 -->
                 <div>
 
                     <head>INTRODUCTION</head>
@@ -421,7 +415,7 @@
                             </row>
                         </table>
                     </p>
-                    <p><!-- TODO: check where the reference is supposed to be going --> Subsequent
+                    <p>Subsequent
                         versions of the Dictionary have taken advantage of the increase in use of
                         PREMIS and experience of implementing preservation solutions. They have
                         included corrections of errors, clarifications of some semantic units,
@@ -433,8 +427,7 @@
                         contained only changes that affected the XML schema (by adding the ability
                         to designate use of specific controlled vocabularies); these were not
                         reflected in the Data Dictionary. Further information about this mechanism
-                        is given under the section <!-- TODO: Internal refencing to ID's --><ref target="#appendixSpecialTopics">“Supplying
-                            Metadata Values”</ref> . Starting from version 2.2, a PREMIS OWL
+                        is given under the section <!-- TODO: Internal refencing to ID's --> “Supplying Metadata Values”. Starting from version 2.2, a PREMIS OWL
                         ontology is available alongside the XML Schema. It allows one to provide a
                         PREMIS-endorsed flavor of the Data Dictionary so that one can express
                         preservation metadata in RDF. This ontology does not replace but complements
@@ -463,9 +456,7 @@
                             eventDetailInformation (O, R).</item>
                     </list>
                     <p><!-- TODO: Internal refencing to ID's --> Major additions
-                        are discussed in detail below (see the <ref target="PREMISDATAMODEL">“PREMIS
-                            Data Model”</ref> and <ref target="ENVIROMENT">“Environment”</ref>
-                        sections). Other additions are explained within the relevant section of the
+                        are discussed in detail below (see the “PREMIS Data Model” and “Environment” sections). Other additions are explained within the relevant section of the
                         Dictionary.</p>
                 </div>
                 <div>
@@ -974,7 +965,7 @@
                         and capture the Agent.</p>
                     <p><!-- TODO: Internal refencing to ID's -->
                         Environments are discussed in further detail
-                        in the section <ref target="#appendixSpecialTopics">“Special Topics”</ref></p>
+                        in the section “Special Topics”</p>
                 </div>
                 <div>
                     <head>More on Events</head>
@@ -1005,7 +996,7 @@
                         object, the event identifier is recorded in the container
                             <italic>linkingEventIdentifier</italic>.
                         <!-- TODO: Internal refencing to ID's -->(For more information on relationships, see
-                        page 15.)</p>
+                        section "Relationships between Objects".)</p>
                     <p>For example, assume a preservation repository ingests an XML file (object A)
                         and creates a normalized version of it (object B) by running a program
                         (event 1). In the metadata for object B, this could be recorded in
@@ -1575,7 +1566,7 @@
                         representation is exported to another repository, the metadata linking files
                         and representations should be provided. </p>
                 </div>
-                <div>
+                <div xml:id="SupplyingMetadataValues">
                     <head>Supplying metadata values</head>
                     <p>Most preservation repositories will deal with large quantities of materials,
                         so it is desirable to automate the creation and use of metadata as much as
@@ -1789,8 +1780,8 @@
                         about how to create or use the semantic unit. In some cases the group felt
                         additional information, such as the reason for a semantic unit’s definition
                         or issues that arose in the group’s deliberations, would be useful; for
-                        these details, see section <!-- TODO: internal referencing --> “Special Topics”
-                        on page 249.</p>
+                        these details, see section <!-- TODO: internal referencing --> “Special Topics”.
+                    </p>
                     <p>A semantic component always inherits the applicability of the containing
                         semantic unit. That is, if the containing semantic unit specifies that it is
                         applicable to files but not to representations, each of its semantic
@@ -1831,7 +1822,7 @@
                     <p><bold>Object category:</bold> Whether the unit applies to an Intellectual
                         Entity, Representation, File, or Bitstream Object. Semantic units that apply
                         to Representations also apply to Intellectual Entities and semantic units
-                        that apply to Files also apply to Bitstreams (see page 8).
+                        that apply to Files also apply to Bitstreams (see section "More on Objects").
                         <!-- TODO internal referencing --></p>
                     <p><bold>Applicability:</bold> A scope of “applicable” means it applies to that
                         category of Object.</p>
@@ -2330,7 +2321,7 @@
                 <xi:include href="su/object/significantPropertiesType.xml" parse="xml"/>
                 <xi:include href="su/object/significantPropertiesValue.xml" parse="xml"/>
                 <xi:include href="su/object/significantPropertiesExtension.xml" parse="xml"/>
-                <xi:include href="su/object/objectCharacteristicsFixity.xml" parse="xml"/>
+                <xi:include href="su/object/objectCharacteristics.xml" parse="xml"/>
                 <xi:include href="su/object/compositionLevel.xml" parse="xml"/>
                 <xi:include href="su/object/fixity.xml" parse="xml"/>
                 <xi:include href="su/object/messageDigestAlgorithm.xml" parse="xml"/>
@@ -3447,7 +3438,7 @@
                         the format specification. PREMIS allows such imperfections in determining
                         integrity to be recorded either in a <italic>formatNote</italic> semantic
                         unit or as the outcome of a validation event (see “Quirks and anomalies” in
-                        “Non-core metadata”)<!-- KB internal referencing??? -->.</p>
+                        “Non-core metadata”)<!-- TODO: internal referencing??? -->.</p>
                     <p>The authenticity of a digital object is the quality of being what it purports
                         to be. As the Digital Preservation Coalition (DPC) explains, “In the case of
                         electronic records, [authenticity] refers to the trustworthiness of the
@@ -3577,8 +3568,7 @@
                         specific because it prescribes a particular encoding and validation
                         methodology that is not universally applicable.</p>
                     <p>The Data Dictionary defines the following structure:</p>
-                    <p><!-- TODO: Table instead? Needs some formatting with indentions -->
-                        
+                    <p>                        
                         <table cols="1">
                             <row>
                                 <cell> </cell>
@@ -3874,7 +3864,7 @@
             </div>
             <div type="appendix" xml:id="appendixGlossary">
                 <head>GLOSSARY</head>
-                <!-- TODO There are links in between the terms in the glossary create those with the help of id's in the label??? -->
+                <!-- TODO: Future task, make sure if another terms is referenced an internal link is made -->
                 <p>This glossary defines a number of terms used in this Data Dictionary; recognizing
                     thatin some cases other groups may have given different meanings to some of
                     these terms. Terms were selected for inclusion in the glossary on the basis of
@@ -4234,7 +4224,6 @@
                     <item>Form of Migration in which a version of a Digital Object is created in a
                         new Format with properties more conducive to preservation treatment.
                         Normalization is often implemented as part of the Ingest process.</item>
-                    <!--KB: Object was moved into an lablöe with its item.  -->
                     <label>Object:</label>
                     <item>See Digital Object.</item>
                     <label>Permission:</label>

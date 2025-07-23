@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="objectCharacteristicsFixity">
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="objectCharacteristics">
     <head>
         
-        <!-- PREMIS Semantic unit 1.5.2 -->
-        <abbr>1.5.2</abbr>
-        <gi>objectCharacteristicsFixity</gi>
+        <!-- PREMIS Semantic unit 1.5 -->
+        <abbr>1.5</abbr>
+        <gi>objectCharacteristics</gi>
         
     </head>
     
     <div type="semanticcomponents">
         <!-- PREMIS Semantic components -->
-        <p>compositionLevel</p>
-        <p>fixity</p>
-        <p>size</p>
-        <p>format</p>
-        <p>creatingApplication</p>
-        <p>inhibitors</p>
-        <p>objectCharacteristicsExtension</p>
+        <p>1.5.1 compositionLevel</p>
+        <p>1.5.2 fixity</p>
+        <p>1.5.3 size</p>
+        <p>1.5.4 format</p>
+        <p>1.5.5 creatingApplication</p>
+        <p>1.5.6 inhibitors</p>
+        <p>1.5.7 objectCharacteristicsExtension</p>
     </div>
     
     <div type="definition">

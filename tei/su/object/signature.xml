@@ -10,13 +10,13 @@
     
     <div type="semanticcomponents">
         <!-- PREMIS Semantic components -->
-        <p>signatureEncoding</p>
-        <p>signer</p>
-        <p>signatureMethod</p>
-        <p>signatureValue</p>
-        <p>signatureValidationRules</p>
-        <p>signatureProperties</p>
-        <p>keyInformation</p>
+        <p>1.8.1.1 signatureEncoding</p>
+        <p>1.8.1.2 signer</p>
+        <p>1.8.1.3 signatureMethod</p>
+        <p>1.8.1.4 signatureValue</p>
+        <p>1.8.1.5 signatureValidationRules</p>
+        <p>1.8.1.6 signatureProperties</p>
+        <p>1.8.1.7 keyInformation</p>
     </div>
     
     <div type="definition">

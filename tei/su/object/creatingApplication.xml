@@ -10,10 +10,10 @@
     
     <div type="semanticcomponents">
         <!-- PREMIS Semantic components -->
-        <p>creatingApplicationName</p>
-        <p>creatingApplicationVersion</p>
-        <p>dateCreatedByApplication</p>
-        <p>creatingApplicationExtension</p>
+        <p>1.5.5.1 creatingApplicationName</p>
+        <p>1.5.5.2 creatingApplicationVersion</p>
+        <p>1.5.5.3 dateCreatedByApplication</p>
+        <p>1.5.5.4 creatingApplicationExtension</p>
     </div>
     
     <div type="definition">

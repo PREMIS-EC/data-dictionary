@@ -7,9 +7,9 @@
     </head>       
     <div type="semanticcomponents">
         <!-- PREMIS Semantic components -->
-        <p>linkingAgentIdentifierType</p>
-        <p>linkingAgentIdentifierValue</p>
-        <p>linkingAgentRole</p>
+        <p>2.6.1 linkingAgentIdentifierType</p>
+        <p>2.6.2 linkingAgentIdentifierValue</p>
+        <p>2.6.3 linkingAgentRole</p>
     </div>       
     <div type="definition">
         <!-- PREMIS Definition -->

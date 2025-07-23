@@ -457,9 +457,11 @@
         <xsl:template match="tei:div[@type='elements']">
                 <div class="section" id="{generate-id()}">
                         <div class="head03">
-                                <!-- Karin: Add selection of value based upon the xml:id -->
-                                <!--<xsl:value-of select="$elements"/>-->
-                                <xsl:value-of select="current()/@xml:id"/>
+                                <!-- TODO: Understand if this templete is used -->
+                                <!--<xsl:value-of select="$elements"/>
+                                        <xsl:value-of select="current()/@xml:id"/>
+                                concat(tei:head/tei:abbr, ' ', tei:head/tei:gi)-->
+                                <xsl:value-of select="concat(tei:head/tei:abbr, ' ', tei:head/tei:gi)"/>
                         </div>
                         <xsl:apply-templates/>
                         <xsl:text>&#xA0;&#xA0;</xsl:text>
@@ -490,6 +492,7 @@
 
         <xsl:template match="tei:div[@type='elementDocumentation']">
                 <div class="element">
+                        <!-- TODO: The frist call here gives wrong ids on the su's and dont show the number it has-->
                         <xsl:apply-templates select="tei:head/tei:gi"/>
                         <xsl:apply-templates select="tei:div[@type='fullName']"/>
                         <xsl:apply-templates select="tei:div[@type='summary']"/>
@@ -570,7 +573,6 @@
         </xsl:template>
 
         <xsl:template match="tei:head/tei:gi">
-                <!-- Karin: Changes needed to be made here to get it to write semmantic unit when head has type=DD -->
                 <xsl:choose>
                         <xsl:when test="ancestor-or-self::tei:front">
                                 <div class="leftcol" id="{generate-id()}">
@@ -582,14 +584,22 @@
                                 </div>
                         </xsl:when>
                         <xsl:otherwise>
-                                <div class="leftcol" id="{translate(concat('', .), ':','')}">
+                                <!-- TODO: This id and label needs to be the abbr + gi -->
+                                <div class="leftcol" id="{.}">
                                         <span class="label">
-                                                <!-- would like to look into this section, but for now just removing the PREMIS bit.  - mdc -->
                                                 <!--<xsl:text>&lt;</xsl:text>-->
                                                 <xsl:apply-templates/>
                                                 <!--<xsl:text>&gt;</xsl:text>-->    
                                         </span>
-                                </div>       
+                                </div>  
+                                <!--<div class="leftcol" id="{translate(concat('', .), ':','')}">
+                                        <span class="label">
+                                                <!-\- would like to look into this section, but for now just removing the PREMIS bit.  - mdc -\->
+                                                <!-\-<xsl:text>&lt;</xsl:text>-\->
+                                                <xsl:apply-templates/>
+                                                <!-\-<xsl:text>&gt;</xsl:text>-\->    
+                                        </span>
+                                </div>    -->    
                         </xsl:otherwise>
                 </xsl:choose>
                 <div class="content">
@@ -603,6 +613,21 @@
                 </div>
         </xsl:template>
         
+        <xsl:template match="tei:head" mode="DD">
+                
+                <div class="leftcol" id="{concat(tei:head/tei:abbr, ' ', tei:head/tei:gi)}">
+                                        <span class="label">
+                                                <!--<xsl:text>&lt;</xsl:text>-->
+                                                <xsl:value-of select="concat(tei:head/tei:abbr, ' ', tei:head/tei:gi)"/>
+                                                <!--<xsl:text>&gt;</xsl:text>-->    
+                                        </span>
+                                </div>  
+                                
+                        <xsl:text>&#xA0;&#xA0;</xsl:text>
+                        <a class="tocReturn" href="#toc">[toc]</a>
+        </xsl:template>
+        
+              
         <xsl:template match="tei:abbr">
                 <xsl:value-of select="."/>
                 <xsl:text> </xsl:text>
@@ -617,7 +642,7 @@
                 <!--<xsl:text>&gt;</xsl:text>-->
         </xsl:template>
         
-        <!-- Karin: Needs seg in pdf -->    
+         
         <xsl:template match="tei:head/tei:seg[@type='fullName']">
                 <xsl:value-of select="."/>
         </xsl:template>
@@ -732,6 +757,7 @@
                                         <xsl:when test="contains(., ' or ')">
                                             <xsl:for-each select="tokenize(., ' or ')">
                                                 <xsl:choose>
+                                                       
                                                         <xsl:when test="contains(., '(')">
                                                                 <a href="#{translate(concat('', normalize-space(substring-before(., '('))), ':','')}">
                                                                         <xsl:value-of select="normalize-space(.)"/>
@@ -757,25 +783,37 @@
                                             </xsl:for-each>
                                         </xsl:when>
                                         <xsl:when test="contains(., '(')">
-                                                <a href="#{translate(concat('', normalize-space(substring-before(., '('))), ':','')}">
+                                                <!-- TODO: Have the href be without everything until and including the space -->
+                                                <!-- TODO: When the id works as should these needs to be without the substring -->
+                                                <a href="#{normalize-space(substring-after(. , ' '))}">
                                                         <xsl:value-of select="normalize-space(.)"/>
                                                 </a>
+                                                <!--<a href="#{normalize-space(substring-before(concat(., '('), '('))}">
+                                                        <xsl:value-of select="normalize-space(.)"/>
+                                                </a>-->
                                                 <!-- <a href="#{translate(concat('elem-', normalize-space(substring-before(., '('))), ':','')}">
                                                         <xsl:value-of select="normalize-space(.)"/>
                                                 </a>-->
+                                                <br/>
                                         </xsl:when>
                                         <xsl:otherwise>
-                                                <a href="#{translate(concat('', normalize-space(.)), ':','')}">
+                                                <!-- TODO: Have the href be without everything until and including the space -->
+                                                <!-- TODO: When the id works as should these needs to be without the substring -->
+                                                <a href="#{translate(normalize-space(substring-after(. , ' ')), ':','')}">
                                                         <xsl:value-of select="normalize-space(.)"/>
                                                 </a>
+                                                <!--<a href="#{translate(normalize-space(.), ':','')}">
+                                                        <xsl:value-of select="normalize-space(.)"/>
+                                                </a>-->
                                                <!-- <a href="#{translate(concat('elem-', normalize-space(.)), ':','')}">
                                                         <xsl:value-of select="normalize-space(.)"/>
                                                 </a>-->
+                                                <br/>
                                         </xsl:otherwise>
                                 </xsl:choose>
-                                <xsl:if test="position() ne last()">
+                                <!--<xsl:if test="position() ne last()">
                                         <xsl:text>, </xsl:text>
-                                </xsl:if>
+                                </xsl:if>-->
                         </xsl:for-each>
                 </div>
         </xsl:template>

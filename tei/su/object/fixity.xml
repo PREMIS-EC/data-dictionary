@@ -10,9 +10,9 @@
     
     <div type="semanticcomponents">
         <!-- PREMIS Semantic components -->
-        <p>messageDigestAlgorithm</p>
-        <p>messageDigest</p>
-        <p>messageDigestOriginator</p>
+        <p>1.5.2.1 messageDigestAlgorithm</p>
+        <p>1.5.2.2 messageDigest</p>
+        <p>1.5.2.3 messageDigestOriginator</p>
     </div>
     
     <div type="definition">
