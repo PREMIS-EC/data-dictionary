@@ -8,8 +8,8 @@
     </head>       
     <div type="semanticcomponents">
         <!-- PREMIS Semantic components -->
-        <p>agentIdentifierType</p>
-        <p>agentIdentifierValue</p>
+        <p>3.1.1 agentIdentifierType</p>
+        <p>3.1.2 agentIdentifierValue</p>
     </div>       
     <div type="definition">
         <!-- PREMIS Definition -->

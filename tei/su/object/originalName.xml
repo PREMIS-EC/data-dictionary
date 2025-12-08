@@ -84,10 +84,10 @@
                 </row>
                 <row>
                     <cell><bold>Examples</bold></cell>
-                    <cell><list type="ordered">
+                    <cell><list type="example">
                             <item>"Animal Antics"</item>
                     </list></cell>
-                    <cell><list type="ordered">
+                    <cell><list type="example">
                             <item>N419.pdf</item>
                     </list></cell>
                     <cell> </cell>

@@ -27,7 +27,7 @@
     </div>
     <div type="entity">
         <p>
-            <list type="ordered">
+            <list type="example">
                 <label>Obligation</label>
                 <item>Optional</item>
                 <label>Repeatability</label>

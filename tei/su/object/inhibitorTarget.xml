@@ -63,12 +63,12 @@
                 <row>
                     <cell><bold>Examples</bold></cell>
                     <cell> </cell>
-                    <cell><list type="ordered">
+                    <cell><list type="example">
                             <item>All content</item>
                             <item>Function: Play</item>
                             <item>Function: Print</item>
                     </list></cell>
-                    <cell><list type="ordered">
+                    <cell><list type="example">
                             <item>All content</item>
                             <item>Function: Play</item>
                             <item>Function: Print</item>

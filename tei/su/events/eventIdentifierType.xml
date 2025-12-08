@@ -24,7 +24,7 @@
     <div type="examples">
         <!-- PREMIS Examples -->
         <p>
-            <list type="ordered">
+            <list type="example">
                 <item>FDA</item>                
                 <item>Stanford Repository Event ID</item>                
                 <item>UUID</item>                

@@ -24,7 +24,7 @@
     <div type="examples">
         <!-- PREMIS Examples -->
         <p>
-            <list type="ordered">
+            <list type="example">
                 <!-- KB the heading example comes from the div type -->
                 <item>[see examples for <bold>objectIdentifierValue</bold>] <!--TODO: INSERT LINK HERE--></item>
             </list>

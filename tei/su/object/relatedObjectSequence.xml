@@ -78,17 +78,17 @@
                 </row>
                 <row>
                     <cell><bold>Examples</bold></cell>
-                    <cell><list type="ordered">
+                    <cell><list type="example">
                             <item>1</item>
                             <item>2</item>
                             <item>3</item>
                     </list></cell>
-                    <cell><list type="ordered">
+                    <cell><list type="example">
                             <item>1</item>
                             <item>2</item>
                             <item>3</item>
                     </list></cell>
-                    <cell><list type="ordered">
+                    <cell><list type="example">
                             <item>1</item>
                             <item>2</item>
                             <item>3</item>

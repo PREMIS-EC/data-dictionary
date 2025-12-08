@@ -8,8 +8,8 @@
     </head>       
     <div type="semanticcomponents">
         <!-- PREMIS Semantic components -->
-        <p>linkingRightsStatementIdentifierType</p>
-        <p>linkingRightsStatementIdentifierValue</p>
+        <p>3.8.1 linkingRightsStatementIdentifierType</p>
+        <p>3.8.2 linkingRightsStatementIdentifierValue</p>
     </div>       
     <div type="definition">
         <!-- PREMIS Definition -->

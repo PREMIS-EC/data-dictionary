@@ -24,7 +24,7 @@
     <div type="examples">
         <!-- PREMIS Examples -->
         <p>
-            <list type="ordered">
+            <list type="example">
                 <item>E77 [a code used within a repository for a particular Event type]</item>                
                 <item>ingestion</item>                
                 <item>migration</item>                

@@ -74,12 +74,12 @@
                 </row>
                 <row>
                     <cell><bold>Example</bold></cell>
-                    <cell><list type="ordered">
+                    <cell><list type="example">
                             <item>Bit preservation</item>
                             <item>Logical/functional</item>
                             <item>Preservation</item>
                     </list></cell>
-                    <cell><list type="ordered">
+                    <cell><list type="example">
                             <item>Bit preservation</item>
                             <item>Logical/functional</item>
                             <item>Preservation</item>

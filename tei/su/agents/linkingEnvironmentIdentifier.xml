@@ -8,9 +8,9 @@
     </head>       
     <div type="semanticcomponents">
         <!-- PREMIS Semantic components -->
-        <p>linkingEnvironmentIdentifierType</p>
-        <p>linkingEnvironmentIdentifierValue</p>
-        <p>linkingEnvironmentRole</p>
+        <p>3.9.1 linkingEnvironmentIdentifierType</p>
+        <p>3.9.2 linkingEnvironmentIdentifierValue</p>
+        <p>3.9.3 linkingEnvironmentRole</p>
     </div>       
     <div type="definition">
         <!-- PREMIS Definition -->
@@ -27,7 +27,7 @@
     <div type="examples">
         <!-- PREMIS Examples -->
         <p>
-            <list type="ordered">
+            <list type="example">
                 <item>Allows implementers to link the Agent to an environment Object, if the Agent is hardware or software that has been preserved in some way in the repository and has been described as an environment Object.</item>
             </list>
         </p>

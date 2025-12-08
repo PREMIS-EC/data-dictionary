@@ -11,9 +11,9 @@
     
     <div type="semanticcomponents">
         <!-- PREMIS Semantic components -->
-        <p>significantPropertiesType</p>
-        <p>significantPropertiesValue</p>
-        <p>significantPropertiesExtension</p>
+        <p>1.4.1 significantPropertiesType</p>
+        <p>1.4.2 significantPropertiesValue</p>
+        <p>1.4.3 significantPropertiesExtension</p>
     </div>
     
     <div type="definition">

@@ -69,17 +69,17 @@
                 </row>
                 <row>
                     <cell><bold>Examples</bold></cell>
-                    <cell><list type="ordered">
+                    <cell><list type="example">
                             <item>render</item>
                             <item>edit</item>
                             <item>create</item>
                     </list></cell>
-                    <cell><list type="ordered">
+                    <cell><list type="example">
                             <item>render</item>
                             <item>edit</item>
                             <item>create</item>
                     </list></cell>
-                    <cell><list type="ordered">
+                    <cell><list type="example">
                             <item>render</item>
                             <item>edit</item>
                             <item>create</item>

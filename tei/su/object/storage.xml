@@ -10,8 +10,8 @@
     
     <div type="semanticcomponents">
         <!-- PREMIS Semantic components -->
-        <p>contentLocation</p>
-        <p>storageMedium</p>
+        <p>1.7.1 contentLocation</p>
+        <p>1.7.2 storageMedium</p>
     </div>
     
     <div type="definition">

@@ -10,12 +10,12 @@
     
     <div type="semanticcomponents">
         <!-- PREMIS Semantic components -->
-        <p>relationshipType</p>
-        <p>relationshipSubType</p>
-        <p>relatedObjectIdentifier</p>
-        <p>relatedEventIdentifier</p>
-        <p>relatedEnvironmentPurpose</p>
-        <p>relatedEnvironmentCharacteristic</p>
+        <p>1.13.1 relationshipType</p>
+        <p>1.13.2 relationshipSubType</p>
+        <p>1.13.3 relatedObjectIdentifier</p>
+        <p>1.13.4 relatedEventIdentifier</p>
+        <p>1.13.5 relatedEnvironmentPurpose</p>
+        <p>1.13.6 relatedEnvironmentCharacteristic</p>
     </div>
     
     <div type="definition">

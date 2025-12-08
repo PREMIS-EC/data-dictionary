@@ -26,7 +26,7 @@
     <div type="examples">
         <!-- PREMIS Examples -->
         <p>
-            <list type="ordered">
+            <list type="example">
                 <item>copyright</item>                
                 <item>license</item>                
                 <item>statute</item>                

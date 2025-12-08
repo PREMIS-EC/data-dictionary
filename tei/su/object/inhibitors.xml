@@ -10,9 +10,9 @@
     
     <div type="semanticcomponents">
         <!-- PREMIS Semantic components -->
-        <p>inhibitorType</p>
-        <p>inhibitorTarget</p>
-        <p>inhibitorKey</p>
+        <p>1.5.6.1 inhibitorType</p>
+        <p>1.5.6.2 inhibitorTarget</p>
+        <p>1.5.6.3 inhibitorKey</p>
     </div>
     
     <div type="definition">

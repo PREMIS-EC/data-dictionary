@@ -76,11 +76,11 @@
                 <row>
                     <cell><bold>Examples</bold></cell>
                     <cell> </cell>
-                    <cell><list type="ordered">
+                    <cell><list type="example">
                         <item>2000-12-01</item>
                         <item>20030223T151047</item>
                     </list></cell>
-                    <cell><list type="ordered">
+                    <cell><list type="example">
                             <item>2000-12-01</item>
                             <item>20030223T151047</item>
                     </list></cell>

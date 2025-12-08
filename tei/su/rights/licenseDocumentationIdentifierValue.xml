@@ -25,7 +25,7 @@
     <div type="examples">
         <!-- PREMIS Examples -->
         <p>
-            <list type="ordered">
+            <list type="example">
                 <item>http://nrs.harvard.edu/urn-3:HUL.DRS.OBJECT:6789</item>
             </list>
         </p>

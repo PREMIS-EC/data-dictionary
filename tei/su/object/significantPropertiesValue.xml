@@ -74,29 +74,29 @@
                 </row>
                 <row>
                     <cell><bold>Obligation</bold></cell>
-                    <cell>At least one of the <bold>significantPropertiesValue</bold> and
-                        <bold>significantPropertiesExtension</bold> subunits must be
+                    <cell>At least one of the <bold>significantProperties-Value</bold> and
+                        <bold>significantProperties-Extension</bold> subunits must be
                         present if this container is included, or both may be
                         used.</cell>
-                    <cell>At least one of the <bold>significantPropertiesValue</bold> and
-                        <bold>significantPropertiesExtension</bold> subunits must be
+                    <cell>At least one of the <bold>significantProperties-Value</bold> and
+                        <bold>significantProperties-Extension</bold> subunits must be
                         present if this container is included, or both may be
                         used.</cell>
-                    <cell>At least one of the <bold>significantPropertiesValue</bold> and
-                        <bold>significantPropertiesExtension</bold> subunits must be
+                    <cell>At least one of the <bold>significantProperties-Value</bold> and
+                        <bold>significantProperties-Extension</bold> subunits must be
                         present if this container is included, or both may be
                         used.</cell>
                 </row>
                 <row>
                     <cell><bold>Examples</bold></cell>
-                    <cell><list type="ordered">
+                    <cell><list type="example">
                             <item>[for a Web page containing animation that is not considered
                                 essential] Content only.</item>
                             <item>[For detail associated with a
                                 <bold>significantPropertiesType</bold> of “behavior”] hyperlinks
                                 traversable</item>
                     </list></cell>
-                    <cell><list type="ordered">
+                    <cell><list type="example">
                             <item>[for a word processed document with embedded links that are
                                 not considered essential] Content only.</item>
                             <item>[For detail associated with a
@@ -106,7 +106,7 @@
                                 <bold>significantPropertiesType</bold> of “page width”] 210
                                 mm</item>
                     </list></cell>
-                    <cell><list type="ordered">
+                    <cell><list type="example">
                             <item>[for a PDF with an embedded graph, where the lines’ color
                                 determines the lines’ meaning] Color.</item>
                             <item>[For detail associated with a

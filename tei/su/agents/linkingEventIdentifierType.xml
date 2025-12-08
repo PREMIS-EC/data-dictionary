@@ -25,7 +25,7 @@
     <div type="examples">
         <!-- PREMIS Examples -->
         <p>
-            <list type="ordered">
+            <list type="example">
                 <!-- KB the heading example comes from the div type -->
                 <item>[see examples for eventIdentifierType] <!--TODO: INSERT LINK HERE--></item>
             </list>

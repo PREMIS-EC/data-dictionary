@@ -65,13 +65,13 @@
                 <row>
                     <cell><bold>Examples</bold></cell>
                     <cell> </cell>
-                    <cell><list type="ordered">
+                    <cell><list type="example">
                             <item>DES</item>
                             <item>PGP</item>
                             <item>Blowfish</item>
                             <item>Password protection</item>
                     </list></cell>
-                    <cell><list type="ordered">
+                    <cell><list type="example">
                              <item>DES</item>
                             <item>PGP</item>
                             <item>Blowfish</item>

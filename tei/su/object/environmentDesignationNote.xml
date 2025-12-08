@@ -33,7 +33,7 @@
             when to include the note in the name or version. For example, it is
             possible to describe the “Ubuntu 12.04 32 bit” operating system in a
             number of ways including:</p>
-        <list type="ordered">
+        <list type="example">
             <item>Name= “Ubuntu”, Version = “12.04”, Designation Note = “32
                 bit”</item>
             <item>Name= “Ubuntu 32 bit” Version = “12.04” </item>
@@ -84,7 +84,7 @@
                 </row>
                 <row>
                     <cell><bold>Examples</bold></cell>
-                    <cell><list type="ordered">
+                    <cell><list type="example">
                             <item>32 bit</item>
                     </list></cell>
                     <cell> </cell>

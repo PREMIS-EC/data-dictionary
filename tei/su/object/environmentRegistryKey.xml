@@ -62,7 +62,7 @@
                 </row>
                 <row>
                     <cell><bold>Examples</bold></cell>
-                    <cell><list type="ordered">
+                    <cell><list type="example">
                             <item>sfw/2</item>
                             <item>x-sfw/2</item>
                     </list></cell>

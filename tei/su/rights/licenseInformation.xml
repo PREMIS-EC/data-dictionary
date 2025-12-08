@@ -8,10 +8,10 @@
     </head>
     <div type="semanticcomponents">
         <!-- PREMIS Semantic components -->
-        <p>licenseDocumentationIdentifier</p>
-        <p>licenseTerms</p>
-        <p>licenseNote</p>
-        <p>licenseApplicableDates</p>
+        <p>4.1.4.1 licenseDocumentationIdentifier</p>
+        <p>4.1.4.2 licenseTerms</p>
+        <p>4.1.4.3 licenseNote</p>
+        <p>4.1.4.4 licenseApplicableDates</p>
     </div>
     <div type="definition">
         <!-- PREMIS Definition -->

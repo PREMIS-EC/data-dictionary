@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/TL-teiliteSchema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:exml="http://workaround for xml namespace restriction/namespace"
+     xmlns:xlink="http://www.w3c.org/1999/xlink"
+     xmlns:eac-cpf="urn:isbn:1-931666-33-4">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+            <respStmt>
+               <resp>Prepared and maintained by the </resp>
+               <name>Name</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Edition</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Society of American Archivists</publisher>
+            <address>
+               <addrLine>17 North State Street, suite 1425</addrLine>
+               <addrLine>Chicago, IL 60602-3315</addrLine>
+               <addrLine>USA</addrLine>
+               <addrLine>312-606-0722</addrLine>
+               <addrLine>Fax: 312-606-0728</addrLine>
+               <addrLine>info@archivists.org</addrLine>
+               <addrLine>www.archivists.org</addrLine>
+            </address>
+            <date when="2013"/>
+            <idno>ISBN Number</idno>
+            <availability>
+               <licence>This work is licensed under a Creative Commons Attribution 4.0 International
+                  License (CC BY 4.0). See <ref target="http://creativecommons.org/licenses/by/4.0/"
+                     >http://creativecommons.org/licenses/by/4.0/</ref>. Some rights reserved. No
+                  part of this publication may be reproduced, stored in a retrieval system or
+                  transmitted in any form or by any means, electronic, mechanical or photocopying,
+                  recording, or otherwise without attribution.</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <titlePage>
+            <docTitle>
+               <titlePart type="main">Document full title</titlePart>
+            </docTitle>
+            <docEdition>Version 2010 (initial release)</docEdition>
+            <byline>Prepared and maintained by the</byline>
+            <docAuthor>Writer</docAuthor>
+            <docAuthor>Writer</docAuthor>
+            <docImprint>
+               <docDate>Date of the document</docDate>
+            </docImprint>
+         </titlePage>
+         <div>
+            <!-- Descriptive chapters
+            Consists of a wrapper <div> with the elements:
+            <head> for the title
+            <p>'s for the text
+            <div> for creating next level titles
+            <egXML xmlns="http://www.tei-c.org/ns/Examples"> for examples
+            
+            In text these elements are possible:
+            <ref> with @target for e-mail, webbpage and so on
+            <tag> with text to create anglebrakets
+            <att> with text to create attributes
+            
+            
+            Possible elements in each <p>:
+            <list type="ordered"> for ordered list 
+               the list contains:
+               <head> for title
+               <item n="number"> for the text and where @number is the ordered number (same number cant occur twice)
+            <list type="simple"> for a simple list
+               the list contains:
+               <item> for the text
+            <note n="number"> for creating footnotes
+            -->
+            <div xml:id="front-example">
+               <head>Title</head>
+               <p>Text</p>
+               <egXML xmlns="http://www.tei-c.org/ns/Examples"/>
+               <list type="simple">
+                  <item>Item 1</item>
+                  <item>Item 2</item>
+               </list>
+            </div>
+         </div>
+      </front>
+      <body>
+         <div type="elements">
+            <div type="elementDocumentation" xml:id="elem-elementname">
+               <!-- Descriptive chapters
+            Consists of a wrapper <div> with the elements:
+            <head> for the title
+            <p>'s for the text
+           
+            In text these elements are possible:
+            <ref> with @target for e-mail, webbpage and so on
+            <tag> with text to create anglebrakets
+            <att> with text to create attributes
+            
+            
+            Possible elements in each <p>:
+            <list type="ordered"> for ordered list 
+               the list contains:
+               <head> for title
+               <item n="number"> for the text and where @number is the ordered number (same number cant occur twice)
+            <list type="simple"> for a simple list
+               the list contains:
+               <item> for the text
+            <note n="number"> for creating footnotes
+            -->
+               <head>
+                  <gi>Title</gi>
+               </head>
+               <div type="fullName">
+                  <p>Full Element Name</p>
+               </div>
+               <div type="summary">
+                  <p>A summary of what the element is used for</p>
+               </div>
+               <div type="mayContain">
+                  <p>List of elements that may be used as children of the element</p>
+               </div>
+               <div type="mayOccurWithin">
+                  <p>List of elements that may be used as immediate parents of the element</p>
+               </div>
+               <div type="attributes">
+                  <p>
+                     <list type="gloss">
+                        <label>Attribute that may be used within this element</label>
+                        <item>"Optional" or "Required" (values limited to: list of valid values for this attribute)</item>
+                     </list>
+                  </p>
+               </div>
+               <div type="description">
+                  <p>A narrative description of the use of the element</p>
+               </div>
+               <div type="seeAlso">
+                  <list type="simple">
+                     <item>A listing of other elements in the tag library that are relevant to, or similar to, the element</item>
+                  </list>
+               </div>
+               <div type="availability">
+                  <p>Required/Optional, Repeatable/Not Repeatable</p>
+               </div>
+               <div type="examples">
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                     <!-- Contains examples of XML from the schema.  Tags in egXML must be prefixed with the proper namespace (e.g. <ead:unittitle> -->
+                  </egXML>
+               </div>
+            </div>
+         </div>
+         <div type="attributes">
+               <!-- Descriptive chapters
+            Consists of a wrapper <div> with the elements:
+            <head> for the title
+            <p>'s for the text
+           
+            In text these elements are possible:
+            <ref> with @target for e-mail, webbpage and so on
+            <tag> with text to create anglebrakets
+            <att> with text to create attributes
+            
+            
+            Possible elements in each <p>:
+            <list type="ordered"> for ordered list 
+               the list contains:
+               <head> for title
+               <item n="number"> for the text and where @number is the ordered number (same number cant occur twice)
+            <list type="simple"> for a simple list
+               the list contains:
+               <item> for the text
+            <note n="number"> for creating footnotes
+            -->
+            <div type="attributeDocumentation" xml:id="attr-elementname">
+               <head>
+                  <att>Title</att>
+               </head>
+               <div type="fullName">
+                  <p>Full Attribute Name</p>
+               </div>
+               <div type="summary">
+                  <p>A summary of what the attribute is used for</p>
+               </div>
+               <div type="description">
+                  <p>A narrative description of the use of the element</p>
+               </div>
+               <div type="datatype">
+                  <p>Datatype of the attribute
+               </div>
+            </div>
+         </div>
+      </body>
+      <back>
+         <!-- One div for each element same element available as for div in front
+            in the div:
+               @type is always appendix
+               @xml:id is a short name of the appendix
+         -->
+         <div type="appendix" xml:id="appendix1">
+            <head>Title</head>
+            <p>Contents of the appendix; this can also include lists</p>
+         </div>
+      </back>
+   </text>
+</TEI>

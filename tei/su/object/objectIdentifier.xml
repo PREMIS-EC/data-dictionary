@@ -9,8 +9,8 @@
     
     <div type="semanticcomponents">
         <!-- PREMIS Semantic components -->
-        <p>objectIdentifierType</p>
-        <p>objectIdentifierValue</p>
+        <p>1.1.1 objectIdentifierType</p>
+        <p>1.1.2 objectIdentifierValue</p>
     </div>
     
     <div type="definition">

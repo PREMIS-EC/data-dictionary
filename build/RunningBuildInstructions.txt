@@ -1,0 +1,17 @@
+The build is run through a command in the command prompt.
+
+Start the command prompt
+Move to the folder where the build script is placed with the command cd and the path to the folder
+
+Example:
+cd Documents/GitHub/data dictionary/build
+
+Then run the command by calling the script and stating its a premis generation to be made and which premis document being the master file
+script premis path
+
+Example:
+generate_tag_libraries.bat premis ../tei/DD-eng.xml
+
+The script will run and give you information about errors that is found.
+
+The resulting pdf and html is found in the same folder named premis.pdf and premis.html.

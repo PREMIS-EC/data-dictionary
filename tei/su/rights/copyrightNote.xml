@@ -25,7 +25,7 @@
     <div type="examples">
         <!-- PREMIS Examples -->
         <p>
-            <list type="ordered">
+            <list type="example">
                 <item>Copyright expiration expected in 2010 unless renewed.</item>
                 <item>Copyright statement is embedded in file header.</item>
             </list>

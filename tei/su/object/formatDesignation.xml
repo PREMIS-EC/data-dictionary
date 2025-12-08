@@ -10,8 +10,8 @@
     
     <div type="semanticcomponents">
         <!-- PREMIS Semantic components -->
-        <p>formatName</p>
-        <p>formatVersion</p>
+        <p>1.5.4.1.1 formatName</p>
+        <p>1.5.4.1.2 formatVersion</p>
     </div>
     
     <div type="definition">

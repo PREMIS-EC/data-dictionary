@@ -71,13 +71,13 @@
                 </row>
                 <row>
                     <cell><bold>Examples</bold></cell>
-                    <cell><list type="ordered">
+                    <cell><list type="example">
                             <item>For <gi>preservationLevelType</gi> “Logical
                                 Preservation”:</item>
                             <item>Migration</item>
                             <item>Emulation</item>
                     </list></cell>
-                    <cell><list type="ordered">
+                    <cell><list type="example">
                             <item>For <gi>preservationLevelType</gi> “Bit Preservation”:</item>
                             <item>Low (e.g. backup)</item>
                             <item>Medium (e.g. min. 2 copies and integrity check)</item>

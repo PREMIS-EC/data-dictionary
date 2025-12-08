@@ -67,12 +67,12 @@
                 </row>
                 <row>
                     <cell><bold>Examples</bold></cell>
-                    <cell><list type="ordered">
+                    <cell><list type="example">
                             <item>2007-11-05</item>
                             <item>2007-11-05T08:15:30-05:00</item>
                             <item>20080315</item>
                     </list></cell>
-                    <cell><list type="ordered">
+                    <cell><list type="example">
                             <item>2007-11-05</item>
                             <item>2007-11-05T08:15:30-05:00</item>
                             <item>20080315</item>

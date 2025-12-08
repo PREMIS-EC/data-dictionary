@@ -59,10 +59,10 @@
                 <row>
                     <cell><bold>Examples</bold></cell>
                     <cell> </cell>
-                    <cell><cell><list type="ordered">
+                    <cell><cell><list type="example">
                                 <item>fmt/155</item>
                     </list></cell></cell>
-                    <cell><list type="ordered">
+                    <cell><list type="example">
                             <item>fmt/155</item>
                     </list></cell>
                 </row>

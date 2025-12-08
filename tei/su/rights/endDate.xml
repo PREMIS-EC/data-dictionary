@@ -28,7 +28,7 @@
     <div type="examples">
         <!-- PREMIS Examples -->
         <p>
-            <list type="ordered">
+            <list type="example">
                 <item>2010-01-02</item>                
                 <item>20120723</item>
             </list>

@@ -10,8 +10,8 @@
     
     <div type="semanticcomponents">
         <!-- PREMIS Semantic components -->
-        <p>signature</p>
-        <p>signatureInformationExtension</p>
+        <p>1.8.1 signature</p>
+        <p>1.8.2 signatureInformationExtension</p>
     </div>
     
     <div type="definition">

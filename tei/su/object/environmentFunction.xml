@@ -10,8 +10,8 @@
     
     <div type="semanticcomponents">
         <!-- PREMIS Semantic components -->
-        <p>environmentFunctionType</p>
-        <p>environmentFunctionLevel</p>
+        <p>1.9.1 environmentFunctionType</p>
+        <p>1.9.2 environmentFunctionLevel</p>
     </div>
     
     <div type="definition">
@@ -31,7 +31,7 @@
             that specified fine-grained <bold>swType</bold> and <bold>hwType</bold>
             vocabulary. It is important to capture the type and use of an
             environment to express:</p>
-        <list type="ordered">
+        <list type="example">
             <item>What is the type of the environment, such as hardware, software
                 or documentation.</item>
             <item>A refinement of the type to isolate where in the rendering
@@ -90,7 +90,7 @@
                 </row>
                 <row>
                     <cell><bold>Obligation</bold></cell>
-                    <cell>ManOptionaldatory</cell>
+                    <cell>Optional</cell>
                     <cell> </cell>
                     <cell> </cell>
                     <cell> </cell>
