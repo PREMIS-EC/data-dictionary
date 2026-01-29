@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"  xml:id="linkingRightsStatementIdentifier">
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"  xml:id="linkingRightsIdentifier">
     <head>
         <!-- PREMIS Semantic unit 3.8.0 -->
         <abbr>3.8</abbr>
-        <gi>linkingRightsStatementIdentifier</gi>
+        <gi>linkingRightsIdentifier</gi>
         
     </head>       
     <div type="semanticcomponents">
         <!-- PREMIS Semantic components -->
-        <p>3.8.1 linkingRightsStatementIdentifierType</p>
-        <p>3.8.2 linkingRightsStatementIdentifierValue</p>
+        <p>3.8.1 linkingRightsIdentifierType</p>
+        <p>3.8.2 linkingRightsIdentifierValue</p>
     </div>       
     <div type="definition">
         <!-- PREMIS Definition -->

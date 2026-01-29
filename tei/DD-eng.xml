@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/TL-teiliteSchema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>startDate and endDate (under applicableDatesOfRestriction, within linkingObjectIdentifer, Rights)
+<?xml-model href="../schema/TL-teiliteSchema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:ead="http://ead3.archivists.org/schema/"
     xmlns:eg="http://www.tei-c.org/ns/Examples"
     xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
@@ -40,7 +40,7 @@
                         reserved. No part of this publication may be reproduced, stored in a
                         retrieval system or transmitted in any form or by any means, electronic,
                         mechanical or photocopying, recording, or otherwise without attribution.
-                        This is following PREMIS EC decsion on the 21st of April 2021</licence>
+                        This is following a PREMIS EC decision on the 21st of April 2021.</licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -71,7 +71,7 @@
                         <head>PREMIS Editorial Commttee Members</head>
                         <item>Karin Bredenberg, Chair, Sydarkivera</item>
                         <item>Bertrand Caron, TIB Leibniz Information Centre for Science and Technology</item>
-                        <item>David Cirella, Yale University Library
+                        <item>David Cirella, Yale University Library</item>
 						<item>Honghu Fu, National Science Library CAS</item>
                         <item>Leslie Johnston, U.S. National Archives and Records Administration</item>
                         <item>Micky Lindlar, TIB Leibniz Information Centre for Science and Technology</item>
@@ -449,7 +449,7 @@ Implementers Group (PIG) discussion list and wiki, conducting tutorials on the D
 					<item>Addition of a new semantic unit relatedEvent to the linking semantic units (both directions), to support the option to record an Event for a specific Object - Rights combination, for instance a reviewing event or a trigger event.</item>
 					<item>Addition of a container unit that holds ‘trigger’ and ‘duration’ for a rule or restriction. Giving the opportunity to define what type of event (like ‘first publication of an object’ or a specific external event agreed with the rightsholder) will activate a rule/restriction and for how long (duration).</item>
 					<item>Restructuring of the Rights Entity as a whole to be able to refer to the identifier regardless of the use of the extension, positioning the extension as an alternative for the rightsStatement, and merging the containers for separate rightsbases into one container called rightsInformation.</item>
-					</list
+					</list>
                 </div>
                 <div>
                     <head>PREMIS Awards and Recognition</head>
@@ -1076,7 +1076,7 @@ Implementers Group (PIG) discussion list and wiki, conducting tutorials on the D
 						<p>A rightsStatement may also be updated instead of creating a new rightsStatement in cases where the outcome of the review Event is a wholesale change, such as the expiration of a restriction, license, or copyright. The Review Event as referred to in the linkingEventIdentifier is used to record and track the event leading to the change. Review events with partial outcomes (such as a partial declassification that results in redacted availability) must have a new rightsStatement.</p>
 						<p>Rights Review Events will stack over time to provide a review history.</p>
                <p><bold><italic>Trigger Event</italic></bold></p>
-			   <p>Another example for the use of the linkingObject container of the Rightsstatement is when the related Event represents a trigger that activates a rule for a (set of) objects. The Event will have an eventDateTime, that corresponds with the <italic>trigger as described in the rule, namely what sort of date is used to activate the rule: Birthdate, Death Date, Publication Date, Review for Release, Declassification, etc.</p>
+			   <p>Another example for the use of the linkingObject container of the Rightsstatement is when the related Event represents a trigger that activates a rule for a (set of) objects. The Event will have an eventDateTime, that corresponds with the <italic>trigger</italic> as described in the rule, namely what sort of date is used to activate the rule: Birthdate, Death Date, Publication Date, Review for Release, Declassification, etc.</p>
 			   </div>
                 <div>
                     <head>More on Agents</head>
@@ -1788,7 +1788,7 @@ Implementers Group (PIG) discussion list and wiki, conducting tutorials on the D
                     </list>
                 </div>
                 <div>
-                    <head>THE PREMIS DATA DICTIONARY VERSION 3.0</head>
+                    <head>THE PREMIS DATA DICTIONARY VERSION 4.0</head>
                     <p>The PREMIS Data Dictionary includes semantic units for Objects, Events,
                         Agents, and Rights. The template for each entry includes a place for notes
                         about how to create or use the semantic unit. In some cases the group felt
@@ -1928,8 +1928,8 @@ Implementers Group (PIG) discussion list and wiki, conducting tutorials on the D
                         can properly identify Agents that have acted upon Objects in its care,
                         additional Agent characteristics will be determined by local requirements;
                         many can be modeled on existing standard metadata element sets.</p>
-                    <p><bold>Rights: </bold>PREMIS primarily defines characteristics of Rights and
-                        permissions concerned with preservation activities, not those associated
+                    <p><bold>Rights: </bold>PREMIS defines characteristics of Rights and
+                        permissions or obligations concerned with preservation activities, including those associated
                         with access and/or distribution. The semantic units allow for extensibility
                         to use an external Rights metadata scheme.</p>
                     <p><bold>Technical metadata: </bold>Technical metadata describes the physical
@@ -1952,18 +1952,14 @@ Implementers Group (PIG) discussion list and wiki, conducting tutorials on the D
                         specific DVD units, such as manufacturer, dye material, and dye thickness.
                         PREMIS leaves the definition of metadata for describing media
                         characteristics to specialists in these areas.</p>
-                    <p><bold>Business rules: </bold>The working group made no attempt to describe
-                        the business rules of a repository, although certainly this metadata is
-                        essential for preservation within the repository. Business rules codify the
+                    <p><bold>Business rules: </bold>Business rules codify the
                         application of preservation strategies and document repository policies,
                         services, charges, and roles. Retention periods, disposition, risk
                         assessment, permanence ratings, schedules for media refreshment, and so on
                         are pertinent to objects but are not actual properties of Objects. A single
                         exception was made for the level of preservation treatment to be accorded an
                         object (preservationLevel) because this was felt to be critical information
-                        for any preservation repository. A more thorough treatment of business rules
-                        could be added to the data model by defining a Rules entity similar to
-                        Rights, although this is not included in the current revision.</p>
+                        for any preservation repository. Version 4 introduces a new approach for the treatment of business rules, which can now be implemented by defining a rule (type: obligation) in a rightsStatement.</p>
                 </div>
             </div>
         </front>
@@ -2309,13 +2305,13 @@ Implementers Group (PIG) discussion list and wiki, conducting tutorials on the D
                             <cell n="1"> 1.14.2 linkingEventIdentifierValue (M, NR) </cell>
                         </row>
                         <row>
-                            <cell> 1.15 linkingRightsStatementIdentifier (O, R) </cell>
+                            <cell> 1.15 linkingRightsIdentifier (O, R) </cell>
                         </row>
                         <row>
-                            <cell n="1"> 1.15.1 linkingRightsStatementIdentifierType (M, NR) </cell>
+                            <cell n="1"> 1.15.1 linkingRightsIdentifierType (M, NR) </cell>
                         </row>
                         <row>
-                            <cell n="1"> 1.15.2 linkingRightsStatementIdentifierValue (M, NR) </cell>
+                            <cell n="1"> 1.15.2 linkingRightsIdentifierValue (M, NR) </cell>
                         </row>
 
 
@@ -2407,9 +2403,9 @@ Implementers Group (PIG) discussion list and wiki, conducting tutorials on the D
                 <xi:include href="su/object/linkingEventIdentifier.xml" parse="xml"/>
                 <xi:include href="su/object/linkingEventIdentifierType.xml" parse="xml"/>
                 <xi:include href="su/object/linkingEventIdentifierValue.xml" parse="xml"/>
-                <xi:include href="su/object/linkingRightsStatementIdentifier.xml" parse="xml"/>
-                <xi:include href="su/object/linkingRightsStatementIdentifierType.xml" parse="xml"/>
-                <xi:include href="su/object/linkingRightsStatementIdentifierValue.xml" parse="xml"/>
+                <xi:include href="su/object/linkingRightsIdentifier.xml" parse="xml"/>
+                <xi:include href="su/object/linkingRightsIdentifierType.xml" parse="xml"/>
+                <xi:include href="su/object/linkingRightsIdentifierValue.xml" parse="xml"/>
             </div>
             <div type="elements" xml:id="events">
                 <div type="Introduction">
@@ -2430,8 +2426,9 @@ Implementers Group (PIG) discussion list and wiki, conducting tutorials on the D
                         <head>Entity properties</head>
                         <item>Must be related to one or more Objects.</item>
                         <item>Can be related to one or more Agents.</item>
-                        <item>Links between entities may be recorded from either direction and need
-                            not be bi-directional.</item>
+                        <item>Can be related to Rights entities as review events for rights status.</item>
+						<p>Links between entities may be recorded from either direction and need not be bi-directional.</p>
+						<p>The Event entity may be pointed to from a linking relation between Object and Rights. In this case the Rights of that particular Object (or Objects) are related to the event. For example when, as an outcome of a Review, the rightsStatement has been changed, or newly created.</p>
                     </list>
                     <table cols="1">
                         <head>Entity semantic units</head>
@@ -2530,6 +2527,7 @@ Implementers Group (PIG) discussion list and wiki, conducting tutorials on the D
                         management and preservation events in the life of a data object. Agent
                         information serves to identify an Agent unambiguously from all other Agent
                         entities.</p>
+						<p>An agent is a person, organization, hardware, or software, or may also be a group (an organizational unit or a class of staff with some shared characteristic, such as all staff in a preservation unit or all staff with a specific security clearance). A note on the word “repository”: the term is sometimes used to refer to an organization, and sometimes refers to repository software or a system.</p>
                     <p>A piece of software or hardware that is captured as an Agent can also be
                         preserved in a repository and described as an environment O bject, for
                         example, as source code or an ISO disk image. In this case, implementers may
@@ -2542,7 +2540,7 @@ Implementers Group (PIG) discussion list and wiki, conducting tutorials on the D
                     <p>The only mandatory semantic unit is agentIdentifier.</p>
                     <list type="bulleted">
                         <head>Entity properties</head>
-                        <item>May hold or grant one or more Rights.</item>
+                        <item>May hold or grant one or more Rights. (resp. be committed to or impose an obligation)</item>
                         <item>May carry out, authorize, or compel one or more Events.</item>
                         <item>May create or act upon one or more Objects through an Event or with
                             respect to a Rights statement.</item>
@@ -2583,13 +2581,13 @@ Implementers Group (PIG) discussion list and wiki, conducting tutorials on the D
                             <cell n="1"> 3.7.2 linkingEventIdentifierValue (M, NR) </cell>
                         </row>
                         <row>
-                            <cell> 3.8 linkingRightsStatementIdentifier (O, R) </cell>
+                            <cell> 3.8 linkingRightsIdentifier (O, R) </cell>
                         </row>
                         <row>
-                            <cell n="1"> 3.8.1 linkingRightsStatementIdentifierType (M, NR) </cell>
+                            <cell n="1"> 3.8.1 linkingRightsIdentifierType (M, NR) </cell>
                         </row>
                         <row>
-                            <cell n="1"> 3.8.2 linkingRightsStatementIdentifierValue (M, NR) </cell>
+                            <cell n="1"> 3.8.2 linkingRightsIdentifierValue (M, NR) </cell>
                         </row>
                         <row>
                             <cell> 3.9 linkingEnvironmentIdentifier (O, R) </cell>
@@ -2617,9 +2615,9 @@ Implementers Group (PIG) discussion list and wiki, conducting tutorials on the D
                 <xi:include href="su/agents/linkingEventIdentifier.xml" parse="xml"/>
                 <xi:include href="su/agents/linkingEventIdentifierType.xml" parse="xml"/>
                 <xi:include href="su/agents/linkingEventIdentifierValue.xml" parse="xml"/>
-                <xi:include href="su/agents/linkingRightsStatementIdentifier.xml" parse="xml"/>
-                <xi:include href="su/agents/linkingRightsStatementIdentifierType.xml" parse="xml"/>
-                <xi:include href="su/agents/linkingRightsStatementIdentifierValue.xml" parse="xml"/>
+                <xi:include href="su/agents/linkingRightsIdentifier.xml" parse="xml"/>
+                <xi:include href="su/agents/linkingRightsIdentifierType.xml" parse="xml"/>
+                <xi:include href="su/agents/linkingRightsIdentifierValue.xml" parse="xml"/>
                 <xi:include href="su/agents/linkingEnvironmentIdentifier.xml" parse="xml"/>
                 <xi:include href="su/agents/linkingEnvironmentIdentifierType.xml" parse="xml"/>
                 <xi:include href="su/agents/linkingEnvironmentIdentifierValue.xml" parse="xml"/>
