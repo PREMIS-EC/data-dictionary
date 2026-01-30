@@ -2,8 +2,8 @@
 <div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"
     xml:id="otherRightsBasis">
     <head>
-        <!-- PREMIS Semantic unit 4.1.6.2.0 -->
-        <abbr>4.1.6.2</abbr>
+        <!-- PREMIS Semantic unit 4.2.2.7 -->
+        <abbr>4.2.2.7</abbr>
         <gi>otherRightsBasis</gi>
     </head>
     <div type="semanticcomponents">
@@ -12,7 +12,8 @@
     </div>
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p/>
+        <p>Designation of the basis for the other right, permission, or
+obligation described in the <italic>rightsStatement</italic>.<p/>
     </div>
     <div type="rationale">
         <!-- PREMIS Rationale -->
@@ -20,17 +21,17 @@
     </div>
     <div type="datatype">
         <!-- PREMIS Data constraint -->
-        <p/>
+        <p>Values should be taken from a controlled vocabulary.<p/>
     </div>
     <div type="examples">
         <!-- PREMIS Examples -->
-        <p/>
+        <p>Harvard policy<p/>
     </div>
     <div type="entity">
         <p>
             <list type="simple">
                 <label>Obligation</label>
-                <item>Optional</item>
+                <item>Optional (Mandatory if the is another Righst basis)</item>
                 <label>Repeatability</label>
                 <item>Not repeatable</item>
             </list>
@@ -42,7 +43,16 @@
     </div>
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p/>
+        <p>
+		Use this semantic unit for specific Rights bases other than copyright,
+license or, statute. When this semantic unit is used, 4.2.1 rightsBasis
+should be set to “other”.</p>
+<p>The Rights basis may be specific to the repository, but it is
+recommended to use a value from a local or globally controlled
+vocabulary for machine actionability.</p>
+<p>If more than one basis applies, the entire Rights entity should be
+repeated.
+		<p/>
     </div>
 </div>
 

@@ -2662,8 +2662,68 @@ Implementers Group (PIG) discussion list and wiki, conducting tutorials on the D
                         <row>
                             <cell n="1"> 4.1.2 rightsIdentifierValue (M, NR) </cell>
                         </row>
-					   <row>
+						    <row>
                             <cell> 4.2 rightsStatement (O, R) </cell>
+                        </row>
+						<row>
+                            <cell n="1"> 4.2.1 rightsBasis (M, NR) </cell>
+                        </row>
+						<row>
+                            <cell n="1"> 4.2.2 rightsInformation (O, NR) </cell>
+                        </row>
+						<row>
+                            <cell n="2"> 4.2.2.1 jurisdiction (O, NR) </cell>
+                        </row>
+						<row>
+                            <cell n="2"> 4.2.2.2 conditions (O, NR) </cell>
+                        </row>
+						<row>
+                            <cell n="2"> 4.2.2.3 citation (O, NR) </cell>
+                        </row>
+						<row>
+                            <cell n="2"> 4.2.2.4 note (O,R) </cell>
+                        </row>
+						<cell n="2"> 4.2.2.5 documentationIdentifier (O, R) </cell>
+                        </row>
+						<row>
+							<cell n="3"> 4.2.2.5.1 documentationIdentifierType (M, NR) </cell>
+                        </row>
+						<row>
+							<cell n="3"> 4.2.2.5.2 documentationIdentifierValue (M, NR) </cell>
+                        </row>
+						<row>
+							<cell n="3"> 4.2.2.5.3 documentationRole (O, NR) </cell>
+                        </row>
+						<row>
+                            <cell n="2"> 4.2.2.6 applicableDates (O, NR) </cell>
+                        </row>
+						<row>
+							<cell n="3"> 4.2.2.8.1 startDate (O, NR) </cell>
+                        </row>
+						<row>
+							<cell n="3"> 4.2.2.8.2 enddate </cell>
+                        </row>
+						<row>
+                            <cell n="2"> 4.2.2.7 otherRightsBasis </cell>
+                        </row>
+
+						<row>
+                            <cell n="1"> 4.2.3 rule (O, R) </cell>
+                        </row>
+						<row>
+                            <cell n="1"> 4.2.4 linkingObjectIdentifier (O, R) </cell>
+                        </row>
+<!-- 					    <row>
+                            <cell> 4.1 rightsStatement (O, R) </cell>
+                        </row>
+                        <row>
+                            <cell n="1"> 4.1.1 rightsStatementIdentifier (M, NR) </cell>
+                        </row>
+                        <row>
+                            <cell n="2"> 4.1.1.1 rightsStatementIdentifierType (M, NR) </cell>
+                        </row>
+                        <row>
+                            <cell n="2"> 4.1.1.2 rightsStatementIdentifierValue (M, NR) </cell>
                         </row>
                         <row>
                             <cell n="1"> 4.1.2 rightsBasis (M, NR) </cell>
@@ -2856,7 +2916,7 @@ Implementers Group (PIG) discussion list and wiki, conducting tutorials on the D
                         </row>
                         <row>
                             <cell> 4.2 rightsExtension (O, R) </cell>
-                        </row>
+                        </row> -->
                     </table>
                 </div>
                 <xi:include href="su/rights/rightsIdentifier.xml" parse="xml"/>
@@ -2864,6 +2924,24 @@ Implementers Group (PIG) discussion list and wiki, conducting tutorials on the D
                 <xi:include href="su/rights/rightsIdentifierValue.xml" parse="xml"/>
                 <xi:include href="su/rights/rightsStatement.xml" parse="xml"/>
                 <xi:include href="su/rights/rightsBasis.xml" parse="xml"/>
+				<xi:include href="su/rights/rightsInformation.xml" parse="xml"/>
+				<xi:include href="su/rights/jurisdiction.xml" parse="xml"/>
+				<xi:include href="su/rights/conditions.xml" parse="xml"/>
+				<xi:include href="su/rights/citation.xml" parse="xml"/>
+				<xi:include href="su/rights/note.xml" parse="xml"/>
+				<xi:include href="su/rights/documentationIdentifier.xml" parse="xml"/>
+                <xi:include href="su/rights/documentationIdentifierType.xml" parse="xml"/>
+                <xi:include href="su/rights/documentationIdentifierValue.xml" parse="xml"/>
+                <xi:include href="su/rights/documentationRole.xml" parse="xml"/> 
+				<xi:include href="su/rights/applicableDates.xml" parse="xml"/>
+                <xi:include href="su/rights/startDate.xml" parse="xml"/>
+                <xi:include href="su/rights/endDate.xml" parse="xml"/>
+				<xi:include href="su/rights/otherRightsBasis.xml" parse="xml"/>
+<!-- 				<xi:include href="su/rights/rightsStatement.xml" parse="xml"/>
+                <xi:include href="su/rights/rightsStatementIdentifier.xml" parse="xml"/>
+                <xi:include href="su/rights/rightsStatementIdentifierType.xml" parse="xml"/>
+                <xi:include href="su/rights/rightsStatementIdentifierValue.xml" parse="xml"/>
+				<xi:include href="su/rights/rightsBasis.xml" parse="xml"/>
                 <xi:include href="su/rights/copyrightInformation.xml" parse="xml"/>
                 <xi:include href="su/rights/copyrightStatus.xml" parse="xml"/>
                 <xi:include href="su/rights/copyrightJurisdiction.xml" parse="xml"/>
@@ -2927,7 +3005,7 @@ Implementers Group (PIG) discussion list and wiki, conducting tutorials on the D
                 <xi:include href="su/rights/rightsLinkingAgentIdentifierValue.xml" parse="xml"/>
                 <xi:include href="su/rights/rightsLinkingAgentRole.xml" parse="xml"/>
                 <xi:include href="su/rights/rightsExtension.xml" parse="xml"/>
-             </div>
+ -->             </div>
        </body>
         <back>
             <div type="appendix" xml:id="appendixSpecialTopics">
