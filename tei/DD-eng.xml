@@ -2626,42 +2626,44 @@ Implementers Group (PIG) discussion list and wiki, conducting tutorials on the D
             <div type="elements" xml:id="rights">
                 <div type="Introduction">
                     <head>Rights Entity</head>
-                    <p>For the purpose of the PREMIS Data Dictionary, statements of legal rights and
-                        permissions are taken to be constructs that can be described as the Rights
+                    <p>For the purpose of the PREMIS Data Dictionary, statements of legal rights,
+                        permissions, and obligations are taken to be constructs that can be described as the Rights
                         entity. Rights are entitlements grantedto Agents by copyright or other
                         intellectual property law. Permissions are powers or privileges granted by
-                        agreement between a rightsholder and another party or parties.</p>
-                    <p>A repository might wish to record a variety of Rights information including
+                        agreement between a rightsholder (the Agent) and another party or parties (being the repository). In fact it can even be that the repository that grants rights to another party or parties (Agents).</p>
+                    <p>Obligations are also based on such agreements, but with a binding character. And in that case the Agent might be an instrument (software, hardware) or a contract partner (organisation, person etc).</p>
+					<p>In the situation that the copyright belongs to a third party (the rights holder), permission can be granted through an agreement (a license) to perform actions for which copyright is required. The Repository might want to record the duration of the license as well as when the copyright as such expires, thus ending the need for licensing. Especially when permission is generic, rather than relating to a specific request or a one-time action. The Rights Entity of the (generic) license can be linked to the Rights Entity of the copyright, to make their relation explicit.</p>
+					<p>A repository might wish to record a variety of Rights information including
                         abstract Rightsstatements and statements of permissions that apply to
                         external Agents and to objects not held within the repository. The minimum
                         core Rights information that a preservation repository must know, however,
-                        is what Rights or permissions a repository has to carry out actions related
+                        is what Rights, being permissions or obligations, a repository has to carry out actions related
                         to objects within the repository. These may generally be granted by
-                        copyright law, by statute, or by a license agreement with the rightsholder.
+                        copyright law, by statute, or by a license agreement with the rightsholder or another third party.
                         In some situations the basis for the rights is for other reasons, for
                         instance institutional policy. </p>
                     <p>If the repository records Rights information, either <bold>rightsStatement</bold>
                         or <bold>rightsExtension</bold> must be present.</p>
                     <list type="bulleted">
                         <head>Entity properties</head>
-                        <item>May be related to one or more Objects.</item>
+                        <item>May be related to one or more Objects, with one or more Events.</item>
                         <item>May be related to one or more Agents.</item>
-                        <item>Links between entities may be recorded from either direction and need
-                            not be bi-directional.</item>
+							<item>Rights entities may be related to one or more Rights.</item>
                     </list>
+					<p>Links between entities may be recorded from either direction and need not be bi-directional.</p>
                     <table cols="1">
                         <head>Entity semantic units</head>
-                        <row>
-                            <cell> 4.1 rightsStatement (O, R) </cell>
+						<row>
+                            <cell> 4.1 rightsIdentifier (M, NR) </cell>
                         </row>
                         <row>
-                            <cell n="1"> 4.1.1 rightsStatementIdentifier (M, NR) </cell>
+                            <cell n="1"> 4.1.1 rightsIdentifierType (M, NR) </cell>
                         </row>
                         <row>
-                            <cell n="2"> 4.1.1.1 rightsStatementIdentifierType (M, NR) </cell>
+                            <cell n="1"> 4.1.2 rightsIdentifierValue (M, NR) </cell>
                         </row>
-                        <row>
-                            <cell n="2"> 4.1.1.2 rightsStatementIdentifierValue (M, NR) </cell>
+					   <row>
+                            <cell> 4.2 rightsStatement (O, R) </cell>
                         </row>
                         <row>
                             <cell n="1"> 4.1.2 rightsBasis (M, NR) </cell>
@@ -2857,10 +2859,10 @@ Implementers Group (PIG) discussion list and wiki, conducting tutorials on the D
                         </row>
                     </table>
                 </div>
+                <xi:include href="su/rights/rightsIdentifier.xml" parse="xml"/>
+                <xi:include href="su/rights/rightsIdentifierType.xml" parse="xml"/>
+                <xi:include href="su/rights/rightsIdentifierValue.xml" parse="xml"/>
                 <xi:include href="su/rights/rightsStatement.xml" parse="xml"/>
-                <xi:include href="su/rights/rightsStatementIdentifier.xml" parse="xml"/>
-                <xi:include href="su/rights/rightsStatementIdentifierType.xml" parse="xml"/>
-                <xi:include href="su/rights/rightsStatementIdentifierValue.xml" parse="xml"/>
                 <xi:include href="su/rights/rightsBasis.xml" parse="xml"/>
                 <xi:include href="su/rights/copyrightInformation.xml" parse="xml"/>
                 <xi:include href="su/rights/copyrightStatus.xml" parse="xml"/>

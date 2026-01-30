@@ -1,34 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"
-    xml:id="rightsStatementIdentifier">
+    xml:id="rightsIdentifierType">
     <head>
         <!-- PREMIS Semantic unit 4.1.1 -->
         <abbr>4.1.1</abbr>
-        <gi>rightsStatementIdentifier</gi>
+        <gi>rightsIdentifierType</gi>
     </head>
     <div type="semanticcomponents">
         <!-- PREMIS Semantic components -->
-        <p>4.1.1.1 rightsStatementIdentifierType</p>
-        <p>4.1.1.2 rightsStatementIdentifierValue</p>
+        <p>None</p>
     </div>
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>The designation used to identify the Rights statement uniquely within a
-            preservation repository system.</p>
+        <p>A designation of the domain within which the Rights identifier
+            is unique.</p>
     </div>
     <div type="rationale">
         <!-- PREMIS Rationale -->
-        <p>Each statement of Rights associated with the preservation repository must
-            have a unique identifier to allow it to be related to Events and
-            Agents.</p>
+        <p/>
     </div>
     <div type="datatype">
         <!-- PREMIS Data constraint -->
-        <p>Container</p>
+        <p>Value should be taken from a controlled vocabulary.A controlled
+            vocabulary is available at: <ref
+                target="http://id.loc.gov/vocabulary/identifiers.html"
+                >http://id.loc.gov/vocabulary/identifiers.html</ref></p>
     </div>
     <div type="examples">
         <!-- PREMIS Examples -->
-        <p/>
+		<p>
+		<list type="simple">
+		<item>LCNAF</item>
+		<item>SAN</item>
+		<item>DLC</item>
+		<item>URI</item>
+		<item>local</item>
+		</list
+        </p>
     </div>
     <div type="entity">
         <p>
@@ -42,12 +50,11 @@
     </div>
     <div type="creationmaintenance">
         <!-- PREMIS Creation / Maintenance -->
-        <p>The <bold>rightsStatementIdentifier</bold> is likely to be system generated.
-            There is no global scheme or standard for these identifiers. The
-            identifier is therefore not repeatable.</p>
+        <p/>
     </div>
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>Identifiers must be unique within the repository.</p>
+        <p/>
     </div>
 </div>
+

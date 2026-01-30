@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"
-    xml:id="rightsStatementIdentifierValue">
+    xml:id="jurisdiction">
     <head>
-        <!-- PREMIS Semantic unit 4.1.1.2 -->
-        <abbr>4.1.1.2</abbr>
-        <gi>rightsStatementIdentifierValue</gi>
+        <!-- PREMIS Semantic unit 4.1.3.2 -->
+        <abbr>4.2.2.1</abbr>
+        <gi>jurisdiction</gi>
     </head>
     <div type="semanticcomponents">
         <!-- PREMIS Semantic components -->
@@ -12,25 +12,30 @@
     </div>
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>The value of the rightsStatementIdentifier.</p>
+        <p>The country whose copyright laws apply. This may also document statutes covered by indigenous and tribal sovereignty.</p>
     </div>
     <div type="rationale">
         <!-- PREMIS Rationale -->
-        <p/>
+        <p>Copyright law/statutes can vary from country to country.</p>
     </div>
     <div type="datatype">
         <!-- PREMIS Data constraint -->
-        <p/>
+        <p>Values should be taken from ISO 3166.</p>
     </div>
     <div type="examples">
         <!-- PREMIS Examples -->
-        <p/>
+        <p>
+            <list type="example">
+               <item>us</item>                
+                <item>de</item>
+            </list>
+        </p>
     </div>
     <div type="entity">
         <p>
             <list type="simple">
                 <label>Obligation</label>
-                <item>Mandatory</item>
+                <item>Optional (Mandatory in case rightsBasis = copyright or statute)</item>
                 <label>Repeatability</label>
                 <item>Not repeatable</item>
             </list>
@@ -45,3 +50,4 @@
         <p/>
     </div>
 </div>
+

@@ -2,8 +2,8 @@
 <div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"
     xml:id="rightsBasis">
     <head>
-        <!-- PREMIS Semantic unit 4.1.2.0 -->
-        <abbr>4.1.2</abbr>
+        <!-- PREMIS Semantic unit 4.2.1 -->
+        <abbr>4.2.1</abbr>
         <gi>rightsBasis</gi>
     </head>
     <div type="semanticcomponents">
@@ -12,8 +12,8 @@
     </div>
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>Designation of the basis for the right or permission identified by the
-            <bold>rightsStatementIdentifier</bold>.</p>
+        <p>Designation of the basis for the right (permission or obligation) identified by the
+            <bold>rightsIdentifier</bold>.</p>
     </div>
     <div type="rationale">
         <!-- PREMIS Rationale -->
@@ -50,12 +50,8 @@
     </div>
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>When <bold>rightsBasis</bold> is “copyright”, <bold>copyrightInformation</bold>
-            should be provided. When <bold>rightsBasis</bold> is “license”,
-            <bold>licenseInformation</bold> should be provided. When
-            <bold>rightsBasis</bold> is “statute”, <bold>statuteInformation</bold>
-            should be provided. When <bold>rightsBasis</bold> is “other”,
-            <bold>otherRightsBasis</bold> (in <bold>otherRightsInformation</bold>
+        <p>When <bold>rightsBasis</bold> is “other”,
+            <bold>otherRightsBasis</bold> (in <bold>RightsInformation</bold>
             container) should be provided. If the Rights for the item are public
             domain, use “copyright”. If they are Fair Use, use “statute”. If more
             than one basis applies, the entire Rights entity should be repeated.</p>

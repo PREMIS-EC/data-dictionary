@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"
-    xml:id="rightsStatementIdentifier">
+    xml:id="rightsIdentifier">
     <head>
-        <!-- PREMIS Semantic unit 4.1.1 -->
-        <abbr>4.1.1</abbr>
-        <gi>rightsStatementIdentifier</gi>
+        <!-- PREMIS Semantic unit 4.1.0 -->
+        <abbr>4.1</abbr>
+        <gi>rightsIdentifier</gi>
     </head>
     <div type="semanticcomponents">
         <!-- PREMIS Semantic components -->
-        <p>4.1.1.1 rightsStatementIdentifierType</p>
-        <p>4.1.1.2 rightsStatementIdentifierValue</p>
+        <p>4.1.1 rightsIdentifierType</p>
+        <p>4.1.2 rightsIdentifierValue</p>
     </div>
     <div type="definition">
         <!-- PREMIS Definition -->
@@ -42,7 +42,7 @@
     </div>
     <div type="creationmaintenance">
         <!-- PREMIS Creation / Maintenance -->
-        <p>The <bold>rightsStatementIdentifier</bold> is likely to be system generated.
+        <p>The <bold>rightstIdentifier</bold> is likely to be system generated.
             There is no global scheme or standard for these identifiers. The
             identifier is therefore not repeatable.</p>
     </div>
@@ -51,3 +51,4 @@
         <p>Identifiers must be unique within the repository.</p>
     </div>
 </div>
+

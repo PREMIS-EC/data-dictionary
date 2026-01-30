@@ -2,13 +2,17 @@
 <div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"
     xml:id="rightsStatement">
     <head>
-        <!-- PREMIS Semantic unit 4.1.0 -->
-        <abbr>4.1</abbr>
+        <!-- PREMIS Semantic unit 4.2.0 -->
+        <abbr>4.2</abbr>
         <gi>rightsStatement</gi>
     </head>
     <div type="semanticcomponents">
         <!-- PREMIS Semantic components -->
-        <p>4.1.1 rightsStatementIdentifier</p>
+        <p>4.2.1 rightsBasis</p>
+        <p>4.2.2 rightstInformation</p>
+        <p>4.2.3 rule</p>
+        <p>4.2.4 linkingObjectIdentifier</p>
+<!-- 		<p>4.1.1 rightsStatementIdentifier</p>
         <p>4.1.2 rightsBasis</p>
         <p>4.1.3 copyrightInformation</p>
         <p>4.1.4 licenseInformation</p>
@@ -16,12 +20,12 @@
         <p>4.1.6 otherRightsInformation</p>
         <p>4.1.7 rightsGranted</p>
         <p>4.1.8 linkingObjectIdentifier</p>
-        <p>4.1.9 linkingAgentIdentifier</p>
+        <p>4.1.9 linkingAgentIdentifier</p> -->
     </div>
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>Documentation of the repository's Rights or indeed restrictions to
-            perform one or more acts.</p>
+        <p>Documentation of the repository's Rights (duty or obligation) or indeed restrictions to
+            perform one or more actions.</p>
     </div>
     <div type="rationale">
         <!-- PREMIS Rationale -->
