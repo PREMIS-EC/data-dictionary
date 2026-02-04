@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"
-    xml:id="restriction">
+    xml:id="termOfRule">
     <head>
-        <!-- PREMIS Semantic unit 4.2.2.3.0 -->
-        <abbr>4.2.3.3</abbr>
-        <gi>restriction</gi>
+        <!-- PREMIS Semantic unit 4.1.7.3.0 -->
+        <abbr>4.2.3.4</abbr>
+        <gi>termOfRule</gi>
     </head>
     <div type="semanticcomponents">
         <!-- PREMIS Semantic components -->
-        <p>4.2.3.3.1 restrictionType</p>
-        <p>4.2.3.3.2 restrictionExtension</p>
+        <p>4.2.3.4.1 ruleTrigger</p>
+        <p>4.2.3.4.2 ruleDuration</p>
     </div>
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>A condition or limitation on the act.</p>
+        <p>The time period for the applied rule.</p>
     </div>
     <div type="rationale">
         <!-- PREMIS Rationale -->
-        <p/>
+        <p>A rule–permission or obligation–may have a specific trigger and duration, such as a term of copyright after publication.</p>
     </div>
     <div type="datatype">
         <!-- PREMIS Data constraint -->
@@ -25,14 +25,7 @@
     </div>
     <div type="examples">
         <!-- PREMIS Examples -->
-        <p>
-            <list type="example">
-                <item>No more than three</item>                
-                <item>Allowed only after one year of archival retention has
-                    elapsed</item>                
-                <item>Rightsholder must be notified after completion of act</item>
-            </list>
-        </p>
+        <p/>
     </div>
     <div type="entity">
         <p>
@@ -40,7 +33,7 @@
                 <label>Obligation</label>
                 <item>Optional</item>
                 <label>Repeatability</label>
-                <item>Repeatable</item>
+                <item>Not repeatable</item>
             </list>
         </p>
     </div>

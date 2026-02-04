@@ -1,38 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"
-    xml:id="restriction">
+    xml:id="ruleTrigger">
     <head>
-        <!-- PREMIS Semantic unit 4.2.2.3.0 -->
-        <abbr>4.2.3.3</abbr>
-        <gi>restriction</gi>
+        <!-- PREMIS Semantic unit 4.2.3.4.1 -->
+        <abbr>4.2.3.4.1</abbr>
+        <gi>ruleTrigger</gi>
     </head>
     <div type="semanticcomponents">
         <!-- PREMIS Semantic components -->
-        <p>4.2.3.3.1 restrictionType</p>
-        <p>4.2.3.3.2 restrictionExtension</p>
+        <p>None</p>
     </div>
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>A condition or limitation on the act.</p>
+        <p>The type of start date or startdate-time that launches the enforcement period.</p>
     </div>
     <div type="rationale">
         <!-- PREMIS Rationale -->
-        <p/>
+	<p/>
     </div>
     <div type="datatype">
         <!-- PREMIS Data constraint -->
-        <p>Container</p>
+        <p>Use a local controlled vocabulary to identify the type of trigger.</p>
     </div>
     <div type="examples">
         <!-- PREMIS Examples -->
         <p>
-            <list type="example">
-                <item>No more than three</item>                
-                <item>Allowed only after one year of archival retention has
-                    elapsed</item>                
-                <item>Rightsholder must be notified after completion of act</item>
-            </list>
-        </p>
+            <list type="simple">
+                <item>Date of Classification</item>
+                <item>Donor Agreement Signed</item>
+				<item>Licensing Date</item>
+                <item>Date of Birth</item>
+				<item>Date of Death</item>
+                <item>Date of Publication</item>
+            </list>		
+		</p>
     </div>
     <div type="entity">
         <p>
@@ -40,7 +41,7 @@
                 <label>Obligation</label>
                 <item>Optional</item>
                 <label>Repeatability</label>
-                <item>Repeatable</item>
+                <item>Not repeatable</item>
             </list>
         </p>
     </div>

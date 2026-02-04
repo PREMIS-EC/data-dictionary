@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="restrictionType">
+    <head>
+        <!-- PREMIS Semantic unit 4.2.3.3.1 -->
+        <abbr>4.2.3.3.1</abbr>
+        <gi>restrictionType</gi>
+    </head>
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>None</p>
+    </div>
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>A categorization of the nature of the Restriction.</p>
+    </div>
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p>Categorizing restrictions will aid the preservation repository in machine processing of restriction information, particularly as a sorting mechanism for reporting.</p>
+    </div>
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>Value should be taken from a controlled vocabulary. A controlled vocabulary is available at: http://id.loc.gov/vocabulary/preservation/actionsGranted.html</p>
+<!-- Linked Vocabulary element name and URI must be updated  -->
+ </div>
+    <div type="examples">
+        <!-- PREMIS Examples -->
+        <p>
+		    <list type="simple">
+                <item>embargo</item>
+                <item>security classification</item>
+            </list>
+		<p/>
+    </div>
+    <div type="entity">
+        <p>
+            <list type="simple">
+                <label>Obligation</label>
+                <item>Mandatory</item>
+                <label>Repeatability</label>
+                <item>Not repeatable</item>
+            </list>
+        </p>
+    </div>
+    <div type="creationmaintenance">
+        <!-- PREMIS Creation / Maintenance -->
+        <p/>
+    </div>
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p>The Rule defines the class of actions that a repository is allowed to perform. A duty is an obligation–which may be a restriction–and both a duty or permission may be granted by statute or license as documented in rightsBasis or institutional policy or contract as documented in otherRightsBasis.</p>
+    </div>
+</div>
+

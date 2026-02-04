@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"
-    xml:id="restriction">
+    xml:id="actionExtension">
     <head>
-        <!-- PREMIS Semantic unit 4.2.2.3.0 -->
-        <abbr>4.2.3.3</abbr>
-        <gi>restriction</gi>
+        <!-- PREMIS Semantic unit 4.2.3.2.2 -->
+        <abbr>4.2.3.2.2</abbr>
+        <gi>actionExtension</gi>
     </head>
     <div type="semanticcomponents">
         <!-- PREMIS Semantic components -->
-        <p>4.2.3.3.1 restrictionType</p>
-        <p>4.2.3.3.2 restrictionExtension</p>
+        <p>None</p>
     </div>
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>A condition or limitation on the act.</p>
+        <p>The action (‘act’) is optionally extended to add machine readable instructions.</p>
     </div>
     <div type="rationale">
         <!-- PREMIS Rationale -->
@@ -21,18 +20,11 @@
     </div>
     <div type="datatype">
         <!-- PREMIS Data constraint -->
-        <p>Container</p>
-    </div>
+        <p/>
+ </div>
     <div type="examples">
         <!-- PREMIS Examples -->
-        <p>
-            <list type="example">
-                <item>No more than three</item>                
-                <item>Allowed only after one year of archival retention has
-                    elapsed</item>                
-                <item>Rightsholder must be notified after completion of act</item>
-            </list>
-        </p>
+		<p/>
     </div>
     <div type="entity">
         <p>
@@ -40,7 +32,7 @@
                 <label>Obligation</label>
                 <item>Optional</item>
                 <label>Repeatability</label>
-                <item>Repeatable</item>
+                <item>Not repeatable</item>
             </list>
         </p>
     </div>
@@ -50,7 +42,7 @@
     </div>
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p/>
+		<p/>
     </div>
 </div>
 

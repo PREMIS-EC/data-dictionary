@@ -2698,21 +2698,58 @@ Implementers Group (PIG) discussion list and wiki, conducting tutorials on the D
                             <cell n="2"> 4.2.2.6 applicableDates (O, NR) </cell>
                         </row>
 						<row>
-							<cell n="3"> 4.2.2.8.1 startDate (O, NR) </cell>
+							<cell n="3"> 4.2.2.6.1 startDate (O, NR) </cell>
                         </row>
 						<row>
-							<cell n="3"> 4.2.2.8.2 enddate </cell>
+							<cell n="3"> 4.2.2.6.2 enddate </cell>
                         </row>
 						<row>
                             <cell n="2"> 4.2.2.7 otherRightsBasis </cell>
                         </row>
-
 						<row>
                             <cell n="1"> 4.2.3 rule (O, R) </cell>
                         </row>
 						<row>
+                            <cell n="1"> 4.2.3.1 ruleType (M, NR) </cell>
+                        </row>						
+                        <row>
+                            <cell n="2"> 4.2.3.2 action (M, NR) </cell>
+                        </row>
+                        <row>
+                            <cell n="2"> 4.2.3.2.1 actionType (M, NR) </cell>
+                        </row>
+                        <row>
+                            <cell n="2"> 4.2.3.2.2 actionExtension (O, NR) </cell>
+                        </row>
+                        <row>						
+                            <cell n="2"> 4.2.3.3 restriction (O, R) </cell>
+                        </row>
+                        <row>
+                            <cell n="2"> 4.2.3.3.1 restrictionType (M, NR) </cell>
+                        </row>
+						</row>
+                            <cell n="2"> 4.2.3.3.2 termOfRestriction (O, NR) </cell>
+                        </row>
+						<row>
+                            <cell n="2"> 4.2.3.3.2.1 restrictionTrigger (O, NR) </cell>
+                        <row>
+                            <cell n="2"> 4.2.3.3.2.2 restrictionDuration (O, NR) </cell>
+                        </row>						
+                        <row>
+                            <cell n="2"> 4.2.3.4 termOfRule (O, NR) </cell>
+                        </row>
+						<row>
+                            <cell n="2"> 4.2.3.4.1 ruleTrigger (O, NR) </cell>
+                        <row>
+                            <cell n="2"> 4.2.3.4.2 ruleDuration (O, NR) </cell>
+                        </row>	
+                        <row>
+                            <cell n="2"> 4.2.3.5 ruleNote (O, R) </cell>
+                        </row>					
+						<row>
                             <cell n="1"> 4.2.4 linkingObjectIdentifier (O, R) </cell>
                         </row>
+
 <!-- 					    <row>
                             <cell> 4.1 rightsStatement (O, R) </cell>
                         </row>
@@ -2937,6 +2974,20 @@ Implementers Group (PIG) discussion list and wiki, conducting tutorials on the D
                 <xi:include href="su/rights/startDate.xml" parse="xml"/>
                 <xi:include href="su/rights/endDate.xml" parse="xml"/>
 				<xi:include href="su/rights/otherRightsBasis.xml" parse="xml"/>
+				<xi:include href="su/rights/rule.xml" parse="xml"/>				
+				<xi:include href="su/rights/ruleType.xml" parse="xml"/>				
+				<xi:include href="su/rights/action.xml" parse="xml"/>
+				<xi:include href="su/rights/actionType.xml" parse="xml"/>
+				<xi:include href="su/rights/actionExtension.xml" parse="xml"/>
+				<xi:include href="su/rights/restriction.xml" parse="xml"/>
+				<xi:include href="su/rights/restrictionType.xml" parse="xml"/>						
+				<xi:include href="su/rights/termOfRestriction.xml" parse="xml"/>
+				<xi:include href="su/rights/restrictionTrigger.xml" parse="xml"/>
+				<xi:include href="su/rights/restrictionDuration.xml" parse="xml"/>
+				<xi:include href="su/rights/termOfRule.xml" parse="xml"/>
+				<xi:include href="su/rights/ruleTrigger.xml" parse="xml"/>
+				<xi:include href="su/rights/ruleDuration.xml" parse="xml"/>
+				<xi:include href="su/rights/ruleNote.xml" parse="xml"/>
 <!-- 				<xi:include href="su/rights/rightsStatement.xml" parse="xml"/>
                 <xi:include href="su/rights/rightsStatementIdentifier.xml" parse="xml"/>
                 <xi:include href="su/rights/rightsStatementIdentifierType.xml" parse="xml"/>
