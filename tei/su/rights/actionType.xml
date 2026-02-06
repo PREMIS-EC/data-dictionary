@@ -32,7 +32,7 @@
 				<item>Use</item>
                 <item>Disseminate</item>
             </list>
-		<p/>
+		</p>
     </div>
     <div type="entity">
         <p>
@@ -50,7 +50,7 @@
     </div>
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p> It is up to the preservation repository to decide how granular the controlled vocabulary should be. It may be useful to employ the same controlled values that the repository uses for <italic>eventType</italic>.<p/>
+        <p> It is up to the preservation repository to decide how granular the controlled vocabulary should be. It may be useful to employ the same controlled values that the repository uses for <italic>eventType</italic>.</p>
     </div>
 </div>
 

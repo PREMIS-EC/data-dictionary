@@ -2,8 +2,8 @@
 <div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"
     xml:id="rightsLinkingAgentIdentifierType">
     <head>
-        <!-- PREMIS Semantic unit 4.1.9.1 -->
-        <abbr>4.1.9.1</abbr>
+        <!-- PREMIS Semantic unit 4.4.1 -->
+        <abbr>4.4.1</abbr>
         <gi>linkingAgentIdentifierType</gi>
     </head>
     <div type="semanticcomponents">
@@ -12,8 +12,7 @@
     </div>
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>A designation of the domain in which the <bold>linkingAgentidentifier</bold>
-            is unique.</p>
+        <p>A designation of the domain in which the <bold>linkingAgentidentifier</bold> is unique.</p>
     </div>
     <div type="rationale">
         <!-- PREMIS Rationale -->
@@ -25,7 +24,7 @@
     </div>
     <div type="examples">
         <!-- PREMIS Examples -->
-        <p/>
+        <p>See examples for <italic>agentIdentifierType</italic></p>
     </div>
     <div type="entity">
         <p>

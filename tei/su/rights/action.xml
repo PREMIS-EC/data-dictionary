@@ -10,8 +10,7 @@
         <p>4.2.3.2.1 actionType</p>
         <p>4.2.3.2.2 actionExtension</p>
     </div>
-    </div>
-    <div type="definition">
+	<div type="definition">
         <!-- PREMIS Definition -->
         <p>The action the preservation repository is allowed (prohibited/obliged)to take.</p>
     </div>

@@ -2,8 +2,8 @@
 <div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"
     xml:id="rightsLinkingAgentRole">
     <head>
-        <!-- PREMIS Semantic unit 4.1.9.3 -->
-        <abbr>4.1.9.3</abbr>
+        <!-- PREMIS Semantic unit 4.4.3 -->
+        <abbr>4.4.3</abbr>
         <gi>linkingAgentRole</gi>
     </head>
     <div type="semanticcomponents">

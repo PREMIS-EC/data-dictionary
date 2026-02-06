@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="rightsLinkingRightsIdentifierType">
+    
+    <head type="sematicunit">
+        <abbr>4.5.1</abbr>
+        <!-- PREMIS Semantic unit 4.5.1 -->
+        <gi>linkingRightsIdentifierType</gi>
+    </head>
+    
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>None</p>
+    </div>
+    
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>A designation of the domain within which the <italic>linkingRightsIdentifier</italic> is unique.</p>
+    </div>
+    
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p/>
+    </div>
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>Must be an existing <italic>rightsIdentifierType</italic> value.</p>
+    </div>    
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p/>
+    </div>
+    <div type="creationmaintenance">
+        <!-- PREMIS Creation / Maintenance -->
+        <p/>
+    </div>
+    <div type="entity">
+        <!-- PREMIS Object category -->
+        <p>
+            <table cols="4">
+                <row role="label">
+                    <cell> </cell>
+                    <cell><bold>Intellectual Entity / Representation</bold></cell>
+                    <cell><bold>File</bold></cell>
+                    <cell><bold>Bitstream</bold></cell>
+                </row>
+                <row>
+                    <cell><bold>Applicability</bold></cell>
+                    <cell>Applicable</cell>
+                    <cell>Applicable</cell>
+                    <cell>Applicable</cell>
+                </row>
+                <row>
+                    <cell><bold>Examples</bold></cell>
+                    <cell> </cell>
+                    <cell>
+					<list type="simple">
+					<item>URI</item>
+					<item>LCCN</item>
+					</list>
+					</cell>
+                    <cell> </cell>
+                </row>
+                <row>
+                    <cell><bold>Repeatability</bold></cell>
+                    <cell>Not-repeatable</cell>
+                    <cell>Not-repeatable</cell>
+                    <cell>Not-repeatable</cell>
+                </row>
+                <row>
+                    <cell><bold>Obligation</bold></cell>
+                    <cell>Mandatory</cell>
+                    <cell>Mandatory</cell>
+                    <cell>Mandatory</cell>
+                </row>
+            </table>
+        </p>
+    </div>
+</div>
+

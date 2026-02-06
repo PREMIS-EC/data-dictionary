@@ -2,20 +2,19 @@
 <div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"
     xml:id="rightsLinkingAgentIdentifier">
     <head>
-        <!-- PREMIS Semantic unit 4.1.9.0 -->
-        <abbr>4.1.9</abbr>
+        <!-- PREMIS Semantic unit 4.4.0 -->
+        <abbr>4.4</abbr>
         <gi>linkingAgentIdentifier</gi>
     </head>
     <div type="semanticcomponents">
         <!-- PREMIS Semantic components -->
-        <p>4.1.9.1 linkingAgentIdentifierType</p>
-        <p>4.1.9.2 linkingAgentIdentifierValue</p>
-        <p>4.1.9.3 linkingAgentRole</p>
+        <p>4.4.1 linkingAgentIdentifierType</p>
+        <p>4.4.2 linkingAgentIdentifierValue</p>
+        <p>4.4.3 linkingAgentRole</p>
     </div>
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>Identification of one or more Agents associated with the Rights
-            statement.</p>
+        <p>Identification of one or more Agents associated with the Rights statement.</p>
     </div>
     <div type="rationale">
         <!-- PREMIS Rationale -->

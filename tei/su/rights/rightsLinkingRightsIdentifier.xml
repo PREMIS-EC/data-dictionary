@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="rightsLinkingRightsIdentifier">
+    
+    <head type="semanticunit">
+        <abbr>4.5</abbr>
+        <!-- PREMIS Semantic unit 4.5.0 -->
+        <gi>linkingRightsIdentifier</gi>
+    </head>
+    
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>4.5.1 linkingRightsIdentifierType</p>
+        <p>4.5.2 linkingRightsIdentifierValue</p>
+		<p>4.5.3 linkingRightsRole</p>
+    </div>
+    
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>An identifier for another Rights entity that is associated with this Rights entity, to be bundled such as to track Rights status over time.</p>
+    </div>
+    
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p>In previous iterations of PREMIS, there was no way to keep a bundle
+of multiple RightsStatements (R) together, such as stacks of previous
+iterations that must be tracked but are not current, or that are
+dependent on one another or trigger conditions. The
+linkingRightsIdentifier points to each applicable rightsEntity. The
+rightsEntity may have more than one rightsStatement.</p>
+<p>This linking between rightsStatements can also be applied in a
+situation where there is a dependency. For instance to reference
+rightStatements that can overrule a current rightsStatement. For
+example, under copyright the permission to provide access to the
+objects will be restricted by the copyright legislation. A license may
+lift the restrictions set by copyright. A second rightsStatement is
+needed. This statement describes the rights granted by the
+rightsholder (possibly the same Agent as is linked to the
+copyright-statement). In this case the license statement has priority
+over the copyright statement.</p>
+<p>This may also be used to track changing rights related to trigger
+situations. For example, the initial rightsStatement is based on
+contractual agreement with a publisher; a second rightsStatement
+based on a contractual agreement with publisher goes into effect
+when trigger conditions are met. It allows the repository to assert its
+amended rights when the condition is met: the second
+rightsStatement overrules the first and the history of the rights over
+time has been documented.</p>
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>Container</p>
+    </div>
+    </div>
+    <div type="creationmaintenance">
+        <!-- PREMIS Creation / Maintenance -->
+        <p/>
+    </div>
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p>Linking semantic units are mandatory in the sense that a repository
+needs to know the information, but are defined as optional because
+PREMIS does not specify in which direction the linkage should be.</p>
+    </div>
+    
+    <div type="entity">
+        <!-- PREMIS Object category -->
+        <p>
+            <table cols="4">
+                <row role="label">
+                    <cell>Object Category</cell>
+                     <cell>Representation</cell>
+                    <cell>File</cell>
+                    <cell>Bitstream</cell>
+                </row>
+                <row>
+                    <cell><bold>Applicability</bold></cell>
+                    <cell>Applicable</cell>
+                    <cell>Applicable</cell>
+                    <cell>Applicable</cell>
+                </row>
+                <row>
+                    <cell><bold>Repeatability</bold></cell>
+                    <cell>Repeatable</cell>
+                    <cell>Repeatable</cell>
+                    <cell>Repeatable</cell>
+                </row>
+                <row>
+                    <cell><bold>Obligation</bold></cell>
+                    <cell>Optional</cell>
+                    <cell>Optional</cell>
+                    <cell>Optional</cell>
+                </row>
+            </table>
+        </p>
+    </div>
+</div>

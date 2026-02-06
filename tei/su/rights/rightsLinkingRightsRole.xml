@@ -1,31 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"
-    xml:id="termOfRestriction">
+    xml:id="rightsLinkingRightsRole">
     <head>
-        <!-- PREMIS Semantic unit 4.2.3.3.2.0 -->
-        <abbr>4.2.3.3.2</abbr>
-        <gi>termOfRestriction</gi>
+        <!-- PREMIS Semantic unit 4.5.3 -->
+        <abbr>4.5.3</abbr>
+        <gi>linkingRightsRole</gi>
     </head>
     <div type="semanticcomponents">
         <!-- PREMIS Semantic components -->
-        <p>4.2.3.3.2.1 restrictionTrigger</p>
-        <p>4.2.3.3.2.2 restrictionDuration</p>
+        <p>None</p>
     </div>
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>The time period for the restriction granted.</p>
+        <p>The role of the linked Rights statement.</p>
     </div>
     <div type="rationale">
         <!-- PREMIS Rationale -->
-        <p>This allows repositories to express information about time-bounded restrictions like embargoes. If this is applicable, use restrictionTrigger to identify the type of start date of enforcement and restrictionDuration for the end of the time period that should be recorded.</p>
+        <p/>
     </div>
     <div type="datatype">
         <!-- PREMIS Data constraint -->
-        <p>Container</p>
+        <p>Values should be taken from a controlled vocabulary.</p>
     </div>
     <div type="examples">
         <!-- PREMIS Examples -->
-        <p/>
+        <p> </p>
     </div>
     <div type="entity">
         <p>
@@ -33,7 +32,7 @@
                 <label>Obligation</label>
                 <item>Optional</item>
                 <label>Repeatability</label>
-                <item>Not repeatable</item>
+                <item>Repeatable</item>
             </list>
         </p>
     </div>
@@ -46,4 +45,5 @@
         <p/>
     </div>
 </div>
+
 

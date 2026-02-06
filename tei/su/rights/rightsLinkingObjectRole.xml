@@ -2,8 +2,8 @@
 <div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"
     xml:id="rightsLinkingObjectRole">
     <head>
-        <!-- PREMIS Semantic unit 4.1.8.3 -->
-        <abbr>4.1.8.3</abbr>
+        <!-- PREMIS Semantic unit 4.2.4.3 -->
+        <abbr>4.2.4.3</abbr>
         <gi>linkingObjectRole</gi>
     </head>
     <div type="semanticcomponents">
@@ -12,11 +12,11 @@
     </div>
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>The role of the object associated with an Agent.</p>
+        <p>The role of the object described by the rightsStatement.</p>
     </div>
     <div type="rationale">
         <!-- PREMIS Rationale -->
-        <p/>
+        <p>Distinguishes the role of the object. If this is not a direct or explicit relationship, it is necessary to analyze the relationship in the object metadata.</p>
     </div>
     <div type="datatype">
         <!-- PREMIS Data constraint -->

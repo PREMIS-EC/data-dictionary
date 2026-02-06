@@ -325,8 +325,7 @@
                     <p>The PREMIS Editorial Committee is responsible for further development
                         of the Data Dictionary and the XML schema and promoting their use.
                         Themembership of the Editorial Committee reflects a variety of countries and
-                        institutional backgrounds. Other key maintenance activities include: providing a permanent Web home for the Data Dictionary, XML schema, and related materials, operating the PREMIS
-Implementers Group (PIG) discussion list and wiki, conducting tutorials on the Data Dictionary and its use, as well as commissioning focused studies on preservation metadata topics.</p>
+                        institutional backgrounds. Other key maintenance activities include: providing a permanent Web home for the Data Dictionary, XML schema, and related materials, operating the PREMIS Implementers Group (PIG) discussion list and wiki, conducting tutorials on the Data Dictionary and its use, as well as commissioning focused studies on preservation metadata topics.</p>
                     <p>Users identify errors, and provide feedback on ways that the Data Dictionary
                         could be improved to increase its value and ease of application through a
                         variety of mechanisms: Discussion of issues takes place on the PREMIS
@@ -2403,9 +2402,9 @@ Implementers Group (PIG) discussion list and wiki, conducting tutorials on the D
                 <xi:include href="su/object/linkingEventIdentifier.xml" parse="xml"/>
                 <xi:include href="su/object/linkingEventIdentifierType.xml" parse="xml"/>
                 <xi:include href="su/object/linkingEventIdentifierValue.xml" parse="xml"/>
-                <xi:include href="su/object/linkingRightsIdentifier.xml" parse="xml"/>
+<!--                 <xi:include href="su/object/linkingRightsIdentifier.xml" parse="xml"/>
                 <xi:include href="su/object/linkingRightsIdentifierType.xml" parse="xml"/>
-                <xi:include href="su/object/linkingRightsIdentifierValue.xml" parse="xml"/>
+                <xi:include href="su/object/linkingRightsIdentifierValue.xml" parse="xml"/> -->
             </div>
             <div type="elements" xml:id="events">
                 <div type="Introduction">
@@ -2683,6 +2682,7 @@ Implementers Group (PIG) discussion list and wiki, conducting tutorials on the D
 						<row>
                             <cell n="2"> 4.2.2.4 note (O,R) </cell>
                         </row>
+						<row>
 						<cell n="2"> 4.2.2.5 documentationIdentifier (O, R) </cell>
                         </row>
 						<row>
@@ -2727,11 +2727,12 @@ Implementers Group (PIG) discussion list and wiki, conducting tutorials on the D
                         <row>
                             <cell n="2"> 4.2.3.3.1 restrictionType (M, NR) </cell>
                         </row>
-						</row>
+						<row>
                             <cell n="2"> 4.2.3.3.2 termOfRestriction (O, NR) </cell>
                         </row>
 						<row>
                             <cell n="2"> 4.2.3.3.2.1 restrictionTrigger (O, NR) </cell>
+						</row>
                         <row>
                             <cell n="2"> 4.2.3.3.2.2 restrictionDuration (O, NR) </cell>
                         </row>						
@@ -2740,7 +2741,8 @@ Implementers Group (PIG) discussion list and wiki, conducting tutorials on the D
                         </row>
 						<row>
                             <cell n="2"> 4.2.3.4.1 ruleTrigger (O, NR) </cell>
-                        <row>
+                         </row>
+						 <row>
                             <cell n="2"> 4.2.3.4.2 ruleDuration (O, NR) </cell>
                         </row>	
                         <row>
@@ -2749,7 +2751,72 @@ Implementers Group (PIG) discussion list and wiki, conducting tutorials on the D
 						<row>
                             <cell n="1"> 4.2.4 linkingObjectIdentifier (O, R) </cell>
                         </row>
-
+                        <row>
+                            <cell n="2"> 4.2.4.1 linkingObjectIdentifierType (M, NR) </cell>
+                        </row>
+                        <row>
+                            <cell n="2"> 4.2.4.2 linkingObjectIdentifierValue (M, NR) </cell>
+                        </row>
+                        <row>
+                            <cell n="2"> 4.2.4.3 linkingObjectRole (O, R) </cell>
+                        </row>
+                        <row>
+                            <cell n="2"> 4.2.4.4 applicableDatesOfRule (O, R) </cell>
+                        </row>
+                        <row>
+                            <cell n="3"> 4.2.4.4.1 startDate (M, NR) </cell>
+                        </row>
+                        <row>
+                            <cell n="3"> 4.2.4.2.2 endDate (O, NR) </cell>
+                        </row>
+                        <row>
+                            <cell n="2"> 4.2.4.5 applicableDatesOfRestriction (O, R) </cell>
+                        </row>
+                        <row>
+                            <cell n="3"> 4.2.4.5.1 startDate (M, NR) </cell>
+                        </row>
+                        <row>
+                            <cell n="3"> 4.2.4.5.2 endDate (O, NR) </cell>
+                        </row>
+						<row>
+							<cell n="1"> 4.2.4.6 relatedEventIdentifier (O, R) </cell>
+                        </row>
+                        <row>
+                            <cell n="2"> 4.2.4.6.1 relatedEventIdentifierType (M, NR) </cell>
+                        </row>
+                        <row>
+                            <cell n="2"> 4.2.4.6.2 relatedEeventIdentifierValue (M, NR) </cell>
+                        </row>
+						<row>
+							<cell n="1"> 4.2.4.6.3 relatedEventType (O, R) </cell>
+                        </row>
+                        <row>
+                            <cell> 4.3 rightsExtension (O, R) </cell>
+                        </row>
+                        <row>
+                            <cell n="1"> 4.4 linkingAgentIdentifier (O, R) </cell>
+                        </row>
+                        <row>
+                            <cell n="2"> 4.4.1 linkingAgentIdentifierType (M, NR) </cell>
+                        </row>
+                        <row>
+                            <cell n="2"> 4.4.2 linkingAgentIdentifierValue (M, NR) </cell>
+                        </row>
+                        <row>
+                            <cell n="2"> 4.4.3 linkingAgentRole (O, R) </cell>
+                        </row>
+                        <row>
+                            <cell n="1"> 4.5 linkingRightsIdentifier (O, R) </cell>
+                        </row>
+                        <row>
+                            <cell n="2"> 4.5.1 linkingRightsIdentifierType (M, NR) </cell>
+                        </row>
+                        <row>
+                            <cell n="2"> 4.5.2 linkingRightsIdentifierValue (M, NR) </cell>
+                        </row>
+                        <row>
+                            <cell n="2"> 4.5.3 linkingRightsRole (O, R) </cell>
+                        </row>							
 <!-- 					    <row>
                             <cell> 4.1 rightsStatement (O, R) </cell>
                         </row>
@@ -2988,6 +3055,28 @@ Implementers Group (PIG) discussion list and wiki, conducting tutorials on the D
 				<xi:include href="su/rights/ruleTrigger.xml" parse="xml"/>
 				<xi:include href="su/rights/ruleDuration.xml" parse="xml"/>
 				<xi:include href="su/rights/ruleNote.xml" parse="xml"/>
+				<xi:include href="su/rights/rightslinkingObjectIdentifier.xml" parse="xml"/>
+                <xi:include href="su/rights/rightsLinkingObjectIdentifierType.xml" parse="xml"/>
+                <xi:include href="su/rights/rightsLinkingObjectIdentifierValue.xml" parse="xml"/>
+                <xi:include href="su/rights/rightsLinkingObjectRole.xml" parse="xml"/>
+                <xi:include href="su/rights/applicableDatesOfRule.xml" parse="xml"/>				
+                <xi:include href="su/rights/applicableDatesOfRuleStartDate.xml" parse="xml"/>				
+                <xi:include href="su/rights/applicableDatesOfRuleEndDate.xml" parse="xml"/>					
+                <xi:include href="su/rights/applicableDatesOfRestriction.xml" parse="xml"/>	
+                <xi:include href="su/rights/applicableDatesOfRestrictionStartDate.xml" parse="xml"/>	
+                <xi:include href="su/rights/applicableDatesOfRestrictionEndDate.xml" parse="xml"/>	
+                <xi:include href="su/rights/relatedEventIdentifier.xml" parse="xml"/>	
+                <xi:include href="su/rights/relatedEventIdentifierType.xml" parse="xml"/>	
+                <xi:include href="su/rights/relatedEventIdentifierValue.xml" parse="xml"/>	
+                <xi:include href="su/rights/relatedEventType.xml" parse="xml"/>	
+                <xi:include href="su/rights/rightsLinkingAgentIdentifier.xml" parse="xml"/>
+                <xi:include href="su/rights/rightsLinkingAgentIdentifierType.xml" parse="xml"/>
+                <xi:include href="su/rights/rightsLinkingAgentIdentifierValue.xml" parse="xml"/>
+                <xi:include href="su/rights/rightsLinkingAgentRole.xml" parse="xml"/>
+                <xi:include href="su/rights/rightsLinkingRightsIdentifier.xml" parse="xml"/>
+                <xi:include href="su/rights/rightsLinkingRightsIdentifierType.xml" parse="xml"/>
+                <xi:include href="su/rights/rightsLinkingRightsIdentifierValue.xml" parse="xml"/>
+                <xi:include href="su/rights/rightsLinkingRightsRole.xml" parse="xml"/>
 <!-- 				<xi:include href="su/rights/rightsStatement.xml" parse="xml"/>
                 <xi:include href="su/rights/rightsStatementIdentifier.xml" parse="xml"/>
                 <xi:include href="su/rights/rightsStatementIdentifierType.xml" parse="xml"/>
@@ -4421,7 +4510,7 @@ Implementers Group (PIG) discussion list and wiki, conducting tutorials on the D
                         of the Intellectual Entity.</item>
 
                     <label>Rights:</label>
-                    <item>Assertions of one or more legal entitlements or permissions pertaining to
+                    <item>Assertions of one or more legal entitlements, permissions, or obligations pertaining to
                         a Digital Object and/or an Agent.</item>
 
                     <label>Root:</label>

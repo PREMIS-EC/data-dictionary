@@ -1,23 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"
-    xml:id="termOfRestriction">
+    xml:id="linkingObjectIdentifier">
     <head>
-        <!-- PREMIS Semantic unit 4.2.3.3.2.0 -->
-        <abbr>4.2.3.3.2</abbr>
-        <gi>termOfRestriction</gi>
+        <!-- PREMIS Semantic unit 4.2.4.0 -->
+        <abbr>4.2.4</abbr>
+        <gi>linkingObjectIdentifier</gi>
     </head>
     <div type="semanticcomponents">
         <!-- PREMIS Semantic components -->
-        <p>4.2.3.3.2.1 restrictionTrigger</p>
-        <p>4.2.3.3.2.2 restrictionDuration</p>
+        <p>4.2.4.1 linkingObjectIdentifierType</p>
+        <p>4.2.4.2 linkingObjectIdentifierValue</p>
+        <p>4.2.4.3 linkingObjectRole</p>
     </div>
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>The time period for the restriction granted.</p>
+        <p>The identifier of an object associated with the Rights statement.</p>
     </div>
     <div type="rationale">
         <!-- PREMIS Rationale -->
-        <p>This allows repositories to express information about time-bounded restrictions like embargoes. If this is applicable, use restrictionTrigger to identify the type of start date of enforcement and restrictionDuration for the end of the time period that should be recorded.</p>
+        <p>Rights statements must be associated with the objects to which they
+            pertain, either by linking from the Rights statement to the object(s) or
+            by linking from the object(s) to the Rights statement. This semantic
+            unit provides the mechanism for the link from the Rights statement to an
+            object.</p>
     </div>
     <div type="datatype">
         <!-- PREMIS Data constraint -->
@@ -33,7 +38,7 @@
                 <label>Obligation</label>
                 <item>Optional</item>
                 <label>Repeatability</label>
-                <item>Not repeatable</item>
+                <item>Repeatable</item>
             </list>
         </p>
     </div>

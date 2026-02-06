@@ -2,14 +2,14 @@
 <div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"
     xml:id="restriction">
     <head>
-        <!-- PREMIS Semantic unit 4.2.2.3.0 -->
+        <!-- PREMIS Semantic unit 4.2.2.3.0.0 -->
         <abbr>4.2.3.3</abbr>
         <gi>restriction</gi>
     </head>
     <div type="semanticcomponents">
         <!-- PREMIS Semantic components -->
         <p>4.2.3.3.1 restrictionType</p>
-        <p>4.2.3.3.2 restrictionExtension</p>
+        <p>4.2.3.3.2 termOfRestriction</p>
     </div>
     <div type="definition">
         <!-- PREMIS Definition -->

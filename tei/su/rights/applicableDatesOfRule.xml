@@ -1,26 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"
-    xml:id="applicableDates">
+    xml:id="applicableDatesOfRule">
     <head>
-        <!-- PREMIS Semantic unit 4.2.2.6-->
-        <abbr>4.2.2.6</abbr>
-        <gi>applicableDates</gi>
+        <!-- PREMIS Semantic unit 4.2.4.4.0 -->
+        <abbr>4.2.4.4</abbr>
+        <gi>applicableDatesOfRule</gi>
     </head>
     <div type="semanticcomponents">
         <!-- PREMIS Semantic components -->
-        <p>4.2.2.6.1 startDate</p>
-        <p>4.2.2.6.2 endDate</p>
+        <p>4.2.4.4.1 startDate</p>
+        <p>4.2.4.4.2 endDate</p>
     </div>
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>The date range during which the particular copyright applies or is
-            applied to the content. This is distinct from the <bold>applicableDatesOfRule</bold>,
-            which applies to a particular act expressed in <bold>rule</bold> and to a specific object or objects, and may differ from the period of time the license, statute, or other
-            basis applies to the content.</p>
+        <p>The date range during which permissions assigned by statute applies or are applied to the
+            Object described by the rightsStatement. This is distinct from termOfRule, which applies to a
+            particular act expressed in <bold>rightsGranted</bold> and may differ from
+            the period of time the license, statute or other basis applies to the
+            content.</p>
     </div>
     <div type="rationale">
         <!-- PREMIS Rationale -->
-        <p>Specific dates may apply to the particular copyright granted.</p>
+        <p>Specific dates may apply to the particular Rights granted.</p>
     </div>
     <div type="datatype">
         <!-- PREMIS Data constraint -->
@@ -36,7 +37,7 @@
                 <label>Obligation</label>
                 <item>Optional</item>
                 <label>Repeatability</label>
-                <item>Not repeatable</item>
+                <item>Repeatable</item>
             </list>
         </p>
     </div>
@@ -50,7 +51,6 @@
             associated with the content over time. Associating active dates with
             particular Rights bases allows applications to identify which of several
             <bold>rightsStatements</bold> are in force at a given time.</p>
-			<p>Most relevant in combination with rightsBasis is statute, license or other. In case of copyright the applicable dates usually depend on context of the object; the applicable dates in general would be the start-enddate of the copyright law.</p>
     </div>
 </div>
 

@@ -2,8 +2,8 @@
 <div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"
     xml:id="rightsLinkingAgentIdentifierValue">
     <head>
-        <!-- PREMIS Semantic unit 4.1.9.2 -->
-        <abbr>4.1.9.2</abbr>
+        <!-- PREMIS Semantic unit 4.4.2 -->
+        <abbr>4.4.2</abbr>
         <gi>linkingAgentIdentifierValue</gi>
     </head>
     <div type="semanticcomponents">
@@ -12,7 +12,7 @@
     </div>
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>The value of the <bold>linkingAgentIdentifier</bold>.</p>
+        <p>The value of the <italic>linkingAgentIdentifier</italic>.</p>
     </div>
     <div type="rationale">
         <!-- PREMIS Rationale -->
@@ -20,7 +20,7 @@
     </div>
     <div type="datatype">
         <!-- PREMIS Data constraint -->
-        <p>Must be an existing <bold>agentIdentifierValue</bold> value.</p>
+        <p>Must be an existing <italic>agentIdentifierValue</italic> value.</p>
     </div>
     <div type="examples">
         <!-- PREMIS Examples -->

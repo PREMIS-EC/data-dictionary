@@ -1,36 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"
-    xml:id="linkingObjectIdentifier">
+    xml:id="ApplicableDatesOfRestrictionStartDate">
     <head>
-        <!-- PREMIS Semantic unit 4.1.8.0 -->
-        <abbr>4.1.8</abbr>
-        <gi>linkingObjectIdentifier</gi>
+        <!-- PREMIS Semantic unit 4.2.4.5.1 -->
+        <abbr>4.2.4.5.1</abbr>
+        <gi>startDate</gi>
     </head>
     <div type="semanticcomponents">
         <!-- PREMIS Semantic components -->
-        <p>4.1.8.1 linkingObjectIdentifierType</p>
-        <p>4.1.8.2 linkingObjectIdentifierValue</p>
-        <p>4.1.8.3 linkingObjectRole</p>
+        <p>None</p>
     </div>
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>The identifier of an object associated with the Rights statement.</p>
+        <p>The beginning date for which the restriction applies or is applied to the Object described by the rightsStatement.</p>
     </div>
     <div type="rationale">
         <!-- PREMIS Rationale -->
-        <p>Rights statements must be associated with the objects to which they
-            pertain, either by linking from the Rights statement to the object(s) or
-            by linking from the object(s) to the Rights statement. This semantic
-            unit provides the mechanism for the link from the Rights statement to an
-            object.</p>
+        <p/>
     </div>
     <div type="datatype">
         <!-- PREMIS Data constraint -->
-        <p>Container</p>
+        <p>To aid machine processing, value should use a structured form. To
+            facilitate exchange of PREMIS-conformant metadata, use of standard
+            conventions, for instance as used in the date elements in the PREMIS
+            schema, is recommended.</p>
     </div>
     <div type="examples">
         <!-- PREMIS Examples -->
-        <p/>
+        <p>
+            <list type="example">
+                <item>2006-01-02</item>                
+                <item>20050723</item>
+            </list>
+        </p>
     </div>
     <div type="entity">
         <p>
@@ -38,7 +40,7 @@
                 <label>Obligation</label>
                 <item>Optional</item>
                 <label>Repeatability</label>
-                <item>Repeatable</item>
+                <item>Not repeatable</item>
             </list>
         </p>
     </div>

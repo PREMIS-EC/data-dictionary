@@ -2,8 +2,8 @@
 <div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"
     xml:id="rightsExtension">
     <head>
-        <!-- PREMIS Semantic unit 4.2.0 -->
-        <abbr>4.2</abbr>
+        <!-- PREMIS Semantic unit 4.3.0 -->
+        <abbr>4.3</abbr>
         <gi>rightsExtension</gi>
     </head>
     <div type="semanticcomponents">
@@ -16,7 +16,7 @@
     </div>
     <div type="rationale">
         <!-- PREMIS Rationale -->
-        <p>There may be a need to replace or extend PREMIS defined units.</p>
+        <p>There may be a need to replace or extend PREMIS defined units. The extension is meant to be used as an alternative to the Statement, not to be used in combination with it.</p>
     </div>
     <div type="datatype">
         <!-- PREMIS Data constraint -->
@@ -53,8 +53,8 @@
             <bold>rightsExtension</bold> container needs to be associated explicitly
             with any PREMIS subunit under Rights, the container <bold>Rights</bold> is
             repeated. Also, if extensions from different external schemas are
-            needed, Rights should be repeated. It is recommended to give information
-            about the metadata used in <bold>rightsExtension</bold> including date the
+            needed, Rights should be repeated.</p>
+		<p>It is recommended to give information about the metadata used in <bold>rightsExtension</bold> including date the
             metadata was created, status of the metadata, internal linking IDs, type
             of metadata used and its version, message digest and message digest
             algorithm of the metadata, and type of identifier for external metadata

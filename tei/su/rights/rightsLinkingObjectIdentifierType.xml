@@ -2,8 +2,8 @@
 <div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"
     xml:id="rightsLinkingObjectIdentifierType">
     <head>
-        <!-- PREMIS Semantic unit 4.1.8.1 -->
-        <abbr>4.1.8.1</abbr>
+        <!-- PREMIS Semantic unit 4.2.4.1 -->
+        <abbr>4.2.4.1</abbr>
         <gi>linkingObjectIdentifierType</gi>
     </head>
     <div type="semanticcomponents">
@@ -25,7 +25,7 @@
     </div>
     <div type="examples">
         <!-- PREMIS Examples -->
-        <p/>
+        <p>See examples for objectIdentifierType</p>
     </div>
     <div type="entity">
         <p>

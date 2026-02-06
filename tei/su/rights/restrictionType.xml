@@ -2,7 +2,7 @@
 <div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"
     xml:id="restrictionType">
     <head>
-        <!-- PREMIS Semantic unit 4.2.3.3.1 -->
+        <!-- PREMIS Semantic unit 4.2.3.3.1.0 -->
         <abbr>4.2.3.3.1</abbr>
         <gi>restrictionType</gi>
     </head>
@@ -30,7 +30,7 @@
                 <item>embargo</item>
                 <item>security classification</item>
             </list>
-		<p/>
+		</p>
     </div>
     <div type="entity">
         <p>

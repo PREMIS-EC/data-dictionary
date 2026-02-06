@@ -13,7 +13,7 @@
     <div type="definition">
         <!-- PREMIS Definition -->
         <p>Designation of the basis for the other right, permission, or
-obligation described in the <italic>rightsStatement</italic>.<p/>
+obligation described in the <italic>rightsStatement</italic>.</p>
     </div>
     <div type="rationale">
         <!-- PREMIS Rationale -->
@@ -21,11 +21,11 @@ obligation described in the <italic>rightsStatement</italic>.<p/>
     </div>
     <div type="datatype">
         <!-- PREMIS Data constraint -->
-        <p>Values should be taken from a controlled vocabulary.<p/>
+        <p>Values should be taken from a controlled vocabulary.</p>
     </div>
     <div type="examples">
         <!-- PREMIS Examples -->
-        <p>Harvard policy<p/>
+        <p>Harvard policy</p>
     </div>
     <div type="entity">
         <p>
@@ -43,16 +43,9 @@ obligation described in the <italic>rightsStatement</italic>.<p/>
     </div>
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>
-		Use this semantic unit for specific Rights bases other than copyright,
-license or, statute. When this semantic unit is used, 4.2.1 rightsBasis
-should be set to “other”.</p>
-<p>The Rights basis may be specific to the repository, but it is
-recommended to use a value from a local or globally controlled
-vocabulary for machine actionability.</p>
-<p>If more than one basis applies, the entire Rights entity should be
-repeated.
-		<p/>
+        <p>Use this semantic unit for specific Rights bases other than copyright, license or, statute. When this semantic unit is used, 4.2.1 rightsBasis should be set to “other”.</p>
+<p>The Rights basis may be specific to the repository, but it is recommended to use a value from a local or globally controlled vocabulary for machine actionability.</p>
+<p>If more than one basis applies, the entire Rights entity should be repeated.</p>
     </div>
 </div>
 
