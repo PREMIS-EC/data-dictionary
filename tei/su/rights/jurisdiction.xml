@@ -35,19 +35,20 @@
         <p>
             <list type="simple">
                 <label>Obligation</label>
-                <item>Optional (Mandatory in case rightsBasis = copyright or statute)</item>
+                <item>Optional (Mandatory in case <bold>rightsBasis</bold> = copyright or statute)</item>
                 <label>Repeatability</label>
                 <item>Not repeatable</item>
             </list>
         </p>
     </div>
-    <div type="creationmaintenance">
+
+    <!-- <div type="creationmaintenance"> -->
         <!-- PREMIS Creation / Maintenance -->
-        <p/>
-    </div>
-    <div type="usagenotes">
+    <!-- </div> -->
+
+<!-- <div type="usagenotes"> -->
         <!-- PREMIS Usage notes -->
-        <p/>
-    </div>
+    <!-- </div> -->
+
 </div>
 

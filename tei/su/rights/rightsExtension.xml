@@ -22,10 +22,9 @@
         <!-- PREMIS Data constraint -->
         <p>Container</p>
     </div>
-    <div type="examples">
+
         <!-- PREMIS Examples -->
-        <p/>
-    </div>
+
     <div type="entity">
         <p>
             <list type="simple">
@@ -36,10 +35,9 @@
             </list>
         </p>
     </div>
-    <div type="creationmaintenance">
+
         <!-- PREMIS Creation / Maintenance -->
-        <p/>
-    </div>
+
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
         <p>For more granularity or to use externally defined semantic units,

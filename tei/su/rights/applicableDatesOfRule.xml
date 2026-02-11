@@ -14,7 +14,7 @@
     <div type="definition">
         <!-- PREMIS Definition -->
         <p>The date range during which permissions assigned by statute applies or are applied to the
-            Object described by the rightsStatement. This is distinct from termOfRule, which applies to a
+            Object described by the <bold>rightsStatement</bold>. This is distinct from <bold>termOfRule</bold>, which applies to a
             particular act expressed in <bold>rightsGranted</bold> and may differ from
             the period of time the license, statute or other basis applies to the
             content.</p>
@@ -27,10 +27,11 @@
         <!-- PREMIS Data constraint -->
         <p>Container</p>
     </div>
-    <div type="examples">
+
+<!--     <div type="examples"> -->
         <!-- PREMIS Examples -->
-        <p/>
-    </div>
+    <!-- </div> -->
+
     <div type="entity">
         <p>
             <list type="simple">
@@ -41,10 +42,11 @@
             </list>
         </p>
     </div>
-    <div type="creationmaintenance">
+
+    <!-- <div type="creationmaintenance"> -->
         <!-- PREMIS Creation / Maintenance -->
-        <p/>
-    </div>
+    <!-- </div> -->
+
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
         <p>The repository may wish to retain the history of Rights and restrictions

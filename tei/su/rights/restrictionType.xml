@@ -42,13 +42,14 @@
             </list>
         </p>
     </div>
-    <div type="creationmaintenance">
+
+    <!-- <div type="creationmaintenance"> -->
         <!-- PREMIS Creation / Maintenance -->
-        <p/>
-    </div>
+    <!-- </div> -->
+
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>The Rule defines the class of actions that a repository is allowed to perform. A duty is an obligation–which may be a restriction–and both a duty or permission may be granted by statute or license as documented in rightsBasis or institutional policy or contract as documented in otherRightsBasis.</p>
+        <p>The Rule defines the class of actions that a repository is allowed to perform. A duty is an obligation–which may be a restriction–and both a duty or permission may be granted by statute or license as documented in <bold>rightsBasis</bold> or institutional policy or contract as documented in <bold>otherRightsBasis</bold>.</p>
     </div>
 </div>
 

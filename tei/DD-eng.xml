@@ -22,6 +22,7 @@
             <publicationStmt>
                 <publisher xml:lang="eng">Library of Congress, Network Development &amp; MARC
                     Standards Office</publisher>
+					<!-- IS LOC stil the publisher? -->
                 <address>
                     <addrLine>Library of Congress, Network Development &amp; MARC Standards
                         Office</addrLine>
@@ -55,7 +56,7 @@
                     <titlePart type="main">PREMIS Data Dictionary for preservation
                         metadata</titlePart>
                 </docTitle>
-                <docEdition>Version 4.0 -- 2026</docEdition>
+                <docEdition>DRAFT Version 4.0 -- 2026</docEdition>
 					<!-- TODO: Final date -->
                 <byline>Prepared and maintained by the</byline>
                 <docAuthor>PREMIS Editorial Committee</docAuthor>
@@ -93,7 +94,7 @@
                         <item>Priscilla Caplan, Florida Center for Library Automation (co-chair of
                             original PREMIS Working Group)</item>
                         <item>Gerard Clifton, National Library of Australia</item>
-						<item>Angela Dappert, University of Portsmouth</item>
+						<item>Angela Dappert, Digital Lifecycle Management, Ltd</item>
 						<item>Kevin DeVorsey, U.S. National Archives and Records Administration</item>
 						<item>Angela Di Iorio, Sapienza Università di Roma </item>
                         <item>Markus Enders, British Library</item>
@@ -230,7 +231,7 @@
                             2002), <ref
                                 target="http://www.oclc.org/research/projects/pmwg/pm_framework.pdf"
                                 >
-                            http://www.oclc.org/research/projects/pmwg/pm_framework.pdf</ref>.</note>However,
+                            http://www.oclc.org/research/projects/pmwg/pm_framework.pdf</ref>.</note> However,
                         additional work was needed to make these prototype elements implementable.
                         The PREMIS working group was asked to take the PMF group’s work a step
                         further and develop a data dictionary of core metadata for archived digital
@@ -590,6 +591,7 @@
                         <graphic url="PREMIS_Figure2.png" />
                         <figDesc>Figure 2. Conceptual view between object categories</figDesc>
                     </figure>
+<!-- TO DO: Confirm that this is still the correct image -->
                 </div>
                 <div>
                     <head>Intellectual Entities</head>
@@ -1066,16 +1068,18 @@
                         recorded in <italic>eventDetail</italic>.</p>
 						<p><bold><italic>Review Event</italic></bold></p>
 						<p>This is an Event that represents a review of the Rights status. Semantically, there are two types of Rights Review Events:</p>
+						<p>
 						<list type="numbered">
 						<item>A review of the <italic>content</italic> of the Object, such as a privacy review, a review of Classified material, or of previously unreviewed objects. This request may be triggered by a change in statute, the need for a preservation action, or request for dissemination of a Classified, restricted, or unreviewed Object. Note: even the right for staff to take preservation actions may be limited with restricted content, to either individual named staff or a class/group</item>
 						<item>A review of the <italic>rightsStatement</italic> itself related to Copyright or Licensing status, which may be triggered by a request for dissemination or another external trigger, such as a change in statute or the passage of time, which then requires a review of the current rightsStatement.</item>
 						</list>
-						<p>Such review Events will result in an eventOutcome: no change, a partial update to Rights, or the addition of a new rightsStatement.</p>
-						<p>For review Events for classified or restricted Objects that result in a new redacted version of a file, the eventOutcome should include an appropriate Redaction Code, additional metadata that identifies the statute(s) under which the information remains redacted. It is a local implementation decision to treat a newly created version, such as a redacted version, as a new PREMIS object with its own rightsStatement.</p>
-						<p>A rightsStatement may also be updated instead of creating a new rightsStatement in cases where the outcome of the review Event is a wholesale change, such as the expiration of a restriction, license, or copyright. The Review Event as referred to in the linkingEventIdentifier is used to record and track the event leading to the change. Review events with partial outcomes (such as a partial declassification that results in redacted availability) must have a new rightsStatement.</p>
+						</p>
+						<p>Such review Events will result in an <italic>eventOutcome</italic>: no change, a partial update to Rights, or the addition of a new <italic>rightsStatement</italic>.</p>
+						<p>For review Events for classified or restricted Objects that result in a new redacted version of a file, the eventOutcome should include an appropriate Redaction Code, additional metadata that identifies the statute(s) under which the information remains redacted. It is a local implementation decision to treat a newly created version, such as a redacted version, as a new PREMIS object with its own <italic>rightsStatement</italic>.</p>
+						<p>A <italic>rightsStatement</italic> may also be updated instead of creating a new <italic>rightsStatement</italic> in cases where the outcome of the review Event is a wholesale change, such as the expiration of a restriction, license, or copyright. The Review Event as referred to in the <italic>linkingEventIdentifier</italic> is used to record and track the event leading to the change. Review events with partial outcomes (such as a partial declassification that results in redacted availability) must have a new <italic>rightsStatement</italic>.</p>
 						<p>Rights Review Events will stack over time to provide a review history.</p>
                <p><bold><italic>Trigger Event</italic></bold></p>
-			   <p>Another example for the use of the linkingObject container of the Rightsstatement is when the related Event represents a trigger that activates a rule for a (set of) objects. The Event will have an eventDateTime, that corresponds with the <italic>trigger</italic> as described in the rule, namely what sort of date is used to activate the rule: Birthdate, Death Date, Publication Date, Review for Release, Declassification, etc.</p>
+			   <p>Another example for the use of the <italic>linkingObject</italic> container of the <italic>rightsStatement</italic> is when the related Event represents a trigger that activates a rule for a (set of) objects. The Event will have an <italic>eventDateTime</italic>, that corresponds with the <underline>trigger</underline> as described in the rule, namely what sort of date is used to activate the rule: Birthdate, Death Date, Publication Date, Review for Release, Declassification, etc.</p>
 			   </div>
                 <div>
                     <head>More on Agents</head>
@@ -1150,13 +1154,13 @@
                         the existing term of grant. PREMIS has thus long been able to model a restriction on Rights, such as an embargo restriction on dissemination.</p>
                     <p>Version 3 contained no new additions or changes related to Rights
                         Statements.</p>
-						<p>Version 4 introduces some major changes to Rights in order to support a broader use of the concept of Rights. In addition to the permission, there can also be the need to model an obligation; in stead of grantedRight the label <italic>rule</italic> is introduced, to cover both types (duty or permission). Consequently the Agent may be used to express the ‘target’ to whom the rule applies. In particular, the ‘target’ would not always be implicitly the repository. It could be a human or software Agent. As such it might be part of the repository, but doesn’t have to be.</p>
+						<p>Version 4 introduces some major changes to Rights in order to support a broader use of the concept of Rights. In addition to the permission, there can also be the need to model an obligation; instead of grantedRight the label <italic>rule</italic> is introduced, to cover both types (duty or permission). Consequently the Agent may be used to express the ‘target’ to whom the rule applies. In particular, the ‘target’ would not always be implicitly the repository. It could be a human or software Agent. As such it might be part of the repository, but doesn’t have to be.</p>
 						<p>Secondly, in order to create more machine-actionability an extension is added to support coded text that describes the action, possibly in combination with restriction(s). And the option to define a trigger that activates the action, optional for a period of time (duration). These rules are defined without specific dates, as those may yet be unknown and will most likely differentiate per object. Therefore the dates are modelled in the <italic>linkingObject</italic> semantic unit.</p>
 						<p>Examples</p>
 						<list type="bulleted">
-						<item>SLAs (Service Level Agreements) or other commitments define among other things the storage media type, the transfer mode, the SIPs’ maximum size, etc. So the rightsStatement based on a SLA/contract (rightsBasis) obliges the Archive to perform preservation actions.</item>
-						<item>There is a need to specify the relationship between the format and its associated tools (characterization, validation, rendering, migration, etc.), a rightsStatement modeling a duty imposed on the repository to apply Institutional Policy (rightsBasis) to an Object. ● An Access rule (rightsStatement) based on an obligation required by a statute</item>
-						<item>An Access rule (rightsStatement) based on an obligation required by a statute or copyright (rightsBasis) grants the repository the right to perform a certain action on multiple objects, but also simultaneously restricts dissemination because the prohibition rule describes an embargo duration, recorded in a duration/time-span of years without a specific start/endDate.</item>
+						<item>SLAs (Service Level Agreements) or other commitments define among other things the storage media type, the transfer mode, the SIPs’ maximum size, etc. So the <italic>rightsStatement</italic> based on a SLA/contract (<italic>rightsBasis</italic>) obliges the Archive to perform preservation actions.</item>
+						<item>There is a need to specify the relationship between the format and its associated tools (characterization, validation, rendering, migration, etc.), a <italic>rightsStatement</italic> modeling a duty imposed on the repository to apply Institutional Policy (<italic>rightsBasis</italic>) to an Object. An Access rule (<italic>rightsStatement</italic>) based on an obligation required by a statute.</item>
+						<item>An Access rule (<italic>rightsStatement</italic>) based on an obligation required by a statute or copyright (<italic>rightsBasis</italic>) grants the repository the right to perform a certain action on multiple objects, but also simultaneously restricts dissemination because the prohibition rule describes an embargo duration, recorded in a duration/time-span of years without a specific start/endDate.</item>
 						</list>
 						<p>Of note, statutes may also represent the cultural and statutory rights of indigenous and tribal peoples to determine who may perform preservation actions and to which groups objects may be disseminated.</p>
                 </div>
@@ -1357,10 +1361,10 @@
                 </div>
 				<div>
 				<head>Relationships between Rights</head>
-				<p>In previous iterations of PREMIS there was no way to track the history of RightsStatements (R) or relationships between them, such as changes to Rights over time that must be recorded, or that are dependent on one another or trigger conditions. A new <italic>linkingRightsIdentifier</italic> has been added which points to each applicable rightsEntity. The rightsEntity may have more than one rightsStatement.</p>
-				<p>This linking between rightsStatements can be applied in a situation where there is a dependency. For instance to reference rightStatements that can overrule a current rightsStatement. For example, under copyright the permission to provide access to the objects will be restricted by the copyright legislation. A license may lift the restrictions set by copyright. A second rightsStatement is needed. This statement describes the rights granted by the rightsholder
-(possibly the same Agent as is linked to the copyright-statement). In this case the license statement has priority over the copyright statement.</p>
-<p>This may also be used to track changing rights related to trigger situations. For example, the initial rightsStatement is based on contractual agreement with a publisher; a second rightsStatement based on a contractual agreement with publisher goes into effect when trigger conditions are met. It allows the repository to assert its amended rights when the condition is met: the second rightsStatement overrules the first and the history of the rights over time is documented.</p>
+				<p>In previous iterations of PREMIS there was no way to track the history of <italic>RightsStatement</italic>s (R) or relationships between them, such as changes to Rights over time that must be recorded, or that are dependent on one another or trigger conditions. A new <italic>linkingRightsIdentifier</italic> has been added which points to each applicable Rights entity. The Rights entity may have more than one <italic>rightsStatement</italic>.</p>
+				<p>This linking between <italic>rightsStatement</italic>s can be applied in a situation where there is a dependency. For instance to reference a new <italic>rightStatement</italic> that may overrule a current <italic>rightsStatement</italic>. For example, under copyright the permission to provide access to the objects will be restricted by the copyright legislation. A license may lift the restrictions set by copyright. A second <italic>rightsStatement</italic> is needed. This statement describes the rights granted by the rightsholder
+(possibly the same Agent as is linked to the copyright statement). In this case the license statement has priority over the copyright statement.</p>
+<p>This may also be used to track changing rights related to trigger situations. For example, the initial <italic>rightsStatement</italic> is based on contractual agreement with a publisher; a second <italic>rightsStatement</italic> based on a contractual agreement with publisher goes into effect when trigger conditions are met. It allows the repository to assert its amended rights when the condition is met: the second <italic>rightsStatement</italic> overrules the first and the history of the rights over time is documented.</p>
 				</div>
                 <div>
                     <head>Relationships between Entities of different types</head>
@@ -2653,25 +2657,25 @@
                     <table cols="1">
                         <head>Entity semantic units</head>
 						<row>
-                            <cell> 4.1 rightsIdentifier (M, NR) </cell>
+                            <cell n="1"> 4.1 rightsIdentifier (M, NR) </cell>
                         </row>
                         <row>
-                            <cell n="1"> 4.1.1 rightsIdentifierType (M, NR) </cell>
+                            <cell n="2"> 4.1.1 rightsIdentifierType (M, NR) </cell>
                         </row>
                         <row>
-                            <cell n="1"> 4.1.2 rightsIdentifierValue (M, NR) </cell>
+                            <cell n="2"> 4.1.2 rightsIdentifierValue (M, NR) </cell>
                         </row>
 						    <row>
-                            <cell> 4.2 rightsStatement (O, R) </cell>
+                            <cell n="1"> 4.2 rightsStatement (O, R) </cell>
                         </row>
 						<row>
-                            <cell n="1"> 4.2.1 rightsBasis (M, NR) </cell>
+                            <cell n="2"> 4.2.1 rightsBasis (M, NR) </cell>
                         </row>
 						<row>
-                            <cell n="1"> 4.2.2 rightsInformation (O, NR) </cell>
+                            <cell n="2"> 4.2.2 rightsInformation (O, NR) </cell>
                         </row>
 						<row>
-                            <cell n="2"> 4.2.2.1 jurisdiction (O, NR) </cell>
+                            <cell n="3"> 4.2.2.1 jurisdiction (O, NR) </cell>
                         </row>
 						<row>
                             <cell n="2"> 4.2.2.2 conditions (O, NR) </cell>
@@ -2710,40 +2714,40 @@
                             <cell n="1"> 4.2.3 rule (O, R) </cell>
                         </row>
 						<row>
-                            <cell n="1"> 4.2.3.1 ruleType (M, NR) </cell>
+                            <cell n="2"> 4.2.3.1 ruleType (M, NR) </cell>
                         </row>						
                         <row>
                             <cell n="2"> 4.2.3.2 action (M, NR) </cell>
                         </row>
                         <row>
-                            <cell n="2"> 4.2.3.2.1 actionType (M, NR) </cell>
+                            <cell n="3"> 4.2.3.2.1 actionType (M, NR) </cell>
                         </row>
                         <row>
-                            <cell n="2"> 4.2.3.2.2 actionExtension (O, NR) </cell>
+                            <cell n="3"> 4.2.3.2.2 actionExtension (O, NR) </cell>
                         </row>
                         <row>						
                             <cell n="2"> 4.2.3.3 restriction (O, R) </cell>
                         </row>
                         <row>
-                            <cell n="2"> 4.2.3.3.1 restrictionType (M, NR) </cell>
+                            <cell n="3"> 4.2.3.3.1 restrictionType (M, NR) </cell>
                         </row>
 						<row>
-                            <cell n="2"> 4.2.3.3.2 termOfRestriction (O, NR) </cell>
+                            <cell n="3"> 4.2.3.3.2 termOfRestriction (O, NR) </cell>
                         </row>
 						<row>
-                            <cell n="2"> 4.2.3.3.2.1 restrictionTrigger (O, NR) </cell>
+                            <cell n="3"> 4.2.3.3.2.1 restrictionTrigger (O, NR) </cell>
 						</row>
                         <row>
-                            <cell n="2"> 4.2.3.3.2.2 restrictionDuration (O, NR) </cell>
+                            <cell n="3"> 4.2.3.3.2.2 restrictionDuration (O, NR) </cell>
                         </row>						
                         <row>
                             <cell n="2"> 4.2.3.4 termOfRule (O, NR) </cell>
                         </row>
 						<row>
-                            <cell n="2"> 4.2.3.4.1 ruleTrigger (O, NR) </cell>
+                            <cell n="3"> 4.2.3.4.1 ruleTrigger (O, NR) </cell>
                          </row>
 						 <row>
-                            <cell n="2"> 4.2.3.4.2 ruleDuration (O, NR) </cell>
+                            <cell n="3"> 4.2.3.4.2 ruleDuration (O, NR) </cell>
                         </row>	
                         <row>
                             <cell n="2"> 4.2.3.5 ruleNote (O, R) </cell>
@@ -2788,10 +2792,10 @@
                             <cell n="2"> 4.2.4.6.2 relatedEeventIdentifierValue (M, NR) </cell>
                         </row>
 						<row>
-							<cell n="1"> 4.2.4.6.3 relatedEventType (O, R) </cell>
+							<cell n="2"> 4.2.4.6.3 relatedEventType (O, R) </cell>
                         </row>
                         <row>
-                            <cell> 4.3 rightsExtension (O, R) </cell>
+                            <cell n="1"> 4.3 rightsExtension (O, R) </cell>
                         </row>
                         <row>
                             <cell n="1"> 4.4 linkingAgentIdentifier (O, R) </cell>
@@ -3073,6 +3077,7 @@
                 <xi:include href="su/rights/rightsLinkingAgentIdentifierType.xml" parse="xml"/>
                 <xi:include href="su/rights/rightsLinkingAgentIdentifierValue.xml" parse="xml"/>
                 <xi:include href="su/rights/rightsLinkingAgentRole.xml" parse="xml"/>
+                <xi:include href="su/rights/rightsExtension.xml" parse="xml"/>				
                 <xi:include href="su/rights/rightsLinkingRightsIdentifier.xml" parse="xml"/>
                 <xi:include href="su/rights/rightsLinkingRightsIdentifierType.xml" parse="xml"/>
                 <xi:include href="su/rights/rightsLinkingRightsIdentifierValue.xml" parse="xml"/>

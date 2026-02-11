@@ -14,10 +14,11 @@
         <!-- PREMIS Definition -->
         <p>Additional information about the rights of the object.</p>
     </div>
-    <div type="rationale">
+
+<!-- <div type="rationale"> -->
         <!-- PREMIS Rationale -->
-        <p/>
-    </div>
+    <!-- </div> -->
+
     <div type="datatype">
         <!-- PREMIS Data constraint -->
         <p>None</p>
@@ -44,16 +45,14 @@
             </list>
         </p>
     </div>
-    <div type="creationmaintenance">
+
+    <!-- <div type="creationmaintenance"> -->
         <!-- PREMIS Creation / Maintenance -->
-        <p/>
-    </div>
+    <!-- </div> -->
+
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>Information about the terms of the license should go in conditions. <italic>Note</italic> is intended for other types of information related
-to the license/agreement, such as contact persons, action dates, or
-interpretations. The note may also indicate the location of the license,
-for example, if it is available online or embedded in the object itself.</p>
+        <p>Information about the terms of the license should go in conditions. <bold>Note</bold> is intended for other types of information related to the license/agreement, such as contact persons, action dates, or interpretations. The note may also indicate the location of the license, for example, if it is available online or embedded in the object itself.</p>
     </div>
 </div>
 

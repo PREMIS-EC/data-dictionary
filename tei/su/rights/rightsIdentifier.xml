@@ -26,23 +26,24 @@
         <!-- PREMIS Data constraint -->
         <p>Container</p>
     </div>
-    <div type="examples">
+
+<!--     <div type="examples"> -->
         <!-- PREMIS Examples -->
-        <p/>
-    </div>
+    <!-- </div> -->
+
     <div type="entity">
         <p>
             <list type="simple">
                 <label>Obligation</label>
                 <item>Mandatory</item>
                 <label>Repeatability</label>
-                <item>Not repeatable</item>
+                <item>Repeatable</item>
             </list>
         </p>
     </div>
     <div type="creationmaintenance">
         <!-- PREMIS Creation / Maintenance -->
-        <p>The <bold>rightstIdentifier</bold> is likely to be system generated.
+        <p>The <italic>rightstIdentifier</italic> is likely to be system generated.
             There is no global scheme or standard for these identifiers. The
             identifier is therefore not repeatable.</p>
     </div>

@@ -12,7 +12,7 @@
     </div>
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>The role of the object described by the rightsStatement.</p>
+        <p>The role of the object described by the <bold>rightsStatement</bold>.</p>
     </div>
     <div type="rationale">
         <!-- PREMIS Rationale -->
@@ -22,10 +22,10 @@
         <!-- PREMIS Data constraint -->
         <p>None</p>
     </div>
-    <div type="examples">
+<!--     <div type="examples"> -->
         <!-- PREMIS Examples -->
-        <p/>
-    </div>
+    <!-- </div> -->
+	
     <div type="entity">
         <p>
             <list type="simple">
@@ -36,10 +36,11 @@
             </list>
         </p>
     </div>
-    <div type="creationmaintenance">
+
+    <!-- <div type="creationmaintenance"> -->
         <!-- PREMIS Creation / Maintenance -->
-        <p/>
-    </div>
+    <!-- </div> -->
+
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
         <p>This value need not be supplied in the ordinary case where the role of
@@ -47,5 +48,5 @@
             object has a different relationship to the Rights statement, however, it
             should be noted here.</p>
     </div>
-</div>
 
+</div>

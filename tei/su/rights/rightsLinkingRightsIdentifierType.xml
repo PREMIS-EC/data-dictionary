@@ -17,22 +17,18 @@
         <p>A designation of the domain within which the <italic>linkingRightsIdentifier</italic> is unique.</p>
     </div>
     
-    <div type="rationale">
+
         <!-- PREMIS Rationale -->
-        <p/>
-    </div>
+
     <div type="datatype">
         <!-- PREMIS Data constraint -->
         <p>Must be an existing <italic>rightsIdentifierType</italic> value.</p>
     </div>    
-    <div type="usagenotes">
+
         <!-- PREMIS Usage notes -->
-        <p/>
-    </div>
-    <div type="creationmaintenance">
+
         <!-- PREMIS Creation / Maintenance -->
-        <p/>
-    </div>
+
     <div type="entity">
         <!-- PREMIS Object category -->
         <p>
@@ -51,7 +47,7 @@
                 </row>
                 <row>
                     <cell><bold>Examples</bold></cell>
-                    <cell> </cell>
+                    <cell>Not Applicable</cell>
                     <cell>
 					<list type="simple">
 					<item>URI</item>

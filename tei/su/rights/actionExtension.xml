@@ -12,16 +12,18 @@
     </div>
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>The action (‘act’) is optionally extended to add machine readable instructions.</p>
+        <p>The action (or act) is optionally extended to add machine readable instructions.</p>
     </div>
-    <div type="rationale">
+
+<!-- <div type="rationale"> -->
         <!-- PREMIS Rationale -->
-        <p/>
-    </div>
+    <!-- </div> -->
+
     <div type="datatype">
         <!-- PREMIS Data constraint -->
-        <p/>
- </div>
+		<p>None</p>
+       </div>
+
     <div type="examples">
         <!-- PREMIS Examples -->
 		<p/>
@@ -36,13 +38,14 @@
             </list>
         </p>
     </div>
-    <div type="creationmaintenance">
+
+    <!-- <div type="creationmaintenance"> -->
         <!-- PREMIS Creation / Maintenance -->
-        <p/>
-    </div>
-    <div type="usagenotes">
+    <!-- </div> -->
+
+<!-- <div type="usagenotes"> -->
         <!-- PREMIS Usage notes -->
-		<p/>
-    </div>
+    <!-- </div> -->
+
 </div>
 

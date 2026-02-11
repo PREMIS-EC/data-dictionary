@@ -8,17 +8,18 @@
     </head>
     <div type="semanticcomponents">
         <!-- PREMIS Semantic components -->
-        <p/>
+        <p>None</p>
     </div>
     <div type="definition">
         <!-- PREMIS Definition -->
         <p>Designation of the basis for the other right, permission, or
-obligation described in the <italic>rightsStatement</italic>.</p>
+obligation described in the <bold>rightsStatement</bold>.</p>
     </div>
-    <div type="rationale">
+
+<!-- <div type="rationale"> -->
         <!-- PREMIS Rationale -->
-        <p/>
-    </div>
+    <!-- </div> -->
+
     <div type="datatype">
         <!-- PREMIS Data constraint -->
         <p>Values should be taken from a controlled vocabulary.</p>
@@ -37,13 +38,14 @@ obligation described in the <italic>rightsStatement</italic>.</p>
             </list>
         </p>
     </div>
-    <div type="creationmaintenance">
+
+    <!-- <div type="creationmaintenance"> -->
         <!-- PREMIS Creation / Maintenance -->
-        <p/>
-    </div>
+    <!-- </div> -->
+
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>Use this semantic unit for specific Rights bases other than copyright, license or, statute. When this semantic unit is used, 4.2.1 rightsBasis should be set to “other”.</p>
+        <p>Use this semantic unit for specific Rights bases other than copyright, license or, statute. When this semantic unit is used, <bold>rightsBasis</bold> should be set to “other”.</p>
 <p>The Rights basis may be specific to the repository, but it is recommended to use a value from a local or globally controlled vocabulary for machine actionability.</p>
 <p>If more than one basis applies, the entire Rights entity should be repeated.</p>
     </div>

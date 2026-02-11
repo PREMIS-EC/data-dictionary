@@ -17,16 +17,17 @@
     </div>
     <div type="rationale">
         <!-- PREMIS Rationale -->
-        <p>This allows repositories to express information about time-bounded restrictions like embargoes. If this is applicable, use restrictionTrigger to identify the type of start date of enforcement and restrictionDuration for the end of the time period that should be recorded.</p>
+        <p>This allows repositories to express information about time-bounded restrictions like embargoes. If this is applicable, use <bold>restrictionTrigger</bold> to identify the type of start date of enforcement and <bold>restrictionDuration</bold> for the end of the time period that should be recorded.</p>
     </div>
     <div type="datatype">
         <!-- PREMIS Data constraint -->
         <p>Container</p>
     </div>
-    <div type="examples">
+
+<!--     <div type="examples"> -->
         <!-- PREMIS Examples -->
-        <p/>
-    </div>
+    <!-- </div> -->
+
     <div type="entity">
         <p>
             <list type="simple">
@@ -37,13 +38,14 @@
             </list>
         </p>
     </div>
-    <div type="creationmaintenance">
+
+    <!-- <div type="creationmaintenance"> -->
         <!-- PREMIS Creation / Maintenance -->
-        <p/>
-    </div>
-    <div type="usagenotes">
+    <!-- </div> -->
+
+<!-- <div type="usagenotes"> -->
         <!-- PREMIS Usage notes -->
-        <p/>
-    </div>
+    <!-- </div> -->
+
 </div>
 

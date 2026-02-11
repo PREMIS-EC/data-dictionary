@@ -14,10 +14,11 @@
         <!-- PREMIS Definition -->
         <p>An identifying designation for the statute.</p>
     </div>
-    <div type="rationale">
+
+<!-- <div type="rationale"> -->
         <!-- PREMIS Rationale -->
-        <p/>
-    </div>
+    <!-- </div> -->
+
     <div type="datatype">
         <!-- PREMIS Data constraint -->
         <p>None</p>
@@ -27,8 +28,7 @@
         <p>
             <list type="example">
                 <item>Legal Deposit (Jersey) Law 200-</item>                
-                <item>National Library of New Zealand (Te Puna Mātauranga o
-                    Aotearoa)</item>                
+                <item>National Library of New Zealand (Te Puna Mātauranga o Aotearoa)</item>                
                 <item>Act 2003 no 19 part 4 s 34</item>
             </list>
         </p>
@@ -43,10 +43,11 @@
             </list>
         </p>
     </div>
-    <div type="creationmaintenance">
+
+    <!-- <div type="creationmaintenance"> -->
         <!-- PREMIS Creation / Maintenance -->
-        <p/>
-    </div>
+    <!-- </div> -->
+
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
         <p>Use standard citation form when applicable.</p>

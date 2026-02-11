@@ -24,21 +24,22 @@
     </div>
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>Documentation of the repository's Rights (duty or obligation) or indeed restrictions to
-            perform one or more actions.</p>
+        <p>Documentation of the repository's Rights--duty, obligation, or restrictions--to perform one or more actions.</p>
     </div>
-    <div type="rationale">
+
+<!-- <div type="rationale"> -->
         <!-- PREMIS Rationale -->
-        <p/>
-    </div>
+    <!-- </div> -->
+
     <div type="datatype">
         <!-- PREMIS Data constraint -->
         <p>Container</p>
     </div>
-    <div type="examples">
+
+<!--     <div type="examples"> -->
         <!-- PREMIS Examples -->
-        <p/>
-    </div>
+    <!-- </div> -->
+
     <div type="entity">
         <p>
             <list type="simple">
@@ -49,10 +50,11 @@
             </list>
         </p>
     </div>
-    <div type="creationmaintenance">
+
+    <!-- <div type="creationmaintenance"> -->
         <!-- PREMIS Creation / Maintenance -->
-        <p/>
-    </div>
+    <!-- </div> -->
+
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
         <p>This semantic unit is optional because in some cases Rights may be
@@ -60,7 +62,7 @@
             possible. Either <bold>rightsStatement</bold> or <bold>rightsExtension</bold>
             must be present if the Rights entity is included. The
             <bold>rightsStatement</bold> should be repeated when the act(s)
-            described has(have) more than one basis, or when different acts have
+            described has (have) more than one basis, or when different acts have
             different bases.</p>
     </div>
 </div>

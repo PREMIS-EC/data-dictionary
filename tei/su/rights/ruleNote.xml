@@ -22,10 +22,11 @@
         <!-- PREMIS Data constraint -->
         <p>None</p>
     </div>
-    <div type="examples">
+
+<!--     <div type="examples"> -->
         <!-- PREMIS Examples -->
-        <p/>
-    </div>
+    <!-- </div> -->
+
     <div type="entity">
         <p>
             <list type="simple">
@@ -36,13 +37,14 @@
             </list>
         </p>
     </div>
-    <div type="creationmaintenance">
+
+    <!-- <div type="creationmaintenance"> -->
         <!-- PREMIS Creation / Maintenance -->
-        <p/>
-    </div>
+    <!-- </div> -->
+
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>This semantic unit may include a statement about risk assessment, for example, when a repository is not certain about what what aspects of a rule should be enforced</p>
+        <p>This semantic unit may include a statement about risk assessment, for example, when a repository is not certain about what what aspects of a rule should be enforced.</p>
     </div>
 </div>
 

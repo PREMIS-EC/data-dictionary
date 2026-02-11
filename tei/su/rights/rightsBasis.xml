@@ -12,16 +12,16 @@
     </div>
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>Designation of the basis for the right (permission or obligation) identified by the
-            <bold>rightsIdentifier</bold>.</p>
+        <p>Designation of the basis for the right (permission or obligation) identified by the <bold>rightsIdentifier</bold>.</p>
     </div>
-    <div type="rationale">
+
+<!-- <div type="rationale"> -->
         <!-- PREMIS Rationale -->
-        <p/>
-    </div>
+    <!-- </div> -->
+
     <div type="datatype">
         <!-- PREMIS Data constraint -->
-        <p/>
+        <p>None</p>
     </div>
     <div type="examples">
         <!-- PREMIS Examples -->
@@ -44,10 +44,11 @@
             </list>
         </p>
     </div>
-    <div type="creationmaintenance">
+
+    <!-- <div type="creationmaintenance"> -->
         <!-- PREMIS Creation / Maintenance -->
-        <p/>
-    </div>
+    <!-- </div> -->
+
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
         <p>When <bold>rightsBasis</bold> is “other”,

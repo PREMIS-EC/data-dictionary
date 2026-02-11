@@ -12,12 +12,13 @@
     </div>
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>The beginning date for which the permission applies or is applied to the Object described by the rightsStatement.</p>
+        <p>The beginning date for which the permission applies or is applied to the Object described by the <bold>rightsStatement</bold>.</p>
     </div>
-    <div type="rationale">
+
+<!-- <div type="rationale"> -->
         <!-- PREMIS Rationale -->
-        <p/>
-    </div>
+    <!-- </div> -->
+
     <div type="datatype">
         <!-- PREMIS Data constraint -->
         <p>To aid machine processing, value should use a structured form. To
@@ -44,13 +45,14 @@
             </list>
         </p>
     </div>
-    <div type="creationmaintenance">
+
+    <!-- <div type="creationmaintenance"> -->
         <!-- PREMIS Creation / Maintenance -->
-        <p/>
-    </div>
-    <div type="usagenotes">
+    <!-- </div> -->
+
+<!-- <div type="usagenotes"> -->
         <!-- PREMIS Usage notes -->
-        <p/>
-    </div>
+    <!-- </div> -->
+
 </div>
 
