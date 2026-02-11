@@ -11,12 +11,13 @@
     </div>       
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>The value of the agentIdentifier.</p>
+        <p>The value of the <bold>agentIdentifier</bold>.</p>
     </div>       
-    <div type="rationale">
+
+<!-- <div type="rationale"> -->
         <!-- PREMIS Rationale -->
-        <p></p>
-    </div>  
+    <!-- </div> -->
+  
     <div type="datatype">
         <!-- PREMIS Data constraint -->
         <p>Value may be taken from a controlled vocabulary. If <bold>agentType</bold> is organization, a controlled vocabulary is available at: <ref target="http://id.loc.gov/vocabulary/organizations">http://id.loc.gov/vocabulary/organizations</ref>.</p>
@@ -43,10 +44,11 @@
             </list>
         </p>
     </div>
-    <div type="creationmaintenance">
+
+    <!-- <div type="creationmaintenance"> -->
         <!-- PREMIS Creation / Maintenance -->
-        <p></p>
-    </div>
+    <!-- </div> -->
+
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
         <p>May be a unique key or a controlled textual form of name.</p>

@@ -14,10 +14,11 @@
         <!-- PREMIS Definition -->
         <p>A designation of the domain within which the <bold>linkingEnvironmentIdentifier</bold> is unique.</p>
     </div>       
-    <div type="rationale">
+
+<!-- <div type="rationale"> -->
         <!-- PREMIS Rationale -->
-        <p></p>
-    </div>  
+    <!-- </div> -->
+
     <div type="datatype">
         <!-- PREMIS Data constraint -->
         <p>Must be an existing <bold>objectIdentifierType</bold> value.</p>
@@ -36,13 +37,14 @@
             </list>
         </p>
     </div>
-    <div type="creationmaintenance">
+
+    <!-- <div type="creationmaintenance"> -->
         <!-- PREMIS Creation / Maintenance -->
-        <p></p>
-    </div>
-    <div type="usagenotes">
+    <!-- </div> -->
+
+<!-- <div type="usagenotes"> -->
         <!-- PREMIS Usage notes -->
-        <p></p>
-    </div>
+    <!-- </div> -->
+
 </div>
 

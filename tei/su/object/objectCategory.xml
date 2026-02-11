@@ -36,9 +36,12 @@
         <p>Value should be taken from a controlled vocabulary. A controlled
             vocabulary is available at <ref
                 target="http://id.loc.gov/vocabulary/preservation/objectCategory.html"
-                >http://id.loc.gov/vocabulary/preservation/objectCategory.html</ref>
-            .</p>
+                >http://id.loc.gov/vocabulary/preservation/objectCategory.html</ref>.</p>
     </div>
+	
+	<!--     <div type="examples"> -->
+        <!-- PREMIS Examples -->
+    <!-- </div> -->
     
     <div type="entity">
         <!-- PREMIS Object category -->

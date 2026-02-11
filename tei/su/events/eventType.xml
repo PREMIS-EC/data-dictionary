@@ -42,10 +42,11 @@
             </list>
         </p>
     </div>
-    <div type="creationmaintenance">
+
+    <!-- <div type="creationmaintenance"> -->
         <!-- PREMIS Creation / Maintenance -->
-        <p></p>
-    </div>
+    <!-- </div> -->
+
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
         <p>Some <bold>eventType</bold> values may be more generic than others: migration, normalization, and replication are in some instances more precise subtypes of the creation <bold>eventType</bold> value. “Creation” can be used when more precise terms do not apply, for example, when a digital object was first created by scanning from paper. In general, the level of specificity in recording the type of Event (e.g., whether the <bold>eventType</bold> indicates a transformation, a migration or a particular method of migration) is implementation specific and will depend upon how reporting and processing is done. Recommended practice is to record detailed information about the Event itself in <bold>eventDetailInformation</bold> rather than using a very granular value for <bold>eventType</bold>.</p>

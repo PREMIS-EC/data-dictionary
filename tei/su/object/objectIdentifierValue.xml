@@ -14,17 +14,20 @@
     
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>The value of the <gi>objectIdentifier</gi>.</p>
+        <p>The value of the <bold>objectIdentifier</bold>.</p>
     </div>
     
-    <!-- PREMIS Rationale -->
+<!-- <div type="rationale"> -->
+        <!-- PREMIS Rationale -->
+    <!-- </div> -->
     
-    <!-- PREMIS Usage notes -->
-    
-    <div type="datatype">
-        <!-- PREMIS Data constraint -->
-        <p>None</p>
-    </div>
+    <!-- <div type="creationmaintenance"> -->
+        <!-- PREMIS Creation / Maintenance -->
+    <!-- </div> -->
+
+<!-- <div type="usagenotes"> -->
+        <!-- PREMIS Usage notes -->
+    <!-- </div> -->
     
     <div type="entity">
         <!-- PREMIS Object category -->

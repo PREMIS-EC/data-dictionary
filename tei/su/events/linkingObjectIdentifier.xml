@@ -23,10 +23,11 @@
         <!-- PREMIS Data constraint -->
         <p>Container</p>
     </div>
-    <div type="examples">
+
+<!--     <div type="examples"> -->
         <!-- PREMIS Examples -->
-        <p></p>
-    </div>
+    <!-- </div> -->
+
     <div type="entity">
         <p>
             <list type="simple">
@@ -37,10 +38,11 @@
             </list>
         </p>
     </div>
-    <div type="creationmaintenance">
+
+    <!-- <div type="creationmaintenance"> -->
         <!-- PREMIS Creation / Maintenance -->
-        <p></p>
-    </div>
+    <!-- </div> -->
+
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
         <p>Linking semantic units are mandatory in the sense that a repository needs to know the information, but are defined as optional because PREMIS does not specify in which direction the linkage should be.</p>

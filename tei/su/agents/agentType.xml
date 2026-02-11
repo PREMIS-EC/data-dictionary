@@ -13,10 +13,11 @@
         <!-- PREMIS Definition -->
         <p>A high-level characterization of the type of Agent.</p>
     </div>       
-    <div type="rationale">
+
+<!-- <div type="rationale"> -->
         <!-- PREMIS Rationale -->
-        <p></p>
-    </div>  
+    <!-- </div> -->
+
     <div type="datatype">
         <!-- PREMIS Data constraint -->
         <p>Value should be taken from a controlled vocabulary. A controlled vocabulary is available at: <ref target="http://id.loc.gov/vocabulary/preservation/agentType.html">http://id.loc.gov/vocabulary/preservation/agentType.html</ref>.</p>
@@ -42,13 +43,13 @@
             </list>
         </p>
     </div>
-    <div type="creationmaintenance">
+    <!-- <div type="creationmaintenance"> -->
         <!-- PREMIS Creation / Maintenance -->
-        <p></p>
-    </div>
-    <div type="usagenotes">
+    <!-- </div> -->
+
+<!-- <div type="usagenotes"> -->
         <!-- PREMIS Usage notes -->
-        <p></p>
-    </div>
+    <!-- </div> -->
+	
 </div>
 

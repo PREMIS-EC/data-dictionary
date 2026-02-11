@@ -42,10 +42,11 @@
             </list>
         </p>
     </div>
-    <div type="creationmaintenance">
+
+    <!-- <div type="creationmaintenance"> -->
         <!-- PREMIS Creation / Maintenance -->
-        <p></p>
-    </div>
+    <!-- </div> -->
+
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
         <p>Although the semantic unit is named <bold>linkingEnvironmentIdentifier</bold>, it links an Agent to an Object. <bold>LinkingEnvironmentIdentifierType</bold> and <bold>linkingEnvironmentIdentifierValue</bold> must therefore match <bold>objectIdentifierType</bold> and <bold>objectIdentifierValue</bold> in the related environment Object.</p>

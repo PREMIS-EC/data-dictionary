@@ -348,295 +348,295 @@
          <fo:bookmark internal-destination="d1e14694">
             <fo:bookmark-title>2.1 eventIdentifier</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e14778">
+         <fo:bookmark internal-destination="d1e14777">
             <fo:bookmark-title>2.1.1 eventIdentifierType</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e14872">
+         <fo:bookmark internal-destination="d1e14869">
             <fo:bookmark-title>2.1.2 eventIdentifierValue</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e14963">
+         <fo:bookmark internal-destination="d1e14957">
             <fo:bookmark-title>2.2 eventType</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e15070">
+         <fo:bookmark internal-destination="d1e15063">
             <fo:bookmark-title>2.3 eventDateTime</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e15161">
+         <fo:bookmark internal-destination="d1e15153">
             <fo:bookmark-title>2.4 eventDetailInformation</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e15247">
+         <fo:bookmark internal-destination="d1e15237">
             <fo:bookmark-title>2.4.1 eventDetail</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e15340">
+         <fo:bookmark internal-destination="d1e15329">
             <fo:bookmark-title>2.4.2 eventDetailExtension</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e15433">
+         <fo:bookmark internal-destination="d1e15420">
             <fo:bookmark-title>2.5 eventOutcomeInformation</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e15523">
+         <fo:bookmark internal-destination="d1e15508">
             <fo:bookmark-title>2.5.1 eventOutcome</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e15614">
+         <fo:bookmark internal-destination="d1e15598">
             <fo:bookmark-title>2.5.2 eventOutcomeDetail</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e15700">
+         <fo:bookmark internal-destination="d1e15682">
             <fo:bookmark-title>2.5.2.1 eventOutcomeDetailNote</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e15787">
+         <fo:bookmark internal-destination="d1e15767">
             <fo:bookmark-title>2.5.2.2 eventOutcomeDetailExtension</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e15880">
+         <fo:bookmark internal-destination="d1e15858">
             <fo:bookmark-title>2.6 linkingAgentIdentifier</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e15963">
+         <fo:bookmark internal-destination="d1e15939">
             <fo:bookmark-title>2.6.1 linkingAgentIdentifierType</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e16048">
+         <fo:bookmark internal-destination="d1e16029">
             <fo:bookmark-title>2.6.2 linkingAgentIdentifierValue</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e16137">
+         <fo:bookmark internal-destination="d1e16117">
             <fo:bookmark-title>2.6.3 linkingAgentRole</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e16226">
+         <fo:bookmark internal-destination="d1e16210">
             <fo:bookmark-title>2.7 linkingObjectIdentifier</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e16309">
+         <fo:bookmark internal-destination="d1e16291">
             <fo:bookmark-title>2.7.1 linkingObjectIdentifierType</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e16391">
+         <fo:bookmark internal-destination="d1e16372">
             <fo:bookmark-title>2.7.2 linkingObjectIdentifierValue</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e16473">
+         <fo:bookmark internal-destination="d1e16453">
             <fo:bookmark-title>2.7.3 linkingObjectRole</fo:bookmark-title>
          </fo:bookmark>
       </fo:bookmark>
-      <fo:bookmark internal-destination="d1e16565">
+      <fo:bookmark internal-destination="d1e16543">
          <fo:bookmark-title>Agent Entity</fo:bookmark-title>
-         <fo:bookmark internal-destination="d1e16567">
+         <fo:bookmark internal-destination="d1e16545">
             <fo:bookmark-title>Agent Entity</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e16699">
+         <fo:bookmark internal-destination="d1e16677">
             <fo:bookmark-title>3.1 agentIdentifier</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e16783">
+         <fo:bookmark internal-destination="d1e16760">
             <fo:bookmark-title>3.1.1 agentIdentifierType</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e16876">
+         <fo:bookmark internal-destination="d1e16850">
             <fo:bookmark-title>3.1.2 agentIdentifierValue</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e16975">
+         <fo:bookmark internal-destination="d1e16951">
             <fo:bookmark-title>3.2 agentName</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e17074">
+         <fo:bookmark internal-destination="d1e17050">
             <fo:bookmark-title>3.3 agentType</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e17169">
+         <fo:bookmark internal-destination="d1e17142">
             <fo:bookmark-title>3.4 agentVersion</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e17281">
+         <fo:bookmark internal-destination="d1e17253">
             <fo:bookmark-title>3.5 agentNote</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e17373">
+         <fo:bookmark internal-destination="d1e17344">
             <fo:bookmark-title>3.6 agentExtension</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e17455">
+         <fo:bookmark internal-destination="d1e17426">
             <fo:bookmark-title>3.7 linkingEventIdentifier</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e17539">
+         <fo:bookmark internal-destination="d1e17509">
             <fo:bookmark-title>3.7.1 linkingEventIdentifierType</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e17635">
+         <fo:bookmark internal-destination="d1e17604">
             <fo:bookmark-title>3.7.2 linkingEventIdentifierValue</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e17728">
+         <fo:bookmark internal-destination="d1e17695">
             <fo:bookmark-title>3.8 linkingRightsIdentifier</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e17809">
+         <fo:bookmark internal-destination="d1e17774">
             <fo:bookmark-title>3.8.1 linkingRightsIdentifierType</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e17902">
+         <fo:bookmark internal-destination="d1e17864">
             <fo:bookmark-title>3.8.2 linkingRightsIdentifierValue</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e17987">
+         <fo:bookmark internal-destination="d1e17945">
             <fo:bookmark-title>3.9 linkingEnvironmentIdentifier</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e18087">
+         <fo:bookmark internal-destination="d1e18044">
             <fo:bookmark-title>3.9.1 linkingEnvironmentIdentifierType</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e18173">
+         <fo:bookmark internal-destination="d1e18127">
             <fo:bookmark-title>3.9.2 linkingEnvironmentIdentifierValue</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e18270">
+         <fo:bookmark internal-destination="d1e18221">
             <fo:bookmark-title>3.9.3 linkingEnvironmentRole</fo:bookmark-title>
          </fo:bookmark>
       </fo:bookmark>
-      <fo:bookmark internal-destination="d1e18364">
+      <fo:bookmark internal-destination="d1e18313">
          <fo:bookmark-title>Rights Entity</fo:bookmark-title>
-         <fo:bookmark internal-destination="d1e18366">
+         <fo:bookmark internal-destination="d1e18315">
             <fo:bookmark-title>Rights Entity</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e18746">
+         <fo:bookmark internal-destination="d1e18695">
             <fo:bookmark-title>4.1 rightsIdentifier</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e18829">
+         <fo:bookmark internal-destination="d1e18778">
             <fo:bookmark-title>4.1.1 rightsIdentifierType</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e18922">
+         <fo:bookmark internal-destination="d1e18871">
             <fo:bookmark-title>4.1.2 rightsIdentifierValue</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e19002">
+         <fo:bookmark internal-destination="d1e18951">
             <fo:bookmark-title>4.2 rightsStatement</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e19095">
+         <fo:bookmark internal-destination="d1e19044">
             <fo:bookmark-title>4.2.1 rightsBasis</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e19195">
+         <fo:bookmark internal-destination="d1e19144">
             <fo:bookmark-title>4.2.2 rightsInformation</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e19305">
+         <fo:bookmark internal-destination="d1e19254">
             <fo:bookmark-title>4.2.2.1 jurisdiction</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e19393">
+         <fo:bookmark internal-destination="d1e19342">
             <fo:bookmark-title>4.2.2.2 conditions</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e19473">
+         <fo:bookmark internal-destination="d1e19422">
             <fo:bookmark-title>4.2.2.3 citation</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e19561">
+         <fo:bookmark internal-destination="d1e19510">
             <fo:bookmark-title>4.2.2.4 note</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e19657">
+         <fo:bookmark internal-destination="d1e19606">
             <fo:bookmark-title>4.2.2.5 documentationIdentifier</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e19753">
+         <fo:bookmark internal-destination="d1e19702">
             <fo:bookmark-title>4.2.2.5.1 documentationIdentifierType</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e19832">
+         <fo:bookmark internal-destination="d1e19781">
             <fo:bookmark-title>4.2.2.5.2 documentationIdentifierValue</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e19910">
+         <fo:bookmark internal-destination="d1e19859">
             <fo:bookmark-title>4.2.2.5.3 documentationRole</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e19995">
+         <fo:bookmark internal-destination="d1e19944">
             <fo:bookmark-title>4.2.2.6 applicableDates</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e20084">
+         <fo:bookmark internal-destination="d1e20033">
             <fo:bookmark-title>4.2.2.6.1 startDate</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e20169">
+         <fo:bookmark internal-destination="d1e20118">
             <fo:bookmark-title>4.2.2.6.2 endDate</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e20258">
+         <fo:bookmark internal-destination="d1e20207">
             <fo:bookmark-title>4.2.2.7 otherRightsBasis</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e20346">
+         <fo:bookmark internal-destination="d1e20295">
             <fo:bookmark-title>4.2.3 rule</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e20430">
+         <fo:bookmark internal-destination="d1e20379">
             <fo:bookmark-title>4.2.3.1 ruleType</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e20514">
+         <fo:bookmark internal-destination="d1e20463">
             <fo:bookmark-title>4.2.3.2 action</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e20591">
+         <fo:bookmark internal-destination="d1e20540">
             <fo:bookmark-title>4.2.3.2.1 actionType</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e20687">
+         <fo:bookmark internal-destination="d1e20636">
             <fo:bookmark-title>4.2.3.2.2 actionExtension</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e20763">
+         <fo:bookmark internal-destination="d1e20712">
             <fo:bookmark-title>4.2.3.3 restriction</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e20851">
+         <fo:bookmark internal-destination="d1e20800">
             <fo:bookmark-title>4.2.3.3.1 restrictionType</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e20944">
+         <fo:bookmark internal-destination="d1e20893">
             <fo:bookmark-title>4.2.3.3.2 termOfRestriction</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e21027">
+         <fo:bookmark internal-destination="d1e20976">
             <fo:bookmark-title>4.2.3.3.2.1 restrictionTrigger</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e21120">
+         <fo:bookmark internal-destination="d1e21069">
             <fo:bookmark-title>4.2.3.3.2.2 restrictionDuration</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e21209">
+         <fo:bookmark internal-destination="d1e21158">
             <fo:bookmark-title>4.2.3.4 termOfRule</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e21288">
+         <fo:bookmark internal-destination="d1e21237">
             <fo:bookmark-title>4.2.3.4.1 ruleTrigger</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e21381">
+         <fo:bookmark internal-destination="d1e21330">
             <fo:bookmark-title>4.2.3.4.2 ruleDuration</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e21469">
+         <fo:bookmark internal-destination="d1e21418">
             <fo:bookmark-title>4.2.3.5 ruleNote</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e21546">
+         <fo:bookmark internal-destination="d1e21495">
             <fo:bookmark-title>4.2.4 linkingObjectIdentifier</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e21626">
+         <fo:bookmark internal-destination="d1e21575">
             <fo:bookmark-title>4.2.4.1 linkingObjectIdentifierType</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e21709">
+         <fo:bookmark internal-destination="d1e21658">
             <fo:bookmark-title>4.2.4.2 linkingObjectIdentifierValue</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e21793">
+         <fo:bookmark internal-destination="d1e21742">
             <fo:bookmark-title>4.2.4.3 linkingObjectRole</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e21873">
+         <fo:bookmark internal-destination="d1e21822">
             <fo:bookmark-title>4.2.4.4 applicableDatesOfRule</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e21962">
+         <fo:bookmark internal-destination="d1e21911">
             <fo:bookmark-title>4.2.4.4.1 startDate</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e22049">
+         <fo:bookmark internal-destination="d1e21998">
             <fo:bookmark-title>4.2.4.4.2 endDate</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e22141">
+         <fo:bookmark internal-destination="d1e22090">
             <fo:bookmark-title>4.2.4.5 applicableDatesOfRestriction</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e22229">
+         <fo:bookmark internal-destination="d1e22178">
             <fo:bookmark-title>4.2.4.5.1 startDate</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e22316">
+         <fo:bookmark internal-destination="d1e22265">
             <fo:bookmark-title>4.2.4.5.2 endDate</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e22408">
+         <fo:bookmark internal-destination="d1e22357">
             <fo:bookmark-title>4.2.4.6 relatedEventIdentifier</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e22560">
+         <fo:bookmark internal-destination="d1e22509">
             <fo:bookmark-title>4.2.4.6.1 relatedEventIdentifierType</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e22697">
+         <fo:bookmark internal-destination="d1e22646">
             <fo:bookmark-title>4.2.4.6.2 relatedEventIdentifierValue</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e22834">
+         <fo:bookmark internal-destination="d1e22783">
             <fo:bookmark-title>4.2.4.6.3 relatedEventType</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e22911">
+         <fo:bookmark internal-destination="d1e22860">
             <fo:bookmark-title>4.4 linkingAgentIdentifier</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e22995">
+         <fo:bookmark internal-destination="d1e22944">
             <fo:bookmark-title>4.4.1 linkingAgentIdentifierType</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e23079">
+         <fo:bookmark internal-destination="d1e23028">
             <fo:bookmark-title>4.4.2 linkingAgentIdentifierValue</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e23156">
+         <fo:bookmark internal-destination="d1e23105">
             <fo:bookmark-title>4.4.3 linkingAgentRole</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e23246">
+         <fo:bookmark internal-destination="d1e23195">
             <fo:bookmark-title>4.3 rightsExtension</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e23334">
+         <fo:bookmark internal-destination="d1e23283">
             <fo:bookmark-title>4.5 linkingRightsIdentifier</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e23478">
+         <fo:bookmark internal-destination="d1e23427">
             <fo:bookmark-title>4.5.1 linkingRightsIdentifierType</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e23605">
+         <fo:bookmark internal-destination="d1e23554">
             <fo:bookmark-title>4.5.2 linkingRightsIdentifierValue</fo:bookmark-title>
          </fo:bookmark>
-         <fo:bookmark internal-destination="d1e23724">
+         <fo:bookmark internal-destination="d1e23673">
             <fo:bookmark-title>4.5.3 linkingRightsRole</fo:bookmark-title>
          </fo:bookmark>
       </fo:bookmark>
@@ -1821,141 +1821,141 @@
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e14778">2.1.1 eventIdentifierType<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e14778"/>
+               <fo:basic-link internal-destination="d1e14777">2.1.1 eventIdentifierType<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e14777"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e14872">2.1.2 eventIdentifierValue<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e14872"/>
+               <fo:basic-link internal-destination="d1e14869">2.1.2 eventIdentifierValue<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e14869"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e14963">2.2 eventType<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e14963"/>
+               <fo:basic-link internal-destination="d1e14957">2.2 eventType<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e14957"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e15070">2.3 eventDateTime<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e15070"/>
+               <fo:basic-link internal-destination="d1e15063">2.3 eventDateTime<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e15063"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e15161">2.4 eventDetailInformation<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e15161"/>
+               <fo:basic-link internal-destination="d1e15153">2.4 eventDetailInformation<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e15153"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e15247">2.4.1 eventDetail<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e15247"/>
+               <fo:basic-link internal-destination="d1e15237">2.4.1 eventDetail<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e15237"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e15340">2.4.2 eventDetailExtension<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e15340"/>
+               <fo:basic-link internal-destination="d1e15329">2.4.2 eventDetailExtension<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e15329"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e15433">2.5 eventOutcomeInformation<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e15433"/>
+               <fo:basic-link internal-destination="d1e15420">2.5 eventOutcomeInformation<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e15420"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e15523">2.5.1 eventOutcome<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e15523"/>
+               <fo:basic-link internal-destination="d1e15508">2.5.1 eventOutcome<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e15508"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e15614">2.5.2 eventOutcomeDetail<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e15614"/>
+               <fo:basic-link internal-destination="d1e15598">2.5.2 eventOutcomeDetail<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e15598"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e15700">2.5.2.1 eventOutcomeDetailNote<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e15700"/>
+               <fo:basic-link internal-destination="d1e15682">2.5.2.1 eventOutcomeDetailNote<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e15682"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e15787">2.5.2.2 eventOutcomeDetailExtension<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e15787"/>
+               <fo:basic-link internal-destination="d1e15767">2.5.2.2 eventOutcomeDetailExtension<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e15767"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e15880">2.6 linkingAgentIdentifier<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e15880"/>
+               <fo:basic-link internal-destination="d1e15858">2.6 linkingAgentIdentifier<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e15858"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e15963">2.6.1 linkingAgentIdentifierType<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e15963"/>
+               <fo:basic-link internal-destination="d1e15939">2.6.1 linkingAgentIdentifierType<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e15939"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e16048">2.6.2 linkingAgentIdentifierValue<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e16048"/>
+               <fo:basic-link internal-destination="d1e16029">2.6.2 linkingAgentIdentifierValue<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e16029"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e16137">2.6.3 linkingAgentRole<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e16137"/>
+               <fo:basic-link internal-destination="d1e16117">2.6.3 linkingAgentRole<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e16117"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e16226">2.7 linkingObjectIdentifier<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e16226"/>
+               <fo:basic-link internal-destination="d1e16210">2.7 linkingObjectIdentifier<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e16210"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e16309">2.7.1 linkingObjectIdentifierType<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e16309"/>
+               <fo:basic-link internal-destination="d1e16291">2.7.1 linkingObjectIdentifierType<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e16291"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e16391">2.7.2 linkingObjectIdentifierValue<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e16391"/>
+               <fo:basic-link internal-destination="d1e16372">2.7.2 linkingObjectIdentifierValue<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e16372"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e16473">2.7.3 linkingObjectRole<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e16473"/>
+               <fo:basic-link internal-destination="d1e16453">2.7.3 linkingObjectRole<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e16453"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
@@ -1964,131 +1964,131 @@
                    font-weight="bold"
                    text-align="left"
                    text-align-last="justify">Agent Entity<fo:leader leader-pattern="dots"/>
-            <fo:page-number-citation ref-id="d1e16565"/>
+            <fo:page-number-citation ref-id="d1e16543"/>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e16699">3.1 agentIdentifier<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e16699"/>
+               <fo:basic-link internal-destination="d1e16677">3.1 agentIdentifier<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e16677"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e16783">3.1.1 agentIdentifierType<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e16783"/>
+               <fo:basic-link internal-destination="d1e16760">3.1.1 agentIdentifierType<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e16760"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e16876">3.1.2 agentIdentifierValue<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e16876"/>
+               <fo:basic-link internal-destination="d1e16850">3.1.2 agentIdentifierValue<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e16850"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e16975">3.2 agentName<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e16975"/>
+               <fo:basic-link internal-destination="d1e16951">3.2 agentName<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e16951"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e17074">3.3 agentType<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e17074"/>
+               <fo:basic-link internal-destination="d1e17050">3.3 agentType<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e17050"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e17169">3.4 agentVersion<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e17169"/>
+               <fo:basic-link internal-destination="d1e17142">3.4 agentVersion<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e17142"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e17281">3.5 agentNote<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e17281"/>
+               <fo:basic-link internal-destination="d1e17253">3.5 agentNote<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e17253"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e17373">3.6 agentExtension<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e17373"/>
+               <fo:basic-link internal-destination="d1e17344">3.6 agentExtension<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e17344"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e17455">3.7 linkingEventIdentifier<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e17455"/>
+               <fo:basic-link internal-destination="d1e17426">3.7 linkingEventIdentifier<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e17426"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e17539">3.7.1 linkingEventIdentifierType<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e17539"/>
+               <fo:basic-link internal-destination="d1e17509">3.7.1 linkingEventIdentifierType<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e17509"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e17635">3.7.2 linkingEventIdentifierValue<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e17635"/>
+               <fo:basic-link internal-destination="d1e17604">3.7.2 linkingEventIdentifierValue<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e17604"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e17728">3.8 linkingRightsIdentifier<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e17728"/>
+               <fo:basic-link internal-destination="d1e17695">3.8 linkingRightsIdentifier<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e17695"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e17809">3.8.1 linkingRightsIdentifierType<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e17809"/>
+               <fo:basic-link internal-destination="d1e17774">3.8.1 linkingRightsIdentifierType<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e17774"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e17902">3.8.2 linkingRightsIdentifierValue<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e17902"/>
+               <fo:basic-link internal-destination="d1e17864">3.8.2 linkingRightsIdentifierValue<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e17864"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e17987">3.9 linkingEnvironmentIdentifier<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e17987"/>
+               <fo:basic-link internal-destination="d1e17945">3.9 linkingEnvironmentIdentifier<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e17945"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e18087">3.9.1 linkingEnvironmentIdentifierType<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e18087"/>
+               <fo:basic-link internal-destination="d1e18044">3.9.1 linkingEnvironmentIdentifierType<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e18044"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e18173">3.9.2 linkingEnvironmentIdentifierValue<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e18173"/>
+               <fo:basic-link internal-destination="d1e18127">3.9.2 linkingEnvironmentIdentifierValue<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e18127"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e18270">3.9.3 linkingEnvironmentRole<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e18270"/>
+               <fo:basic-link internal-destination="d1e18221">3.9.3 linkingEnvironmentRole<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e18221"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
@@ -2097,390 +2097,390 @@
                    font-weight="bold"
                    text-align="left"
                    text-align-last="justify">Rights Entity<fo:leader leader-pattern="dots"/>
-            <fo:page-number-citation ref-id="d1e18364"/>
+            <fo:page-number-citation ref-id="d1e18313"/>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e18746">4.1 rightsIdentifier<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e18746"/>
+               <fo:basic-link internal-destination="d1e18695">4.1 rightsIdentifier<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e18695"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e18829">4.1.1 rightsIdentifierType<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e18829"/>
+               <fo:basic-link internal-destination="d1e18778">4.1.1 rightsIdentifierType<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e18778"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e18922">4.1.2 rightsIdentifierValue<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e18922"/>
+               <fo:basic-link internal-destination="d1e18871">4.1.2 rightsIdentifierValue<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e18871"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e19002">4.2 rightsStatement<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e19002"/>
+               <fo:basic-link internal-destination="d1e18951">4.2 rightsStatement<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e18951"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e19095">4.2.1 rightsBasis<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e19095"/>
+               <fo:basic-link internal-destination="d1e19044">4.2.1 rightsBasis<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e19044"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e19195">4.2.2 rightsInformation<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e19195"/>
+               <fo:basic-link internal-destination="d1e19144">4.2.2 rightsInformation<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e19144"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e19305">4.2.2.1 jurisdiction<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e19305"/>
+               <fo:basic-link internal-destination="d1e19254">4.2.2.1 jurisdiction<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e19254"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e19393">4.2.2.2 conditions<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e19393"/>
+               <fo:basic-link internal-destination="d1e19342">4.2.2.2 conditions<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e19342"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e19473">4.2.2.3 citation<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e19473"/>
+               <fo:basic-link internal-destination="d1e19422">4.2.2.3 citation<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e19422"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e19561">4.2.2.4 note<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e19561"/>
+               <fo:basic-link internal-destination="d1e19510">4.2.2.4 note<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e19510"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e19657">4.2.2.5 documentationIdentifier<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e19657"/>
+               <fo:basic-link internal-destination="d1e19606">4.2.2.5 documentationIdentifier<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e19606"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e19753">4.2.2.5.1 documentationIdentifierType<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e19753"/>
+               <fo:basic-link internal-destination="d1e19702">4.2.2.5.1 documentationIdentifierType<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e19702"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e19832">4.2.2.5.2 documentationIdentifierValue<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e19832"/>
+               <fo:basic-link internal-destination="d1e19781">4.2.2.5.2 documentationIdentifierValue<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e19781"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e19910">4.2.2.5.3 documentationRole<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e19910"/>
+               <fo:basic-link internal-destination="d1e19859">4.2.2.5.3 documentationRole<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e19859"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e19995">4.2.2.6 applicableDates<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e19995"/>
+               <fo:basic-link internal-destination="d1e19944">4.2.2.6 applicableDates<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e19944"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e20084">4.2.2.6.1 startDate<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e20084"/>
+               <fo:basic-link internal-destination="d1e20033">4.2.2.6.1 startDate<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e20033"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e20169">4.2.2.6.2 endDate<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e20169"/>
+               <fo:basic-link internal-destination="d1e20118">4.2.2.6.2 endDate<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e20118"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e20258">4.2.2.7 otherRightsBasis<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e20258"/>
+               <fo:basic-link internal-destination="d1e20207">4.2.2.7 otherRightsBasis<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e20207"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e20346">4.2.3 rule<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e20346"/>
+               <fo:basic-link internal-destination="d1e20295">4.2.3 rule<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e20295"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e20430">4.2.3.1 ruleType<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e20430"/>
+               <fo:basic-link internal-destination="d1e20379">4.2.3.1 ruleType<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e20379"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e20514">4.2.3.2 action<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e20514"/>
+               <fo:basic-link internal-destination="d1e20463">4.2.3.2 action<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e20463"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e20591">4.2.3.2.1 actionType<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e20591"/>
+               <fo:basic-link internal-destination="d1e20540">4.2.3.2.1 actionType<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e20540"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e20687">4.2.3.2.2 actionExtension<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e20687"/>
+               <fo:basic-link internal-destination="d1e20636">4.2.3.2.2 actionExtension<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e20636"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e20763">4.2.3.3 restriction<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e20763"/>
+               <fo:basic-link internal-destination="d1e20712">4.2.3.3 restriction<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e20712"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e20851">4.2.3.3.1 restrictionType<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e20851"/>
+               <fo:basic-link internal-destination="d1e20800">4.2.3.3.1 restrictionType<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e20800"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e20944">4.2.3.3.2 termOfRestriction<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e20944"/>
+               <fo:basic-link internal-destination="d1e20893">4.2.3.3.2 termOfRestriction<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e20893"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e21027">4.2.3.3.2.1 restrictionTrigger<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e21027"/>
+               <fo:basic-link internal-destination="d1e20976">4.2.3.3.2.1 restrictionTrigger<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e20976"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e21120">4.2.3.3.2.2 restrictionDuration<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e21120"/>
+               <fo:basic-link internal-destination="d1e21069">4.2.3.3.2.2 restrictionDuration<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e21069"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e21209">4.2.3.4 termOfRule<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e21209"/>
+               <fo:basic-link internal-destination="d1e21158">4.2.3.4 termOfRule<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e21158"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e21288">4.2.3.4.1 ruleTrigger<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e21288"/>
+               <fo:basic-link internal-destination="d1e21237">4.2.3.4.1 ruleTrigger<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e21237"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e21381">4.2.3.4.2 ruleDuration<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e21381"/>
+               <fo:basic-link internal-destination="d1e21330">4.2.3.4.2 ruleDuration<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e21330"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e21469">4.2.3.5 ruleNote<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e21469"/>
+               <fo:basic-link internal-destination="d1e21418">4.2.3.5 ruleNote<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e21418"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e21546">4.2.4 linkingObjectIdentifier<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e21546"/>
+               <fo:basic-link internal-destination="d1e21495">4.2.4 linkingObjectIdentifier<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e21495"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e21626">4.2.4.1 linkingObjectIdentifierType<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e21626"/>
+               <fo:basic-link internal-destination="d1e21575">4.2.4.1 linkingObjectIdentifierType<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e21575"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e21709">4.2.4.2 linkingObjectIdentifierValue<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e21709"/>
+               <fo:basic-link internal-destination="d1e21658">4.2.4.2 linkingObjectIdentifierValue<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e21658"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e21793">4.2.4.3 linkingObjectRole<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e21793"/>
+               <fo:basic-link internal-destination="d1e21742">4.2.4.3 linkingObjectRole<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e21742"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e21873">4.2.4.4 applicableDatesOfRule<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e21873"/>
+               <fo:basic-link internal-destination="d1e21822">4.2.4.4 applicableDatesOfRule<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e21822"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e21962">4.2.4.4.1 startDate<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e21962"/>
+               <fo:basic-link internal-destination="d1e21911">4.2.4.4.1 startDate<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e21911"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e22049">4.2.4.4.2 endDate<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e22049"/>
+               <fo:basic-link internal-destination="d1e21998">4.2.4.4.2 endDate<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e21998"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e22141">4.2.4.5 applicableDatesOfRestriction<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e22141"/>
+               <fo:basic-link internal-destination="d1e22090">4.2.4.5 applicableDatesOfRestriction<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e22090"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e22229">4.2.4.5.1 startDate<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e22229"/>
+               <fo:basic-link internal-destination="d1e22178">4.2.4.5.1 startDate<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e22178"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e22316">4.2.4.5.2 endDate<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e22316"/>
+               <fo:basic-link internal-destination="d1e22265">4.2.4.5.2 endDate<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e22265"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e22408">4.2.4.6 relatedEventIdentifier<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e22408"/>
+               <fo:basic-link internal-destination="d1e22357">4.2.4.6 relatedEventIdentifier<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e22357"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e22560">4.2.4.6.1 relatedEventIdentifierType<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e22560"/>
+               <fo:basic-link internal-destination="d1e22509">4.2.4.6.1 relatedEventIdentifierType<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e22509"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e22697">4.2.4.6.2 relatedEventIdentifierValue<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e22697"/>
+               <fo:basic-link internal-destination="d1e22646">4.2.4.6.2 relatedEventIdentifierValue<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e22646"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e22834">4.2.4.6.3 relatedEventType<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e22834"/>
+               <fo:basic-link internal-destination="d1e22783">4.2.4.6.3 relatedEventType<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e22783"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e22911">4.4 linkingAgentIdentifier<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e22911"/>
+               <fo:basic-link internal-destination="d1e22860">4.4 linkingAgentIdentifier<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e22860"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e22995">4.4.1 linkingAgentIdentifierType<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e22995"/>
+               <fo:basic-link internal-destination="d1e22944">4.4.1 linkingAgentIdentifierType<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e22944"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e23079">4.4.2 linkingAgentIdentifierValue<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e23079"/>
+               <fo:basic-link internal-destination="d1e23028">4.4.2 linkingAgentIdentifierValue<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e23028"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e23156">4.4.3 linkingAgentRole<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e23156"/>
+               <fo:basic-link internal-destination="d1e23105">4.4.3 linkingAgentRole<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e23105"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e23246">4.3 rightsExtension<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e23246"/>
+               <fo:basic-link internal-destination="d1e23195">4.3 rightsExtension<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e23195"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e23334">4.5 linkingRightsIdentifier<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e23334"/>
+               <fo:basic-link internal-destination="d1e23283">4.5 linkingRightsIdentifier<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e23283"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e23478">4.5.1 linkingRightsIdentifierType<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e23478"/>
+               <fo:basic-link internal-destination="d1e23427">4.5.1 linkingRightsIdentifierType<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e23427"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e23605">4.5.2 linkingRightsIdentifierValue<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e23605"/>
+               <fo:basic-link internal-destination="d1e23554">4.5.2 linkingRightsIdentifierValue<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e23554"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e23724">4.5.3 linkingRightsRole<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e23724"/>
+               <fo:basic-link internal-destination="d1e23673">4.5.3 linkingRightsRole<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e23673"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
@@ -2492,72 +2492,72 @@
                    text-align-last="justify"
                    span="all">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e23804">SPECIAL TOPICS<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e23804"/>
+               <fo:basic-link internal-destination="d1e23753">SPECIAL TOPICS<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e23753"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e23810">Format information<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e23810"/>
+               <fo:basic-link internal-destination="d1e23759">Format information<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e23759"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e23905">Environment<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e23905"/>
+               <fo:basic-link internal-destination="d1e23854">Environment<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e23854"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e24020">Designating a specific environment: implementation considerations<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e24020"/>
+               <fo:basic-link internal-destination="d1e23969">Designating a specific environment: implementation considerations<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e23969"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e24077">Handling different levels of specificity at the same time: a possible
+               <fo:basic-link internal-destination="d1e24026">Handling different levels of specificity at the same time: a possible
                         strategy<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e24077"/>
+                  <fo:page-number-citation ref-id="d1e24026"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e24132">Object characteristics and composition level: the “onion” model<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e24132"/>
+               <fo:basic-link internal-destination="d1e24081">Object characteristics and composition level: the “onion” model<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e24081"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e24179">Fixity, integrity, authenticity<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e24179"/>
+               <fo:basic-link internal-destination="d1e24128">Fixity, integrity, authenticity<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e24128"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e24218">Digital signatures<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e24218"/>
+               <fo:basic-link internal-destination="d1e24167">Digital signatures<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e24167"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e24265">Digital signature metadata<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e24265"/>
+               <fo:basic-link internal-destination="d1e24214">Digital signature metadata<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e24214"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
          <fo:block text-align="left" text-align-last="justify">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e24468">Non-core metadata<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e24468"/>
+               <fo:basic-link internal-destination="d1e24417">Non-core metadata<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e24417"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
@@ -2569,8 +2569,8 @@
                    text-align-last="justify"
                    span="all">
             <fo:inline>
-               <fo:basic-link internal-destination="d1e24604">GLOSSARY<fo:leader leader-pattern="dots"/>
-                  <fo:page-number-citation ref-id="d1e24604"/>
+               <fo:basic-link internal-destination="d1e24553">GLOSSARY<fo:leader leader-pattern="dots"/>
+                  <fo:page-number-citation ref-id="d1e24553"/>
                </fo:basic-link>
             </fo:inline>
          </fo:block>
@@ -27340,15 +27340,6 @@
                       font-weight="bold"
                       space-after="1em"
                       space-before="1em"
-                      font-size="1.17em">Example</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
                       font-size="1.17em">Creation/Maintenance notes</fo:block>
             <fo:block>
                <fo:block>The <fo:inline font-weight="bold">eventIdentifier</fo:inline> is likely to be system generated. There is no global scheme or standard for these identifiers. The identifier is therefore not repeatable.</fo:block>
@@ -27371,7 +27362,7 @@
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e14778"
+                      id="d1e14777"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -27423,15 +27414,6 @@
                      </fo:list-item>
                   </fo:list-block>
                </fo:block>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
-                      font-size="1.17em">Rationale</fo:block>
-            <fo:block>
-               <fo:block/>
                <fo:block> </fo:block>
             </fo:block>
             <fo:block role="H3"
@@ -27500,15 +27482,6 @@
                <fo:block>For most preservation repositories, the <fo:inline font-weight="bold">eventIdentifierType</fo:inline> will be its own internal numbering system. It can be implicit within the system and provided explicitly only if the data is exported.</fo:block>
                <fo:block> </fo:block>
             </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
-                      font-size="1.17em">Usage notes</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
             <fo:block>
                <fo:basic-link internal-destination="tocpage" color="blue">Table of Contents</fo:basic-link>
             </fo:block>
@@ -27517,7 +27490,7 @@
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e14872"
+                      id="d1e14869"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -27576,15 +27549,6 @@
                       font-weight="bold"
                       space-after="1em"
                       space-before="1em"
-                      font-size="1.17em">Rationale</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
                       font-size="1.17em">Data Constraint</fo:block>
             <fo:block>
                <fo:block>None</fo:block>
@@ -27629,24 +27593,6 @@
                </fo:block>
                <fo:block> </fo:block>
             </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
-                      font-size="1.17em">Creation/Maintenance notes</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
-                      font-size="1.17em">Usage notes</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
             <fo:block>
                <fo:basic-link internal-destination="tocpage" color="blue">Table of Contents</fo:basic-link>
             </fo:block>
@@ -27655,7 +27601,7 @@
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e14963"
+                      id="d1e14957"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -27780,15 +27726,6 @@
                       font-weight="bold"
                       space-after="1em"
                       space-before="1em"
-                      font-size="1.17em">Creation/Maintenance notes</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
                       font-size="1.17em">Usage notes</fo:block>
             <fo:block>
                <fo:block>Some <fo:inline font-weight="bold">eventType</fo:inline> values may be more generic than others: migration, normalization, and replication are in some instances more precise subtypes of the creation <fo:inline font-weight="bold">eventType</fo:inline> value. “Creation” can be used when more precise terms do not apply, for example, when a digital object was first created by scanning from paper. In general, the level of specificity in recording the type of Event (e.g., whether the <fo:inline font-weight="bold">eventType</fo:inline> indicates a transformation, a migration or a particular method of migration) is implementation specific and will depend upon how reporting and processing is done. Recommended practice is to record detailed information about the Event itself in <fo:inline font-weight="bold">eventDetailInformation</fo:inline> rather than using a very granular value for <fo:inline font-weight="bold">eventType</fo:inline>.</fo:block>
@@ -27802,7 +27739,7 @@
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e15070"
+                      id="d1e15063"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -27854,15 +27791,6 @@
                      </fo:list-item>
                   </fo:list-block>
                </fo:block>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
-                      font-size="1.17em">Rationale</fo:block>
-            <fo:block>
-               <fo:block/>
                <fo:block> </fo:block>
             </fo:block>
             <fo:block role="H3"
@@ -27926,15 +27854,6 @@
                       font-weight="bold"
                       space-after="1em"
                       space-before="1em"
-                      font-size="1.17em">Creation/Maintenance notes</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
                       font-size="1.17em">Usage notes</fo:block>
             <fo:block>
                <fo:block>Recommended practice is to record the most specific time possible and to designate the time zone.</fo:block>
@@ -27948,7 +27867,7 @@
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e15161"
+                      id="d1e15153"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -28011,36 +27930,9 @@
                       font-weight="bold"
                       space-after="1em"
                       space-before="1em"
-                      font-size="1.17em">Rationale</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
                       font-size="1.17em">Data Constraint</fo:block>
             <fo:block>
                <fo:block>Container</fo:block>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
-                      font-size="1.17em">Example</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
-                      font-size="1.17em">Creation/Maintenance notes</fo:block>
-            <fo:block>
-               <fo:block/>
                <fo:block> </fo:block>
             </fo:block>
             <fo:block role="H3"
@@ -28060,7 +27952,7 @@
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e15247"
+                      id="d1e15237"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -28118,15 +28010,6 @@
                       font-weight="bold"
                       space-after="1em"
                       space-before="1em"
-                      font-size="1.17em">Rationale</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
                       font-size="1.17em">Data Constraint</fo:block>
             <fo:block>
                <fo:block>None</fo:block>
@@ -28166,15 +28049,6 @@
                       font-weight="bold"
                       space-after="1em"
                       space-before="1em"
-                      font-size="1.17em">Creation/Maintenance notes</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
                       font-size="1.17em">Usage notes</fo:block>
             <fo:block>
                <fo:block>
@@ -28189,7 +28063,7 @@
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e15340"
+                      id="d1e15329"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -28265,27 +28139,9 @@
                       font-weight="bold"
                       space-after="1em"
                       space-before="1em"
-                      font-size="1.17em">Example</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
-                      font-size="1.17em">Creation/Maintenance notes</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
                       font-size="1.17em">Usage notes</fo:block>
             <fo:block>
-               <fo:block>For more granularity or use of externally defined semantic units, extensibility is provided. Either local semantic units or metadata using another specified metadata schema may be included instead of or in addition to PREMIS defined semantic units. When using an extension schema, a reference to that schema must be provided. See further guidance in “Extensibility”, . If more than one extension needs to be associated explicitly with <fo:inline font-weight="bold">eventDetail</fo:inline>, <fo:inline font-weight="bold">eventDetailExtension</fo:inline> is repeated. However, if extensions from different external schemas are needed or if the extension is not associated explicitly with <fo:inline font-weight="bold">eventDetail</fo:inline>, the <fo:inline font-weight="bold">eventDetailInformation</fo:inline> container should be repeated instead. It is recommended to give information about the metadata used in <fo:inline font-weight="bold">eventDetailExtension</fo:inline>, including date the metadata was created, status of the metadata, internal linking IDs, type of metadata used and its version, message digest and message digest algorithm of the metadata, and type of identifier for external metadata links. </fo:block>
+               <fo:block>For more granularity or use of externally defined semantic units, extensibility is provided. Either local semantic units or metadata using another specified metadata schema may be included instead of or in addition to PREMIS defined semantic units. When using an extension schema, a reference to that schema must be provided. See further guidance in “Extensibility”. If more than one extension needs to be associated explicitly with <fo:inline font-weight="bold">eventDetail</fo:inline>, <fo:inline font-weight="bold">eventDetailExtension</fo:inline> is repeated. However, if extensions from different external schemas are needed or if the extension is not associated explicitly with <fo:inline font-weight="bold">eventDetail</fo:inline>, the <fo:inline font-weight="bold">eventDetailInformation</fo:inline> container should be repeated instead. It is recommended to give information about the metadata used in <fo:inline font-weight="bold">eventDetailExtension</fo:inline>, including date the metadata was created, status of the metadata, internal linking IDs, type of metadata used and its version, message digest and message digest algorithm of the metadata, and type of identifier for external metadata links. </fo:block>
                <fo:block> </fo:block>
             </fo:block>
             <fo:block>
@@ -28296,7 +28152,7 @@
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e15433"
+                      id="d1e15420"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -28359,36 +28215,9 @@
                       font-weight="bold"
                       space-after="1em"
                       space-before="1em"
-                      font-size="1.17em">Rationale</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
                       font-size="1.17em">Data Constraint</fo:block>
             <fo:block>
                <fo:block>Container</fo:block>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
-                      font-size="1.17em">Example</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
-                      font-size="1.17em">Creation/Maintenance notes</fo:block>
-            <fo:block>
-               <fo:block/>
                <fo:block> </fo:block>
             </fo:block>
             <fo:block role="H3"
@@ -28408,7 +28237,7 @@
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e15523"
+                      id="d1e15508"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -28514,15 +28343,6 @@
                       font-weight="bold"
                       space-after="1em"
                       space-before="1em"
-                      font-size="1.17em">Creation/Maintenance notes</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
                       font-size="1.17em">Usage notes</fo:block>
             <fo:block>
                <fo:block>Recommended practice is to use a controlled vocabulary that a system can act upon automatically. Because this is inherently a local vocabulary, there is no general one available. More detail about the outcome may be recorded in <fo:inline font-weight="bold">eventOutcomeDetail</fo:inline>. Recommended practice is to define Events with sufficient granularity that each Event has a single outcome.</fo:block>
@@ -28536,7 +28356,7 @@
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e15614"
+                      id="d1e15598"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -28617,24 +28437,6 @@
                       font-weight="bold"
                       space-after="1em"
                       space-before="1em"
-                      font-size="1.17em">Example</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
-                      font-size="1.17em">Creation/Maintenance notes</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
                       font-size="1.17em">Usage notes</fo:block>
             <fo:block>
                <fo:block>This may be used to record all error and warning messages issued by a program involved in the Event or to record a pointer to an error log. If the Event was a validity check (e.g., profile conformance) any anomalies or quirks discovered would be recorded here. All subunits of this semantic unit are optional. At least one subunit (i.e. <fo:inline font-weight="bold">eventOutcomeDetailNote</fo:inline> and/or <fo:inline font-weight="bold">eventOutcomeDetailExtension</fo:inline>) must be present if this container is included.</fo:block>
@@ -28648,7 +28450,7 @@
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e15700"
+                      id="d1e15682"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -28750,24 +28552,6 @@
                </fo:block>
                <fo:block> </fo:block>
             </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
-                      font-size="1.17em">Creation/Maintenance notes</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
-                      font-size="1.17em">Usage notes</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
             <fo:block>
                <fo:basic-link internal-destination="tocpage" color="blue">Table of Contents</fo:basic-link>
             </fo:block>
@@ -28776,7 +28560,7 @@
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e15787"
+                      id="d1e15767"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -28854,24 +28638,6 @@
                       font-weight="bold"
                       space-after="1em"
                       space-before="1em"
-                      font-size="1.17em">Example</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
-                      font-size="1.17em">Creation/Maintenance notes</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
                       font-size="1.17em">Usage notes</fo:block>
             <fo:block>
                <fo:block>For more granularity or use of externally defined semantic units, extensibility is provided. Either local semantic units or metadata using another specified metadata schema may be included instead of or in addition to PREMIS defined semantic units. When using an extension schema, a reference to that schema must be provided. See further guidance in “Extensibility,” . If more than one extension needs to be associated explicitly with <fo:inline font-weight="bold">eventOutcomeDetailNote</fo:inline>, <fo:inline font-weight="bold">eventOutcomeDetailExtension</fo:inline> is repeated. However, if extensions from different external schemas are needed or if the extension is not associated explicitly with <fo:inline font-weight="bold">eventOutcomeDetailNote</fo:inline>, the <fo:inline font-weight="bold">eventOutcomeDetail</fo:inline> container should be repeated instead. It is recommended to give information about the metadata used in <fo:inline font-weight="bold">eventOutcomeDetailExtension</fo:inline> including date the metadata was created, status of the metadata, internal linking IDs, type of metadata used and its version, message digest and message digest algorithm of the metadata, and type of identifier for external metadata links.</fo:block>
@@ -28885,7 +28651,7 @@
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e15880"
+                      id="d1e15858"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -28970,27 +28736,9 @@
                       font-weight="bold"
                       space-after="1em"
                       space-before="1em"
-                      font-size="1.17em">Example</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
-                      font-size="1.17em">Creation/Maintenance notes</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
                       font-size="1.17em">Usage notes</fo:block>
             <fo:block>
-               <fo:block>Recommended practice is to record the Agent if possible.Linking semantic units are mandatory in the sense that a repository needs to know the information, but are defined as optional because PREMIS does not specify in which direction the linkage should be.</fo:block>
+               <fo:block>Recommended practice is to record the Agent if possible. Linking semantic units are mandatory in the sense that a repository needs to know the information, but are defined as optional because PREMIS does not specify in which direction the linkage should be.</fo:block>
                <fo:block> </fo:block>
             </fo:block>
             <fo:block>
@@ -29001,7 +28749,7 @@
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e15963"
+                      id="d1e15939"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -29024,7 +28772,7 @@
                       space-before="1em"
                       font-size="1.17em">Definition</fo:block>
             <fo:block>
-               <fo:block>A designation of the domain in which the linking Agent identifier is unique.</fo:block>
+               <fo:block>A designation of the domain in which the <fo:inline font-weight="bold">linkingAgentIdentifierValue</fo:inline> is unique.</fo:block>
                <fo:block> </fo:block>
             </fo:block>
             <fo:block role="H3"
@@ -29059,18 +28807,9 @@
                       font-weight="bold"
                       space-after="1em"
                       space-before="1em"
-                      font-size="1.17em">Rationale</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
                       font-size="1.17em">Data Constraint</fo:block>
             <fo:block>
-               <fo:block>Must be an existing agentIdentifierType value.</fo:block>
+               <fo:block>Must be an existing <fo:inline font-weight="bold">agentIdentifierType</fo:inline> value.</fo:block>
                <fo:block> </fo:block>
             </fo:block>
             <fo:block role="H3"
@@ -29086,30 +28825,12 @@
                            <fo:block/>
                         </fo:list-item-label>
                         <fo:list-item-body start-indent="body-start()">
-                           <fo:block>​[​s​e​e​ ​e​x​a​m​p​l​e​s​ ​f​o​r​ ​a​g​e​n​t​I​d​e​n​t​i​f​i​e​r​T​y​p​e​</fo:block>
+                           <fo:block>​S​e​e​ ​e​x​a​m​p​l​e​s​ ​f​o​r​ ​a​g​e​n​t​I​d​e​n​t​i​f​i​e​r​T​y​p​</fo:block>
                            <fo:block/>
                         </fo:list-item-body>
                      </fo:list-item>
                   </fo:list-block>
                </fo:block>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
-                      font-size="1.17em">Creation/Maintenance notes</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
-                      font-size="1.17em">Usage notes</fo:block>
-            <fo:block>
-               <fo:block/>
                <fo:block> </fo:block>
             </fo:block>
             <fo:block>
@@ -29120,7 +28841,7 @@
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e16048"
+                      id="d1e16029"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -29178,15 +28899,6 @@
                       font-weight="bold"
                       space-after="1em"
                       space-before="1em"
-                      font-size="1.17em">Rationale</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
                       font-size="1.17em">Data Constraint</fo:block>
             <fo:block>
                <fo:block>Must be an existing <fo:inline font-weight="bold">agentIdentifierValue</fo:inline> value.</fo:block>
@@ -29205,30 +28917,12 @@
                            <fo:block/>
                         </fo:list-item-label>
                         <fo:list-item-body start-indent="body-start()">
-                           <fo:block>​[​s​e​e​ ​e​x​a​m​p​l​e​s​ ​f​o​r​ ​a​g​e​n​t​I​d​e​n​t​i​f​i​e​r​V​a​l​u​e​]​</fo:block>
+                           <fo:block>​S​e​e​ ​e​x​a​m​p​l​e​s​ ​f​o​r​ ​a​g​e​n​t​I​d​e​n​t​i​f​i​e​r​V​a​l​u​e​</fo:block>
                            <fo:block/>
                         </fo:list-item-body>
                      </fo:list-item>
                   </fo:list-block>
                </fo:block>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
-                      font-size="1.17em">Creation/Maintenance notes</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
-                      font-size="1.17em">Usage notes</fo:block>
-            <fo:block>
-               <fo:block/>
                <fo:block> </fo:block>
             </fo:block>
             <fo:block>
@@ -29239,7 +28933,7 @@
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e16137"
+                      id="d1e16117"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -29318,31 +29012,46 @@
                       space-before="1em"
                       font-size="1.17em">Example</fo:block>
             <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
-                      font-size="1.17em">Creation/Maintenance notes</fo:block>
-            <fo:block>
-               <fo:block>authorizer</fo:block>
-               <fo:block> </fo:block>
-               <fo:block>implementer</fo:block>
-               <fo:block> </fo:block>
-               <fo:block>validator</fo:block>
-               <fo:block> </fo:block>
-               <fo:block>executing program</fo:block>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
-                      font-size="1.17em">Usage notes</fo:block>
-            <fo:block>
-               <fo:block/>
+               <fo:block>
+                  <fo:list-block provisional-distance-between-starts="20mm">
+                     <fo:list-item>
+                        <fo:list-item-label font-weight="bold" end-indent="label-end()">
+                           <fo:block/>
+                        </fo:list-item-label>
+                        <fo:list-item-body start-indent="body-start()">
+                           <fo:block>authorizer</fo:block>
+                           <fo:block/>
+                        </fo:list-item-body>
+                     </fo:list-item>
+                     <fo:list-item>
+                        <fo:list-item-label font-weight="bold" end-indent="label-end()">
+                           <fo:block/>
+                        </fo:list-item-label>
+                        <fo:list-item-body start-indent="body-start()">
+                           <fo:block>implementer</fo:block>
+                           <fo:block/>
+                        </fo:list-item-body>
+                     </fo:list-item>
+                     <fo:list-item>
+                        <fo:list-item-label font-weight="bold" end-indent="label-end()">
+                           <fo:block/>
+                        </fo:list-item-label>
+                        <fo:list-item-body start-indent="body-start()">
+                           <fo:block>validator</fo:block>
+                           <fo:block/>
+                        </fo:list-item-body>
+                     </fo:list-item>
+                     <fo:list-item>
+                        <fo:list-item-label font-weight="bold" end-indent="label-end()">
+                           <fo:block/>
+                        </fo:list-item-label>
+                        <fo:list-item-body start-indent="body-start()">
+                           <fo:block>executing program</fo:block>
+                           <fo:block/>
+                        </fo:list-item-body>
+                     </fo:list-item>
+                  </fo:list-block>
+               </fo:block>
                <fo:block> </fo:block>
             </fo:block>
             <fo:block>
@@ -29353,7 +29062,7 @@
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e16226"
+                      id="d1e16210"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -29436,24 +29145,6 @@
                       font-weight="bold"
                       space-after="1em"
                       space-before="1em"
-                      font-size="1.17em">Example</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
-                      font-size="1.17em">Creation/Maintenance notes</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
                       font-size="1.17em">Usage notes</fo:block>
             <fo:block>
                <fo:block>Linking semantic units are mandatory in the sense that a repository needs to know the information, but are defined as optional because PREMIS does not specify in which direction the linkage should be.</fo:block>
@@ -29467,7 +29158,7 @@
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e16309"
+                      id="d1e16291"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -29490,7 +29181,7 @@
                       space-before="1em"
                       font-size="1.17em">Definition</fo:block>
             <fo:block>
-               <fo:block>A designation of the domain in which the linking Object identifier is unique.</fo:block>
+               <fo:block>A designation of the domain in which the <fo:inline font-weight="bold">linkingObjectIdentifierValue</fo:inline> is unique.</fo:block>
                <fo:block> </fo:block>
             </fo:block>
             <fo:block role="H3"
@@ -29525,45 +29216,9 @@
                       font-weight="bold"
                       space-after="1em"
                       space-before="1em"
-                      font-size="1.17em">Rationale</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
                       font-size="1.17em">Data Constraint</fo:block>
             <fo:block>
                <fo:block>Must be an existing <fo:inline font-weight="bold">objectIdentifierType</fo:inline> value.</fo:block>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
-                      font-size="1.17em">Example</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
-                      font-size="1.17em">Creation/Maintenance notes</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
-                      font-size="1.17em">Usage notes</fo:block>
-            <fo:block>
-               <fo:block/>
                <fo:block> </fo:block>
             </fo:block>
             <fo:block>
@@ -29574,7 +29229,7 @@
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e16391"
+                      id="d1e16372"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -29597,7 +29252,7 @@
                       space-before="1em"
                       font-size="1.17em">Definition</fo:block>
             <fo:block>
-               <fo:block>The value of the linking Object identifier.</fo:block>
+               <fo:block>The value of the <fo:inline font-weight="bold">linkingObjectIdentifier</fo:inline>.</fo:block>
                <fo:block> </fo:block>
             </fo:block>
             <fo:block role="H3"
@@ -29632,45 +29287,9 @@
                       font-weight="bold"
                       space-after="1em"
                       space-before="1em"
-                      font-size="1.17em">Rationale</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
                       font-size="1.17em">Data Constraint</fo:block>
             <fo:block>
                <fo:block>Must be an existing <fo:inline font-weight="bold">objectIdentifierValue</fo:inline> value.</fo:block>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
-                      font-size="1.17em">Example</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
-                      font-size="1.17em">Creation/Maintenance notes</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
-                      font-size="1.17em">Usage notes</fo:block>
-            <fo:block>
-               <fo:block/>
                <fo:block> </fo:block>
             </fo:block>
             <fo:block>
@@ -29681,7 +29300,7 @@
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e16473"
+                      id="d1e16453"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -29784,24 +29403,6 @@
                </fo:block>
                <fo:block> </fo:block>
             </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
-                      font-size="1.17em">Creation/Maintenance notes</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
-                      font-size="1.17em">Usage notes</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
             <fo:block>
                <fo:basic-link internal-destination="tocpage" color="blue">Table of Contents</fo:basic-link>
             </fo:block>
@@ -29811,11 +29412,11 @@
                       space-after="12pt"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e16565">
+                      id="d1e16543">
                <fo:marker marker-class-name="taglibrary-head">
                   <fo:block>Agents</fo:block>
                </fo:marker>Agents</fo:block>
-            <fo:block id="d1e16567"/>
+            <fo:block id="d1e16545"/>
             <fo:block font-size="14pt"
                       font-weight="bold"
                       space-before="8pt"
@@ -29975,7 +29576,7 @@
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e16699"
+                      id="d1e16677"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -30056,15 +29657,6 @@
                       font-weight="bold"
                       space-after="1em"
                       space-before="1em"
-                      font-size="1.17em">Example</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
                       font-size="1.17em">Creation/Maintenance notes</fo:block>
             <fo:block>
                <fo:block>An identifier may be created by the repository system, or it may be created or assigned outside of the repository. Similarly, identifiers can be automatically or manually generated. Recommended practice is for repositories to use an identifier automatically created by the repository as the primary identifier in order to ensure that identifiers are unique and usable by the repository. Externally assigned identifiers can be used as secondary identifiers in order to link an Agent to information held outside the repository.</fo:block>
@@ -30087,7 +29679,7 @@
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e16783"
+                      id="d1e16760"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -30139,15 +29731,6 @@
                      </fo:list-item>
                   </fo:list-block>
                </fo:block>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
-                      font-size="1.17em">Rationale</fo:block>
-            <fo:block>
-               <fo:block/>
                <fo:block> </fo:block>
             </fo:block>
             <fo:block role="H3"
@@ -30216,24 +29799,6 @@
                </fo:block>
                <fo:block> </fo:block>
             </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
-                      font-size="1.17em">Creation/Maintenance notes</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
-                      font-size="1.17em">Usage notes</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
             <fo:block>
                <fo:basic-link internal-destination="tocpage" color="blue">Table of Contents</fo:basic-link>
             </fo:block>
@@ -30242,7 +29807,7 @@
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e16876"
+                      id="d1e16850"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -30265,7 +29830,7 @@
                       space-before="1em"
                       font-size="1.17em">Definition</fo:block>
             <fo:block>
-               <fo:block>The value of the agentIdentifier.</fo:block>
+               <fo:block>The value of the <fo:inline font-weight="bold">agentIdentifier</fo:inline>.</fo:block>
                <fo:block> </fo:block>
             </fo:block>
             <fo:block role="H3"
@@ -30294,15 +29859,6 @@
                      </fo:list-item>
                   </fo:list-block>
                </fo:block>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
-                      font-size="1.17em">Rationale</fo:block>
-            <fo:block>
-               <fo:block/>
                <fo:block> </fo:block>
             </fo:block>
             <fo:block role="H3"
@@ -30376,15 +29932,6 @@
                       font-weight="bold"
                       space-after="1em"
                       space-before="1em"
-                      font-size="1.17em">Creation/Maintenance notes</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
                       font-size="1.17em">Usage notes</fo:block>
             <fo:block>
                <fo:block>May be a unique key or a controlled textual form of name.</fo:block>
@@ -30398,7 +29945,7 @@
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e16975"
+                      id="d1e16951"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -30544,7 +30091,7 @@
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e17074"
+                      id="d1e17050"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -30596,15 +30143,6 @@
                      </fo:list-item>
                   </fo:list-block>
                </fo:block>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
-                      font-size="1.17em">Rationale</fo:block>
-            <fo:block>
-               <fo:block/>
                <fo:block> </fo:block>
             </fo:block>
             <fo:block role="H3"
@@ -30665,24 +30203,6 @@
                </fo:block>
                <fo:block> </fo:block>
             </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
-                      font-size="1.17em">Creation/Maintenance notes</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
-                      font-size="1.17em">Usage notes</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
             <fo:block>
                <fo:basic-link internal-destination="tocpage" color="blue">Table of Contents</fo:basic-link>
             </fo:block>
@@ -30691,7 +30211,7 @@
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e17169"
+                      id="d1e17142"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -30806,15 +30326,6 @@
                       font-weight="bold"
                       space-after="1em"
                       space-before="1em"
-                      font-size="1.17em">Creation/Maintenance notes</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
                       font-size="1.17em">Usage notes</fo:block>
             <fo:block>
                <fo:block>This semantic unit only applies to machine Agents (hardware or software). If there is no formal version, the date of issuance may be used. The distinction between <fo:inline font-weight="bold">agentName</fo:inline> and <fo:inline font-weight="bold">agentVersion</fo:inline> can be fuzzy in some cases. Sometimes, a new version of a product becomes a standalone product of its own. For instance, even though JHOVE 2 declares itself as the second major version of the JHOVE file analysis software application, it is a very different product with a different architecture, features and maintaining agency; currently, JHOVE 1 and JHOVE 2 continue to evolve in parallel. For those reasons, it would be better to have JHOVE 2 in <fo:inline font-weight="bold">agentName</fo:inline>, and record the specific build number of the software used in the repository in <fo:inline font-weight="bold">agentVersion</fo:inline>. In any case, implementers should define their own naming policies to express name and version information and apply it consistently for all their Agent descriptions.If the Agent is also described as an environment Object, implementers may choose to link the Agent to the <fo:inline font-weight="bold">environmentObject</fo:inline> using the <fo:inline font-weight="bold">linkingEnvironmentIdentifier</fo:inline> semantic unit. In this case, the information in <fo:inline font-weight="bold">agentVersion</fo:inline> and <fo:inline font-weight="bold">environmentVersion</fo:inline> should be consistent.</fo:block>
@@ -30828,7 +30339,7 @@
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e17281"
+                      id="d1e17253"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -30934,15 +30445,6 @@
                       font-weight="bold"
                       space-after="1em"
                       space-before="1em"
-                      font-size="1.17em">Creation/Maintenance notes</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
                       font-size="1.17em">Usage notes</fo:block>
             <fo:block>
                <fo:block>Use <fo:inline font-weight="bold">agentNote</fo:inline> when relatively limited information must be supplied. If extensive additional information is required, consider using an externally defined schema with <fo:inline font-weight="bold">agentExtension</fo:inline> instead.</fo:block>
@@ -30956,7 +30458,7 @@
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e17373"
+                      id="d1e17344"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -31032,27 +30534,9 @@
                       font-weight="bold"
                       space-after="1em"
                       space-before="1em"
-                      font-size="1.17em">Example</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
-                      font-size="1.17em">Creation/Maintenance notes</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
                       font-size="1.17em">Usage notes</fo:block>
             <fo:block>
-               <fo:block>For more granularity or use of externally defined semantic units, extensibility is provided. Either local semantic units or metadata using another specified metadata scheme may be included instead of or in addition to PREMIS defined semantic units. When using an extension schema, a reference to that schema must be provided. See further guidance in “Extensibility,” INSERT LINK HERE. It is recommended to give information about the metadata used in agentExtension including date the metadata was created, status of the metadata, internal linking IDs, type of metadata used and its version, message digest and message digest algorithm of the metadata, and type of identifier for external metadata links.</fo:block>
+               <fo:block>For more granularity or use of externally defined semantic units, extensibility is provided. Either local semantic units or metadata using another specified metadata scheme may be included instead of or in addition to PREMIS defined semantic units. When using an extension schema, a reference to that schema must be provided. See further guidance in “Extensibility.” It is recommended to give information about the metadata used in <fo:inline font-weight="bold">agentExtension</fo:inline> including date the metadata was created, status of the metadata, internal linking IDs, type of metadata used and its version, message digest and message digest algorithm of the metadata, and type of identifier for external metadata links.</fo:block>
                <fo:block> </fo:block>
             </fo:block>
             <fo:block>
@@ -31063,7 +30547,7 @@
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e17455"
+                      id="d1e17426"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -31126,15 +30610,6 @@
                       font-weight="bold"
                       space-after="1em"
                       space-before="1em"
-                      font-size="1.17em">Rationale</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
                       font-size="1.17em">Data Constraint</fo:block>
             <fo:block>
                <fo:block>Container</fo:block>
@@ -31145,15 +30620,6 @@
                       space-after="1em"
                       space-before="1em"
                       font-size="1.17em">Example</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
-                      font-size="1.17em">Creation/Maintenance notes</fo:block>
             <fo:block>
                <fo:block/>
                <fo:block> </fo:block>
@@ -31175,7 +30641,7 @@
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e17539"
+                      id="d1e17509"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -31233,15 +30699,6 @@
                       font-weight="bold"
                       space-after="1em"
                       space-before="1em"
-                      font-size="1.17em">Rationale</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
                       font-size="1.17em">Data Constraint</fo:block>
             <fo:block>
                <fo:block>Must be an existing <fo:inline font-weight="bold">eventIdentifierType</fo:inline> value.</fo:block>
@@ -31260,30 +30717,12 @@
                            <fo:block/>
                         </fo:list-item-label>
                         <fo:list-item-body start-indent="body-start()">
-                           <fo:block>​[​s​e​e​ ​e​x​a​m​p​l​e​s​ ​f​o​r​ ​e​v​e​n​t​I​d​e​n​t​i​f​i​e​r​T​y​p​e​]​ ​</fo:block>
+                           <fo:block>​S​e​e​ ​e​x​a​m​p​l​e​s​ ​f​o​r​ ​e​v​e​n​t​I​d​e​n​t​i​f​i​e​r​T​y​p​e​ ​</fo:block>
                            <fo:block/>
                         </fo:list-item-body>
                      </fo:list-item>
                   </fo:list-block>
                </fo:block>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
-                      font-size="1.17em">Creation/Maintenance notes</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
-                      font-size="1.17em">Usage notes</fo:block>
-            <fo:block>
-               <fo:block/>
                <fo:block> </fo:block>
             </fo:block>
             <fo:block>
@@ -31294,7 +30733,7 @@
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e17635"
+                      id="d1e17604"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -31352,15 +30791,6 @@
                       font-weight="bold"
                       space-after="1em"
                       space-before="1em"
-                      font-size="1.17em">Rationale</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
                       font-size="1.17em">Data Constraint</fo:block>
             <fo:block>
                <fo:block>Must be an existing <fo:inline font-weight="bold">eventIdentifierValue</fo:inline> value.</fo:block>
@@ -31379,30 +30809,12 @@
                            <fo:block/>
                         </fo:list-item-label>
                         <fo:list-item-body start-indent="body-start()">
-                           <fo:block>​[​s​e​e​ ​e​x​a​m​p​l​e​s​ ​f​o​r​ ​e​v​e​n​t​I​d​e​n​t​i​f​i​e​r​V​a​l​u​e​]​</fo:block>
+                           <fo:block>​S​e​e​ ​e​x​a​m​p​l​e​s​ ​f​o​r​ ​e​v​e​n​t​I​d​e​n​t​i​f​i​e​r​V​a​l​u​e​</fo:block>
                            <fo:block/>
                         </fo:list-item-body>
                      </fo:list-item>
                   </fo:list-block>
                </fo:block>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
-                      font-size="1.17em">Creation/Maintenance notes</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
-                      font-size="1.17em">Usage notes</fo:block>
-            <fo:block>
-               <fo:block/>
                <fo:block> </fo:block>
             </fo:block>
             <fo:block>
@@ -31413,7 +30825,7 @@
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e17728"
+                      id="d1e17695"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -31494,24 +30906,6 @@
                       font-weight="bold"
                       space-after="1em"
                       space-before="1em"
-                      font-size="1.17em">Example</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
-                      font-size="1.17em">Creation/Maintenance notes</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
                       font-size="1.17em">Usage notes</fo:block>
             <fo:block>
                <fo:block>Linking semantic units are mandatory in the sense that a repository needs to know the information, but are defined as optional because PREMIS does not specify in which direction the linkage should be.</fo:block>
@@ -31525,7 +30919,7 @@
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e17809"
+                      id="d1e17774"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -31583,15 +30977,6 @@
                       font-weight="bold"
                       space-after="1em"
                       space-before="1em"
-                      font-size="1.17em">Rationale</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
                       font-size="1.17em">Data Constraint</fo:block>
             <fo:block>
                <fo:block>Must be an existing <fo:inline font-weight="bold">rightsIdentifierType</fo:inline> value.</fo:block>
@@ -31627,24 +31012,6 @@
                </fo:block>
                <fo:block> </fo:block>
             </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
-                      font-size="1.17em">Creation/Maintenance notes</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
-                      font-size="1.17em">Usage notes</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
             <fo:block>
                <fo:basic-link internal-destination="tocpage" color="blue">Table of Contents</fo:basic-link>
             </fo:block>
@@ -31653,7 +31020,7 @@
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e17902"
+                      id="d1e17864"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -31711,45 +31078,9 @@
                       font-weight="bold"
                       space-after="1em"
                       space-before="1em"
-                      font-size="1.17em">Rationale</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
                       font-size="1.17em">Data Constraint</fo:block>
             <fo:block>
                <fo:block>Must be an existing <fo:inline font-weight="bold">rightsIdentifierValue</fo:inline> value.</fo:block>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
-                      font-size="1.17em">Example</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
-                      font-size="1.17em">Creation/Maintenance notes</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
-                      font-size="1.17em">Usage notes</fo:block>
-            <fo:block>
-               <fo:block/>
                <fo:block> </fo:block>
             </fo:block>
             <fo:block>
@@ -31760,7 +31091,7 @@
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e17987"
+                      id="d1e17945"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -31866,15 +31197,6 @@
                       font-weight="bold"
                       space-after="1em"
                       space-before="1em"
-                      font-size="1.17em">Creation/Maintenance notes</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
                       font-size="1.17em">Usage notes</fo:block>
             <fo:block>
                <fo:block>Although the semantic unit is named <fo:inline font-weight="bold">linkingEnvironmentIdentifier</fo:inline>, it links an Agent to an Object. <fo:inline font-weight="bold">LinkingEnvironmentIdentifierType</fo:inline> and <fo:inline font-weight="bold">linkingEnvironmentIdentifierValue</fo:inline> must therefore match <fo:inline font-weight="bold">objectIdentifierType</fo:inline> and <fo:inline font-weight="bold">objectIdentifierValue</fo:inline> in the related environment Object.</fo:block>
@@ -31888,7 +31210,7 @@
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e18087"
+                      id="d1e18044"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -31946,15 +31268,6 @@
                       font-weight="bold"
                       space-after="1em"
                       space-before="1em"
-                      font-size="1.17em">Rationale</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
                       font-size="1.17em">Data Constraint</fo:block>
             <fo:block>
                <fo:block>Must be an existing <fo:inline font-weight="bold">objectIdentifierType</fo:inline> value.</fo:block>
@@ -31969,24 +31282,6 @@
                <fo:block/>
                <fo:block> </fo:block>
             </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
-                      font-size="1.17em">Creation/Maintenance notes</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
-                      font-size="1.17em">Usage notes</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
             <fo:block>
                <fo:basic-link internal-destination="tocpage" color="blue">Table of Contents</fo:basic-link>
             </fo:block>
@@ -31995,7 +31290,7 @@
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e18173"
+                      id="d1e18127"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -32053,15 +31348,6 @@
                       font-weight="bold"
                       space-after="1em"
                       space-before="1em"
-                      font-size="1.17em">Rationale</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
                       font-size="1.17em">Data Constraint</fo:block>
             <fo:block>
                <fo:block>Must be an existing <fo:inline font-weight="bold">objectIdentifierValue</fo:inline>.</fo:block>
@@ -32080,30 +31366,12 @@
                            <fo:block/>
                         </fo:list-item-label>
                         <fo:list-item-body start-indent="body-start()">
-                           <fo:block>​[​s​e​e​ ​e​x​a​m​p​l​e​s​ ​f​o​r​ ​o​b​j​e​c​t​I​d​e​n​t​i​f​i​e​r​V​a​l​u​e​]​ ​</fo:block>
+                           <fo:block>​S​e​e​ ​e​x​a​m​p​l​e​s​ ​f​o​r​ ​o​b​j​e​c​t​I​d​e​n​t​i​f​i​e​r​V​a​l​u​e​ ​</fo:block>
                            <fo:block/>
                         </fo:list-item-body>
                      </fo:list-item>
                   </fo:list-block>
                </fo:block>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
-                      font-size="1.17em">Creation/Maintenance notes</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
-                      font-size="1.17em">Usage notes</fo:block>
-            <fo:block>
-               <fo:block/>
                <fo:block> </fo:block>
             </fo:block>
             <fo:block>
@@ -32114,7 +31382,7 @@
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e18270"
+                      id="d1e18221"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -32226,24 +31494,6 @@
                </fo:block>
                <fo:block> </fo:block>
             </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
-                      font-size="1.17em">Creation/Maintenance notes</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
-            <fo:block role="H3"
-                      font-weight="bold"
-                      space-after="1em"
-                      space-before="1em"
-                      font-size="1.17em">Usage notes</fo:block>
-            <fo:block>
-               <fo:block/>
-               <fo:block> </fo:block>
-            </fo:block>
             <fo:block>
                <fo:basic-link internal-destination="tocpage" color="blue">Table of Contents</fo:basic-link>
             </fo:block>
@@ -32253,11 +31503,11 @@
                       space-after="12pt"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e18364">
+                      id="d1e18313">
                <fo:marker marker-class-name="taglibrary-head">
                   <fo:block>Rights</fo:block>
                </fo:marker>Rights</fo:block>
-            <fo:block id="d1e18366"/>
+            <fo:block id="d1e18315"/>
             <fo:block font-size="14pt"
                       font-weight="bold"
                       space-before="8pt"
@@ -32606,7 +31856,7 @@
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e18746"
+                      id="d1e18695"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -32714,7 +31964,7 @@
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e18829"
+                      id="d1e18778"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -32844,7 +32094,7 @@
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e18922"
+                      id="d1e18871"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -32924,7 +32174,7 @@
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e19002"
+                      id="d1e18951"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -33019,7 +32269,7 @@
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e19095"
+                      id="d1e19044"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -33151,7 +32401,7 @@
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e19195"
+                      id="d1e19144"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -33283,7 +32533,7 @@
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e19305"
+                      id="d1e19254"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -33393,7 +32643,7 @@
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e19393"
+                      id="d1e19342"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -33474,7 +32724,7 @@
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e19473"
+                      id="d1e19422"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -33593,7 +32843,7 @@
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e19561"
+                      id="d1e19510"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -33730,7 +32980,7 @@
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e19657"
+                      id="d1e19606"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -33833,7 +33083,7 @@ given documentation.</fo:block>
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e19753"
+                      id="d1e19702"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -33906,7 +33156,7 @@ given documentation.</fo:block>
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e19832"
+                      id="d1e19781"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -33977,7 +33227,7 @@ given documentation.</fo:block>
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e19910"
+                      id="d1e19859"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -34090,7 +33340,7 @@ given documentation.</fo:block>
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e19995"
+                      id="d1e19944"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -34192,7 +33442,7 @@ given documentation.</fo:block>
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e20084"
+                      id="d1e20033"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -34296,7 +33546,7 @@ given documentation.</fo:block>
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e20169"
+                      id="d1e20118"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -34411,7 +33661,7 @@ given documentation.</fo:block>
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e20258"
+                      id="d1e20207"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -34505,7 +33755,7 @@ obligation described in the <fo:inline font-weight="bold">rightsStatement</fo:in
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e20346"
+                      id="d1e20295"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -34587,7 +33837,7 @@ obligation described in the <fo:inline font-weight="bold">rightsStatement</fo:in
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e20430"
+                      id="d1e20379"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -34688,7 +33938,7 @@ obligation described in the <fo:inline font-weight="bold">rightsStatement</fo:in
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e20514"
+                      id="d1e20463"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -34764,7 +34014,7 @@ obligation described in the <fo:inline font-weight="bold">rightsStatement</fo:in
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e20591"
+                      id="d1e20540"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -34892,7 +34142,7 @@ obligation described in the <fo:inline font-weight="bold">rightsStatement</fo:in
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e20687"
+                      id="d1e20636"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -34972,7 +34222,7 @@ obligation described in the <fo:inline font-weight="bold">rightsStatement</fo:in
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e20763"
+                      id="d1e20712"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -35087,7 +34337,7 @@ obligation described in the <fo:inline font-weight="bold">rightsStatement</fo:in
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e20851"
+                      id="d1e20800"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -35206,7 +34456,7 @@ obligation described in the <fo:inline font-weight="bold">rightsStatement</fo:in
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e20944"
+                      id="d1e20893"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -35291,7 +34541,7 @@ obligation described in the <fo:inline font-weight="bold">rightsStatement</fo:in
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e21027"
+                      id="d1e20976"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -35428,7 +34678,7 @@ obligation described in the <fo:inline font-weight="bold">rightsStatement</fo:in
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e21120"
+                      id="d1e21069"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -35550,7 +34800,7 @@ obligation described in the <fo:inline font-weight="bold">rightsStatement</fo:in
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e21209"
+                      id="d1e21158"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -35644,7 +34894,7 @@ obligation described in the <fo:inline font-weight="bold">rightsStatement</fo:in
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e21288"
+                      id="d1e21237"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -35781,7 +35031,7 @@ obligation described in the <fo:inline font-weight="bold">rightsStatement</fo:in
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e21381"
+                      id="d1e21330"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -35903,7 +35153,7 @@ obligation described in the <fo:inline font-weight="bold">rightsStatement</fo:in
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e21469"
+                      id="d1e21418"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -35992,7 +35242,7 @@ obligation described in the <fo:inline font-weight="bold">rightsStatement</fo:in
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e21546"
+                      id="d1e21495"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -36084,7 +35334,7 @@ obligation described in the <fo:inline font-weight="bold">rightsStatement</fo:in
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e21626"
+                      id="d1e21575"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -36164,7 +35414,7 @@ obligation described in the <fo:inline font-weight="bold">rightsStatement</fo:in
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e21709"
+                      id="d1e21658"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -36245,7 +35495,7 @@ obligation described in the <fo:inline font-weight="bold">rightsStatement</fo:in
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e21793"
+                      id="d1e21742"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -36337,7 +35587,7 @@ obligation described in the <fo:inline font-weight="bold">rightsStatement</fo:in
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e21873"
+                      id="d1e21822"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -36438,7 +35688,7 @@ obligation described in the <fo:inline font-weight="bold">rightsStatement</fo:in
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e21962"
+                      id="d1e21911"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -36542,7 +35792,7 @@ obligation described in the <fo:inline font-weight="bold">rightsStatement</fo:in
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e22049"
+                      id="d1e21998"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -36657,7 +35907,7 @@ obligation described in the <fo:inline font-weight="bold">rightsStatement</fo:in
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e22141"
+                      id="d1e22090"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -36754,7 +36004,7 @@ obligation described in the <fo:inline font-weight="bold">rightsStatement</fo:in
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e22229"
+                      id="d1e22178"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -36858,7 +36108,7 @@ obligation described in the <fo:inline font-weight="bold">rightsStatement</fo:in
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e22316"
+                      id="d1e22265"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -36973,7 +36223,7 @@ obligation described in the <fo:inline font-weight="bold">rightsStatement</fo:in
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e22408"
+                      id="d1e22357"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -37169,7 +36419,7 @@ PREMIS does not specify in which direction the linkage should be.</fo:block>
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e22560"
+                      id="d1e22509"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -37341,7 +36591,7 @@ PREMIS does not specify in which direction the linkage should be.</fo:block>
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e22697"
+                      id="d1e22646"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -37513,7 +36763,7 @@ PREMIS does not specify in which direction the linkage should be.</fo:block>
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e22834"
+                      id="d1e22783"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -37593,7 +36843,7 @@ PREMIS does not specify in which direction the linkage should be.</fo:block>
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e22911"
+                      id="d1e22860"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -37697,7 +36947,7 @@ PREMIS does not specify in which direction the linkage should be.</fo:block>
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e22995"
+                      id="d1e22944"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -37778,7 +37028,7 @@ PREMIS does not specify in which direction the linkage should be.</fo:block>
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e23079"
+                      id="d1e23028"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -37849,7 +37099,7 @@ PREMIS does not specify in which direction the linkage should be.</fo:block>
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e23156"
+                      id="d1e23105"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -37977,7 +37227,7 @@ PREMIS does not specify in which direction the linkage should be.</fo:block>
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e23246"
+                      id="d1e23195"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -38083,7 +37333,7 @@ PREMIS does not specify in which direction the linkage should be.</fo:block>
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e23334"
+                      id="d1e23283"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -38282,7 +37532,7 @@ PREMIS does not specify in which direction the linkage should be.</fo:block>
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e23478"
+                      id="d1e23427"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -38472,7 +37722,7 @@ PREMIS does not specify in which direction the linkage should be.</fo:block>
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e23605"
+                      id="d1e23554"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -38625,7 +37875,7 @@ PREMIS does not specify in which direction the linkage should be.</fo:block>
                       font-weight="bold"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e23724"
+                      id="d1e23673"
                       margin-top=".67em"
                       margin-bottom=".67em">
                <fo:marker marker-class-name="taglibrary-head">
@@ -38699,7 +37949,7 @@ PREMIS does not specify in which direction the linkage should be.</fo:block>
                       space-after="12pt"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e23804">
+                      id="d1e23753">
                <fo:marker marker-class-name="taglibrary-head">
                   <fo:block>SPECIAL TOPICS</fo:block>
                </fo:marker>SPECIAL TOPICS</fo:block>
@@ -38718,7 +37968,7 @@ PREMIS does not specify in which direction the linkage should be.</fo:block>
                       space-after="12pt"
                       text-align="left"
                       page-break-before="avoid"
-                      id="d1e23810">
+                      id="d1e23759">
                <fo:marker marker-class-name="taglibrary-head">
                   <fo:block>Format information</fo:block>
                </fo:marker>Format information</fo:block>
@@ -38908,7 +38158,7 @@ PREMIS does not specify in which direction the linkage should be.</fo:block>
                       space-after="12pt"
                       text-align="left"
                       page-break-before="avoid"
-                      id="d1e23905">
+                      id="d1e23854">
                <fo:marker marker-class-name="taglibrary-head">
                   <fo:block>Environment</fo:block>
                </fo:marker>Environment</fo:block>
@@ -39045,7 +38295,7 @@ PREMIS does not specify in which direction the linkage should be.</fo:block>
                       space-after="12pt"
                       text-align="left"
                       page-break-before="avoid"
-                      id="d1e24020">
+                      id="d1e23969">
                <fo:marker marker-class-name="taglibrary-head">
                   <fo:block>Designating a specific environment: implementation considerations</fo:block>
                </fo:marker>Designating a specific environment: implementation considerations</fo:block>
@@ -39133,7 +38383,7 @@ PREMIS does not specify in which direction the linkage should be.</fo:block>
                       space-after="12pt"
                       text-align="left"
                       page-break-before="avoid"
-                      id="d1e24077">
+                      id="d1e24026">
                <fo:marker marker-class-name="taglibrary-head">
                   <fo:block>Handling different levels of specificity at the same time: a possible
                         strategy</fo:block>
@@ -39261,7 +38511,7 @@ PREMIS does not specify in which direction the linkage should be.</fo:block>
                       space-after="12pt"
                       text-align="left"
                       page-break-before="avoid"
-                      id="d1e24132">
+                      id="d1e24081">
                <fo:marker marker-class-name="taglibrary-head">
                   <fo:block>Object characteristics and composition level: the “onion” model</fo:block>
                </fo:marker>Object characteristics and composition level: the “onion” model</fo:block>
@@ -39378,7 +38628,7 @@ PREMIS does not specify in which direction the linkage should be.</fo:block>
                       space-after="12pt"
                       text-align="left"
                       page-break-before="avoid"
-                      id="d1e24179">
+                      id="d1e24128">
                <fo:marker marker-class-name="taglibrary-head">
                   <fo:block>Fixity, integrity, authenticity</fo:block>
                </fo:marker>Fixity, integrity, authenticity</fo:block>
@@ -39494,7 +38744,7 @@ PREMIS does not specify in which direction the linkage should be.</fo:block>
                       space-after="12pt"
                       text-align="left"
                       page-break-before="avoid"
-                      id="d1e24218">
+                      id="d1e24167">
                <fo:marker marker-class-name="taglibrary-head">
                   <fo:block>Digital signatures</fo:block>
                </fo:marker>Digital signatures</fo:block>
@@ -39628,7 +38878,7 @@ PREMIS does not specify in which direction the linkage should be.</fo:block>
                       space-after="12pt"
                       text-align="left"
                       page-break-before="avoid"
-                      id="d1e24265">
+                      id="d1e24214">
                <fo:marker marker-class-name="taglibrary-head">
                   <fo:block>Digital signature metadata</fo:block>
                </fo:marker>Digital signature metadata</fo:block>
@@ -39880,7 +39130,7 @@ PREMIS does not specify in which direction the linkage should be.</fo:block>
                       space-after="12pt"
                       text-align="left"
                       page-break-before="avoid"
-                      id="d1e24468">
+                      id="d1e24417">
                <fo:marker marker-class-name="taglibrary-head">
                   <fo:block>Non-core metadata</fo:block>
                </fo:marker>Non-core metadata</fo:block>
@@ -40178,7 +39428,7 @@ PREMIS does not specify in which direction the linkage should be.</fo:block>
                       space-after="12pt"
                       text-align="left"
                       page-break-before="always"
-                      id="d1e24604">
+                      id="d1e24553">
                <fo:marker marker-class-name="taglibrary-head">
                   <fo:block>GLOSSARY</fo:block>
                </fo:marker>GLOSSARY</fo:block>

@@ -41,10 +41,11 @@
             </list>
         </p>
     </div>
-    <div type="creationmaintenance">
+
+    <!-- <div type="creationmaintenance"> -->
         <!-- PREMIS Creation / Maintenance -->
-        <p></p>
-    </div>
+    <!-- </div> -->
+
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
         <p>Use <bold>agentNote</bold> when relatively limited information must be supplied. If extensive additional information is required, consider using an externally defined schema with <bold>agentExtension</bold> instead.</p>

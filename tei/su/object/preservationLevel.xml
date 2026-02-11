@@ -2,11 +2,9 @@
 <div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="preservationLevel">
     
     <head>
-        
         <!-- PREMIS Semantic unit 1.3.0 -->
         <abbr>1.3</abbr>
-        <gi>preservationLevel</gi>
-        
+        <gi>preservationLevel</gi>     
     </head>
     
     <div type="semanticcomponents">
@@ -30,7 +28,7 @@
         <p>Some preservation repositories will offer multiple preservation options
             depending on factors such as the value or uniqueness of the material,
             the “preservability” of the format, the amount the customer is willing
-            to pay, etc. In such circumstances the <gi>preservationLevelValue</gi>
+            to pay, etc. In such circumstances the <bold>preservationLevelValue</bold>
             that applies may need to be directly associated with an Object. The
             choice of a particular preservation option for an object may also
             require further explanation. This can depend on the preservation
@@ -105,13 +103,13 @@
                     <cell><bold>Repeatability</bold></cell>
                     <cell>Repeatable</cell>
                     <cell>Repeatable</cell>
-                    <cell> </cell>
+                    <cell>Not applicable</cell>
                 </row>
                 <row>
                     <cell><bold>Obligation</bold></cell>
                     <cell>Optional</cell>
                     <cell>Optional</cell>
-                    <cell> </cell>
+                    <cell>Not applicable</cell>
                 </row>
             </table>
         </p>

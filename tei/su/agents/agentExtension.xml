@@ -22,10 +22,11 @@
         <!-- PREMIS Data constraint -->
         <p>Container</p>
     </div>
-    <div type="examples">
+	
+<!--     <div type="examples"> -->
         <!-- PREMIS Examples -->
-        <p></p>
-    </div>
+    <!-- </div> -->
+	
     <div type="entity">
         <p>
             <list type="simple">
@@ -36,13 +37,14 @@
             </list>
         </p>
     </div>
-    <div type="creationmaintenance">
+	
+    <!-- <div type="creationmaintenance"> -->
         <!-- PREMIS Creation / Maintenance -->
-        <p></p>
-    </div>
+    <!-- </div> -->
+	
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>For more granularity or use of externally defined semantic units, extensibility is provided. Either local semantic units or metadata using another specified metadata scheme may be included instead of or in addition to PREMIS defined semantic units. When using an extension schema, a reference to that schema must be provided. See further guidance in “Extensibility,” INSERT LINK HERE. It is recommended to give information about the metadata used in <gi>agentExtension</gi> including date the metadata was created, status of the metadata, internal linking IDs, type of metadata used and its version, message digest and message digest algorithm of the metadata, and type of identifier for external metadata links.</p>
+        <p>For more granularity or use of externally defined semantic units, extensibility is provided. Either local semantic units or metadata using another specified metadata scheme may be included instead of or in addition to PREMIS defined semantic units. When using an extension schema, a reference to that schema must be provided. See further guidance in “Extensibility.”<!-- INSERT LINK HERE --> It is recommended to give information about the metadata used in <bold>agentExtension</bold> including date the metadata was created, status of the metadata, internal linking IDs, type of metadata used and its version, message digest and message digest algorithm of the metadata, and type of identifier for external metadata links.</p>
     </div>
 </div>
 

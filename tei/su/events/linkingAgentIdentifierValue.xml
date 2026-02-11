@@ -13,10 +13,11 @@
         <!-- PREMIS Definition -->
         <p>The value of the linking Agent identifier.</p>
     </div>       
-    <div type="rationale">
+
+<!-- <div type="rationale"> -->
         <!-- PREMIS Rationale -->
-        <p></p>
-    </div>  
+    <!-- </div> -->
+  
     <div type="datatype">
         <!-- PREMIS Data constraint -->
         <p>Must be an existing <bold>agentIdentifierValue</bold> value.</p>
@@ -25,7 +26,7 @@
         <!-- PREMIS Examples -->
         <p>
             <list type="example">
-                <item>[see examples for agentIdentifierValue]</item>
+                <item>See examples for <bold>agentIdentifierValue</bold></item>
             </list>
         </p>
     </div>
@@ -39,13 +40,14 @@
             </list>
         </p>
     </div>
-    <div type="creationmaintenance">
+
+    <!-- <div type="creationmaintenance"> -->
         <!-- PREMIS Creation / Maintenance -->
-        <p></p>
-    </div>
-    <div type="usagenotes">
+    <!-- </div> -->
+
+<!-- <div type="usagenotes"> -->
         <!-- PREMIS Usage notes -->
-        <p></p>
-    </div>
+    <!-- </div> -->
+
 </div>
 

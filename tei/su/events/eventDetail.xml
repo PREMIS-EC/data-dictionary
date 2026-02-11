@@ -13,10 +13,11 @@
         <!-- PREMIS Definition -->
         <p>Additional information about the Event.</p>
     </div>       
-    <div type="rationale">
+
+<!-- <div type="rationale"> -->
         <!-- PREMIS Rationale -->
-        <p></p>
-    </div>  
+    <!-- </div> -->
+ 
     <div type="datatype">
         <!-- PREMIS Data constraint -->
         <p>None</p>
@@ -40,10 +41,11 @@
             </list>
         </p>
     </div>
-    <div type="creationmaintenance">
+
+    <!-- <div type="creationmaintenance"> -->
         <!-- PREMIS Creation / Maintenance -->
-        <p></p>
-    </div>
+    <!-- </div> -->
+
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
         <p><bold>eventDetail</bold> is not necessarily intended to be processed by machine. It may record any information about an Event and/or point to information stored elsewhere. When multiple details about the same Event need to be recorded, the <bold>eventDetailInformation</bold> container must be repeated. <bold>eventDetailExtension</bold> allows more expressivity if required.</p>

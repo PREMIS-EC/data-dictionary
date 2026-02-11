@@ -41,13 +41,14 @@
             </list>
         </p>
     </div>
-    <div type="creationmaintenance">
+
+    <!-- <div type="creationmaintenance"> -->
         <!-- PREMIS Creation / Maintenance -->
-        <p></p>
-    </div>
-    <div type="usagenotes">
+    <!-- </div> -->
+
+<!-- <div type="usagenotes"> -->
         <!-- PREMIS Usage notes -->
-        <p></p>
-    </div>
+    <!-- </div> -->
+
 </div>              
 
