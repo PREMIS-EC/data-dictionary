@@ -2,7 +2,6 @@
 <div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="significantPropertiesExtension">
     
     <head>
-        
         <!-- PREMIS Semantic unit 1.4.3 -->
         <abbr>1.4.3</abbr>
         <gi>significantPropertiesExtension</gi>
@@ -47,6 +46,15 @@
             algorithm of the metadata, and type of identifier for external metadata
             links.</p>
     </div>
+	
+	<!--     <div type="examples"> -->
+        <!-- PREMIS Examples -->
+    <!-- </div> -->
+	
+	    <!-- <div type="creationmaintenance"> -->
+        <!-- PREMIS Creation / Maintenance -->
+    <!-- </div> -->
+	
     <div type="entity">
         <!-- PREMIS Object category -->
         <p>

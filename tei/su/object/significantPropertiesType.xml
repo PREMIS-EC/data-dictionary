@@ -35,6 +35,11 @@
         <!-- PREMIS Data constraint -->
         <p>Container</p>
     </div>
+	
+
+	    <!-- <div type="creationmaintenance"> -->
+        <!-- PREMIS Creation / Maintenance -->
+    <!-- </div> -->
     
     <div type="entity">
         <!-- PREMIS Object category -->
@@ -86,7 +91,7 @@
                             <item>typeface</item>
                     </list></cell>
                     <cell><list type="example">
-                            <item>[for an embedded image] color space</item>
+                            <item>For an embedded image: color space</item>
                     </list></cell>
                 </row>
             </table>

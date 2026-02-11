@@ -72,8 +72,7 @@
                 <row>
                     <cell><bold>Examples</bold></cell>
                     <cell><list type="example">
-                            <item>For <bold>preservationLevelType</bold> “Logical
-                                Preservation”:</item>
+                            <item>For <bold>preservationLevelType</bold> “Logical Preservation”:</item>
                             <item>Migration</item>
                             <item>Emulation</item>
                     </list></cell>
@@ -81,8 +80,7 @@
                             <item>For <bold>preservationLevelType</bold> “Bit Preservation”:</item>
                             <item>Low (e.g. backup)</item>
                             <item>Medium (e.g. min. 2 copies and integrity check)</item>
-                            <item>High (e.g. min 5 copies, integrity check, and high
-                                independence)</item>
+                            <item>High (e.g. min 5 copies, integrity check, and high independence)</item>
                     </list></cell>
                     <cell> </cell>
                 </row>

@@ -2,11 +2,9 @@
 <div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="significantProperties">
     
     <head>
-        
         <!-- PREMIS Semantic unit 1.4.0 -->
         <abbr>1.4</abbr>
         <gi>significantProperties</gi>
-        
     </head>
     
     <div type="semanticcomponents">
@@ -31,7 +29,7 @@
     
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>At least one of the <gi>significantPropertiesValue</gi> and
+        <p>At least one of the <bold>significantPropertiesValue</bold> and
             <bold>significantPropertiesExtension</bold> subunits must be present if
             this container is included, or both may be used.</p>
         <p>The choice of whether a property is significant is subjective. Some of
@@ -95,6 +93,10 @@
         <!-- PREMIS Data constraint -->
         <p>Container</p>
     </div>
+	
+	<!--     <div type="examples"> -->
+        <!-- PREMIS Examples -->
+    <!-- </div> -->
     
     <div type="entity">
         <!-- PREMIS Object category -->
@@ -135,7 +137,7 @@
             files, only the content need be preserved. In other cases for example,
             for media art, the significant properties may be unique to each
             individual object. Where values are unique, they must be supplied by the
-            submitter or provided by the curatorial staff of the repsoitory.</p>
+            submitter or provided by the curatorial staff of the repository.</p>
         
     </div>
 </div>

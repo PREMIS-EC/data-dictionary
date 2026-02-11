@@ -2,7 +2,6 @@
 <div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="significantPropertiesValue">
     
     <head>
-        
         <!-- PREMIS Semantic unit 1.4.2 -->
         <abbr>1.4.2</abbr>
         <gi>significantPropertiesValue</gi>
@@ -48,7 +47,11 @@
         <!-- PREMIS Semantic components -->
         <p>None</p>
     </div>
-    
+	
+	    <!-- <div type="creationmaintenance"> -->
+        <!-- PREMIS Creation / Maintenance -->
+    <!-- </div> -->
+	
     <div type="entity">
         <!-- PREMIS Object category -->
            
@@ -90,28 +93,17 @@
                 <row>
                     <cell><bold>Examples</bold></cell>
                     <cell><list type="example">
-                            <item>[for a Web page containing animation that is not considered
-                                essential] Content only.</item>
-                            <item>[For detail associated with a
-                                <bold>significantPropertiesType</bold> of “behavior”] hyperlinks
-                                traversable</item>
+                            <item>For a Web page containing animation that is not considered essential: Content only.</item>
+                            <item>For detail associated with a <bold>significantPropertiesType</bold> of “behavior”: hyperlinks traversable</item>
                     </list></cell>
                     <cell><list type="example">
-                            <item>[for a word processed document with embedded links that are
-                                not considered essential] Content only.</item>
-                            <item>[For detail associated with a
-                                <bold>significantPropertiesType</bold> of “behavior”]
-                                editable</item>
-                            <item>[For detail associated with a
-                                <bold>significantPropertiesType</bold> of “page width”] 210
-                                mm</item>
+                            <item>For a word processed document with embedded links that are not considered essential: Content only.</item>
+                            <item>For detail associated with a <bold>significantPropertiesType</bold> of “behavior”: editable</item>
+                            <item>For detail associated with a <bold>significantPropertiesType</bold> of “page width”: 210 mm</item>
                     </list></cell>
                     <cell><list type="example">
-                            <item>[for a PDF with an embedded graph, where the lines’ color
-                                determines the lines’ meaning] Color.</item>
-                            <item>[For detail associated with a
-                                <bold>significantPropertiesType</bold> of “appearance”]
-                                Color.</item>
+                            <item>For a PDF with an embedded graph, where the lines’ color determines the lines’ meaning: Color.</item>
+                            <item>For detail associated with a <bold>significantPropertiesType</bold> of “appearance”: Color.</item>
                     </list></cell>
                 </row>
             </table>

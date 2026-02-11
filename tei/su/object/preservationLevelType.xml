@@ -37,10 +37,6 @@
             context, a separate <bold>preservationLevel</bold> container should be
             repeated.</p>
     </div>
-    
-	<!--     <div type="examples"> -->
-        <!-- PREMIS Examples -->
-    <!-- </div> -->
 	
     <div type="datatype">
 	        <!-- PREMIS Data constraint -->
