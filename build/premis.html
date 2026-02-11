@@ -192,7 +192,7 @@
                   </tr>
                </table>
             </div>
-            <div class="toc1"><a href="#d1e7487">Event Entity</a></div>
+            <div class="toc1"><a href="#d1e7559">Event Entity</a></div>
             <div class="toc2">
                <table>
                   <tr>
@@ -258,7 +258,7 @@
                   </tr>
                </table>
             </div>
-            <div class="toc1"><a href="#d1e8423">Agent Entity</a></div>
+            <div class="toc1"><a href="#d1e8495">Agent Entity</a></div>
             <div class="toc2">
                <table>
                   <tr>
@@ -317,7 +317,7 @@
                   </tr>
                </table>
             </div>
-            <div class="toc1"><a href="#d1e9252">Rights Entity</a></div>
+            <div class="toc1"><a href="#d1e9324">Rights Entity</a></div>
             <div class="toc2">
                <table>
                   <tr>
@@ -2839,12 +2839,6 @@
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;">Mandatory</td>
                            </tr>
                            <tr style="border-bottom: 1px solid black;border-collapse: collapse;">
-                              <td style="border-bottom: 1px solid black;border-collapse: collapse;"></td>
-                              <td style="border-bottom: 1px solid black;border-collapse: collapse;"></td>
-                              <td style="border-bottom: 1px solid black;border-collapse: collapse;"></td>
-                              <td style="border-bottom: 1px solid black;border-collapse: collapse;"></td>
-                           </tr>
-                           <tr style="border-bottom: 1px solid black;border-collapse: collapse;">
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;"> <strong>Examples</strong></td>
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;">
                                  <div class="blockIndent">ISBN (Intellectual Entity)<br></br>DOI (Intellectual Entity)<br></br>DLC<br></br>DRS<br></br>hdl:4263537<br></br></div>
@@ -3964,7 +3958,7 @@
                      <div class="p">There are some important technical properties that apply to objects of
                         any format. Detailed definition of format-specific properties is outside
                         the scope of this Data Dictionary, although such properties may be
-                        included within objectCharacteristicsExtension.</div>
+                        included within  <strong>objectCharacteristicsExtension</strong>.</div>
                   </div>
                   <div class="leftcol">Data Constraint: </div>
                   <div class="content">
@@ -3977,7 +3971,7 @@
                         files, only the content need be preserved. In other cases for example,
                         for media art, the significant properties may be unique to each
                         individual object. Where values are unique, they must be supplied by the
-                        submitter or provided by the curatorial staff of the repsoitory.</div>
+                        submitter or provided by the curatorial staff of the repository.</div>
                   </div>
                   <div class="leftcol">Usage notes: </div>
                   <div class="content">
@@ -4014,8 +4008,8 @@
                   <div class="content">None</div>
                   <div class="leftcol">Definition: </div>
                   <div class="content">
-                     <div class="p">An indication of whether the Object is subject to one or more processes
-                        of decoding or unbundling.</div>
+                     <div class="p">An indication of whether the Object is subject to one or more processes of decoding
+                        or unbundling.</div>
                   </div>
                   <div class="leftcol">Entity information: </div>
                   <div class="content">
@@ -4065,10 +4059,9 @@
                   </div>
                   <div class="leftcol">Rationale: </div>
                   <div class="content">
-                     <div class="p">A file or bitstream can be encoded with compression, encryption, etc., or
-                        bundled with other files or bitstreams into larger packages. Knowing the
-                        order in which these actions are taken is important if the original
-                        Object or Objects must be recovered.</div>
+                     <div class="p">A file or bitstream can be encoded with compression, encryption, etc., or bundled
+                        with other files or bitstreams into larger packages. Knowing the order in which these
+                        actions are taken is important if the original Object or Objects must be recovered.</div>
                   </div>
                   <div class="leftcol">Data Constraint: </div>
                   <div class="content">
@@ -4076,12 +4069,11 @@
                   </div>
                   <div class="leftcol">Creation/Maintenance notes: </div>
                   <div class="content">
-                     <div class="p">Composition level will generally be supplied by the repository, which
-                        should attempt to supply this value automatically. If the object was
-                        created by the repository, the creating routine knows the composition
-                        level and can supply this metadata. If the object is being ingested by
-                        the repository, repository programs will have to attempt to identify the
-                        composition level from the object itself or from externally supplied
+                     <div class="p">Composition level will generally be supplied by the repository, which should attempt
+                        to supply this value automatically. If the object was created by the repository, the
+                        creating routine knows the composition level and can supply this metadata. If the
+                        object is being ingested by the repository, repository programs will have to attempt
+                        to identify the composition level from the object itself or from externally supplied
                         metadata.</div>
                   </div>
                   <div class="leftcol">Usage notes: </div>
@@ -4144,13 +4136,13 @@
                            </tr>
                            <tr style="border-bottom: 1px solid black;border-collapse: collapse;">
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;"> <strong>Repeatability</strong></td>
-                              <td style="border-bottom: 1px solid black;border-collapse: collapse;"></td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;">Not applicable</td>
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;">Repeatable</td>
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;">Repeatable</td>
                            </tr>
                            <tr style="border-bottom: 1px solid black;border-collapse: collapse;">
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;"> <strong>Obligation</strong></td>
-                              <td style="border-bottom: 1px solid black;border-collapse: collapse;"></td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;">Not applicable</td>
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;">Optional</td>
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;">Optional</td>
                            </tr>
@@ -4251,8 +4243,8 @@
                   </div>
                   <div class="leftcol">Data Constraint: </div>
                   <div class="content">
-                     <div class="p">Value should be taken from a controlled vocabulary. A controlled
-                        vocabulary list is available at:
+                     <div class="p">Value should be taken from a controlled vocabulary. A controlled vocabulary list is
+                        available at:
                         <a href="http://id.loc.gov/vocabulary/preservation/cryptographicHashFunctions.html" target="new">http://id.loc.gov/vocabulary/preservation/cryptographicHashFunctions.html</a>.
                         </div>
                   </div>
@@ -4314,8 +4306,7 @@
                   </div>
                   <div class="leftcol">Rationale: </div>
                   <div class="content">
-                     <div class="p">This must be stored so that it can be compared in future fixity
-                        checks.</div>
+                     <div class="p">This must be stored so that it can be compared in future fixity checks.</div>
                   </div>
                   <div class="leftcol">Data Constraint: </div>
                   <div class="content">
@@ -4384,7 +4375,7 @@
                         calculated by the submitter; checking these ensures that the file as
                         received is the same as the file as sent. The repository may also ingest
                         files that do not have message digests, and so must calculate the
-                        initial value upon ingest. It can be useful to know what Agentcalculated
+                        initial value upon ingest. It can be useful to know what Agent calculated
                         the initial value of the message digest.</div>
                   </div>
                   <div class="leftcol">Data Constraint: </div>
@@ -4437,19 +4428,19 @@
                            </tr>
                            <tr style="border-bottom: 1px solid black;border-collapse: collapse;">
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;"> <strong>Repeatability</strong></td>
-                              <td style="border-bottom: 1px solid black;border-collapse: collapse;"></td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;">Not applicable</td>
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;">Not repeatable</td>
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;">Not repeatable</td>
                            </tr>
                            <tr style="border-bottom: 1px solid black;border-collapse: collapse;">
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;"> <strong>Obligation</strong></td>
-                              <td style="border-bottom: 1px solid black;border-collapse: collapse;"></td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;">Not applicable</td>
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;">Optional</td>
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;">Optional</td>
                            </tr>
                            <tr style="border-bottom: 1px solid black;border-collapse: collapse;">
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;"> <strong>Examples</strong></td>
-                              <td style="border-bottom: 1px solid black;border-collapse: collapse;"></td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;">Not applicable</td>
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;">
                                  <div class="blockIndent">2038937<br></br></div>
                               </td>
@@ -4721,7 +4712,7 @@
                   <div class="content">None</div>
                   <div class="leftcol">Definition: </div>
                   <div class="content">
-                     <div class="p">The version of the format named in formatName.</div>
+                     <div class="p">The version of the format named in  <strong>formatName</strong>.</div>
                   </div>
                   <div class="leftcol">Entity information: </div>
                   <div class="content">
@@ -4771,8 +4762,8 @@
                   </div>
                   <div class="leftcol">Rationale: </div>
                   <div class="content">
-                     <div class="p">Many authority lists of format names are not granular enough to indicate
-                        version, for example, MIME Media types.</div>
+                     <div class="p">Many authority lists of format names are not granular enough to indicate version,
+                        for example, MIME Media types.</div>
                   </div>
                   <div class="leftcol">Data Constraint: </div>
                   <div class="content">
@@ -4780,8 +4771,7 @@
                   </div>
                   <div class="leftcol">Usage notes: </div>
                   <div class="content">
-                     <div class="p">If the format is versioned,  <strong>formatVersion</strong> should be recorded
-                        where applicable. It can be either a numeric or chronological
+                     <div class="p">If the format is versioned,  <strong>formatVersion</strong> should be recorded where applicable. It can be either a numeric or chronological
                         designation.</div>
                   </div>
                </div>
@@ -4792,8 +4782,8 @@
                   <div class="content"><a href="#formatRegistryName">1.5.4.2.1 formatRegistryName</a><br></br><a href="#formatRegistryKey">1.5.4.2.2 formatRegistryKey</a><br></br><a href="#formatRegistryRole">1.5.4.2.3 formatRegistryRole</a><br></br></div>
                   <div class="leftcol">Definition: </div>
                   <div class="content">
-                     <div class="p">Identifies and/or gives further information about the format by reference
-                        to an entry in a format registry.</div>
+                     <div class="p">Identifies and/or gives further information about the format by reference to an entry
+                        in a format registry.</div>
                   </div>
                   <div class="leftcol">Entity information: </div>
                   <div class="content">
@@ -4825,10 +4815,8 @@
                            <tr style="border-bottom: 1px solid black;border-collapse: collapse;">
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;"> <strong>Obligation</strong></td>
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;"></td>
-                              <td style="border-bottom: 1px solid black;border-collapse: collapse;">At least one subunit must be present if this container is
-                                 included.</td>
-                              <td style="border-bottom: 1px solid black;border-collapse: collapse;">At least one subunit must be present if this container is
-                                 included.</td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;">At least one subunit must be present if this container is included.</td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;">At least one subunit must be present if this container is included.</td>
                            </tr>
                         </table>
                      </div>
@@ -4839,11 +4827,8 @@
                   </div>
                   <div class="leftcol">Usage notes: </div>
                   <div class="content">
-                     <div class="p">Either  <strong>formatDesignation</strong> or at least one instance of
-                         <strong>formatRegistry</strong> is required. If more than one
-                         <strong>formatRegistry</strong> needs to be recorded the format container
-                        should be repeated to include each additional set of
-                         <strong>formatRegistryinformation</strong>.</div>
+                     <div class="p">Either  <strong>formatDesignation</strong> or at least one instance of  <strong>formatRegistry</strong> is required. If more than one  <strong>formatRegistry</strong> needs to be recorded the format container should be repeated to include each additional
+                        set of  <strong>formatRegistryinformation</strong>.</div>
                   </div>
                </div>
                <div class="element">
@@ -4919,8 +4904,8 @@
                   <div class="content">None</div>
                   <div class="leftcol">Definition: </div>
                   <div class="content">
-                     <div class="p">The unique key used to reference an entry for this format in the
-                        specified format registry.</div>
+                     <div class="p">The unique key used to reference an entry for this format in the specified format
+                        registry.</div>
                   </div>
                   <div class="leftcol">Entity information: </div>
                   <div class="content">
@@ -4945,13 +4930,13 @@
                            </tr>
                            <tr style="border-bottom: 1px solid black;border-collapse: collapse;">
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;"> <strong>Repeatability</strong></td>
-                              <td style="border-bottom: 1px solid black;border-collapse: collapse;"></td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;">Not applicable</td>
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;">Not repeatable</td>
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;">Not repeatable</td>
                            </tr>
                            <tr style="border-bottom: 1px solid black;border-collapse: collapse;">
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;"> <strong>Obligation</strong></td>
-                              <td style="border-bottom: 1px solid black;border-collapse: collapse;"></td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;">Not applicable</td>
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;">Mandatory</td>
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;">Mandatory</td>
                            </tr>
@@ -5038,9 +5023,8 @@
                   </div>
                   <div class="leftcol">Data Constraint: </div>
                   <div class="content">
-                     <div class="p">Value should be taken from a controlled vocabulary. A controlled
-                        vocabulary is available at:
-                        <a href="http://id.loc.gov/vocabulary/preservation/formatRegistryRole.html" target="new">http://id.loc.gov/vocabulary/preservation/formatRegistryRole.html</a>. </div>
+                     <div class="p">Value should be taken from a controlled vocabulary. A controlled vocabulary is available
+                        at: <a href="http://id.loc.gov/vocabulary/preservation/formatRegistryRole.html" target="new">http://id.loc.gov/vocabulary/preservation/formatRegistryRole.html</a>.</div>
                   </div>
                </div>
                <div class="element">
@@ -5100,8 +5084,8 @@
                   </div>
                   <div class="leftcol">Rationale: </div>
                   <div class="content">
-                     <div class="p">Qualifying information may be needed to supplement format designation and
-                        registry information or to record a status for identification.</div>
+                     <div class="p">Qualifying information may be needed to supplement format designation and registry
+                        information or to record a status for identification.</div>
                   </div>
                   <div class="leftcol">Data Constraint: </div>
                   <div class="content">
@@ -5109,8 +5093,7 @@
                   </div>
                   <div class="leftcol">Usage notes: </div>
                   <div class="content">
-                     <div class="p">The  <strong>formatNote</strong> may contain free text, a reference pointer, or a
-                        value from a controlled list.</div>
+                     <div class="p">The  <strong>formatNote</strong> may contain free text, a reference pointer, or a value from a controlled list.</div>
                   </div>
                </div>
                <div class="element">
@@ -7855,8 +7838,7 @@
                   <div class="content">None</div>
                   <div class="leftcol">Definition: </div>
                   <div class="content">
-                     <div class="p">The unique key used to reference an entry for this environment in an
-                        external registry.</div>
+                     <div class="p">The unique key used to reference an entry for this environment in an external registry.</div>
                   </div>
                   <div class="leftcol">Entity information: </div>
                   <div class="content">
@@ -9146,7 +9128,7 @@
                      <div class="p">Must be an existing  <strong>eventIdentifierValue</strong> value.</div>
                   </div>
                </div>  <a class="tocReturn" href="#toc">[toc]</a></div>
-            <div class="section" id="d1e7487">
+            <div class="section" id="d1e7559">
                <div class="head03"> </div>
                <div class="head03">Event Entity  <a class="tocReturn" href="#toc">[toc]</a></div>
                <div class="listOrdered">
@@ -9857,7 +9839,7 @@
                         at: <a href="http://id.loc.gov/vocabulary/preservation/eventRelatedObjectRole" target="new">http://id.loc.gov/vocabulary/preservation/eventRelatedObjectRole</a>.</div>
                   </div>
                   <div class="leftcol">Example:</div><br></br></div>  <a class="tocReturn" href="#toc">[toc]</a></div>
-            <div class="section" id="d1e8423">
+            <div class="section" id="d1e8495">
                <div class="head03"> </div>
                <div class="head03">Agent Entity  <a class="tocReturn" href="#toc">[toc]</a></div>
                <div class="p">The Agent entity aggregates information about attributes or characteristics
@@ -10456,7 +10438,7 @@
                         at: <a href="http://id.loc.gov/vocabulary/preservation/linkingEnvironmentRole.html" target="new">http://id.loc.gov/vocabulary/preservation/linkingEnvironmentRole.html</a>.</div>
                   </div>
                   <div class="leftcol">Example:</div><br></br></div>  <a class="tocReturn" href="#toc">[toc]</a></div>
-            <div class="section" id="d1e9252">
+            <div class="section" id="d1e9324">
                <div class="head03"> </div>
                <div class="head03">Rights Entity  <a class="tocReturn" href="#toc">[toc]</a></div>
                <div class="p">For the purpose of the PREMIS Data Dictionary, statements of legal rights,
@@ -12450,13 +12432,13 @@
                </div>  <a class="tocReturn" href="#toc">[toc]</a></div>
          </div>
          <div>
-            <div class="section" id="d1e11814">
+            <div class="section" id="d1e11886">
                <div class="head03">Appendix   </div>
                <div class="head03" id="appendix-SPECIALTOPICS">SPECIAL TOPICS  <a class="tocReturn" href="#toc">[toc]</a></div>
                <div class="p">This section describes several important topics that are too detailed for the
                   Data Dictionary itself. The discussion here provides background information
                   about semantic units and illustrates the thinking behind PREMIS.</div>
-               <div class="section" id="d1e11817">
+               <div class="section" id="d1e11889">
                   <div class="head03">Appendix   </div>
                   <div class="head03" id="appendix-Formatinformation">Format information  <a class="tocReturn" href="#toc">[toc]</a></div>
                   <div class="p">Formats are an important aspect of digital preservation but before specific
@@ -12569,7 +12551,7 @@
                      recorded separately. Multiple formats may also be recorded if it is
                      important to indicate the version of each.</div>
                </div>
-               <div class="section" id="d1e11891">
+               <div class="section" id="d1e11963">
                   <div class="head03">Appendix   </div>
                   <div class="head03" id="appendix-Environment">Environment  <a class="tocReturn" href="#toc">[toc]</a></div>
                   <div class="p">Digital materials are distinctly different from analog materials because a
@@ -12674,7 +12656,7 @@
                       <em>environmentDesignationNote</em> nor
                       <em>environmentDesignationExtension</em>.</div>
                </div>
-               <div class="section" id="d1e11981">
+               <div class="section" id="d1e12053">
                   <div class="head03">Appendix   </div>
                   <div class="head03" id="appendix-Designatingaspecificenvironmentimplementationconsiderations">Designating a specific environment: implementation considerations  <a class="tocReturn" href="#toc">[toc]</a></div>
                   <div class="p">The distinction between name and version can be vague in some cases.
@@ -12721,7 +12703,7 @@
                      name and version information and apply it consistently for all their
                      environment descriptions.</div>
                </div>
-               <div class="section" id="d1e12024">
+               <div class="section" id="d1e12096">
                   <div class="head03">Appendix   </div>
                   <div class="head03" id="appendix-Handlingdifferentlevelsofspecificityatthesametimeapossible&#xA;strategy">Handling different levels of specificity at the same time: a possible
                      strategy  <a class="tocReturn" href="#toc">[toc]</a></div>
@@ -12815,7 +12797,7 @@
                      environment information held in PREMIS could help such dissemination
                      mechanism make a decision about how to deliver content.</div>
                </div>
-               <div class="section" id="d1e12069">
+               <div class="section" id="d1e12141">
                   <div class="head03">Appendix   </div>
                   <div class="head03" id="appendix-Objectcharacteristicsandcompositionlevelthe“onion”model">Object characteristics and composition level: the “onion” model  <a class="tocReturn" href="#toc">[toc]</a></div>
                   <div class="p">When an object is compressed or encrypted, the format of the object is
@@ -12911,7 +12893,7 @@
                       <em>compositionLevel</em> is unknown as it is a tangible risk
                      for the preservation of the Object.</div>
                </div>
-               <div class="section" id="d1e12102">
+               <div class="section" id="d1e12174">
                   <div class="head03">Appendix   </div>
                   <div class="head03" id="appendix-Fixity,integrity,authenticity">Fixity, integrity, authenticity  <a class="tocReturn" href="#toc">[toc]</a></div>
                   <div class="p">A digital preservation metadata standard needs to give considerable attention
@@ -12980,7 +12962,7 @@
                      an event. Digital signatures can also aid authentication and are discussed
                      next.</div>
                </div>
-               <div class="section" id="d1e12131">
+               <div class="section" id="d1e12203">
                   <div class="head03">Appendix   </div>
                   <div class="head03" id="appendix-Digitalsignatures">Digital signatures  <a class="tocReturn" href="#toc">[toc]</a></div>
                   <div class="p">Digital signatures rely on an external (mutually trusted) authority to verify
@@ -13060,7 +13042,7 @@
                      suitable approach. For example, a university might regularly publish its
                      public key in its annual report and make it available on its Web site.</div>
                </div>
-               <div class="section" id="d1e12157">
+               <div class="section" id="d1e12229">
                   <div class="head03">Appendix   </div>
                   <div class="head03" id="appendix-Digitalsignaturemetadata">Digital signature metadata  <a class="tocReturn" href="#toc">[toc]</a></div>
                   <div class="p">For a preservation repository to validate a digital signature at a later
@@ -13176,7 +13158,7 @@
                      the "KeyInfo" elements defined in the  <em>XMLDsig</em> schema to
                      define the semantic units recorded in  <em>keyInformation</em>.</div>
                </div>
-               <div class="section" id="d1e12295">
+               <div class="section" id="d1e12367">
                   <div class="head03">Appendix   </div>
                   <div class="head03" id="appendix-Non-coremetadata">Non-core metadata  <a class="tocReturn" href="#toc">[toc]</a></div>
                   <div class="p">PREMIS does not attempt to include every possible metadata concept in the
@@ -13377,7 +13359,7 @@
                      that the two representations have a sibling relationship.</div>
                </div>
             </div>
-            <div class="section" id="d1e12400">
+            <div class="section" id="d1e12472">
                <div class="head03">Appendix   </div>
                <div class="head03" id="appendix-GLOSSARY">GLOSSARY  <a class="tocReturn" href="#toc">[toc]</a></div>
                <div class="p">This glossary defines a number of terms used in this Data Dictionary; recognizing

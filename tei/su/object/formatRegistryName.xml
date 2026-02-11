@@ -18,7 +18,13 @@
         <p>A designation identifying the referenced format registry.</p>
     </div>
     
-    <!-- PREMIS Rationale -->
+<!-- <div type="rationale"> -->
+        <!-- PREMIS Rationale -->
+    <!-- </div> -->
+	
+	    <!-- <div type="creationmaintenance"> -->
+        <!-- PREMIS Creation / Maintenance -->
+    <!-- </div> -->
     
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->

@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="objectCharacteristics">
-    <head>
-        
+ 
+	<head>
         <!-- PREMIS Semantic unit 1.5 -->
         <abbr>1.5</abbr>
         <gi>objectCharacteristics</gi>
-        
-    </head>
+	</head>
     
     <div type="semanticcomponents">
         <!-- PREMIS Semantic components -->
@@ -30,7 +29,7 @@
         <p>There are some important technical properties that apply to objects of
             any format. Detailed definition of format-specific properties is outside
             the scope of this Data Dictionary, although such properties may be
-            included within <old>objectCharacteristicsExtension</old>.</p>
+            included within <bold>objectCharacteristicsExtension</bold>.</p>
     </div>
     
     <div type="usagenotes">
@@ -65,6 +64,10 @@
         <!-- PREMIS Data constraint -->
         <p>Container</p>
     </div>
+	
+	<!--     <div type="examples"> -->
+        <!-- PREMIS Examples -->
+    <!-- </div> -->
     
     <div type="entity">
         <!-- PREMIS Object category -->
@@ -105,7 +108,7 @@
             files, only the content need be preserved. In other cases for example,
             for media art, the significant properties may be unique to each
             individual object. Where values are unique, they must be supplied by the
-            submitter or provided by the curatorial staff of the repsoitory.</p>
+            submitter or provided by the curatorial staff of the repository.</p>
     </div>
 </div>
 

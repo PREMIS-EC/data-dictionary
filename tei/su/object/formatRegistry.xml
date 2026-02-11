@@ -17,19 +17,16 @@
     
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>Identifies and/or gives further information about the format by reference
-            to an entry in a format registry.</p>
+        <p>Identifies and/or gives further information about the format by reference to an entry in a format registry.</p>
     </div>
     
-    <!-- PREMIS Rationale -->
+<!-- <div type="rationale"> -->
+        <!-- PREMIS Rationale -->
+    <!-- </div> -->
     
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>Either <bold>formatDesignation</bold> or at least one instance of
-            <bold>formatRegistry</bold> is required. If more than one
-            <bold>formatRegistry</bold> needs to be recorded the format container
-            should be repeated to include each additional set of
-            <bold>formatRegistryinformation</bold>.</p>
+        <p>Either <bold>formatDesignation</bold> or at least one instance of <bold>formatRegistry</bold> is required. If more than one <bold>formatRegistry</bold> needs to be recorded the format container should be repeated to include each additional set of <bold>formatRegistryinformation</bold>.</p>
     </div>
     
     <div type="datatype">
@@ -37,6 +34,14 @@
         <p>Container</p>
     </div>
     
+	<!--     <div type="examples"> -->
+        <!-- PREMIS Examples -->
+    <!-- </div> -->
+	
+	    <!-- <div type="creationmaintenance"> -->
+        <!-- PREMIS Creation / Maintenance -->
+    <!-- </div> -->
+	
     <div type="entity">
         <!-- PREMIS Object category -->
          <p>
@@ -62,10 +67,8 @@
                 <row>
                     <cell><bold>Obligation</bold></cell>
                     <cell> </cell>
-                    <cell>At least one subunit must be present if this container is
-                        included.</cell>
-                    <cell>At least one subunit must be present if this container is
-                        included.</cell>
+                    <cell>At least one subunit must be present if this container is included.</cell>
+                    <cell>At least one subunit must be present if this container is included.</cell>
                 </row>
             </table>
         </p>

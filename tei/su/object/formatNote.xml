@@ -20,14 +20,12 @@
     
     <div type="rationale">
         <!-- PREMIS Rationale -->
-        <p>Qualifying information may be needed to supplement format designation and
-            registry information or to record a status for identification.</p>
+        <p>Qualifying information may be needed to supplement format designation and registry information or to record a status for identification.</p>
     </div>
     
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>The <bold>formatNote</bold> may contain free text, a reference pointer, or a
-            value from a controlled list.</p>
+        <p>The <bold>formatNote</bold> may contain free text, a reference pointer, or a value from a controlled list.</p>
     </div>
     
     <div type="datatype">
@@ -35,6 +33,10 @@
         <p>None</p>
     </div>
     
+	    <!-- <div type="creationmaintenance"> -->
+        <!-- PREMIS Creation / Maintenance -->
+    <!-- </div> -->
+	
     <div type="entity">
         <!-- PREMIS Object category -->
         <p>

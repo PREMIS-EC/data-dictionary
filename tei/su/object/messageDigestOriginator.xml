@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="messageDigestOriginator">
+
     <head>
-        
         <!-- PREMIS Semantic unit 1.5.2.3 -->
         <abbr>1.5.2.3</abbr>
         <gi>messageDigestOriginator</gi>
-        
     </head>
     
     <div type="semanticcomponents">
@@ -25,7 +24,7 @@
             calculated by the submitter; checking these ensures that the file as
             received is the same as the file as sent. The repository may also ingest
             files that do not have message digests, and so must calculate the
-            initial value upon ingest. It can be useful to know what Agentcalculated
+            initial value upon ingest. It can be useful to know what Agent calculated
             the initial value of the message digest.</p>
     </div>
     

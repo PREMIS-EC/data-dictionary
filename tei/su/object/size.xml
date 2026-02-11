@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="size">
-    <head>
-        
+	<head>
         <!-- PREMIS Semantic unit 1.5.3 -->
         <abbr>1.5.3</abbr>
         <gi>size</gi>
-        
     </head>
     
     <div type="semanticcomponents">
@@ -56,19 +54,19 @@
                 </row>
                 <row>
                     <cell><bold>Repeatability</bold></cell>
-                    <cell> </cell>
+                    <cell>Not applicable</cell>
                     <cell>Not repeatable</cell>
                     <cell>Not repeatable</cell>
                 </row>
                 <row>
                     <cell><bold>Obligation</bold></cell>
-                    <cell> </cell>
+                    <cell>Not applicable</cell>
                     <cell>Optional</cell>
                     <cell>Optional</cell>
                 </row>
                 <row>
                     <cell><bold>Examples</bold></cell>
-                    <cell> </cell>
+                    <cell>Not applicable</cell>
                     <cell><list type="example">
                             
                             <item>2038937</item>

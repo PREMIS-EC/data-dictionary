@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="format">
     <head>
-        
         <!-- PREMIS Semantic unit 1.5.4 -->
         <abbr>1.5.4</abbr>
         <gi>format</gi>
-        
     </head>
     
     <div type="semanticcomponents">
@@ -64,6 +62,10 @@
         <!-- PREMIS Data constraint -->
         <p>Container</p>
     </div>
+	
+	<!--     <div type="examples"> -->
+        <!-- PREMIS Examples -->
+    <!-- </div> -->
     
     <div type="entity">
         <!-- PREMIS Object category -->

@@ -15,20 +15,21 @@
     
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>The version of the format named in <gi>formatName</gi>.</p>
+        <p>The version of the format named in <bold>formatName</bold>.</p>
     </div>
     
     <div type="rationale">
         <!-- PREMIS Rationale -->
-        <p>Many authority lists of format names are not granular enough to indicate
-            version, for example, MIME Media types.</p>
+        <p>Many authority lists of format names are not granular enough to indicate version, for example, MIME Media types.</p>
     </div>
+	
+	    <!-- <div type="creationmaintenance"> -->
+        <!-- PREMIS Creation / Maintenance -->
+    <!-- </div> -->
     
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>If the format is versioned, <bold>formatVersion</bold> should be recorded
-            where applicable. It can be either a numeric or chronological
-            designation.</p>
+        <p>If the format is versioned, <bold>formatVersion</bold> should be recorded where applicable. It can be either a numeric or chronological designation.</p>
     </div>
     
     <div type="datatype">

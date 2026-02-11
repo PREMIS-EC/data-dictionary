@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="compositionLevel">
     <head>
-        
         <!-- PREMIS Semantic unit 1.5.1 -->
         <abbr>1.5.1</abbr>
         <gi>compositionLevel</gi>
-        
     </head>
     
     <div type="semanticcomponents">
@@ -15,16 +13,12 @@
     
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>An indication of whether the Object is subject to one or more processes
-            of decoding or unbundling.</p>
+        <p>An indication of whether the Object is subject to one or more processes of decoding or unbundling.</p>
     </div>
     
     <div type="rationale">
         <!-- PREMIS Rationale -->
-        <p>A file or bitstream can be encoded with compression, encryption, etc., or
-            bundled with other files or bitstreams into larger packages. Knowing the
-            order in which these actions are taken is important if the original
-            Object or Objects must be recovered.</p>
+        <p>A file or bitstream can be encoded with compression, encryption, etc., or bundled with other files or bitstreams into larger packages. Knowing the order in which these actions are taken is important if the original Object or Objects must be recovered.</p>
     </div>
     
     <div type="usagenotes">
@@ -109,13 +103,7 @@
     
     <div type="creationmaintenance">
         <!-- PREMIS Creation / Maintenance -->
-        <p>Composition level will generally be supplied by the repository, which
-            should attempt to supply this value automatically. If the object was
-            created by the repository, the creating routine knows the composition
-            level and can supply this metadata. If the object is being ingested by
-            the repository, repository programs will have to attempt to identify the
-            composition level from the object itself or from externally supplied
-            metadata.</p>
+        <p>Composition level will generally be supplied by the repository, which should attempt to supply this value automatically. If the object was created by the repository, the creating routine knows the composition level and can supply this metadata. If the object is being ingested by the repository, repository programs will have to attempt to identify the composition level from the object itself or from externally supplied metadata.</p>
     </div>
 </div>
 

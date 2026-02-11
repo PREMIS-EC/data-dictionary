@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="formatDesignation">
     <head>
-        
         <!-- PREMIS Semantic unit 1.5.4.1 -->
         <abbr>1.5.4.1</abbr>
         <gi>formatDesignation</gi>
-        
     </head>
     
     <div type="semanticcomponents">
@@ -19,7 +17,13 @@
         <p>An identification of the format of the object.</p>
     </div>
     
-    <!-- PREMIS Rationale -->
+<!-- <div type="rationale"> -->
+        <!-- PREMIS Rationale -->
+    <!-- </div> -->
+	
+	<!--     <div type="examples"> -->
+        <!-- PREMIS Examples -->
+    <!-- </div> -->
     
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->

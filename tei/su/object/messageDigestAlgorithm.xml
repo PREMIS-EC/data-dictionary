@@ -2,11 +2,9 @@
 <div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="messageDigestAlgorithm">
     
     <head>
-        
         <!-- PREMIS Semantic unit 1.5.2.1 -->
         <abbr>1.5.2.1</abbr>
         <gi>messageDigestAlgorithm</gi>
-        
     </head>
     
     <div type="semanticcomponents">
@@ -20,14 +18,17 @@
             digital object.</p>
     </div>
     
-    <!-- PREMIS Rationale -->
+<!-- <div type="rationale"> -->
+        <!-- PREMIS Rationale -->
+    <!-- </div> -->
     
-    <!-- PREMIS Usage notes -->
+<!-- <div type="usagenotes"> -->
+        <!-- PREMIS Usage notes -->
+    <!-- </div> -->
     
     <div type="datatype">
         <!-- PREMIS Data constraint -->
-        <p>Value should be taken from a controlled vocabulary. A controlled
-            vocabulary list is available at:
+        <p>Value should be taken from a controlled vocabulary. A controlled vocabulary list is available at:
             <ref target="http://id.loc.gov/vocabulary/preservation/cryptographicHashFunctions.html">http://id.loc.gov/vocabulary/preservation/cryptographicHashFunctions.html</ref>.
         </p>
     </div>
