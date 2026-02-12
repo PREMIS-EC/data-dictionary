@@ -21,20 +21,26 @@
     
     <div type="rationale">
         <!-- PREMIS Rationale -->
-        <p>The signer might also be carried in the <bold>keyInformation</bold>, but it
-            can be accessed more conveniently if recorded here.</p>
+        <p>The signer might also be carried in the <bold>keyInformation</bold>, but it can be accessed more conveniently if recorded here.</p>
     </div>
     
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>If the signer is an Agent known to the repository, an
-            <bold>agentIdentifier</bold> can be used here.</p>
+        <p>If the signer is an Agent known to the repository, an <bold>agentIdentifier</bold> can be used here.</p>
     </div>
     
     <div type="datatype">
         <!-- PREMIS Data constraint -->
         <p>None</p>
     </div>
+	
+	<!--     <div type="examples"> -->
+        <!-- PREMIS Examples -->
+    <!-- </div> -->
+	
+	    <!-- <div type="creationmaintenance"> -->
+        <!-- PREMIS Creation / Maintenance -->
+    <!-- </div> -->
     
     <div type="entity">
         <!-- PREMIS Object category -->

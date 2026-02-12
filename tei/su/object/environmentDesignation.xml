@@ -19,21 +19,25 @@
     
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>An identification of the environment used to render or execute an
-            object.</p>
+        <p>An identification of the environment used to render or execute an object.</p>
     </div>
     
     <div type="rationale">
         <!-- PREMIS Rationale -->
-        <p>Information identifying the environment using human-readable language
-            which can be expected to be understood outside of a digital repository.
-            This information is expected to be distinct from the
-            <bold>objectIdentifier</bold> which uses a formal identification scheme
-            to identify an object within the context of a repository and may not be
-            readily understood outside of that context.</p>
+        <p>Information identifying the environment using human-readable language which can be expected to be understood outside of a digital repository. This information is expected to be distinct from the <bold>objectIdentifier</bold> which uses a formal identification scheme to identify an object within the context of a repository and may not be readily understood outside of that context.</p>
     </div>
+
+<!--     <div type="examples"> -->
+        <!-- PREMIS Examples -->
+    <!-- </div> -->
     
-    <!-- PREMIS Usage notes -->
+    <!-- <div type="creationmaintenance"> -->
+        <!-- PREMIS Creation / Maintenance -->
+    <!-- </div> -->
+
+<!-- <div type="usagenotes"> -->
+        <!-- PREMIS Usage notes -->
+    <!-- </div> -->
     
     <div type="datatype">
         <!-- PREMIS Data constraint -->

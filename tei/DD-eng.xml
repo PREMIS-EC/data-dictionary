@@ -2308,13 +2308,13 @@
                             <cell n="1"> 1.14.2 linkingEventIdentifierValue (M, NR) </cell>
                         </row>
                         <row>
-                            <cell> 1.15 linkingRightsIdentifier (O, R) </cell>
+                            <cell> 1.15 linkingRightsStatementIdentifier (O, R) </cell>
                         </row>
                         <row>
-                            <cell n="1"> 1.15.1 linkingRightsIdentifierType (M, NR) </cell>
+                            <cell n="1"> 1.15.1 linkingRightsStatementIdentifierType (M, NR) </cell>
                         </row>
                         <row>
-                            <cell n="1"> 1.15.2 linkingRightsIdentifierValue (M, NR) </cell>
+                            <cell n="1"> 1.15.2 linkingRightsStatementIdentifierValue (M, NR) </cell>
                         </row>
 
 
@@ -2406,9 +2406,9 @@
                 <xi:include href="su/object/linkingEventIdentifier.xml" parse="xml"/>
                 <xi:include href="su/object/linkingEventIdentifierType.xml" parse="xml"/>
                 <xi:include href="su/object/linkingEventIdentifierValue.xml" parse="xml"/>
-<!--                 <xi:include href="su/object/linkingRightsIdentifier.xml" parse="xml"/>
-                <xi:include href="su/object/linkingRightsIdentifierType.xml" parse="xml"/>
-                <xi:include href="su/object/linkingRightsIdentifierValue.xml" parse="xml"/> -->
+				<xi:include href="su/object/linkingRightsStatementIdentifier.xml" parse="xml"/>
+                <xi:include href="su/object/linkingRightsStatementIdentifierType.xml" parse="xml"/>
+                <xi:include href="su/object/linkingRightsStatementIdentifierValue.xml" parse="xml"/>
             </div>
             <div type="elements" xml:id="events">
                 <div type="Introduction">

@@ -16,32 +16,31 @@
     
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>A container for PREMIS-defined and externally-defined digital signature
-            information, used to authenticate the signer of an object and/or the
-            information contained in the object.</p>
+        <p>A container for PREMIS-defined and externally-defined digital signature information, used to authenticate the signer of an object and/or the information contained in the object.</p>
     </div>
     
     <div type="rationale">
         <!-- PREMIS Rationale -->
-        <p>A repository may have a policy of generating digital signatures for files
-            on ingest, or may have a need to store and later validate incoming
-            digital signatures.</p>
+        <p>A repository may have a policy of generating digital signatures for files on ingest, or may have a need to store and later validate incoming digital signatures.</p>
     </div>
     
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>Either <bold>signature</bold> or <bold>signatureInformationExtension</bold> may
-            be used. Use of <bold>signatureInformationExtension</bold> with the schema
-            defined in W3C’s XML-Signature Syntax and
-            Processing(<ref target="http://www.w3.org/TR/2002/REC-xmldsig-core-20020212/">http://www.w3.org/TR/2002/REC-xmldsig-core-20020212/</ref>) is
-            encouraged when applicable. See the discussion of digital signatures for more information on use of both
-            PREMIS-defined and externally-defined semantic units.</p>
+        <p>Either <bold>signature</bold> or <bold>signatureInformationExtension</bold> may be used. Use of <bold>signatureInformationExtension</bold> with the schema defined in W3C’s XML-Signature Syntax and Processing(<ref target="http://www.w3.org/TR/2002/REC-xmldsig-core-20020212/">http://www.w3.org/TR/2002/REC-xmldsig-core-20020212/</ref>) is encouraged when applicable. See the discussion of digital signatures for more information on use of both PREMIS-defined and externally-defined semantic units.</p>
     </div>
     
     <div type="datatype">
         <!-- PREMIS Data constraint -->
         <p>Container</p>
     </div>
+	
+	<!--     <div type="examples"> -->
+        <!-- PREMIS Examples -->
+    <!-- </div> -->
+	
+    <!-- <div type="creationmaintenance"> -->
+        <!-- PREMIS Creation / Maintenance -->
+    <!-- </div> -->
     
     <div type="entity">
         <!-- PREMIS Object category -->

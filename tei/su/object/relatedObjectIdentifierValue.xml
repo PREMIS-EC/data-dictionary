@@ -16,13 +16,17 @@
         <p>The value of the related Object identifier.</p>
     </div>
     
-    <!-- PREMIS Rationale -->
+<!-- <div type="rationale"> -->
+        <!-- PREMIS Rationale -->
+    <!-- </div> -->
+	
+	    <!-- <div type="creationmaintenance"> -->
+        <!-- PREMIS Creation / Maintenance -->
+    <!-- </div> -->
     
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>If the related Object is held within the preservation repository, this
-            semantic unit should set to the value of that Object’s
-            <bold>objectIdentifierValue.</bold></p>
+        <p>If the related Object is held within the preservation repository, this semantic unit should set to the value of that Object’s <bold>objectIdentifierValue.</bold></p>
     </div>
     
     <div type="datatype">
@@ -60,9 +64,9 @@
                 </row>
                 <row>
                     <cell><bold>Examples</bold></cell>
-                    <cell>[see examples for objectIdentifierValue]</cell>
-                    <cell>[see examples for objectIdentifierValue]</cell>
-                    <cell>[see examples for objectIdentifierValue]</cell>
+                    <cell>[see examples for <bold>objectIdentifierValue</bold>]</cell>
+                    <cell>[see examples for <bold>objectIdentifierValue</bold>]</cell>
+                    <cell>[see examples for <bold>objectIdentifierValue</bold>]</cell>
                 </row>
             </table>
         </p>

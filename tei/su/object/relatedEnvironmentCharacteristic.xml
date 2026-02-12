@@ -15,29 +15,22 @@
     
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>An assessment of the extent to which the described environment supports
-            its purpose.</p>
+        <p>An assessment of the extent to which the described environment supports its purpose.</p>
     </div>
     
     <div type="rationale">
         <!-- PREMIS Rationale -->
-        <p>If multiple environments are described, this element can help to
-            distinguish between them.</p>
+        <p>If multiple environments are described, this element can help to distinguish between them.</p>
     </div>
     
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>If an environment could be described as both “minimum” and “recommended,”
-            use “recommended.” “Known to work” implies the object is supported by
-            the described environment but the repository doesn’t know if this
-            environment is minimum or recommended.</p>
+        <p>If an environment could be described as both “minimum” and “recommended,” use “recommended.” “Known to work” implies the object is supported by the described environment but the repository doesn’t know if this environment is minimum or recommended.</p>
     </div>
     
     <div type="datatype">
         <!-- PREMIS Data constraint -->
-        <p>Value should be taken from a controlled vocabulary. A controlled
-            vocabulary is available at:
-            <ref target="http://id.loc.gov/vocabulary/preservation/environmentCharacteristic">http://id.loc.gov/vocabulary/preservation/environmentCharacteristic</ref>.
+        <p>Value should be taken from a controlled vocabulary. A controlled vocabulary is available at: <ref target="http://id.loc.gov/vocabulary/preservation/environmentCharacteristic">http://id.loc.gov/vocabulary/preservation/environmentCharacteristic</ref>.
         </p>
     </div>
     
@@ -96,11 +89,7 @@
     </div>
     <div type="creationmaintenance">
         <!-- PREMIS Creation / Maintenance -->
-        <p>This value could be supplied by the submitter or by the repository. If
-            environment software and hardware information is obtained from an
-            environment registry, <boldi>relatedEnvironmentCharacteristic</boldi> might
-            also be obtained from the registry. Note however that the criteria for
-            “recommended” may be different for different repositories.</p>
+        <p>This value could be supplied by the submitter or by the repository. If environment software and hardware information is obtained from an environment registry, <boldi>relatedEnvironmentCharacteristic</boldi> might also be obtained from the registry. Note however that the criteria for “recommended” may be different for different repositories.</p>
     </div>
 </div>
 

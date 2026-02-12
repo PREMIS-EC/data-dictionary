@@ -20,22 +20,17 @@
     
     <div type="rationale">
         <!-- PREMIS Rationale -->
-        <p>Different environments can support different uses of objects. For
-            example, the environment needed to edit and modify a file can be quite
-            different from the environment needed to render it.</p>
+        <p>Different environments can support different uses of objects. For example, the environment needed to edit and modify a file can be quite different from the environment needed to render it.</p>
     </div>
     
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>Other values might indicate the ability to transform, print, and
-            manipulate by program.</p>
+        <p>Other values might indicate the ability to transform, print, and manipulate by program.</p>
     </div>
     
     <div type="datatype">
         <!-- PREMIS Data constraint -->
-        <p>Values should be taken from a controlled vocabulary. A controlled
-            vocabulary is available at:
-            <ref target="http://id.loc.gov/vocabulary/preservation/environmentPurpose">http://id.loc.gov/vocabulary/preservation/environmentPurpose</ref>.</p>
+        <p>Values should be taken from a controlled vocabulary. A controlled vocabulary is available at: <ref target="http://id.loc.gov/vocabulary/preservation/environmentPurpose">http://id.loc.gov/vocabulary/preservation/environmentPurpose</ref>.</p>
     </div>
     
     <div type="entity">
@@ -90,9 +85,7 @@
     </div>
     <div type="creationmaintenance">
         <!-- PREMIS Creation / Maintenance -->
-        <p>This value would have to be supplied by the Agent that provided the
-            hardware and/or software environment information, which might be the
-            submitter, the repository, or an environment registry.</p>
+        <p>This value would have to be supplied by the Agent that provided the hardware and/or software environment information, which might be the submitter, the repository, or an environment registry.</p>
     </div>
 </div>
 

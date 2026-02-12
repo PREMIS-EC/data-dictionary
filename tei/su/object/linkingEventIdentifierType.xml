@@ -18,9 +18,17 @@
         <p>The <bold>eventIdentifierType</bold> value of the related Event.</p>
     </div>
     
-    <!-- PREMIS Rationale -->
+<!-- <div type="rationale"> -->
+        <!-- PREMIS Rationale -->
+    <!-- </div> -->
     
-    <!-- PREMIS Usage notes -->
+    <!-- <div type="creationmaintenance"> -->
+        <!-- PREMIS Creation / Maintenance -->
+    <!-- </div> -->
+
+<!-- <div type="usagenotes"> -->
+        <!-- PREMIS Usage notes -->
+    <!-- </div> -->
     
     <div type="datatype">
         <!-- PREMIS Data constraint -->

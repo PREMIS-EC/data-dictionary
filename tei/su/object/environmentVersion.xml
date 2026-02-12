@@ -18,7 +18,9 @@
         <p>Version of the environment.</p>
     </div>
     
-    <!-- PREMIS Rationale -->
+<!-- <div type="rationale"> -->
+        <!-- PREMIS Rationale -->
+    <!-- </div> -->
     
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
@@ -27,9 +29,12 @@
     
     <div type="datatype">
         <!-- PREMIS Data constraint -->
-        <p>It is recommended to take this information from a controlled
-            vocabulary.</p>
+        <p>It is recommended to take this information from a controlled vocabulary.</p>
     </div>
+	
+	    <!-- <div type="creationmaintenance"> -->
+        <!-- PREMIS Creation / Maintenance -->
+    <!-- </div> -->
     
     <div type="entity">
         <!-- PREMIS Object category -->

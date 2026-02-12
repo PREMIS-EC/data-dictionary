@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="creatingApplicationExtension">
-    <head>
-        
+
+<head>
         <!-- PREMIS Semantic unit 1.5.5.4 -->
         <abbr>1.5.5.4</abbr>
         <gi>creatingApplicationExtension</gi>
-        
     </head>
     
     <div type="semanticcomponents">
@@ -15,8 +14,7 @@
     
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>Creating application information using semantic units defined externally
-            to PREMIS.</p>
+        <p>Creating application information using semantic units defined externally to PREMIS.</p>
     </div>
     
     <div type="rationale">
@@ -26,28 +24,17 @@
     
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>For more granularity or to use externally defined semantic units,
-            extensibility is provided. This could include a reference to an external
-            technical registry describing the creating application. Either local
-            semantic units or metadata using another specified metadata scheme may
-            be included instead of or in addition to PREMIS-defined semantic units.
-            When using an externally defined schema, a reference to that schema must
-            be provided. See further guidance on “Extensibility”. If
-            multiple extensions are needed (e.g., for different purposes), the
-            container <bold>creatingApplication</bold> is repeated. Also, if extensions
-            from different external schemas are needed, <bold>creatingApplication</bold>
-            should be repeated. It is recommended to give information about the
-            metadata used in <bold>creatingApplicationExtension</bold> including date
-            the metadata was created, status of the metadata, internal linking IDs,
-            type of metadata used and its version, message digest and message digest
-            algorithm of the metadata, and type of identifier for external metadata
-            links.</p>
+        <p>For more granularity or to use externally defined semantic units, extensibility is provided. This could include a reference to an external technical registry describing the creating application. Either local semantic units or metadata using another specified metadata scheme may be included instead of or in addition to PREMIS-defined semantic units. When using an externally defined schema, a reference to that schema must be provided. See further guidance on “Extensibility”. If multiple extensions are needed (e.g., for different purposes), the container <bold>creatingApplication</bold> is repeated. Also, if extensions from different external schemas are needed, <bold>creatingApplication</bold> should be repeated. It is recommended to give information about the metadata used in <bold>creatingApplicationExtension</bold> including date the metadata was created, status of the metadata, internal linking IDs, type of metadata used and its version, message digest and message digest algorithm of the metadata, and type of identifier for external metadata links.</p>
     </div>
     
     <div type="datatype">
         <!-- PREMIS Data constraint -->
         <p>Container</p>
     </div>
+	
+	    <!-- <div type="creationmaintenance"> -->
+        <!-- PREMIS Creation / Maintenance -->
+    <!-- </div> -->
     
     <div type="entity">
         <!-- PREMIS Object category -->

@@ -18,13 +18,17 @@
         <p>A designation of the domain within which the identifier is unique.</p>
     </div>
     
-    <!-- PREMIS Rationale -->
+<!-- <div type="rationale"> -->
+        <!-- PREMIS Rationale -->
+    <!-- </div> -->
+	
+	    <!-- <div type="creationmaintenance"> -->
+        <!-- PREMIS Creation / Maintenance -->
+    <!-- </div> -->
     
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>If the related Object is held within the preservation repository, this
-            semantic unit should set to the value of that Object’s
-            <bold>objectIdentifierType.</bold></p>
+        <p>If the related Object is held within the preservation repository, this semantic unit should set to the value of that Object’s <bold>objectIdentifierType.</bold></p>
     </div>
     
     <div type="datatype">

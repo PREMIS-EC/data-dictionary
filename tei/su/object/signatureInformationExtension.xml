@@ -15,8 +15,7 @@
     
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>Digital signature information using semantic units defined outside of
-            PREMIS.</p>
+        <p>Digital signature information using semantic units defined outside of PREMIS.</p>
     </div>
     
     <div type="rationale">
@@ -26,32 +25,21 @@
     
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>For more granularity or use of externally defined semantic units,
-            extensibility is provided. Either local semantic units or metadata using
-            another specified metadata scheme may be included instead of or in
-            addition to PREMIS defined semantic units. When using an extension
-            schema, a reference to that schema must be provided. See further
-            guidance in “Extensibility”. If the
-            <bold>signatureInformationExtension</bold> container needs to be
-            associated explicitly with any PREMIS subunit under
-            <bold>signatureInformation</bold>, the container
-            <bold>signatureInformation</bold> is repeated. Also, if extensions from
-            different external schemas are needed, <bold>signatureInformation</bold>
-            should be repeated.Use of the W3C’s XML-Signature Syntax and Processing
-            <ref target="http://www.w3.org/TR/2002/REC-xmldsig-core-20020212/"
-                >(http://www.w3.org/TR/2002/REC-xmldsig-core-20020212/)</ref> is
-            encouraged when applicable. It is recommended to give information about
-            the metadata used in <bold>signatureInformationExtension</bold> including
-            date the metadata was created, status of the metadata, internal linking
-            IDs, type of metadata used and its version, message digest and message
-            digest algorithm of the metadata, and type of identifier for external
-            metadata links.</p>
+        <p>For more granularity or use of externally defined semantic units, extensibility is provided. Either local semantic units or metadata using another specified metadata scheme may be included instead of or in addition to PREMIS defined semantic units. When using an extension schema, a reference to that schema must be provided. See further guidance in “Extensibility”. If the <bold>signatureInformationExtension</bold> container needs to be associated explicitly with any PREMIS subunit under <bold>signatureInformation</bold>, the container <bold>signatureInformation</bold> is repeated. Also, if extensions from different external schemas are needed, <bold>signatureInformation</bold> should be repeated.Use of the W3C’s XML-Signature Syntax and Processing <ref target="http://www.w3.org/TR/2002/REC-xmldsig-core-20020212/"> (http://www.w3.org/TR/2002/REC-xmldsig-core-20020212/)</ref> is encouraged when applicable. It is recommended to give information about the metadata used in <bold>signatureInformationExtension</bold> including date the metadata was created, status of the metadata, internal linking IDs, type of metadata used and its version, message digest and message digest algorithm of the metadata, and type of identifier for external metadata links.</p>
     </div>
     
     <div type="datatype">
         <!-- PREMIS Data constraint -->
         <p>Container</p>
     </div>
+
+    <!-- <div type="creationmaintenance"> -->
+        <!-- PREMIS Creation / Maintenance -->
+    <!-- </div> -->
+	
+	<!--     <div type="examples"> -->
+        <!-- PREMIS Examples -->
+    <!-- </div> -->
     
     <div type="entity">
         <!-- PREMIS Object category -->

@@ -15,8 +15,7 @@
     
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>A designation for the encryption and hash algorithms used for signature
-            generation.</p>
+        <p>A designation for the encryption and hash algorithms used for signature generation.</p>
     </div>
     
     <div type="rationale">
@@ -26,17 +25,17 @@
     
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>Recommended practice is to use the following naming convention:name the
-            encryption algorithm first, followed by a hyphen, followed by the name
-            of the hash (message digest) algorithm.</p>
+        <p>Recommended practice is to use the following naming convention:name the encryption algorithm first, followed by a hyphen, followed by the name of the hash (message digest) algorithm.</p>
     </div>
     
     <div type="datatype">
         <!-- PREMIS Data constraint -->
-        <p>Value should be taken from a controlled vocabulary. A controlled
-            vocabulary is available at:
-            <ref target="http://id.loc.gov/vocabulary/preservation/signatureMethod.html">http://id.loc.gov/vocabulary/preservation/signatureMethod.html</ref>.</p>
+        <p>Value should be taken from a controlled vocabulary. A controlled vocabulary is available at: <ref target="http://id.loc.gov/vocabulary/preservation/signatureMethod.html">http://id.loc.gov/vocabulary/preservation/signatureMethod.html</ref>.</p>
     </div>
+	
+	    <!-- <div type="creationmaintenance"> -->
+        <!-- PREMIS Creation / Maintenance -->
+    <!-- </div> -->
     
     <div type="entity">
         <!-- PREMIS Object category -->
@@ -56,13 +55,13 @@
                 </row>
                 <row>
                     <cell><bold>Repeatability</bold></cell>
-                    <cell> </cell>
+                    <cell>Not applicable</cell>
                     <cell>Not repeatable</cell>
                     <cell>Not repeatable</cell>
                 </row>
                 <row>
                     <cell><bold>Obligation</bold></cell>
-                    <cell> </cell>
+                    <cell>Not applicable</cell>
                     <cell>Mandatory</cell>
                     <cell>Mandatory</cell>
                 </row>

@@ -21,15 +21,12 @@
     
     <div type="rationale">
         <!-- PREMIS Rationale -->
-        <p>A repository may choose to link from a Rights statement to an object or
-            from an object to a Rights statement or both.</p>
+        <p>A repository may choose to link from a Rights statement to an object or from an object to a Rights statement or both.</p>
     </div>
     
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>Linking semantic units are mandatory in the sense that a repository needs
-            to know the information, but are defined as optional because PREMIS does
-            not specify in which direction the linkage should be.</p>
+        <p>Linking semantic units are mandatory in the sense that a repository needs to know the information, but are defined as optional because PREMIS does not specify in which direction the linkage should be.</p>
     </div>
     
     <div type="datatype">

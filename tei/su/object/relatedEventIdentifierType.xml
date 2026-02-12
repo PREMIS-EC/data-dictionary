@@ -18,13 +18,17 @@
         <p>The <bold>eventIdentifierType</bold> of the related Event.</p>
     </div>
     
-    <!-- PREMIS Rationale -->
+<!-- <div type="rationale"> -->
+        <!-- PREMIS Rationale -->
+    <!-- </div> -->
+
+    <!-- <div type="creationmaintenance"> -->
+        <!-- PREMIS Creation / Maintenance -->
+    <!-- </div> -->
     
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>For most preservation repositories, the <bold>eventIdentifierType</bold> will
-            simply be its own internal numbering system. It can be implicit within
-            the system and provided explicitly only if the data is exported.</p>
+        <p>For most preservation repositories, the <bold>eventIdentifierType</bold> will simply be its own internal numbering system. It can be implicit within the system and provided explicitly only if the data is exported.</p>
     </div>
     
     <div type="datatype">

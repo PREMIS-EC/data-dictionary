@@ -20,45 +20,31 @@
     
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>Information about a relationship between this Object and one or more
-            other Objects.</p>
+        <p>Information about a relationship between this Object and one or more other Objects.</p>
     </div>
     
     <div type="rationale">
         <!-- PREMIS Rationale -->
-        <p>A preservation repository must know how to assemble complex objects from
-            component parts (structural relationships), rigorously track digital
-            provenance (derivation relationships) and document the links between
-            parts of a rendering stack in a Representation Information Network
-            (dependency and documentation links). Documentation about relationships
-            between different objects is crucial to these purposes.</p>
+        <p>A preservation repository must know how to assemble complex objects from component parts (structural relationships), rigorously track digital provenance (derivation relationships) and document the links between parts of a rendering stack in a Representation Information Network (dependency and documentation links). Documentation about relationships between different objects is crucial to these purposes.</p>
     </div>
     
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>Most preservation repositories will want to record all relevant
-            relationships.In complex scenarios, PREMIS might not be able to express
-            rich enough structural relationships to be the only source of structural
-            metadata. Many formats for representing structural information may be
-            used instead of the semantic units specified here. This information must
-            be recorded, and some implementations may record it by using other
-            structures (e.g. METS). Structural relationships between the fileand
-            representation level are necessary to reconstruct a representation in
-            order to ascertain that the representation is renderable. A record of
-            structural relationships at the representation level may be necessary to
-            render the representation. Structural relationships at the bitstream
-            level can relate bitstreams within a file. Structural relationships
-            between Intellectual Entities may be used to record logical containment,
-            such as between an article and an issue, or physical containment, such
-            as between a page and a book. Derivative relationships at the file,
-            representation and Intellectual Entity level are important for
-            documenting digital provenance.</p>
+        <p>Most preservation repositories will want to record all relevant relationships.In complex scenarios, PREMIS might not be able to express rich enough structural relationships to be the only source of structural metadata. Many formats for representing structural information may be used instead of the semantic units specified here. This information must be recorded, and some implementations may record it by using other structures (e.g. METS). Structural relationships between the file and representation level are necessary to reconstruct a representation in order to ascertain that the representation is renderable. A record of structural relationships at the representation level may be necessary to render the representation. Structural relationships at the bitstream level can relate bitstreams within a file. Structural relationships between Intellectual Entities may be used to record logical containment, such as between an article and an issue, or physical containment, such as between a page and a book. Derivative relationships at the file, representation and Intellectual Entity level are important for documenting digital provenance.</p>
     </div>
     
     <div type="datatype">
         <!-- PREMIS Data constraint -->
         <p>Container</p>
     </div>
+	
+	<!--     <div type="examples"> -->
+        <!-- PREMIS Examples -->
+    <!-- </div> -->
+	
+	    <!-- <div type="creationmaintenance"> -->
+        <!-- PREMIS Creation / Maintenance -->
+    <!-- </div> -->
     
     <div type="entity">
         <!-- PREMIS Object category -->

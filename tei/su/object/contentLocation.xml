@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="contentLocation">
-    <head>
-        
+ 
+ <head>
         <!-- PREMIS Semantic unit 1.7.1.0 -->
         <abbr>1.7.1</abbr>
         <gi>contentLocation</gi>
-        
     </head>
     
     <div type="semanticcomponents">
@@ -16,24 +15,24 @@
     
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>Information needed to retrieve a physical item from its physical storage
-            location or a file from the storage system, or to access a bitstream
-            within a file.</p>
+        <p>Information needed to retrieve a physical item from its physical storage location or a file from the storage system, or to access a bitstream within a file.</p>
     </div>
     
     <!-- PREMIS Rationale -->
     
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>If the preservation repository uses the <bold>objectIdentifier</bold> as a
-            handle for retrieving data, <bold>contentLocation</bold> is implicit and
-            does not need to be recorded.</p>
+        <p>If the preservation repository uses the <bold>objectIdentifier</bold> as a handle for retrieving data, <bold>contentLocation</bold> is implicit and does not need to be recorded.</p>
     </div>
     
     <div type="datatype">
         <!-- PREMIS Data constraint -->
         <p>Container</p>
     </div>
+	
+	<!--     <div type="examples"> -->
+        <!-- PREMIS Examples -->
+    <!-- </div> -->
     
     <div type="entity">
         <!-- PREMIS Object category -->

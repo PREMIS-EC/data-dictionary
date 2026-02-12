@@ -25,32 +25,21 @@
     
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>For more granularity or use of externally defined semantic units,
-            extensibility is provided. Either local semantic units or metadata using
-            another specified metadata scheme may be included in addition to PREMIS
-            defined semantic units. When using an extension schema, a reference to
-            that schema must be provided. See further guidance in “Extensibility”. If the extension is about the name, version or overall
-            designation of the environment, use
-            <bold>environmentDesignationExtension.</bold>
-            <bold>environmentExtension</bold> is used for additional
-            <bold>environmentcharacteristics</bold> not covered by PREMIS, for
-            instance environment-specific metadata that is defined externally. It is
-            not a replacement for units specified in PREMIS.If multiple extensions
-            are needed (e.g., for different purposes), the container
-            <bold>environmentExtension</bold> is repeated. Also, if extensions from
-            different external schemas are needed, <bold>environmentExtension</bold>
-            should be repeated.It is recommended to give information about the
-            metadata used in <bold>environmentExtension</bold> including date the
-            metadata was created, status of the metadata, internal linking IDs, type
-            of metadata used and its version, message digest and message digest
-            algorithm of the metadata, and type of identifier for external metadata
-            links.</p>
+        <p>For more granularity or use of externally defined semantic units, extensibility is provided. Either local semantic units or metadata using another specified metadata scheme may be included in addition to PREMIS defined semantic units. When using an extension schema, a reference to that schema must be provided. See further guidance in “Extensibility”. If the extension is about the name, version or overall designation of the environment, use <bold>environmentDesignationExtension.</bold> <bold>environmentExtension</bold> is used for additional <bold>environmentcharacteristics</bold> not covered by PREMIS, for instance environment-specific metadata that is defined externally. It is not a replacement for units specified in PREMIS.If multiple extensions are needed (e.g., for different purposes), the container <bold>environmentExtension</bold> is repeated. Also, if extensions from different external schemas are needed, <bold>environmentExtension</bold> should be repeated.It is recommended to give information about the metadata used in <bold>environmentExtension</bold> including date the metadata was created, status of the metadata, internal linking IDs, type of metadata used and its version, message digest and message digest algorithm of the metadata, and type of identifier for external metadata links.</p>
     </div>
     
     <div type="datatype">
         <!-- PREMIS Data constraint -->
         <p>None</p>
     </div>
+	
+	<!--     <div type="examples"> -->
+        <!-- PREMIS Examples -->
+    <!-- </div> -->
+
+    <!-- <div type="creationmaintenance"> -->
+        <!-- PREMIS Creation / Maintenance -->
+    <!-- </div> -->
     
     <div type="entity">
         <!-- PREMIS Object category -->

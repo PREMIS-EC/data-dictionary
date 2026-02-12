@@ -111,18 +111,21 @@
                      <td><span><a href="#formatRegistryName">formatRegistryName</a></span></td>
                      <td><span><a href="#signatureInformation">signatureInformation</a></span></td>
                      <td><span><a href="#environmentRegistryName">environmentRegistryName</a></span></td>
+                     <td><span><a href="#linkingRightsStatementIdentifier">linkingRightsStatementIdentifier</a></span></td>
                   </tr>
                   <tr>
                      <td><span><a href="#preservationLevelRole">preservationLevelRole</a></span></td>
                      <td><span><a href="#formatRegistryKey">formatRegistryKey</a></span></td>
                      <td><span><a href="#signature">signature</a></span></td>
                      <td><span><a href="#environmentRegistryKey">environmentRegistryKey</a></span></td>
+                     <td><span><a href="#linkingRightsStatementIdentifierType">linkingRightsStatementIdentifierType</a></span></td>
                   </tr>
                   <tr>
                      <td><span><a href="#preservationLevelRationale">preservationLevelRationale</a></span></td>
                      <td><span><a href="#formatRegistryRole">formatRegistryRole</a></span></td>
                      <td><span><a href="#signatureEncoding">signatureEncoding</a></span></td>
                      <td><span><a href="#environmentRegistryRole">environmentRegistryRole</a></span></td>
+                     <td><span><a href="#linkingRightsStatementIdentifierValue">linkingRightsStatementIdentifierValue</a></span></td>
                   </tr>
                   <tr>
                      <td><span><a href="#preservationLevelDateAssigned">preservationLevelDateAssigned</a></span></td>
@@ -192,7 +195,7 @@
                   </tr>
                </table>
             </div>
-            <div class="toc1"><a href="#d1e7559">Event Entity</a></div>
+            <div class="toc1"><a href="#d1e8051">Event Entity</a></div>
             <div class="toc2">
                <table>
                   <tr>
@@ -258,7 +261,7 @@
                   </tr>
                </table>
             </div>
-            <div class="toc1"><a href="#d1e8495">Agent Entity</a></div>
+            <div class="toc1"><a href="#d1e8987">Agent Entity</a></div>
             <div class="toc2">
                <table>
                   <tr>
@@ -317,7 +320,7 @@
                   </tr>
                </table>
             </div>
-            <div class="toc1"><a href="#d1e9324">Rights Entity</a></div>
+            <div class="toc1"><a href="#d1e9816">Rights Entity</a></div>
             <div class="toc2">
                <table>
                   <tr>
@@ -2703,13 +2706,13 @@
                      <td>   1.14.2 linkingEventIdentifierValue (M, NR) </td>
                   </tr>
                   <tr>
-                     <td> 1.15 linkingRightsIdentifier (O, R) </td>
+                     <td> 1.15 linkingRightsStatementIdentifier (O, R) </td>
                   </tr>
                   <tr>
-                     <td>   1.15.1 linkingRightsIdentifierType (M, NR) </td>
+                     <td>   1.15.1 linkingRightsStatementIdentifierType (M, NR) </td>
                   </tr>
                   <tr>
-                     <td>   1.15.2 linkingRightsIdentifierValue (M, NR) </td>
+                     <td>   1.15.2 linkingRightsStatementIdentifierValue (M, NR) </td>
                   </tr>
                </table>
                <div class="element">
@@ -2719,8 +2722,8 @@
                   <div class="content"><a href="#objectIdentifierType">1.1.1 objectIdentifierType</a><br></br><a href="#objectIdentifierValue">1.1.2 objectIdentifierValue</a><br></br></div>
                   <div class="leftcol">Definition: </div>
                   <div class="content">
-                     <div class="p">A designation used to identify the Object uniquely within the
-                        preservation repository system in which it is stored</div>
+                     <div class="p">A designation used to identify the Object uniquely within the preservation repository
+                        system in which it is stored</div>
                   </div>
                   <div class="leftcol">Entity information: </div>
                   <div class="content">
@@ -2760,39 +2763,33 @@
                   </div>
                   <div class="leftcol">Rationale: </div>
                   <div class="content">
-                     <div class="p">Each object held in the preservation repository must have a unique
-                        identifier to allow other entities to refer to it and to relate it to
-                        descriptive, technical, and other metadata unambiguously.</div>
+                     <div class="p">Each object held in the preservation repository must have a unique identifier to allow
+                        other entities to refer to it and to relate it to descriptive, technical, and other
+                        metadata unambiguously.</div>
                   </div>
                   <div class="leftcol">Creation/Maintenance notes: </div>
                   <div class="content">
-                     <div class="p">An identifier may be created by the repository system at the time of
-                        ingest, or it may be created or assigned outside of the repository and
-                        submitted with an object as metadata. Similarly, identifiers can be
-                        generated automatically or manually.</div>
+                     <div class="p">An identifier may be created by the repository system at the time of ingest, or it
+                        may be created or assigned outside of the repository and submitted with an object
+                        as metadata. Similarly, identifiers can be generated automatically or manually.</div>
                   </div>
                   <div class="leftcol">Usage notes: </div>
                   <div class="content">
-                     <div class="p">The  <strong>objectIdentifier</strong> is mandatory for all Objects stored. The
-                         <strong>objectIdentifier</strong> is repeatable in order to allow both
-                        repository-assigned and externally-assigned identifiers to be recorded.
-                        See “Creation/Maintenance” note above. Primary identifiers must be
-                        unique within the repository. They may be preexisting, and in use in
-                        other digital object management systems. Ideally, secondary identifiers
-                        should also be unique but sometimes this is not possible (e.g., if the
-                        values are inherited from a legacy system which did not enforce this or
-                        only identified items at a higher level). Identifiers for each item must
-                        be sufficient to identify the item uniquely at the appropriate level of
-                        aggregation. For example, an Intellectual Entity that represents all
-                        books in the same edition could use an ISBN but this would be
-                        insufficient to identify a particular copy of that book. A preservation
-                        repository needs to know both the type of object identifier and the
-                        value. If the value itself contains the identifier type (e.g.,
-                        “oai:lib.uchicago.edu:1”), the identifier type does not need to be
-                        recorded explicitly. Similarly, if the repository uses only one type of
-                        identifier, the type can be assumed and does not need to be recorded. A
-                        persistent identifier should be used, but the particular identifier
-                        scheme is an implementation-specific decision.</div>
+                     <div class="p">The  <strong>objectIdentifier</strong> is mandatory for all Objects stored. The  <strong>objectIdentifier</strong> is repeatable in order to allow both repository-assigned and externally-assigned
+                        identifiers to be recorded. See “Creation/Maintenance” note above. Primary identifiers
+                        must be unique within the repository. They may be preexisting, and in use in other
+                        digital object management systems. Ideally, secondary identifiers should also be unique
+                        but sometimes this is not possible (e.g., if the values are inherited from a legacy
+                        system which did not enforce this or only identified items at a higher level). Identifiers
+                        for each item must be sufficient to identify the item uniquely at the appropriate
+                        level of aggregation. For example, an Intellectual Entity that represents all books
+                        in the same edition could use an ISBN but this would be insufficient to identify a
+                        particular copy of that book. A preservation repository needs to know both the type
+                        of object identifier and the value. If the value itself contains the identifier type
+                        (e.g., “oai:lib.uchicago.edu:1”), the identifier type does not need to be recorded
+                        explicitly. Similarly, if the repository uses only one type of identifier, the type
+                        can be assumed and does not need to be recorded. A persistent identifier should be
+                        used, but the particular identifier scheme is an implementation-specific decision.</div>
                   </div>
                </div>
                <div class="element">
@@ -3914,8 +3911,8 @@
                   <div class="content"><a href="#compositionLevel">1.5.1 compositionLevel</a><br></br><a href="#fixity">1.5.2 fixity</a><br></br><a href="#size">1.5.3 size</a><br></br><a href="#format">1.5.4 format</a><br></br><a href="#creatingApplication">1.5.5 creatingApplication</a><br></br><a href="#inhibitors">1.5.6 inhibitors</a><br></br><a href="#objectCharacteristicsExtension">1.5.7 objectCharacteristicsExtension</a><br></br></div>
                   <div class="leftcol">Definition: </div>
                   <div class="content">
-                     <div class="p">Information used to verify whether an object has been altered in an
-                        undocumented or unauthorized way.</div>
+                     <div class="p">Information used to verify whether an object has been altered in an undocumented or
+                        unauthorized way.</div>
                   </div>
                   <div class="leftcol">Entity information: </div>
                   <div class="content">
@@ -3955,10 +3952,9 @@
                   </div>
                   <div class="leftcol">Rationale: </div>
                   <div class="content">
-                     <div class="p">There are some important technical properties that apply to objects of
-                        any format. Detailed definition of format-specific properties is outside
-                        the scope of this Data Dictionary, although such properties may be
-                        included within  <strong>objectCharacteristicsExtension</strong>.</div>
+                     <div class="p">There are some important technical properties that apply to objects of any format.
+                        Detailed definition of format-specific properties is outside the scope of this Data
+                        Dictionary, although such properties may be included within  <strong>objectCharacteristicsExtension</strong>.</div>
                   </div>
                   <div class="leftcol">Data Constraint: </div>
                   <div class="content">
@@ -3966,38 +3962,31 @@
                   </div>
                   <div class="leftcol">Creation/Maintenance notes: </div>
                   <div class="content">
-                     <div class="p">Significant properties may pertain to all objects of a
-                        certain class; for example, the repository can decide that for all PDF
-                        files, only the content need be preserved. In other cases for example,
-                        for media art, the significant properties may be unique to each
-                        individual object. Where values are unique, they must be supplied by the
-                        submitter or provided by the curatorial staff of the repository.</div>
+                     <div class="p">Significant properties may pertain to all objects of a certain class; for example,
+                        the repository can decide that for all PDF files, only the content need be preserved.
+                        In other cases for example, for media art, the significant properties may be unique
+                        to each individual object. Where values are unique, they must be supplied by the submitter
+                        or provided by the curatorial staff of the repository.</div>
                   </div>
                   <div class="leftcol">Usage notes: </div>
                   <div class="content">
-                     <div class="p">To perform a fixity check, a message digest calculated at some earlier
-                        time is compared with a message digest calculated at a later time. If
-                        the digests are the same, the object was not altered in the interim.
-                        (Note that the terms “message digest” and “checksum” are commonly used
-                        interchangeably. However, the term “checksum” is more correctly used for
-                        the product of a cyclical redundancy check (CRC), whereas the term
-                        “message digest” refers to the result of a cryptographic hash function,
-                        which is what is referred to here.)The act of performing a fixity check
-                        and the date it occurred would be recorded as an Event. The result of
-                        the check would be recorded as the eventOutcome. Therefore, only the
-                         <strong>messageDigestAlgorithm</strong> and  <strong>messageDigest</strong> need to
-                        be recorded as objectCharacteristics for future comparison.</div>
-                     <div class="p">Representation level: it could be argued that if a representation
-                        consists of a single file or if all the files comprised by a
-                        representation are combined (e.g., zipped) into a single file, then a
-                        fixity check could be performed on the representation. However, in both
-                        cases the fixity check is actually being performed on a file, which in
-                        this case happens to be coincidental with a representation. Bitstream
-                        level: message digests can be computed for bitstreams although they are
-                        not as common as with files. For example, the JPX format, which is a
-                        JPEG2000 format, supports the inclusion of MD5 or SHA-1 message digests
-                        in internal metadata that was calculated on any range of bytes of the
-                        file. For more information, see the special topic on “Fixity, integrity,
+                     <div class="p">To perform a fixity check, a message digest calculated at some earlier time is compared
+                        with a message digest calculated at a later time. If the digests are the same, the
+                        object was not altered in the interim. Note that the terms “message digest” and “checksum”
+                        are commonly used interchangeably. However, the term “checksum” is more correctly
+                        used for the product of a cyclical redundancy check (CRC), whereas the term “message
+                        digest” refers to the result of a cryptographic hash function, which is what is referred
+                        to here. The act of performing a fixity check and the date it occurred would be recorded
+                        as an Event. The result of the check would be recorded as the  <strong>eventOutcome</strong>. Therefore, only the  <strong>messageDigestAlgorithm</strong> and  <strong>messageDigest</strong> need to be recorded as objectCharacteristics for future comparison.</div>
+                     <div class="p">Representation level: it could be argued that if a representation consists of a single
+                        file or if all the files comprised by a representation are combined (e.g., zipped)
+                        into a single file, then a fixity check could be performed on the representation.
+                        However, in both cases the fixity check is actually being performed on a file, which
+                        in this case happens to be coincidental with a representation. Bitstream level: message
+                        digests can be computed for bitstreams although they are not as common as with files.
+                        For example, the JPX format, which is a JPEG2000 format, supports the inclusion of
+                        MD5 or SHA-1 message digests in internal metadata that was calculated on any range
+                        of bytes of the file. For more information, see the special topic on “Fixity, integrity,
                         authenticity,”.</div>
                   </div>
                </div>
@@ -5143,14 +5132,13 @@
                   </div>
                   <div class="leftcol">Rationale: </div>
                   <div class="content">
-                     <div class="p">Information about the creating application, including the version of the
-                        application and the date the file was created, can be useful for problem
-                        solving purposes. For example, it is not uncommon for certain versions
-                        of software to be known for causing conversion errors or introducing
-                        artifacts. It is also useful to determine whatrendering software is
-                        available for the digital object. For example, if you know that the
-                        Distiller program created the PDF file, you know it will be renderable
-                        with (among other programs) Adobe Reader.</div>
+                     <div class="p">Information about the creating application, including the version of the application
+                        and the date the file was created, can be useful for problem-solving purposes. For
+                        example, it is not uncommon for certain versions of software to be known for causing
+                        conversion errors or introducing artifacts. It is also useful to determine whatrendering
+                        software is available for the digital object. For example, if you know that the Distiller
+                        program created the PDF file, you know it will be renderable with (among other programs)
+                        Adobe Reader.</div>
                   </div>
                   <div class="leftcol">Data Constraint: </div>
                   <div class="content">
@@ -5167,36 +5155,28 @@
                   </div>
                   <div class="leftcol">Usage notes: </div>
                   <div class="content">
-                     <div class="p">This semantic unit applies both to objects created outside of the
-                        repository and subsequently ingested, and to objects created by the
-                        repository, for example, through migration Events. The
-                         <strong>creatingApplication</strong> container is repeatable if more than
-                        one application processed the object in turn. For example, a file could
-                        be created by Microsoft Word and later turned into a PDF using Adobe
-                        Acrobat. Details of both the Word and Acrobat applications may be
-                        recorded. However, if both files are stored in the repository, each
-                        fileshould be completely described as an Object entity and linked by
-                        using relationship information with a  <strong>relationshipType</strong>
-                        “derivation." The container may also be repeated to record the creating
-                        application before the object was ingested as well as the creating
-                        application used as part of the ingest process. For example, an HTML
-                        filewas created pre-ingest using Dreamweaver, and the Web crawler
-                        Heritrix then captured a snapshot of the files as part of ingest.
-                         <strong>creatingApplication</strong> is a frequently used semantic unit;
-                        however, with the introduction of more detailed environment capability,
-                        best practice should be to use an environment Object rather than this
-                        semantic unit. The use of environment Objects allows repositories to
-                        build complex relationships between objects and their creating or
-                        rendering environments. It also allows for the recording of
-                        relationships between environments themselves, for example, to expose
-                        dependencies between multiple components of complex software stacks. For
-                        more information on using environment Objects, see section “Special
-                        Topics”. However, unlike environment
-                        Objects,  <strong>creatingApplication</strong> enables the description of
-                        different creating applications at different composition levels of the
-                        Object. It is also supported for backward compatibility. Rather than
-                        having each repository record this locally, it is preferable to share
-                        this information using environment registries.</div>
+                     <div class="p">This semantic unit applies both to objects created outside of the repository and subsequently
+                        ingested, and to objects created by the repository, for example, through migration
+                        Events. The  <strong>creatingApplication</strong> container is repeatable if more than one application processed the object in turn.
+                        For example, a file could be created by Microsoft Word and later turned into a PDF
+                        using Adobe Acrobat. Details of both the Word and Acrobat applications may be recorded.
+                        However, if both files are stored in the repository, each file should be completely
+                        described as an Object entity and linked by using relationship information with a
+                         <strong>relationshipType</strong> “derivation." The container may also be repeated to record the creating application
+                        before the object was ingested as well as the creating application used as part of
+                        the ingest process. For example, an HTML file was created pre-ingest using Dreamweaver,
+                        and the Web crawler Heritrix then captured a snapshot of the files as part of ingest.
+                         <strong>creatingApplication</strong> is a frequently used semantic unit; however, with the introduction of more detailed
+                        environment capability, best practice should be to use an environment Object rather
+                        than this semantic unit. The use of environment Objects allows repositories to build
+                        complex relationships between objects and their creating or rendering environments.
+                        It also allows for the recording of relationships between environments themselves,
+                        for example, to expose dependencies between multiple components of complex software
+                        stacks. For more information on using environment Objects, see section “Special Topics”.
+                        However, unlike environment Objects,  <strong>creatingApplication</strong> enables the description of different creating applications at different composition
+                        levels of the Object. It is also supported for backward compatibility. Rather than
+                        having each repository record this locally, it is preferable to share this information
+                        using environment registries.</div>
                   </div>
                </div>
                <div class="element">
@@ -5206,8 +5186,7 @@
                   <div class="content">None</div>
                   <div class="leftcol">Definition: </div>
                   <div class="content">
-                     <div class="p">A designation for the name of the software program that created the
-                        object.</div>
+                     <div class="p">A designation for the name of the software program that created the object.</div>
                   </div>
                   <div class="leftcol">Entity information: </div>
                   <div class="content">
@@ -5261,12 +5240,10 @@
                   </div>
                   <div class="leftcol">Usage notes: </div>
                   <div class="content">
-                     <div class="p">The  <strong>creatingApplication</strong> is the application that created the
-                        object in its current format, not the application that created the copy
-                        written to storage. For example, if a document is created by Microsoft
-                        Word and subsequently copied to archive storage by a repository’s Ingest
-                        program, the  <strong>creatingApplication</strong> is MS Word, not the Ingest
-                        program.</div>
+                     <div class="p">The  <strong>creatingApplication</strong> is the application that created the object in its current format, not the application
+                        that created the copy written to storage. For example, if a document is created by
+                        Microsoft Word and subsequently copied to archive storage by a repository’s Ingest
+                        program, the  <strong>creatingApplication</strong> is MS Word, not the Ingest program.</div>
                   </div>
                </div>
                <div class="element">
@@ -5301,13 +5278,13 @@
                            </tr>
                            <tr style="border-bottom: 1px solid black;border-collapse: collapse;">
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;"> <strong>Repeatability</strong></td>
-                              <td style="border-bottom: 1px solid black;border-collapse: collapse;"></td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;">Not applicable</td>
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;">Not repeatable</td>
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;">Not repeatable</td>
                            </tr>
                            <tr style="border-bottom: 1px solid black;border-collapse: collapse;">
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;"> <strong>Obligation</strong></td>
-                              <td style="border-bottom: 1px solid black;border-collapse: collapse;"></td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;">Not applicable</td>
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;">Optional</td>
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;">Optional</td>
                            </tr>
@@ -5361,13 +5338,13 @@
                            </tr>
                            <tr style="border-bottom: 1px solid black;border-collapse: collapse;">
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;"> <strong>Repeatability</strong></td>
-                              <td style="border-bottom: 1px solid black;border-collapse: collapse;"></td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;">Not applicable</td>
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;">Not repeatable</td>
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;">Not repeatable</td>
                            </tr>
                            <tr style="border-bottom: 1px solid black;border-collapse: collapse;">
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;"> <strong>Obligation</strong></td>
-                              <td style="border-bottom: 1px solid black;border-collapse: collapse;"></td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;">Not applicable</td>
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;">Optional</td>
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;">Optional</td>
                            </tr>
@@ -5386,26 +5363,21 @@
                   </div>
                   <div class="leftcol">Data Constraint: </div>
                   <div class="content">
-                     <div class="p">To aid machine processing, value should use a structured form. To
-                        facilitate exchange of PREMIS-conformant metadata, use of standard
-                        conventions, for instance as used in the date elements in the PREMIS
-                        schema, is recommended.</div>
+                     <div class="p">To aid machine processing, value should use a structured form. To facilitate exchange
+                        of PREMIS-conformant metadata, use of standard  conventions, for instance as used
+                        in the date elements in the PREMIS schema, is recommended.</div>
                   </div>
                   <div class="leftcol">Usage notes: </div>
                   <div class="content">
-                     <div class="p">Use the most precise date available. This is the date the object was
-                        created by the creating application, not the date any copy was made
-                        externally or by the repository. For example, if a file is created by
-                        Microsoft Word in 2001 and two copies are made in 2003, the
-                         <strong>dateCreatedByApplication</strong> of all three files is 2001. The
-                        date a file is written to storage can be recorded as an Event.If the
-                        object itself contains internal creation and modification dates, the
-                        modification date should be used as  <strong>dateCreatedByApplication</strong>.
-                        The creation date, in PREMIS terms, of an Object is the time that it was
-                        last modified; that is, the last time the document was saved. This is
-                        discussed in the 1:1 Principle INSERTLINKHERE section. If the
-                        application is a Web harvester capturing an object at a point intime,
-                        use the date captured as the creation date.</div>
+                     <div class="p">Use the most precise date available. This is the date the object was created by the
+                        creating application, not the date any copy was made externally or by the repository.
+                        For example, if a file is created by Microsoft Word in 2001 and two copies are made
+                        in 2003, the  <strong>dateCreatedByApplication</strong> of all three files is 2001. The date a file is written to storage can be recorded
+                        as an Event.If the object itself contains internal creation and modification dates,
+                        the modification date should be used as  <strong>dateCreatedByApplication</strong>. The creation date, in PREMIS terms, of an Object is the time that it was last modified;
+                        that is, the last time the document was saved. This is discussed in the 1:1 Principle
+                        INSERTLINKHERE section. If the application is a Web harvester capturing an object
+                        at a point in time, use the date captured as the creation date.</div>
                   </div>
                </div>
                <div class="element">
@@ -5415,8 +5387,7 @@
                   <div class="content">Defined externally</div>
                   <div class="leftcol">Definition: </div>
                   <div class="content">
-                     <div class="p">Creating application information using semantic units defined externally
-                        to PREMIS.</div>
+                     <div class="p">Creating application information using semantic units defined externally to PREMIS.</div>
                   </div>
                   <div class="leftcol">Entity information: </div>
                   <div class="content">
@@ -5464,22 +5435,16 @@
                   </div>
                   <div class="leftcol">Usage notes: </div>
                   <div class="content">
-                     <div class="p">For more granularity or to use externally defined semantic units,
-                        extensibility is provided. This could include a reference to an external
-                        technical registry describing the creating application. Either local
-                        semantic units or metadata using another specified metadata scheme may
-                        be included instead of or in addition to PREMIS-defined semantic units.
-                        When using an externally defined schema, a reference to that schema must
-                        be provided. See further guidance on “Extensibility”. If
-                        multiple extensions are needed (e.g., for different purposes), the
-                        container  <strong>creatingApplication</strong> is repeated. Also, if extensions
-                        from different external schemas are needed,  <strong>creatingApplication</strong>
-                        should be repeated. It is recommended to give information about the
-                        metadata used in  <strong>creatingApplicationExtension</strong> including date
-                        the metadata was created, status of the metadata, internal linking IDs,
-                        type of metadata used and its version, message digest and message digest
-                        algorithm of the metadata, and type of identifier for external metadata
-                        links.</div>
+                     <div class="p">For more granularity or to use externally defined semantic units, extensibility is
+                        provided. This could include a reference to an external technical registry describing
+                        the creating application. Either local semantic units or metadata using another specified
+                        metadata scheme may be included instead of or in addition to PREMIS-defined semantic
+                        units. When using an externally defined schema, a reference to that schema must be
+                        provided. See further guidance on “Extensibility”. If multiple extensions are needed
+                        (e.g., for different purposes), the container  <strong>creatingApplication</strong> is repeated. Also, if extensions from different external schemas are needed,  <strong>creatingApplication</strong> should be repeated. It is recommended to give information about the metadata used
+                        in  <strong>creatingApplicationExtension</strong> including date the metadata was created, status of the metadata, internal linking
+                        IDs, type of metadata used and its version, message digest and message digest algorithm
+                        of the metadata, and type of identifier for external metadata links.</div>
                   </div>
                </div>
                <div class="element">
@@ -5514,13 +5479,13 @@
                            </tr>
                            <tr style="border-bottom: 1px solid black;border-collapse: collapse;">
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;"> <strong>Repeatability</strong></td>
-                              <td style="border-bottom: 1px solid black;border-collapse: collapse;"></td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;">Not applicable</td>
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;">Repeatable</td>
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;">Repeatable</td>
                            </tr>
                            <tr style="border-bottom: 1px solid black;border-collapse: collapse;">
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;"> <strong>Obligation</strong></td>
-                              <td style="border-bottom: 1px solid black;border-collapse: collapse;"></td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;">Not applicable</td>
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;">Optional</td>
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;">Optional</td>
                            </tr>
@@ -5529,9 +5494,8 @@
                   </div>
                   <div class="leftcol">Rationale: </div>
                   <div class="content">
-                     <div class="p">Format information may indicate whether a file is encrypted, but the
-                        nature of the encryption also must be recorded, as well as the access
-                        key.</div>
+                     <div class="p">Format information may indicate whether a file is encrypted, but the nature of the
+                        encryption also must be recorded, as well as the access key.</div>
                   </div>
                   <div class="leftcol">Data Constraint: </div>
                   <div class="content">
@@ -5539,23 +5503,21 @@
                   </div>
                   <div class="leftcol">Creation/Maintenance notes: </div>
                   <div class="content">
-                     <div class="p">Inhibitors are more likely to be present on an object ingested by the
-                        repository than applied by the repository itself. It is hard to detect
-                        during ingest if a file is encrypted, but this may be known from the
-                        context in which it is ingested. Therefore, information about inhibitors
-                        should be supplied as metadata with submitted objects when possible.</div>
+                     <div class="p">Inhibitors are more likely to be present on an object ingested by the repository than
+                        applied by the repository itself. It is hard to detect during ingest if a file is
+                        encrypted, but this may be known from the context in which it is ingested. Therefore,
+                        information about inhibitors should be supplied as metadata with submitted objects
+                        when possible.</div>
                   </div>
                   <div class="leftcol">Usage notes: </div>
                   <div class="content">
-                     <div class="p">Some file formats allow encryption for embedded bitstreams. Some file
-                        formats such as PDF use passwords to control access to content or
-                        specific functions. Although this is actually implemented at the
-                        bitstream level, for preservation purposes it is effectively managed at
-                        the file level; that is, passwords would not be recorded for
-                        individually addressable bitstreams. For certain types of inhibitor
-                        keys, more granularity may be requiredin local applications. If the
-                        inhibitor key information is identical to key information in digital
-                        signatures, use those semantic units.</div>
+                     <div class="p">Some file formats allow encryption for embedded bitstreams. Some file formats such
+                        as PDF use passwords to control access to content or specific functions. Although
+                        this is actually implemented at the bitstream level, for preservation purposes it
+                        is effectively managed at the file level; that is, passwords would not be recorded
+                        for individually addressable bitstreams. For certain types of inhibitor keys, more
+                        granularity may be requiredin local applications. If the inhibitor key information
+                        is identical to key information in digital signatures, use those semantic units.</div>
                   </div>
                </div>
                <div class="element">
@@ -5590,13 +5552,13 @@
                            </tr>
                            <tr style="border-bottom: 1px solid black;border-collapse: collapse;">
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;"> <strong>Repeatability</strong></td>
-                              <td style="border-bottom: 1px solid black;border-collapse: collapse;"></td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;">Not applicable</td>
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;">Not repeatable</td>
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;">Not repeatable</td>
                            </tr>
                            <tr style="border-bottom: 1px solid black;border-collapse: collapse;">
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;"> <strong>Obligation</strong></td>
-                              <td style="border-bottom: 1px solid black;border-collapse: collapse;"></td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;">Not applicable</td>
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;">Mandatory</td>
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;">Mandatory</td>
                            </tr>
@@ -5615,15 +5577,14 @@
                   </div>
                   <div class="leftcol">Data Constraint: </div>
                   <div class="content">
-                     <div class="p">Value should be taken from a controlled vocabulary. A controlled
-                        vocabulary is available at:
-                        <a href="http://id.loc.gov/vocabulary/preservation/inhibitorType.html" target="new">http://id.loc.gov/vocabulary/preservation/inhibitorType.html</a>.</div>
+                     <div class="p">Value should be taken from a controlled vocabulary. A controlled vocabulary is available
+                        at: <a href="http://id.loc.gov/vocabulary/preservation/inhibitorType.html" target="new">http://id.loc.gov/vocabulary/preservation/inhibitorType.html</a>.</div>
                   </div>
                   <div class="leftcol">Usage notes: </div>
                   <div class="content">
-                     <div class="p">Common inhibitors are encryption and password protection. When encryption
-                        is used the type of encryption should be specifically indicated, that
-                        is, record “DES”, not “encryption”.</div>
+                     <div class="p">Common inhibitors are encryption and password protection. When encryption is used
+                        the type of encryption should be specifically indicated, that is, record “DES”, not
+                        “encryption”.</div>
                   </div>
                </div>
                <div class="element">
@@ -5658,13 +5619,13 @@
                            </tr>
                            <tr style="border-bottom: 1px solid black;border-collapse: collapse;">
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;"> <strong>Repeatability</strong></td>
-                              <td style="border-bottom: 1px solid black;border-collapse: collapse;"></td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;">Not applicable</td>
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;">Repeatable</td>
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;">Repeatable</td>
                            </tr>
                            <tr style="border-bottom: 1px solid black;border-collapse: collapse;">
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;"> <strong>Obligation</strong></td>
-                              <td style="border-bottom: 1px solid black;border-collapse: collapse;"></td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;">Not applicable</td>
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;">Optional</td>
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;">Optional</td>
                            </tr>
@@ -5683,9 +5644,8 @@
                   </div>
                   <div class="leftcol">Data Constraint: </div>
                   <div class="content">
-                     <div class="p">Values should be taken from a controlled vocabulary. A controlled
-                        vocabulary is available at:
-                        <a href="http://id.loc.gov/vocabulary/preservation/inhibitorTarget.html" target="new">http://id.loc.gov/vocabulary/preservation/inhibitorTarget.html</a>.</div>
+                     <div class="p">Values should be taken from a controlled vocabulary. A controlled vocabulary is available
+                        at: <a href="http://id.loc.gov/vocabulary/preservation/inhibitorTarget.html" target="new">http://id.loc.gov/vocabulary/preservation/inhibitorTarget.html</a>.</div>
                   </div>
                   <div class="leftcol">Usage notes: </div>
                   <div class="content">
@@ -5724,13 +5684,13 @@
                            </tr>
                            <tr style="border-bottom: 1px solid black;border-collapse: collapse;">
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;"> <strong>Repeatability</strong></td>
-                              <td style="border-bottom: 1px solid black;border-collapse: collapse;"></td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;">Not applicable</td>
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;">Not repeatable</td>
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;">Not repeatable</td>
                            </tr>
                            <tr style="border-bottom: 1px solid black;border-collapse: collapse;">
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;"> <strong>Obligation</strong></td>
-                              <td style="border-bottom: 1px solid black;border-collapse: collapse;"></td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;">Not applicable</td>
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;">Optional</td>
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;">Optional</td>
                            </tr>
@@ -5753,9 +5713,8 @@
                   </div>
                   <div class="leftcol">Usage notes: </div>
                   <div class="content">
-                     <div class="p">The key should be provided if known. However, it is not advisable to
-                        actually store the  <strong>inhibitorKey</strong> in plain text in an unsecure
-                        database.</div>
+                     <div class="p">The key should be provided if known. However, it is not advisable to actually store
+                        the  <strong>inhibitorKey</strong> in plain text in an unsecure database.</div>
                   </div>
                </div>
                <div class="element">
@@ -5813,25 +5772,18 @@
                   </div>
                   <div class="leftcol">Usage notes: </div>
                   <div class="content">
-                     <div class="p">For more granularity or use of externally defined semantic units,
-                        extensibility is provided. Either local semantic units or metadata using
-                        another specified metadata scheme may be included in addition to PREMIS
-                        defined semantic units. When using an extension schema, a reference to
-                        that schema must be provided. See further guidance in “Extensibility”, 
-                         <strong>objectCharacteristicsExtension</strong> is used for additional
-                        object characteristics not covered by PREMIS, for instance
-                        format-specific metadata that is defined externally. It is not a
-                        replacement for units specified in PREMIS.If multiple extensions are
-                        needed (e.g., for different purposes), the container
-                         <strong>objectCharacteristics</strong> needs to be repeated. Also, if
-                        extensions from different external schemas are needed,
-                        objectCharacteristics should be repeated.It is recommended to give
-                        information about the metadata used in
-                         <strong>objectCharacteristicsExtension</strong> including date the metadata
-                        was created, status of the metadata, internal linking IDs, type of
-                        metadata used and its version, message digest and message digest
-                        algorithm of the metadata, and type of identifier for external metadata
-                        links.</div>
+                     <div class="p">For more granularity or use of externally defined semantic units, extensibility is
+                        provided. Either local semantic units or metadata using another specified metadata
+                        scheme may be included in addition to PREMIS defined semantic units. When using an
+                        extension schema, a reference to that schema must be provided. See further guidance
+                        in “Extensibility”,  <strong>objectCharacteristicsExtension</strong> is used for additional object characteristics not covered by PREMIS, for instance
+                        format-specific metadata that is defined externally. It is not a replacement for units
+                        specified in PREMIS.If multiple extensions are needed (e.g., for different purposes),
+                        the container  <strong>objectCharacteristics</strong> needs to be repeated. Also, if extensions from different external schemas are needed,
+                         <strong>objectCharacteristics</strong> should be repeated. It is recommended to give information about the metadata used
+                        in  <strong>objectCharacteristicsExtension</strong> including date the metadata was created, status of the metadata, internal linking
+                        IDs, type of metadata used and its version, message digest and message digest algorithm
+                        of the metadata, and type of identifier for external metadata links.</div>
                   </div>
                </div>
                <div class="element">
@@ -5841,8 +5793,8 @@
                   <div class="content">None</div>
                   <div class="leftcol">Definition: </div>
                   <div class="content">
-                     <div class="p">The name of the object as submitted to or harvested by the repository,
-                        before any renaming by the repository.</div>
+                     <div class="p">The name of the object as submitted to or harvested by the repository, before any
+                        renaming by the repository.</div>
                   </div>
                   <div class="leftcol">Entity information: </div>
                   <div class="content">
@@ -5892,12 +5844,11 @@
                   </div>
                   <div class="leftcol">Rationale: </div>
                   <div class="content">
-                     <div class="p">This unit allows preservation system to rename files (for internal
-                        management and storage purposes) but still retain the name of the object
-                        that was submitted. The name used within the preservation repository may
-                        not be known outside of the repository. A depositor might need to
-                        request a file by its original name. Also, the repository may need to
-                        reconstruct internal links for dissemination.</div>
+                     <div class="p">This unit allows preservation system to rename files (for internal management and
+                        storage purposes) but still retain the name of the object that was submitted. The
+                        name used within the preservation repository may not be known outside of the repository.
+                        A depositor might need to request a file by its original name. Also, the repository
+                        may need to reconstruct internal links for dissemination.</div>
                   </div>
                   <div class="leftcol">Data Constraint: </div>
                   <div class="content">
@@ -5905,28 +5856,24 @@
                   </div>
                   <div class="leftcol">Creation/Maintenance notes: </div>
                   <div class="content">
-                     <div class="p">This value would always be supplied to the repository by the submitter or
-                        harvesting application. How much of the file path to preserve would be
-                        up to the repository.</div>
+                     <div class="p">This value would always be supplied to the repository by the submitter or harvesting
+                        application. How much of the file path to preserve would be up to the repository.</div>
                   </div>
                   <div class="leftcol">Usage notes: </div>
                   <div class="content">
-                     <div class="p">This is designed to be used to hold the name supplied by the immediate
-                        source before ingest by the repository. This may or may not be the
-                        initial name that the object had (e.g., the source could have renamed a
-                        file when it ingested it from a previous source and not retained its
-                        initial name). In addition it may or may not be the name that the object
-                        was called in the immediate source before the repository (e.g., the
-                        source system might hold it with one name but rename it upon export to,
-                        say, its truly original name). The original name of the object must be
-                        designated in the Submission Information Package (SIP) (since the
-                        repository cannot in general work it out by other means) although it may
-                        or may not be the primary identifier of the object in the SIP. The
-                        object may have other names in different contexts. When two repositories
-                        are exchanging content, it would be important for the receiving
-                        repository to know and record the name of the Intellectual Entity or
-                        Representation at the originating repository. In the case of IEs or
-                        representations, this may be a directory name.</div>
+                     <div class="p">This is designed to be used to hold the name supplied by the immediate source before
+                        ingest by the repository. This may or may not be the initial name that the object
+                        had (e.g., the source could have renamed a file when it ingested it from a previous
+                        source and not retained its initial name). In addition it may or may not be the name
+                        that the object was called in the immediate source before the repository (e.g., the
+                        source system might hold it with one name but rename it upon export to, say, its truly
+                        original name). The original name of the object must be designated in the Submission
+                        Information Package (SIP) (since the repository cannot in general work it out by other
+                        means) although it may or may not be the primary identifier of the object in the SIP.
+                        The object may have other names in different contexts. When two repositories are exchanging
+                        content, it would be important for the receiving repository to know and record the
+                        name of the Intellectual Entity or Representation at the originating repository. In
+                        the case of IEs or representations, this may be a directory name.</div>
                   </div>
                </div>
                <div class="element">
@@ -5936,15 +5883,13 @@
                   <div class="content"><a href="#contentLocation">1.7.1 contentLocation</a><br></br><a href="#storageMedium">1.7.2 storageMedium</a><br></br></div>
                   <div class="leftcol">Definition: </div>
                   <div class="content">
-                     <div class="p">Information about how and where an entity can be found. For bitstreams
-                        this means the location within a file. For files this means the physical
-                        location in one or more storage systems. Starting with PREMIS version
-                        3.0,  <strong>storage</strong> is applicable to representations. For physical
-                        representations such as system disks or printed versions of digital
-                        files, this means the location of the physical object, such as a shelf
-                        location. For digital representations this means the location of the
-                        digital object in a storage system, if all files in the representation
-                        can be found in this same location. </div>
+                     <div class="p">Information about how and where an entity can be found. For bitstreams this means
+                        the location within a file. For files this means the physical location in one or more
+                        storage systems. Starting with PREMIS version 3.0,  <strong>storage</strong> is applicable to representations. For physical representations such as system disks
+                        or printed versions of digital files, this means the location of the physical object,
+                        such as a shelf location. For digital representations this means the location of the
+                        digital object in a storage system, if all files in the representation can be found
+                        in this same location.</div>
                   </div>
                   <div class="leftcol">Entity information: </div>
                   <div class="content">
@@ -5989,9 +5934,8 @@
                   </div>
                   <div class="leftcol">Rationale: </div>
                   <div class="content">
-                     <div class="p">It is necessary for a repository to know where to locate objects and to
-                        associate the  <strong>contentLocation</strong> of digital objects with the
-                         <strong>storageMedium</strong>.</div>
+                     <div class="p">It is necessary for a repository to know where to locate objects and to associate
+                        the  <strong>contentLocation</strong> of digital objects with the  <strong>storageMedium</strong>.</div>
                   </div>
                   <div class="leftcol">Data Constraint: </div>
                   <div class="content">
@@ -5999,22 +5943,17 @@
                   </div>
                   <div class="leftcol">Usage notes: </div>
                   <div class="content">
-                     <div class="p">For digital representations and files, the  <strong>storage</strong> container
-                        should be repeated if there are two or more copies that are identical
-                        bit-wise and managed as a unit, except for the medium on which they are
-                        stored. To use this repetition, the copies must have a single
-                         <strong>objectIdentifier</strong> and be managed as a single object by the
-                        repository. Note that many storage systems (e.g., hierarchical storage
-                        management systems, cloud storage providers etc.) will provide only a
-                        single reference to an object even though it may store multiple copies.
-                        For bitstreams, the  <strong>storage</strong> container could be repeated if
-                        there is more than one way of getting to the start of the bitstream
-                        within a file (e.g., byte offset from start or byte offset from end).
-                        For representations of physical Objects, the storage for both physical
-                        copies of content (for example, a paper copy of a digital object) and
-                        for physical environment instances (for example, a custom computer chip)
-                        can be specified. See the “Environment” section in “Special Topics” for more information
-                        on physical Environments.</div>
+                     <div class="p">For digital representations and files, the  <strong>storage</strong> container should be repeated if there are two or more copies that are identical bit-wise
+                        and managed as a unit, except for the medium on which they are stored. To use this
+                        repetition, the copies must have a single  <strong>objectIdentifier</strong> and be managed as a single object by the repository. Note that many storage systems
+                        (e.g., hierarchical storage management systems, cloud storage providers etc.) will
+                        provide only a single reference to an object even though it may store multiple copies.
+                        For bitstreams, the  <strong>storage</strong> container could be repeated if there is more than one way of getting to the start
+                        of the bitstream within a file (e.g., byte offset from start or byte offset from end).
+                        For representations of physical Objects, the storage for both physical copies of content
+                        (for example, a paper copy of a digital object) and for physical environment instances
+                        (for example, a custom computer chip) can be specified. See the “Environment” section
+                        in “Special Topics” for more information on physical Environments.</div>
                   </div>
                </div>
                <div class="element">
@@ -6024,9 +5963,8 @@
                   <div class="content"><a href="#contentLocationType">1.7.1.1 contentLocationType</a><br></br><a href="#contentLocationValue">1.7.1.2 contentLocationValue</a><br></br></div>
                   <div class="leftcol">Definition: </div>
                   <div class="content">
-                     <div class="p">Information needed to retrieve a physical item from its physical storage
-                        location or a file from the storage system, or to access a bitstream
-                        within a file.</div>
+                     <div class="p">Information needed to retrieve a physical item from its physical storage location
+                        or a file from the storage system, or to access a bitstream within a file.</div>
                   </div>
                   <div class="leftcol">Entity information: </div>
                   <div class="content">
@@ -6081,9 +6019,7 @@
                   </div>
                   <div class="leftcol">Usage notes: </div>
                   <div class="content">
-                     <div class="p">If the preservation repository uses the  <strong>objectIdentifier</strong> as a
-                        handle for retrieving data,  <strong>contentLocation</strong> is implicit and
-                        does not need to be recorded.</div>
+                     <div class="p">If the preservation repository uses the  <strong>objectIdentifier</strong> as a handle for retrieving data,  <strong>contentLocation</strong> is implicit and does not need to be recorded.</div>
                   </div>
                </div>
                <div class="element">
@@ -6121,14 +6057,14 @@
                            </tr>
                            <tr style="border-bottom: 1px solid black;border-collapse: collapse;">
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;"> <strong>Repeatability</strong></td>
-                              <td style="border-bottom: 1px solid black;border-collapse: collapse;"></td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;">Not applicable</td>
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;">Not repeatable</td>
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;">Not repeatable</td>
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;">Not repeatable</td>
                            </tr>
                            <tr style="border-bottom: 1px solid black;border-collapse: collapse;">
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;"> <strong>Obligation</strong></td>
-                              <td style="border-bottom: 1px solid black;border-collapse: collapse;"></td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;">Not applicable</td>
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;">Mandatory</td>
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;">Mandatory</td>
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;">Mandatory</td>
@@ -6151,14 +6087,13 @@
                   </div>
                   <div class="leftcol">Rationale: </div>
                   <div class="content">
-                     <div class="p">To understand the meaning of the value it is necessary to know what
-                        location scheme is used.</div>
+                     <div class="p">To understand the meaning of the value it is necessary to know what location scheme
+                        is used.</div>
                   </div>
                   <div class="leftcol">Data Constraint: </div>
                   <div class="content">
-                     <div class="p">Value should be taken from a controlled vocabulary. A controlled
-                        vocabulary is available at:
-                        <a href="http://id.loc.gov/vocabulary/preservation/contentLocationType.html" target="new">http://id.loc.gov/vocabulary/preservation/contentLocationType.html</a>.</div>
+                     <div class="p">Value should be taken from a controlled vocabulary. A controlled vocabulary is available
+                        at: <a href="http://id.loc.gov/vocabulary/preservation/contentLocationType.html" target="new">http://id.loc.gov/vocabulary/preservation/contentLocationType.html</a>.</div>
                   </div>
                </div>
                <div class="element">
@@ -6168,8 +6103,7 @@
                   <div class="content">None</div>
                   <div class="leftcol">Definition: </div>
                   <div class="content">
-                     <div class="p">The reference to the location of the content used by the storage
-                        system.</div>
+                     <div class="p">The reference to the location of the content used by the storage system.</div>
                   </div>
                   <div class="leftcol">Entity information: </div>
                   <div class="content">
@@ -6232,20 +6166,19 @@
                   </div>
                   <div class="leftcol">Creation/Maintenance notes: </div>
                   <div class="content">
-                     <div class="p">Inhibitors are more likely to be present on an object ingested by the
-                        repository than applied by the repository itself. It is hard to detect
-                        during ingest if a file is encrypted, but this may be known from the
-                        context in which it is ingested. Therefore, information about inhibitors
-                        should be supplied as metadata with submitted objects when possible.</div>
+                     <div class="p">Inhibitors are more likely to be present on an object ingested by the repository than
+                        applied by the repository itself. It is hard to detect during ingest if a file is
+                        encrypted, but this may be known from the context in which it is ingested. Therefore,
+                        information about inhibitors should be supplied as metadata with submitted objects
+                        when possible.</div>
                   </div>
                   <div class="leftcol">Usage notes: </div>
                   <div class="content">
-                     <div class="p"> This could be a fully qualified path and filename, or the information
-                        used by a resolution system (e.g., a handle), or the native information
-                        used by a storage management system. For a bitstream or filestream, this
-                        would probably be the reference point and offset of the starting
-                        position of the bitstream within a file. It is up to the repository to
-                        determine the level of granularity that should be recorded.</div>
+                     <div class="p"> This could be a fully qualified path and filename, or the information used by a resolution
+                        system (e.g., a handle), or the native information used by a storage management system.
+                        For a bitstream or filestream, this would probably be the reference point and offset
+                        of the starting position of the bitstream within a file. It is up to the repository
+                        to determine the level of granularity that should be recorded.</div>
                   </div>
                </div>
                <div class="element">
@@ -6255,8 +6188,8 @@
                   <div class="content">None</div>
                   <div class="leftcol">Definition: </div>
                   <div class="content">
-                     <div class="p">The physical medium on which the object is stored (e.g., magnetic tape,
-                        hard disk, CD-ROM, DVD).</div>
+                     <div class="p">The physical medium on which the object is stored (e.g., magnetic tape, hard disk,
+                        CD-ROM, DVD).</div>
                   </div>
                   <div class="leftcol">Entity information: </div>
                   <div class="content">
@@ -6314,29 +6247,25 @@
                   </div>
                   <div class="leftcol">Rationale: </div>
                   <div class="content">
-                     <div class="p">The repository needs to know the medium on which an object is stored if
-                        it is to know how and when to do media refreshment and media
-                        migration.</div>
+                     <div class="p">The repository needs to know the medium on which an object is stored if it is to know
+                        how and when to do media refreshment and media migration.</div>
                   </div>
                   <div class="leftcol">Data Constraint: </div>
                   <div class="content">
-                     <div class="p">Value should be taken from a controlled vocabulary. Example controlled
-                        vocabularies are available at:
-                        <a href="http://id.loc.gov/vocabulary/preservation/storageMedium.html" target="new">http://id.loc.gov/vocabulary/preservation/storageMedium.html</a> and
-                        <a href="http://metadataregistry.org/concept/list/vocabulary_id/145.html" target="new">http://metadataregistry.org/concept/list/vocabulary_id/145.html</a>.</div>
+                     <div class="p">Value should be taken from a controlled vocabulary. Example controlled vocabularies
+                        are available at: <a href="http://id.loc.gov/vocabulary/preservation/storageMedium.html" target="new">http://id.loc.gov/vocabulary/preservation/storageMedium.html</a> and <a href="http://metadataregistry.org/concept/list/vocabulary_id/145.html" target="new">http://metadataregistry.org/concept/list/vocabulary_id/145.html</a>.</div>
                   </div>
                   <div class="leftcol">Usage notes: </div>
                   <div class="content">
-                     <div class="p">In some cases this can be masked from direct repository management by
-                        storage management systems. In such cases responsibility to manage for
-                        technological obsolescence of storage media must be delegated to the
-                        storage system. Digital preservation practitioners must maintain
-                        responsibility to manage storage media and system obsolescence within
-                        the combination of repository and storage systems. Usually this is done
-                        at system level well above the details of individual objects. *Storage
-                        media are only recorded for digital items. The storage locations of
-                        physical items will be managed through traditional estate management,
-                        and media management is not part of the digital repository. </div>
+                     <div class="p">In some cases this can be masked from direct repository management by storage management
+                        systems. In such cases responsibility to manage for technological obsolescence of
+                        storage media must be delegated to the storage system. Digital preservation practitioners
+                        must maintain responsibility to manage storage media and system obsolescence within
+                        the combination of repository and storage systems. Usually this is done at the system
+                        level well above the details of individual objects. *Storage media are only recorded
+                        for digital items. The storage locations of physical items will be managed through
+                        traditional estate management, and media management is not part of the digital repository.
+                        </div>
                   </div>
                </div>
                <div class="element">
@@ -6346,9 +6275,9 @@
                   <div class="content"><a href="#signature">1.8.1 signature</a><br></br><a href="#signatureInformationExtension">1.8.2 signatureInformationExtension</a><br></br></div>
                   <div class="leftcol">Definition: </div>
                   <div class="content">
-                     <div class="p">A container for PREMIS-defined and externally-defined digital signature
-                        information, used to authenticate the signer of an object and/or the
-                        information contained in the object.</div>
+                     <div class="p">A container for PREMIS-defined and externally-defined digital signature information,
+                        used to authenticate the signer of an object and/or the information contained in the
+                        object.</div>
                   </div>
                   <div class="leftcol">Entity information: </div>
                   <div class="content">
@@ -6388,9 +6317,8 @@
                   </div>
                   <div class="leftcol">Rationale: </div>
                   <div class="content">
-                     <div class="p">A repository may have a policy of generating digital signatures for files
-                        on ingest, or may have a need to store and later validate incoming
-                        digital signatures.</div>
+                     <div class="p">A repository may have a policy of generating digital signatures for files on ingest,
+                        or may have a need to store and later validate incoming digital signatures.</div>
                   </div>
                   <div class="leftcol">Data Constraint: </div>
                   <div class="content">
@@ -6398,13 +6326,8 @@
                   </div>
                   <div class="leftcol">Usage notes: </div>
                   <div class="content">
-                     <div class="p">Either  <strong>signature</strong> or  <strong>signatureInformationExtension</strong> may
-                        be used. Use of  <strong>signatureInformationExtension</strong> with the schema
-                        defined in W3C’s XML-Signature Syntax and
-                        Processing(<a href="http://www.w3.org/TR/2002/REC-xmldsig-core-20020212/" target="new">http://www.w3.org/TR/2002/REC-xmldsig-core-20020212/</a>) is
-                        encouraged when applicable. See the discussion of digital signatures for more information
-                        on use of both
-                        PREMIS-defined and externally-defined semantic units.</div>
+                     <div class="p">Either  <strong>signature</strong> or  <strong>signatureInformationExtension</strong> may be used. Use of  <strong>signatureInformationExtension</strong> with the schema defined in W3C’s XML-Signature Syntax and Processing(<a href="http://www.w3.org/TR/2002/REC-xmldsig-core-20020212/" target="new">http://www.w3.org/TR/2002/REC-xmldsig-core-20020212/</a>) is encouraged when applicable. See the discussion of digital signatures for more
+                        information on use of both PREMIS-defined and externally-defined semantic units.</div>
                   </div>
                </div>
                <div class="element">
@@ -6414,8 +6337,8 @@
                   <div class="content"><a href="#signatureEncoding">1.8.1.1 signatureEncoding</a><br></br><a href="#signer">1.8.1.2 signer</a><br></br><a href="#signatureMethod">1.8.1.3 signatureMethod</a><br></br><a href="#signatureValue">1.8.1.4 signatureValue</a><br></br><a href="#signatureValidationRules">1.8.1.5 signatureValidationRules</a><br></br><a href="#signatureProperties">1.8.1.6 signatureProperties</a><br></br><a href="#keyInformation">1.8.1.7 keyInformation</a><br></br></div>
                   <div class="leftcol">Definition: </div>
                   <div class="content">
-                     <div class="p">Information needed to use a digital signature to authenticate the signer
-                        of an object and/or the information contained in the object.</div>
+                     <div class="p">Information needed to use a digital signature to authenticate the signer of an object
+                        and/or the information contained in the object.</div>
                   </div>
                   <div class="leftcol">Entity information: </div>
                   <div class="content">
@@ -6455,9 +6378,8 @@
                   </div>
                   <div class="leftcol">Rationale: </div>
                   <div class="content">
-                     <div class="p">A repository may have a policy of generating digital signatures for files
-                        on ingest, or may have a need to store and later validate incoming
-                        digital signatures.</div>
+                     <div class="p">A repository may have a policy of generating digital signatures for files on ingest,
+                        or may have a need to store and later validate incoming digital signatures.</div>
                   </div>
                   <div class="leftcol">Data Constraint: </div>
                   <div class="content">
@@ -6465,19 +6387,16 @@
                   </div>
                   <div class="leftcol">Creation/Maintenance notes: </div>
                   <div class="content">
-                     <div class="p">Inhibitors are more likely to be present on an object ingested by the
-                        repository than applied by the repository itself. It is hard to detect
-                        during ingest if a file is encrypted, but this may be known from the
-                        context in which it is ingested. Therefore, information about inhibitors
-                        should be supplied as metadata with submitted objects when possible.</div>
+                     <div class="p">Inhibitors are more likely to be present on an object ingested by the repository than
+                        applied by the repository itself. It is hard to detect during ingest if a file is
+                        encrypted, but this may be known from the context in which it is ingested. Therefore,
+                        information about inhibitors should be supplied as metadata with submitted objects
+                        when possible.</div>
                   </div>
                   <div class="leftcol">Usage notes: </div>
                   <div class="content">
-                     <div class="p">Several of the semantic components of signatureInformation are
-                        taken from the W3C’s XML-Signature Syntax and Processing see <a href="http://www.w3.org/TR/2002/REC-xmldsig-core-20020212/" target="new">
-                           http://www.w3.org/TR/2002/REC-xmldsig-core-20020212/ </a>for more
-                        information on the structure and application of these semantic units.
-                        (See also the discussion of digital signatures) </div>
+                     <div class="p">Several of the semantic components of  <strong>signatureInformation</strong> are taken from the W3C’s XML-Signature Syntax and Processing see <a href="http://www.w3.org/TR/2002/REC-xmldsig-core-20020212/" target="new">http://www.w3.org/TR/2002/REC-xmldsig-core-20020212/ </a>for more information on the structure and application of these semantic units. (See
+                        also the discussion of digital signatures) </div>
                   </div>
                </div>
                <div class="element">
@@ -6538,22 +6457,20 @@
                   </div>
                   <div class="leftcol">Rationale: </div>
                   <div class="content">
-                     <div class="p">The values of  <strong>signatureValue</strong> and keyInformation cannot
-                        be interpreted correctly if the encoding is unknown.</div>
+                     <div class="p">The values of  <strong>signatureValue</strong> and  <strong>keyInformation</strong> cannot be interpreted correctly if the encoding is unknown.</div>
                   </div>
                   <div class="leftcol">Data Constraint: </div>
                   <div class="content">
-                     <div class="p">Value should be taken from a controlled vocabulary. A controlled
-                        vocabulary is available at:
-                        <a href="http://id.loc.gov/vocabulary/preservation/signatureEncoding.html" target="new">http://id.loc.gov/vocabulary/preservation/signatureEncoding.html</a>.</div>
+                     <div class="p">Value should be taken from a controlled vocabulary. A controlled vocabulary is available
+                        at: <a href="http://id.loc.gov/vocabulary/preservation/signatureEncoding.html" target="new">http://id.loc.gov/vocabulary/preservation/signatureEncoding.html</a>.</div>
                   </div>
                   <div class="leftcol">Creation/Maintenance notes: </div>
                   <div class="content">
-                     <div class="p">Inhibitors are more likely to be present on an object ingested by the
-                        repository than applied by the repository itself. It is hard to detect
-                        during ingest if a file is encrypted, but this may be known from the
-                        context in which it is ingested. Therefore, information about inhibitors
-                        should be supplied as metadata with submitted objects when possible.</div>
+                     <div class="p">Inhibitors are more likely to be present on an object ingested by the repository than
+                        applied by the repository itself. It is hard to detect during ingest if a file is
+                        encrypted, but this may be known from the context in which it is ingested. Therefore,
+                        information about inhibitors should be supplied as metadata with submitted objects
+                        when possible.</div>
                   </div>
                </div>
                <div class="element">
@@ -6604,8 +6521,7 @@
                   </div>
                   <div class="leftcol">Rationale: </div>
                   <div class="content">
-                     <div class="p">The signer might also be carried in the  <strong>keyInformation</strong>, but it
-                        can be accessed more conveniently if recorded here.</div>
+                     <div class="p">The signer might also be carried in the  <strong>keyInformation</strong>, but it can be accessed more conveniently if recorded here.</div>
                   </div>
                   <div class="leftcol">Data Constraint: </div>
                   <div class="content">
@@ -6613,8 +6529,7 @@
                   </div>
                   <div class="leftcol">Usage notes: </div>
                   <div class="content">
-                     <div class="p">If the signer is an Agent known to the repository, an
-                         <strong>agentIdentifier</strong> can be used here.</div>
+                     <div class="p">If the signer is an Agent known to the repository, an  <strong>agentIdentifier</strong> can be used here.</div>
                   </div>
                </div>
                <div class="element">
@@ -6624,8 +6539,7 @@
                   <div class="content">None</div>
                   <div class="leftcol">Definition: </div>
                   <div class="content">
-                     <div class="p">A designation for the encryption and hash algorithms used for signature
-                        generation.</div>
+                     <div class="p">A designation for the encryption and hash algorithms used for signature generation.</div>
                   </div>
                   <div class="leftcol">Entity information: </div>
                   <div class="content">
@@ -6650,13 +6564,13 @@
                            </tr>
                            <tr style="border-bottom: 1px solid black;border-collapse: collapse;">
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;"> <strong>Repeatability</strong></td>
-                              <td style="border-bottom: 1px solid black;border-collapse: collapse;"></td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;">Not applicable</td>
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;">Not repeatable</td>
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;">Not repeatable</td>
                            </tr>
                            <tr style="border-bottom: 1px solid black;border-collapse: collapse;">
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;"> <strong>Obligation</strong></td>
-                              <td style="border-bottom: 1px solid black;border-collapse: collapse;"></td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;">Not applicable</td>
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;">Mandatory</td>
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;">Mandatory</td>
                            </tr>
@@ -6679,15 +6593,14 @@
                   </div>
                   <div class="leftcol">Data Constraint: </div>
                   <div class="content">
-                     <div class="p">Value should be taken from a controlled vocabulary. A controlled
-                        vocabulary is available at:
-                        <a href="http://id.loc.gov/vocabulary/preservation/signatureMethod.html" target="new">http://id.loc.gov/vocabulary/preservation/signatureMethod.html</a>.</div>
+                     <div class="p">Value should be taken from a controlled vocabulary. A controlled vocabulary is available
+                        at: <a href="http://id.loc.gov/vocabulary/preservation/signatureMethod.html" target="new">http://id.loc.gov/vocabulary/preservation/signatureMethod.html</a>.</div>
                   </div>
                   <div class="leftcol">Usage notes: </div>
                   <div class="content">
-                     <div class="p">Recommended practice is to use the following naming convention:name the
-                        encryption algorithm first, followed by a hyphen, followed by the name
-                        of the hash (message digest) algorithm.</div>
+                     <div class="p">Recommended practice is to use the following naming convention:name the encryption
+                        algorithm first, followed by a hyphen, followed by the name of the hash (message digest)
+                        algorithm.</div>
                   </div>
                </div>
                <div class="element">
@@ -6697,8 +6610,8 @@
                   <div class="content">None</div>
                   <div class="leftcol">Definition: </div>
                   <div class="content">
-                     <div class="p">The digital signature; a value generated from the application of a
-                        private key to a message digest.</div>
+                     <div class="p">The digital signature; a value generated from the application of a private key to
+                        a message digest.</div>
                   </div>
                   <div class="leftcol">Entity information: </div>
                   <div class="content">
@@ -6752,11 +6665,11 @@
                   </div>
                   <div class="leftcol">Creation/Maintenance notes: </div>
                   <div class="content">
-                     <div class="p">Inhibitors are more likely to be present on an object ingested by the
-                        repository than applied by the repository itself. It is hard to detect
-                        during ingest if a file is encrypted, but this may be known from the
-                        context in which it is ingested. Therefore, information about inhibitors
-                        should be supplied as metadata with submitted objects when possible.</div>
+                     <div class="p">Inhibitors are more likely to be present on an object ingested by the epository than
+                        applied by the repository itself. It is hard to detect during ingest if a file is
+                        encrypted, but this may be known from the context in which it is ingested. Therefore,
+                        information about inhibitors should be supplied as metadata with submitted objects
+                        when possible.</div>
                   </div>
                </div>
                <div class="element">
@@ -6766,8 +6679,7 @@
                   <div class="content">None</div>
                   <div class="leftcol">Definition: </div>
                   <div class="content">
-                     <div class="p">The operations to be performed in order to validate the digital
-                        signature.</div>
+                     <div class="p">The operations to be performed in order to validate the digital signature.</div>
                   </div>
                   <div class="leftcol">Entity information: </div>
                   <div class="content">
@@ -6792,13 +6704,13 @@
                            </tr>
                            <tr style="border-bottom: 1px solid black;border-collapse: collapse;">
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;"> <strong>Repeatability</strong></td>
-                              <td style="border-bottom: 1px solid black;border-collapse: collapse;"></td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;">Not applicable</td>
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;">Not repeatable</td>
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;">Not repeatable</td>
                            </tr>
                            <tr style="border-bottom: 1px solid black;border-collapse: collapse;">
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;"> <strong>Obligation</strong></td>
-                              <td style="border-bottom: 1px solid black;border-collapse: collapse;"></td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;">Not applicable</td>
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;">Mandatory</td>
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;">Mandatory</td>
                            </tr>
@@ -6807,9 +6719,8 @@
                   </div>
                   <div class="leftcol">Rationale: </div>
                   <div class="content">
-                     <div class="p">The repository should not assume that the procedure for validating any
-                        particular signature will be known many years in the future without
-                        documentation.</div>
+                     <div class="p">The repository should not assume that the procedure for validating any particular
+                        signature will be known many years in the future without documentation.</div>
                   </div>
                   <div class="leftcol">Data Constraint: </div>
                   <div class="content">
@@ -6817,17 +6728,17 @@
                   </div>
                   <div class="leftcol">Creation/Maintenance notes: </div>
                   <div class="content">
-                     <div class="p">Inhibitors are more likely to be present on an object ingested by the
-                        repository than applied by the repository itself. It is hard to detect
-                        during ingest if a file is encrypted, but this may be known from the
-                        context in which it is ingested. Therefore, information about inhibitors
-                        should be supplied as metadata with submitted objects when possible.</div>
+                     <div class="p">Inhibitors are more likely to be present on an object ingested by the repository than
+                        applied by the repository itself. It is hard to detect during ingest if a file is
+                        encrypted, but this may be known from the context in which it is ingested. Therefore,
+                        information about inhibitors should be supplied as metadata with submitted objects
+                        when possible.</div>
                   </div>
                   <div class="leftcol">Usage notes: </div>
                   <div class="content">
-                     <div class="p">This may include the canonicalization method used before calculating the
-                        message digest, if the object was normalized before signing. This value
-                        could also be a pointer to archive documentation.</div>
+                     <div class="p">This may include the canonicalization method used before calculating the message digest,
+                        if the object was normalized before signing. This value could also be a pointer to
+                        archive documentation.</div>
                   </div>
                </div>
                <div class="element">
@@ -6881,10 +6792,9 @@
                   </div>
                   <div class="leftcol">Usage notes: </div>
                   <div class="content">
-                     <div class="p">This may include the date/time of signature generation, the serial number
-                        of the cryptographic hardware used, or other information related to the
-                        generation of the signature. Repositories will likely want to define a
-                        suitably granular structure to  <strong>signatureProperties.</strong></div>
+                     <div class="p">This may include the date/time of signature generation, the serial number of the cryptographic
+                        hardware used, or other information related to the generation of the signature. Repositories
+                        will likely want to define a suitably granular structure to  <strong>signatureProperties.</strong></div>
                   </div>
                </div>
                <div class="element">
@@ -6894,8 +6804,7 @@
                   <div class="content">Extensible container</div>
                   <div class="leftcol">Definition: </div>
                   <div class="content">
-                     <div class="p">Information about the signer’s public key needed to validate the digital
-                        signature.</div>
+                     <div class="p">Information about the signer’s public key needed to validate the digital signature.</div>
                   </div>
                   <div class="leftcol">Entity information: </div>
                   <div class="content">
@@ -6935,12 +6844,10 @@
                   </div>
                   <div class="leftcol">Rationale: </div>
                   <div class="content">
-                     <div class="p">To validate a digital signature for an object, one first recalculates the
-                        message digest for the object, and then uses the public key of the
-                        signer to verify that the value of the signature
-                        ( <strong>signatureValue</strong>) is correct. The repository must therefore
-                        have the public key value and some assurance that it truly belongs to
-                        the signer.</div>
+                     <div class="p">To validate a digital signature for an object, one first recalculates the message
+                        digest for the object, and then uses the public key of the signer to verify that the
+                        value of the signature ( <strong>signatureValue</strong>) is correct. The repository must therefore have the public key value and some assurance
+                        that it truly belongs to the signer.</div>
                   </div>
                   <div class="leftcol">Data Constraint: </div>
                   <div class="content">
@@ -6948,18 +6855,17 @@
                   </div>
                   <div class="leftcol">Creation/Maintenance notes: </div>
                   <div class="content">
-                     <div class="p">Inhibitors are more likely to be present on an object ingested by the
-                        repository than applied by the repository itself. It is hard to detect
-                        during ingest if a file is encrypted, but this may be known from the
-                        context in which it is ingested. Therefore, information about inhibitors
-                        should be supplied as metadata with submitted objects when possible.</div>
+                     <div class="p">Inhibitors are more likely to be present on an object ingested by the repository than
+                        applied by the repository itself. It is hard to detect during ingest if a file is
+                        encrypted, but this may be known from the context in which it is ingested. Therefore,
+                        information about inhibitors should be supplied as metadata with submitted objects
+                        when possible.</div>
                   </div>
                   <div class="leftcol">Usage notes: </div>
                   <div class="content">
-                     <div class="p">Different types of keys will have different structures and parameters.
-                        PREMIS does not define the structure of this container. Recommended
-                        practice is to represent key values as defined for “KeyInfo” in the
-                        W3C’s XML-Signature Syntax and Processing <a href="http://www.w3.org/TR/2002/REC-xmldsig-core-20020212/" target="new">(http://www.w3.org/TR/2002/REC-xmldsig-core-20020212/)</a>.</div>
+                     <div class="p">Different types of keys will have different structures and parameters. PREMIS does
+                        not define the structure of this container. Recommended practice is to represent key
+                        values as defined for “KeyInfo” in the W3C’s XML-Signature Syntax and Processing <a href="http://www.w3.org/TR/2002/REC-xmldsig-core-20020212/" target="new">(http://www.w3.org/TR/2002/REC-xmldsig-core-20020212/)</a>.</div>
                   </div>
                </div>
                <div class="element">
@@ -6969,8 +6875,7 @@
                   <div class="content">Defined externally</div>
                   <div class="leftcol">Definition: </div>
                   <div class="content">
-                     <div class="p">Digital signature information using semantic units defined outside of
-                        PREMIS.</div>
+                     <div class="p">Digital signature information using semantic units defined outside of PREMIS.</div>
                   </div>
                   <div class="leftcol">Entity information: </div>
                   <div class="content">
@@ -7018,25 +6923,14 @@
                   </div>
                   <div class="leftcol">Usage notes: </div>
                   <div class="content">
-                     <div class="p">For more granularity or use of externally defined semantic units,
-                        extensibility is provided. Either local semantic units or metadata using
-                        another specified metadata scheme may be included instead of or in
-                        addition to PREMIS defined semantic units. When using an extension
-                        schema, a reference to that schema must be provided. See further
-                        guidance in “Extensibility”. If the
-                         <strong>signatureInformationExtension</strong> container needs to be
-                        associated explicitly with any PREMIS subunit under
-                         <strong>signatureInformation</strong>, the container
-                         <strong>signatureInformation</strong> is repeated. Also, if extensions from
-                        different external schemas are needed,  <strong>signatureInformation</strong>
-                        should be repeated.Use of the W3C’s XML-Signature Syntax and Processing
-                        <a href="http://www.w3.org/TR/2002/REC-xmldsig-core-20020212/" target="new">(http://www.w3.org/TR/2002/REC-xmldsig-core-20020212/)</a> is
-                        encouraged when applicable. It is recommended to give information about
-                        the metadata used in  <strong>signatureInformationExtension</strong> including
-                        date the metadata was created, status of the metadata, internal linking
-                        IDs, type of metadata used and its version, message digest and message
-                        digest algorithm of the metadata, and type of identifier for external
-                        metadata links.</div>
+                     <div class="p">For more granularity or use of externally defined semantic units, extensibility is
+                        provided. Either local semantic units or metadata using another specified metadata
+                        scheme may be included instead of or in addition to PREMIS defined semantic units.
+                        When using an extension schema, a reference to that schema must be provided. See further
+                        guidance in “Extensibility”. If the  <strong>signatureInformationExtension</strong> container needs to be associated explicitly with any PREMIS subunit under  <strong>signatureInformation</strong>, the container  <strong>signatureInformation</strong> is repeated. Also, if extensions from different external schemas are needed,  <strong>signatureInformation</strong> should be repeated.Use of the W3C’s XML-Signature Syntax and Processing <a href="http://www.w3.org/TR/2002/REC-xmldsig-core-20020212/" target="new"> (http://www.w3.org/TR/2002/REC-xmldsig-core-20020212/)</a> is encouraged when applicable. It is recommended to give information about the metadata
+                        used in  <strong>signatureInformationExtension</strong> including date the metadata was created, status of the metadata, internal linking
+                        IDs, type of metadata used and its version, message digest and message digest algorithm
+                        of the metadata, and type of identifier for external metadata links.</div>
                   </div>
                </div>
                <div class="element">
@@ -7046,8 +6940,8 @@
                   <div class="content"><a href="#environmentFunctionType">1.9.1 environmentFunctionType</a><br></br><a href="#environmentFunctionLevel">1.9.2 environmentFunctionLevel</a><br></br></div>
                   <div class="leftcol">Definition: </div>
                   <div class="content">
-                     <div class="p">A hierarchical description of the function of the environment used to
-                        render or execute an object. </div>
+                     <div class="p">A hierarchical description of the function of the environment used to render or execute
+                        an object. </div>
                   </div>
                   <div class="leftcol">Entity information: </div>
                   <div class="content">
@@ -7092,19 +6986,13 @@
                   </div>
                   <div class="leftcol">Rationale: </div>
                   <div class="content">
-                     <div class="p">This information describes the inherent nature of the environment which,
-                        in turn, specifies its function. It will not change over time and is not
-                        dependent on the way the environment is used. Types, such as software,
-                        documentation, hardware, must be described through an extensible
-                        vocabulary. It inherits from the previous PREMIS environment
-                         <strong>software</strong> and  <strong>hardware</strong> semantic unit containers
-                        that specified fine-grained  <strong>swType</strong> and  <strong>hwType</strong>
-                        vocabulary. It is important to capture the type and use of an
-                        environment to express:</div>
-                     <div class="blockIndent">What is the type of the environment, such as hardware, software
-                        or documentation.<br></br>A refinement of the type to isolate where in the rendering
-                        stack the Intellectual Entity is used, such as plugin, driver,
-                        application, peripheral or specification.<br></br></div>
+                     <div class="p">This information describes the inherent nature of the environment which, in turn,
+                        specifies its function. It will not change over time and is not dependent on the way
+                        the environment is used. Types, such as software, documentation, hardware, must be
+                        described through an extensible vocabulary. It inherits from the previous PREMIS environment
+                         <strong>software</strong> and  <strong>hardware</strong> semantic unit containers that specified fine-grained  <strong>swType</strong> and  <strong>hwType</strong> vocabulary. It is important to capture the type and use of an environment to express:</div>
+                     <div class="blockIndent">What is the type of the environment, such as hardware, software or documentation.<br></br>A refinement of the type to isolate where in the rendering stack the Intellectual
+                        Entity is used, such as plugin, driver, application, peripheral or specification.<br></br></div>
                   </div>
                   <div class="leftcol">Data Constraint: </div>
                   <div class="content">
@@ -7112,19 +7000,16 @@
                   </div>
                   <div class="leftcol">Usage notes: </div>
                   <div class="content">
-                     <div class="p"> <strong>environmentFunction</strong> can be used to describe the nature of an
-                        environment (whether it is hardware, software or documentation). This
-                        can be done on multiple, increasingly specific, hierarchical levels
-                        until the appropriate level of granularity has been reached. Multiple,
-                        hierarchical levels of description should be described in separate,
-                        repeated  <strong>environmentFunction</strong> semantic unit containers. This can
-                        also be done by recording only the most specific level of granularity.
-                        For example, an environment Intellectual Entity describing a particular
-                        version of an operating system is also of the more generic type
-                        “software;” thus two levels of description (“software”, then “operating
-                        system”) describe the function. If it proved necessary, a third-level
-                        description could be added. There is no limit to the number of levels,
-                        although it is unlikely that a deep hierarchy will be necessary.</div>
+                     <div class="p"> <strong>environmentFunction</strong> can be used to describe the nature of an environment (whether it is hardware, software
+                        or documentation). This can be done on multiple, increasingly specific, hierarchical
+                        levels until the appropriate level of granularity has been reached. Multiple, hierarchical
+                        levels of description should be described in separate, repeated  <strong>environmentFunction</strong> semantic unit containers. This can also be done by recording only the most specific
+                        level of granularity. For example, an environment Intellectual Entity describing a
+                        particular version of an operating system is also of the more generic type “software;”
+                        thus two levels of description (“software”, then “operating system”) describe the
+                        function. If it proved necessary, a third-level description could be added. There
+                        is no limit to the number of levels, although it is unlikely that a deep hierarchy
+                        will be necessary.</div>
                   </div>
                </div>
                <div class="element">
@@ -7271,8 +7156,7 @@
                   <div class="content"><a href="#environmentName">1.10.1 environmentName</a><br></br><a href="#environmentVersion">1.10.2 environmentVersion</a><br></br><a href="#environmentOrigin">1.10.3 environmentOrigin</a><br></br><a href="#environmentDesignationNote">1.10.4 environmentDesignationNote</a><br></br><a href="#environmentDesignationExtension">1.10.5 environmentDesignationExtension</a><br></br></div>
                   <div class="leftcol">Definition: </div>
                   <div class="content">
-                     <div class="p">An identification of the environment used to render or execute an
-                        object.</div>
+                     <div class="p">An identification of the environment used to render or execute an object.</div>
                   </div>
                   <div class="leftcol">Entity information: </div>
                   <div class="content">
@@ -7317,12 +7201,10 @@
                   </div>
                   <div class="leftcol">Rationale: </div>
                   <div class="content">
-                     <div class="p">Information identifying the environment using human-readable language
-                        which can be expected to be understood outside of a digital repository.
-                        This information is expected to be distinct from the
-                         <strong>objectIdentifier</strong> which uses a formal identification scheme
-                        to identify an object within the context of a repository and may not be
-                        readily understood outside of that context.</div>
+                     <div class="p">Information identifying the environment using human-readable language which can be
+                        expected to be understood outside of a digital repository. This information is expected
+                        to be distinct from the  <strong>objectIdentifier</strong> which uses a formal identification scheme to identify an object within the context
+                        of a repository and may not be readily understood outside of that context.</div>
                   </div>
                   <div class="leftcol">Data Constraint: </div>
                   <div class="content">
@@ -7390,8 +7272,7 @@
                   </div>
                   <div class="leftcol">Data Constraint: </div>
                   <div class="content">
-                     <div class="p">It is recommended to take this information from a controlled
-                        vocabulary.</div>
+                     <div class="p">It is recommended to take this information from a controlled vocabulary.</div>
                   </div>
                </div>
                <div class="element">
@@ -7455,8 +7336,7 @@
                   </div>
                   <div class="leftcol">Data Constraint: </div>
                   <div class="content">
-                     <div class="p">It is recommended to take this information from a controlled
-                        vocabulary.</div>
+                     <div class="p">It is recommended to take this information from a controlled vocabulary.</div>
                   </div>
                   <div class="leftcol">Usage notes: </div>
                   <div class="content">
@@ -7524,17 +7404,13 @@
                   </div>
                   <div class="leftcol">Rationale: </div>
                   <div class="content">
-                     <div class="p">Software or hardware objects are products of an organization or an
-                        individual. This information is useful for preservation to further
-                        specify which software / hardware object is being described.</div>
+                     <div class="p">Software or hardware objects are products of an organization or an individual. This
+                        information is useful for preservation to further specify which software / hardware
+                        object is being described.</div>
                   </div>
                   <div class="leftcol">Data Constraint: </div>
                   <div class="content">
                      <div class="p">Value should be taken from a controlled vocabulary.</div>
-                  </div>
-                  <div class="leftcol">Usage notes: </div>
-                  <div class="content">
-                     <div class="p"></div>
                   </div>
                </div>
                <div class="element">
@@ -7544,8 +7420,7 @@
                   <div class="content">None</div>
                   <div class="leftcol">Definition: </div>
                   <div class="content">
-                     <div class="p">Any further information required to enhance the correct specification of
-                        the environment.</div>
+                     <div class="p">Any further information required to enhance the correct specification of the environment.</div>
                   </div>
                   <div class="leftcol">Entity information: </div>
                   <div class="content">
@@ -7599,10 +7474,9 @@
                   </div>
                   <div class="leftcol">Rationale: </div>
                   <div class="content">
-                     <div class="p">This semantic unit allows further information to be added in an
-                        unstructured way. This information could include restrictions, known
-                        issues, issues fixed in this release, information on execution time,
-                        etc.</div>
+                     <div class="p">This semantic unit allows further information to be added in an unstructured way.
+                        This information could include restrictions, known issues, issues fixed in this release,
+                        information on execution time, etc.</div>
                   </div>
                   <div class="leftcol">Data Constraint: </div>
                   <div class="content">
@@ -7610,15 +7484,14 @@
                   </div>
                   <div class="leftcol">Usage notes: </div>
                   <div class="content">
-                     <div class="p">The Data Dictionary does not prescribe when to use a designation note and
-                        when to include the note in the name or version. For example, it is
-                        possible to describe the “Ubuntu 12.04 32 bit” operating system in a
-                        number of ways including:</div>
+                     <div class="p">The Data Dictionary does not prescribe when to use a designation note and when to
+                        include the note in the name or version. For example, it is possible to describe the
+                        “Ubuntu 12.04 32 bit” operating system in a number of ways including:</div>
                      <div class="blockIndent">Name= “Ubuntu”, Version = “12.04”, Designation Note = “32
                         bit”<br></br>Name= “Ubuntu 32 bit” Version = “12.04” <br></br>Name= “Ubuntu” Version = “12.04 32-bit”<br></br>Name= “Ubuntu 12.04 32 bit” <br></br></div>
-                     <div class="p">All of these are acceptable, and which is used will depend on naming
-                        conventions in use within the repository, common usage by the individual
-                        or organization producing the environment, and other factors.</div>
+                     <div class="p">All of these are acceptable, and which is used will depend on naming conventions in
+                        use within the repository, common usage by the individual or organization producing
+                        the environment, and other factors.</div>
                   </div>
                </div>
                <div class="element">
@@ -7628,8 +7501,8 @@
                   <div class="content">None</div>
                   <div class="leftcol">Definition: </div>
                   <div class="content">
-                     <div class="p">A container for describing the designation of an environment using
-                        semantic units defined outside of PREMIS.</div>
+                     <div class="p">A container for describing the designation of an environment using semantic units
+                        defined outside of PREMIS.</div>
                   </div>
                   <div class="leftcol">Entity information: </div>
                   <div class="content">
@@ -7682,27 +7555,19 @@
                   </div>
                   <div class="leftcol">Usage notes: </div>
                   <div class="content">
-                     <div class="p">For more granularity or use of externally defined semantic units,
-                        extensibility is provided. Either local semantic units or metadata using
-                        another specified metadata scheme may be included in addition to PREMIS
-                        defined semantic units. When using an extension schema, a reference to
-                        that schema must be provided. See further guidance in “Extensibility”. If  <strong>environmentDesignationExtension</strong>
-                        needs to be associated explicitly with any PREMIS subunit under
-                        environmentDesignation, the container  <strong>environmentDesignation</strong> is
-                        repeated. Also, if extensions from different external schemas are
-                        needed, environmentDesignation should be repeated.
-                         <strong>environmentDesignationExtension</strong> is used for additional
-                        information about the environment designation beyond name and version in
-                        a structured way. This can be either additional information (such as
-                        release date, support dates for the software, manufacturing period for
-                        hardware etc.) or a finer-grained expression of version information
-                        (such as build number, serial number or installation guidelines). It is
-                        recommended to give information about the metadata used in
-                         <strong>environmentDesignationExtension</strong> including date the metadata
-                        was created, status of the metadata, internal linking IDs, type of
-                        metadata used and its version, message digest and message digest
-                        algorithm of the metadata, and type of identifier for external metadata
-                        links.</div>
+                     <div class="p">For more granularity or use of externally defined semantic units, extensibility is
+                        provided. Either local semantic units or metadata using another specified metadata
+                        scheme may be included in addition to PREMIS defined semantic units. When using an
+                        extension schema, a reference to that schema must be provided. See further guidance
+                        in “Extensibility”. If  <strong>environmentDesignationExtension</strong> needs to be associated explicitly with any PREMIS subunit under  <strong>environmentDesignation</strong>, the container  <strong>environmentDesignation</strong> is repeated. Also, if extensions from different external schemas are needed, environmentDesignation
+                        should be repeated.  <strong>environmentDesignationExtension</strong> is used for additional information about the environment designation beyond name
+                        and version in a structured way. This can be either additional information (such as
+                        release date, support dates for the software, manufacturing period for hardware etc.)
+                        or a finer-grained expression of version information (such as build number, serial
+                        number or installation guidelines). It is recommended to give information about the
+                        metadata used in  <strong>environmentDesignationExtension</strong> including date the metadata was created, status of the metadata, internal linking
+                        IDs, type of metadata used and its version, message digest and message digest algorithm
+                        of the metadata, and type of identifier for external metadata links.</div>
                   </div>
                </div>
                <div class="element">
@@ -7712,8 +7577,8 @@
                   <div class="content"><a href="#environmentRegistryName">1.11.1 environmentRegistryName</a><br></br><a href="#environmentRegistryKey">1.11.2 environmentRegistryKey</a><br></br><a href="#environmentRegistryRole">1.11.3 environmentRegistryRole</a><br></br></div>
                   <div class="leftcol">Definition: </div>
                   <div class="content">
-                     <div class="p">Identifies details about the registry where further information about the
-                        environment can be found.</div>
+                     <div class="p">Identifies details about the registry where further information about the environment
+                        can be found.</div>
                   </div>
                   <div class="leftcol">Entity information: </div>
                   <div class="content">
@@ -7758,9 +7623,8 @@
                   </div>
                   <div class="leftcol">Rationale: </div>
                   <div class="content">
-                     <div class="p">If external registries are available to the preservation repository, they
-                        may provide an excellent way of referencing detailed information about
-                        the environment.</div>
+                     <div class="p">If external registries are available to the preservation repository, they may provide
+                        an excellent way of referencing detailed information about the environment.</div>
                   </div>
                   <div class="leftcol">Data Constraint: </div>
                   <div class="content">
@@ -7956,20 +7820,18 @@
                   </div>
                   <div class="leftcol">Rationale: </div>
                   <div class="content">
-                     <div class="p">Registries could be used for different purposes or may not provide an
-                        identical match to the Intellectual Entity described in PREMIS. For
-                        example, one registry may only provide skeleton records that are
-                        sufficient to allow an environment to be formally identified (or might
-                        only describe a family of environments while the PREMIS object describes
-                        a more specific version within that family). An alternative registry may
-                        provide an exact match and provide much more detailed information needed
-                        to actually use the environment.</div>
+                     <div class="p">Registries could be used for different purposes or may not provide an identical match
+                        to the Intellectual Entity described in PREMIS. For example, one registry may only
+                        provide skeleton records that are sufficient to allow an environment to be formally
+                        identified (or might only describe a family of environments while the PREMIS object
+                        describes a more specific version within that family). An alternative registry may
+                        provide an exact match and provide much more detailed information needed to actually
+                        use the environment.</div>
                   </div>
                   <div class="leftcol">Data Constraint: </div>
                   <div class="content">
-                     <div class="p">Value should be taken from a controlled vocabulary. A controlled
-                        vocabulary is available at:
-                        <a href="http://id.loc.gov/vocabulary/preservation/environmentRegistryRole" target="new">http://id.loc.gov/vocabulary/preservation/environmentRegistryRole</a>.</div>
+                     <div class="p">Value should be taken from a controlled vocabulary. A controlled vocabulary is available
+                        at: <a href="http://id.loc.gov/vocabulary/preservation/environmentRegistryRole" target="new">http://id.loc.gov/vocabulary/preservation/environmentRegistryRole</a>.</div>
                   </div>
                </div>
                <div class="element">
@@ -8032,26 +7894,17 @@
                   </div>
                   <div class="leftcol">Usage notes: </div>
                   <div class="content">
-                     <div class="p">For more granularity or use of externally defined semantic units,
-                        extensibility is provided. Either local semantic units or metadata using
-                        another specified metadata scheme may be included in addition to PREMIS
-                        defined semantic units. When using an extension schema, a reference to
-                        that schema must be provided. See further guidance in “Extensibility”. If the extension
-                        is about the name, version or overall
-                        designation of the environment, use
-                         <strong>environmentDesignationExtension.</strong> <strong>environmentExtension</strong> is used for additional
-                         <strong>environmentcharacteristics</strong> not covered by PREMIS, for
-                        instance environment-specific metadata that is defined externally. It is
-                        not a replacement for units specified in PREMIS.If multiple extensions
-                        are needed (e.g., for different purposes), the container
-                         <strong>environmentExtension</strong> is repeated. Also, if extensions from
-                        different external schemas are needed,  <strong>environmentExtension</strong>
-                        should be repeated.It is recommended to give information about the
-                        metadata used in  <strong>environmentExtension</strong> including date the
-                        metadata was created, status of the metadata, internal linking IDs, type
-                        of metadata used and its version, message digest and message digest
-                        algorithm of the metadata, and type of identifier for external metadata
-                        links.</div>
+                     <div class="p">For more granularity or use of externally defined semantic units, extensibility is
+                        provided. Either local semantic units or metadata using another specified metadata
+                        scheme may be included in addition to PREMIS defined semantic units. When using an
+                        extension schema, a reference to that schema must be provided. See further guidance
+                        in “Extensibility”. If the extension is about the name, version or overall designation
+                        of the environment, use  <strong>environmentDesignationExtension.</strong> <strong>environmentExtension</strong> is used for additional  <strong>environmentcharacteristics</strong> not covered by PREMIS, for instance environment-specific metadata that is defined
+                        externally. It is not a replacement for units specified in PREMIS.If multiple extensions
+                        are needed (e.g., for different purposes), the container  <strong>environmentExtension</strong> is repeated. Also, if extensions from different external schemas are needed,  <strong>environmentExtension</strong> should be repeated.It is recommended to give information about the metadata used
+                        in  <strong>environmentExtension</strong> including date the metadata was created, status of the metadata, internal linking
+                        IDs, type of metadata used and its version, message digest and message digest algorithm
+                        of the metadata, and type of identifier for external metadata links.</div>
                   </div>
                </div>
                <div class="element">
@@ -8061,8 +7914,7 @@
                   <div class="content"><a href="#relationshipType">1.13.1 relationshipType</a><br></br><a href="#relationshipSubType">1.13.2 relationshipSubType</a><br></br><a href="#relatedObjectIdentifier">1.13.3 relatedObjectIdentifier</a><br></br><a href="#relatedEventIdentifier">1.13.4 relatedEventIdentifier</a><br></br><a href="#relatedEnvironmentPurpose">1.13.5 relatedEnvironmentPurpose</a><br></br><a href="#relatedEnvironmentCharacteristic">1.13.6 relatedEnvironmentCharacteristic</a><br></br></div>
                   <div class="leftcol">Definition: </div>
                   <div class="content">
-                     <div class="p">Information about a relationship between this Object and one or more
-                        other Objects.</div>
+                     <div class="p">Information about a relationship between this Object and one or more other Objects.</div>
                   </div>
                   <div class="leftcol">Entity information: </div>
                   <div class="content">
@@ -8102,11 +7954,10 @@
                   </div>
                   <div class="leftcol">Rationale: </div>
                   <div class="content">
-                     <div class="p">A preservation repository must know how to assemble complex objects from
-                        component parts (structural relationships), rigorously track digital
-                        provenance (derivation relationships) and document the links between
-                        parts of a rendering stack in a Representation Information Network
-                        (dependency and documentation links). Documentation about relationships
+                     <div class="p">A preservation repository must know how to assemble complex objects from component
+                        parts (structural relationships), rigorously track digital provenance (derivation
+                        relationships) and document the links between parts of a rendering stack in a Representation
+                        Information Network (dependency and documentation links). Documentation about relationships
                         between different objects is crucial to these purposes.</div>
                   </div>
                   <div class="leftcol">Data Constraint: </div>
@@ -8115,23 +7966,20 @@
                   </div>
                   <div class="leftcol">Usage notes: </div>
                   <div class="content">
-                     <div class="p">Most preservation repositories will want to record all relevant
-                        relationships.In complex scenarios, PREMIS might not be able to express
-                        rich enough structural relationships to be the only source of structural
-                        metadata. Many formats for representing structural information may be
-                        used instead of the semantic units specified here. This information must
-                        be recorded, and some implementations may record it by using other
-                        structures (e.g. METS). Structural relationships between the fileand
-                        representation level are necessary to reconstruct a representation in
-                        order to ascertain that the representation is renderable. A record of
-                        structural relationships at the representation level may be necessary to
-                        render the representation. Structural relationships at the bitstream
-                        level can relate bitstreams within a file. Structural relationships
-                        between Intellectual Entities may be used to record logical containment,
-                        such as between an article and an issue, or physical containment, such
-                        as between a page and a book. Derivative relationships at the file,
-                        representation and Intellectual Entity level are important for
-                        documenting digital provenance.</div>
+                     <div class="p">Most preservation repositories will want to record all relevant relationships.In complex
+                        scenarios, PREMIS might not be able to express rich enough structural relationships
+                        to be the only source of structural metadata. Many formats for representing structural
+                        information may be used instead of the semantic units specified here. This information
+                        must be recorded, and some implementations may record it by using other structures
+                        (e.g. METS). Structural relationships between the file and representation level are
+                        necessary to reconstruct a representation in order to ascertain that the representation
+                        is renderable. A record of structural relationships at the representation level may
+                        be necessary to render the representation. Structural relationships at the bitstream
+                        level can relate bitstreams within a file. Structural relationships between Intellectual
+                        Entities may be used to record logical containment, such as between an article and
+                        an issue, or physical containment, such as between a page and a book. Derivative relationships
+                        at the file, representation and Intellectual Entity level are important for documenting
+                        digital provenance.</div>
                   </div>
                </div>
                <div class="element">
@@ -8193,14 +8041,12 @@
                   </div>
                   <div class="leftcol">Data Constraint: </div>
                   <div class="content">
-                     <div class="p">Value should be taken from a controlled vocabulary. A controlled
-                        vocabulary is available at:
-                        <a href="http://id.loc.gov/vocabulary/preservation/relationshipType.html" target="new">http://id.loc.gov/vocabulary/preservation/relationshipType.html</a>. </div>
+                     <div class="p">Value should be taken from a controlled vocabulary. A controlled vocabulary is available
+                        at: <a href="http://id.loc.gov/vocabulary/preservation/relationshipType.html" target="new">http://id.loc.gov/vocabulary/preservation/relationshipType.html</a>. </div>
                   </div>
                   <div class="leftcol">Usage notes: </div>
                   <div class="content">
-                     <div class="p">It is recommended to further categorize the relationship using
-                         <strong>relationshipSubType.</strong></div>
+                     <div class="p">It is recommended to further categorize the relationship using  <strong>relationshipSubType.</strong></div>
                   </div>
                </div>
                <div class="element">
@@ -8210,8 +8056,7 @@
                   <div class="content">None</div>
                   <div class="leftcol">Definition: </div>
                   <div class="content">
-                     <div class="p">A specific characterization of the nature of the relationship documented
-                        in relationshipType.</div>
+                     <div class="p">A specific characterization of the nature of the relationship documented in relationshipType.</div>
                   </div>
                   <div class="leftcol">Entity information: </div>
                   <div class="content">
@@ -8269,14 +8114,13 @@
                   </div>
                   <div class="leftcol">Usage notes: </div>
                   <div class="content">
-                     <div class="p">A repository may find it necessary to define more or less granular
-                        relationships than those values in the available controlled vocabulary.
-                        For derivation relationships, note that the precise relationship may be
-                        indicated by the type of the related Event. The relationship “has root”
-                        is applicable only to the representation, because it implies that a
-                        compound object (i.e. one made up of multiple files) requires that one
-                        file be picked up first as its root to render it. In the metadata for
-                        the representation, “has root” identifies that particular file.</div>
+                     <div class="p">A repository may find it necessary to define more or less granular relationships than
+                        those values in the available controlled vocabulary. For derivation relationships,
+                        note that the precise relationship may be indicated by the type of the related Event.
+                        The relationship “has root” is applicable only to the representation, because it implies
+                        that a compound object (i.e. one made up of multiple files) requires that one file
+                        be picked up first as its root to render it. In the metadata for the representation,
+                        “has root” identifies that particular file.</div>
                   </div>
                </div>
                <div class="element">
@@ -8330,10 +8174,9 @@
                   </div>
                   <div class="leftcol">Usage notes: </div>
                   <div class="content">
-                     <div class="p">The related Object may or may not be held within the preservation
-                        repository. Recommended practice is that objects reside within the
-                        repository unless there is a good reason to reference an external
-                        Object. Internal and external references should be unambiguous.</div>
+                     <div class="p">The related Object may or may not be held within the preservation repository. Recommended
+                        practice is that objects reside within the repository unless there is a good reason
+                        to reference an external Object. Internal and external references should be unambiguous.</div>
                   </div>
                </div>
                <div class="element">
@@ -8393,9 +8236,8 @@
                   </div>
                   <div class="leftcol">Usage notes: </div>
                   <div class="content">
-                     <div class="p">If the related Object is held within the preservation repository, this
-                        semantic unit should set to the value of that Object’s
-                         <strong>objectIdentifierType.</strong></div>
+                     <div class="p">If the related Object is held within the preservation repository, this semantic unit
+                        should set to the value of that Object’s  <strong>objectIdentifierType.</strong></div>
                   </div>
                </div>
                <div class="element">
@@ -8442,9 +8284,9 @@
                            </tr>
                            <tr style="border-bottom: 1px solid black;border-collapse: collapse;">
                               <td style="border-bottom: 1px solid black;border-collapse: collapse;"> <strong>Examples</strong></td>
-                              <td style="border-bottom: 1px solid black;border-collapse: collapse;">[see examples for objectIdentifierValue]</td>
-                              <td style="border-bottom: 1px solid black;border-collapse: collapse;">[see examples for objectIdentifierValue]</td>
-                              <td style="border-bottom: 1px solid black;border-collapse: collapse;">[see examples for objectIdentifierValue]</td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;">[see examples for  <strong>objectIdentifierValue</strong>]</td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;">[see examples for  <strong>objectIdentifierValue</strong>]</td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;">[see examples for  <strong>objectIdentifierValue</strong>]</td>
                            </tr>
                         </table>
                      </div>
@@ -8455,9 +8297,8 @@
                   </div>
                   <div class="leftcol">Usage notes: </div>
                   <div class="content">
-                     <div class="p">If the related Object is held within the preservation repository, this
-                        semantic unit should set to the value of that Object’s
-                         <strong>objectIdentifierValue.</strong></div>
+                     <div class="p">If the related Object is held within the preservation repository, this semantic unit
+                        should set to the value of that Object’s  <strong>objectIdentifierValue.</strong></div>
                   </div>
                </div>
                <div class="element">
@@ -8467,8 +8308,7 @@
                   <div class="content">None</div>
                   <div class="leftcol">Definition: </div>
                   <div class="content">
-                     <div class="p">The order of the related Object relative to other Objects with the same
-                        type of relationship.</div>
+                     <div class="p">The order of the related Object relative to other Objects with the same type of relationship.</div>
                   </div>
                   <div class="leftcol">Entity information: </div>
                   <div class="content">
@@ -8520,11 +8360,10 @@
                   </div>
                   <div class="leftcol">Rationale: </div>
                   <div class="content">
-                     <div class="p">This semantic unit is particularly useful for structural relationships.
-                        In order to reconstruct a representation, it may be necessary to know
-                        the order of components with sibling or part-whole relationships. For
-                        example, to render the pages of a book, it is necessary to know the
-                        order of files representing pages.</div>
+                     <div class="p">This semantic unit is particularly useful for structural relationships. In order to
+                        reconstruct a representation, it may be necessary to know the order of components
+                        with sibling or part-whole relationships. For example, to render the pages of a book,
+                        it is necessary to know the order of files representing pages.</div>
                   </div>
                   <div class="leftcol">Data Constraint: </div>
                   <div class="content">
@@ -8532,17 +8371,13 @@
                   </div>
                   <div class="leftcol">Usage notes: </div>
                   <div class="content">
-                     <div class="p">This semantic unit could be implemented in several ways. It might be
-                        recorded explicitly in metadata as a sequence number or as a pointer. It
-                        might be implicit in some other ordering of Objects, for example,
-                        incrementing identifier values. The value of
-                        relationshipSubType might imply the sequence (e.g., “is
-                        preceding sibling,” “is following sibling”). There is no requirement
-                        that sequence numbers must be unique or sequential. Some related Objects
-                        have no inherent sequence, for example, unordered Web pages making up a
-                        website. It is acceptable to either use the “dummy” sequence number
-                        zero, or to omit completely. This semantic unit is applicable only for
-                        structural relationships and is thus optional.</div>
+                     <div class="p">This semantic unit could be implemented in several ways. It might be recorded explicitly
+                        in metadata as a sequence number or as a pointer. It might be implicit in some other
+                        ordering of Objects, for example, incrementing identifier values. The value of  <strong>relationshipSubType</strong> might imply the sequence (e.g., “is preceding sibling,” “is following sibling”).
+                        There is no requirement that sequence numbers must be unique or sequential. Some related
+                        Objects have no inherent sequence, for example, unordered Web pages making up a website.
+                        It is acceptable to either use the “dummy” sequence number zero, or to omit completely.
+                        This semantic unit is applicable only for structural relationships and is thus optional.</div>
                   </div>
                </div>
                <div class="element">
@@ -8552,8 +8387,7 @@
                   <div class="content"><a href="#relatedEventIdentifierType">1.13.4.1 relatedEventIdentifierType</a><br></br><a href="#relatedEventIdentifierValue">1.13.4.2 relatedEventIdentifierValue</a><br></br><a href="#relatedEventSequence">1.13.4.3 relatedEventSequence</a><br></br></div>
                   <div class="leftcol">Definition: </div>
                   <div class="content">
-                     <div class="p">The identifier and contextual sequence of an Event associated with the
-                        relationship.</div>
+                     <div class="p">The identifier and contextual sequence of an Event associated with the relationship.</div>
                   </div>
                   <div class="leftcol">Entity information: </div>
                   <div class="content">
@@ -8593,8 +8427,7 @@
                   </div>
                   <div class="leftcol">Rationale: </div>
                   <div class="content">
-                     <div class="p">An Object may be related to another Object because of an Event, for
-                        example, migration.</div>
+                     <div class="p">An Object may be related to another Object because of an Event, for example, migration.</div>
                   </div>
                   <div class="leftcol">Data Constraint: </div>
                   <div class="content">
@@ -8602,8 +8435,7 @@
                   </div>
                   <div class="leftcol">Usage notes: </div>
                   <div class="content">
-                     <div class="p">For derivative relationships between Objects
-                         <strong>relatedEventIdentifier</strong> must be recorded.</div>
+                     <div class="p">For derivative relationships between Objects  <strong>relatedEventIdentifier</strong> must be recorded.</div>
                   </div>
                </div>
                <div class="element">
@@ -8663,9 +8495,8 @@
                   </div>
                   <div class="leftcol">Usage notes: </div>
                   <div class="content">
-                     <div class="p">For most preservation repositories, the  <strong>eventIdentifierType</strong> will
-                        simply be its own internal numbering system. It can be implicit within
-                        the system and provided explicitly only if the data is exported.</div>
+                     <div class="p">For most preservation repositories, the  <strong>eventIdentifierType</strong> will simply be its own internal numbering system. It can be implicit within the system
+                        and provided explicitly only if the data is exported.</div>
                   </div>
                </div>
                <div class="element">
@@ -8787,8 +8618,7 @@
                   </div>
                   <div class="leftcol">Usage notes: </div>
                   <div class="content">
-                     <div class="p">The sequence of a related Event can be inferred from the
-                         <strong>eventDateTime</strong> associated with the related Event.</div>
+                     <div class="p">The sequence of a related Event can be inferred from the  <strong>eventDateTime</strong> associated with the related Event.</div>
                   </div>
                </div>
                <div class="element">
@@ -8850,26 +8680,24 @@
                   </div>
                   <div class="leftcol">Rationale: </div>
                   <div class="content">
-                     <div class="p">Different environments can support different uses of objects. For
-                        example, the environment needed to edit and modify a file can be quite
-                        different from the environment needed to render it.</div>
+                     <div class="p">Different environments can support different uses of objects. For example, the environment
+                        needed to edit and modify a file can be quite different from the environment needed
+                        to render it.</div>
                   </div>
                   <div class="leftcol">Data Constraint: </div>
                   <div class="content">
-                     <div class="p">Values should be taken from a controlled vocabulary. A controlled
-                        vocabulary is available at:
-                        <a href="http://id.loc.gov/vocabulary/preservation/environmentPurpose" target="new">http://id.loc.gov/vocabulary/preservation/environmentPurpose</a>.</div>
+                     <div class="p">Values should be taken from a controlled vocabulary. A controlled vocabulary is available
+                        at: <a href="http://id.loc.gov/vocabulary/preservation/environmentPurpose" target="new">http://id.loc.gov/vocabulary/preservation/environmentPurpose</a>.</div>
                   </div>
                   <div class="leftcol">Creation/Maintenance notes: </div>
                   <div class="content">
-                     <div class="p">This value would have to be supplied by the Agent that provided the
-                        hardware and/or software environment information, which might be the
-                        submitter, the repository, or an environment registry.</div>
+                     <div class="p">This value would have to be supplied by the Agent that provided the hardware and/or
+                        software environment information, which might be the submitter, the repository, or
+                        an environment registry.</div>
                   </div>
                   <div class="leftcol">Usage notes: </div>
                   <div class="content">
-                     <div class="p">Other values might indicate the ability to transform, print, and
-                        manipulate by program.</div>
+                     <div class="p">Other values might indicate the ability to transform, print, and manipulate by program.</div>
                   </div>
                </div>
                <div class="element">
@@ -8879,8 +8707,7 @@
                   <div class="content">None</div>
                   <div class="leftcol">Definition: </div>
                   <div class="content">
-                     <div class="p">An assessment of the extent to which the described environment supports
-                        its purpose.</div>
+                     <div class="p">An assessment of the extent to which the described environment supports its purpose.</div>
                   </div>
                   <div class="leftcol">Entity information: </div>
                   <div class="content">
@@ -8932,30 +8759,26 @@
                   </div>
                   <div class="leftcol">Rationale: </div>
                   <div class="content">
-                     <div class="p">If multiple environments are described, this element can help to
-                        distinguish between them.</div>
+                     <div class="p">If multiple environments are described, this element can help to distinguish between
+                        them.</div>
                   </div>
                   <div class="leftcol">Data Constraint: </div>
                   <div class="content">
-                     <div class="p">Value should be taken from a controlled vocabulary. A controlled
-                        vocabulary is available at:
-                        <a href="http://id.loc.gov/vocabulary/preservation/environmentCharacteristic" target="new">http://id.loc.gov/vocabulary/preservation/environmentCharacteristic</a>.
+                     <div class="p">Value should be taken from a controlled vocabulary. A controlled vocabulary is available
+                        at: <a href="http://id.loc.gov/vocabulary/preservation/environmentCharacteristic" target="new">http://id.loc.gov/vocabulary/preservation/environmentCharacteristic</a>.
                         </div>
                   </div>
                   <div class="leftcol">Creation/Maintenance notes: </div>
                   <div class="content">
-                     <div class="p">This value could be supplied by the submitter or by the repository. If
-                        environment software and hardware information is obtained from an
-                        environment registry, relatedEnvironmentCharacteristic might
-                        also be obtained from the registry. Note however that the criteria for
-                        “recommended” may be different for different repositories.</div>
+                     <div class="p">This value could be supplied by the submitter or by the repository. If environment
+                        software and hardware information is obtained from an environment registry, relatedEnvironmentCharacteristic might also be obtained from the registry. Note however that the criteria for “recommended”
+                        may be different for different repositories.</div>
                   </div>
                   <div class="leftcol">Usage notes: </div>
                   <div class="content">
-                     <div class="p">If an environment could be described as both “minimum” and “recommended,”
-                        use “recommended.” “Known to work” implies the object is supported by
-                        the described environment but the repository doesn’t know if this
-                        environment is minimum or recommended.</div>
+                     <div class="p">If an environment could be described as both “minimum” and “recommended,” use “recommended.”
+                        “Known to work” implies the object is supported by the described environment but the
+                        repository doesn’t know if this environment is minimum or recommended.</div>
                   </div>
                </div>
                <div class="element">
@@ -9009,11 +8832,10 @@
                   </div>
                   <div class="leftcol">Usage notes: </div>
                   <div class="content">
-                     <div class="p">Use to link to Events that are not associated with relationships between
-                        Objects, such as format validation, virus checking, etc. Linking
-                        semantic units are mandatory in the sense that a repository needs to
-                        know the information, but are defined as optional because PREMIS does
-                        not specify in which direction the linkage should be.</div>
+                     <div class="p">Use to link to Events that are not associated with relationships between Objects,
+                        such as format validation, virus checking, etc. Linking semantic units are mandatory
+                        in the sense that a repository needs to know the information, but are defined as optional
+                        because PREMIS does not specify in which direction the linkage should be.</div>
                   </div>
                </div>
                <div class="element">
@@ -9127,8 +8949,181 @@
                   <div class="content">
                      <div class="p">Must be an existing  <strong>eventIdentifierValue</strong> value.</div>
                   </div>
+               </div>
+               <div class="element">
+                  <div class="leftcol" id="linkingRightsStatementIdentifier"><span class="label">linkingRightsStatementIdentifier</span></div>
+                  <div class="content"><span class="label"></span>  <a class="tocReturn" href="#toc">[toc]</a></div>
+                  <div class="leftcol">Semantic components: </div>
+                  <div class="content"><a href="#linkingRightsStatementIdentifierType">1.15.1 linkingRightsStatementIdentifierType</a><br></br><a href="#linkingRightsStatementIdentifierValue">1.15.2 linkingRightsStatementIdentifierValue</a><br></br></div>
+                  <div class="leftcol">Definition: </div>
+                  <div class="content">
+                     <div class="p">An identifier for a Rights statement associated with the object.</div>
+                  </div>
+                  <div class="leftcol">Entity information: </div>
+                  <div class="content">
+                     <div class="p"><br></br><strong></strong><br></br><table style="width:50%;display-align:center">
+                           <tr>
+                              <th style="width:25%"></th>
+                              <th style="width:25%"></th>
+                              <th style="width:25%"></th>
+                              <th style="width:25%"></th>
+                           </tr>
+                           <tr style="border-bottom: 1px solid black;border-collapse: collapse;">
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;"></td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;"> <strong>Intellectual Entity / Representation</strong></td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;"> <strong>File</strong></td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;"> <strong>Bitstream</strong></td>
+                           </tr>
+                           <tr style="border-bottom: 1px solid black;border-collapse: collapse;">
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;"> <strong>Applicability</strong></td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;">Applicable</td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;">Applicable</td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;">Applicable</td>
+                           </tr>
+                           <tr style="border-bottom: 1px solid black;border-collapse: collapse;">
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;"> <strong>Repeatability</strong></td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;">Repeatable</td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;">Repeatable</td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;">Repeatable</td>
+                           </tr>
+                           <tr style="border-bottom: 1px solid black;border-collapse: collapse;">
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;"> <strong>Obligation</strong></td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;">Optional</td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;">Optional</td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;">Optional</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+                  <div class="leftcol">Rationale: </div>
+                  <div class="content">
+                     <div class="p">A repository may choose to link from a Rights statement to an object or from an object
+                        to a Rights statement or both.</div>
+                  </div>
+                  <div class="leftcol">Data Constraint: </div>
+                  <div class="content">
+                     <div class="p">Container</div>
+                  </div>
+                  <div class="leftcol">Usage notes: </div>
+                  <div class="content">
+                     <div class="p">Linking semantic units are mandatory in the sense that a repository needs to know
+                        the information, but are defined as optional because PREMIS does not specify in which
+                        direction the linkage should be.</div>
+                  </div>
+               </div>
+               <div class="element">
+                  <div class="leftcol" id="linkingRightsStatementIdentifierType"><span class="label">linkingRightsStatementIdentifierType</span></div>
+                  <div class="content"><span class="label"></span>  <a class="tocReturn" href="#toc">[toc]</a></div>
+                  <div class="leftcol">Semantic components: </div>
+                  <div class="content">None</div>
+                  <div class="leftcol">Definition: </div>
+                  <div class="content">
+                     <div class="p">A designation of the domain within which the  <strong>linkingRightsStatementIdentifier</strong> is unique.</div>
+                  </div>
+                  <div class="leftcol">Entity information: </div>
+                  <div class="content">
+                     <div class="p"><br></br><strong></strong><br></br><table style="width:50%;display-align:center">
+                           <tr>
+                              <th style="width:25%"></th>
+                              <th style="width:25%"></th>
+                              <th style="width:25%"></th>
+                              <th style="width:25%"></th>
+                           </tr>
+                           <tr style="border-bottom: 1px solid black;border-collapse: collapse;">
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;"></td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;"> <strong>Intellectual Entity / Representation</strong></td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;"> <strong>File</strong></td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;"> <strong>Bitstream</strong></td>
+                           </tr>
+                           <tr style="border-bottom: 1px solid black;border-collapse: collapse;">
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;"> <strong>Applicability</strong></td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;">Applicable</td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;">Applicable</td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;">Applicable</td>
+                           </tr>
+                           <tr style="border-bottom: 1px solid black;border-collapse: collapse;">
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;"> <strong>Repeatability</strong></td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;">Not repeatable</td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;">Not repeatable</td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;">Not repeatable</td>
+                           </tr>
+                           <tr style="border-bottom: 1px solid black;border-collapse: collapse;">
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;"> <strong>Obligation</strong></td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;">Mandatory</td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;">Mandatory</td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;">Mandatory</td>
+                           </tr>
+                           <tr style="border-bottom: 1px solid black;border-collapse: collapse;">
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;"> <strong>Examples</strong></td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;">
+                                 <div class="blockIndent">URI<br></br>LCCN<br></br></div>
+                              </td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;">
+                                 <div class="blockIndent">URI<br></br>LCCN<br></br></div>
+                              </td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;">
+                                 <div class="blockIndent">URI<br></br>LCCN<br></br></div>
+                              </td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+                  <div class="leftcol">Data Constraint: </div>
+                  <div class="content">
+                     <div class="p">Must be an existing  <strong>rightsStatementIdentifierType</strong> value.</div>
+                  </div>
+               </div>
+               <div class="element">
+                  <div class="leftcol" id="linkingRightsStatementIdentifierValue"><span class="label">linkingRightsStatementIdentifierValue</span></div>
+                  <div class="content"><span class="label"></span>  <a class="tocReturn" href="#toc">[toc]</a></div>
+                  <div class="leftcol">Semantic components: </div>
+                  <div class="content">None</div>
+                  <div class="leftcol">Definition: </div>
+                  <div class="content">
+                     <div class="p">The value of the  <strong>linkingRightsStatementIdentifier</strong>.</div>
+                  </div>
+                  <div class="leftcol">Entity information: </div>
+                  <div class="content">
+                     <div class="p"><br></br><strong></strong><br></br><table style="width:50%;display-align:center">
+                           <tr>
+                              <th style="width:25%"></th>
+                              <th style="width:25%"></th>
+                              <th style="width:25%"></th>
+                              <th style="width:25%"></th>
+                           </tr>
+                           <tr style="border-bottom: 1px solid black;border-collapse: collapse;">
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;"></td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;"> <strong>Intellectual Entity / Representation</strong></td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;"> <strong>File</strong></td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;"> <strong>Bitstream</strong></td>
+                           </tr>
+                           <tr style="border-bottom: 1px solid black;border-collapse: collapse;">
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;"> <strong>Applicability</strong></td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;">Applicable</td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;">Applicable</td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;">Applicable</td>
+                           </tr>
+                           <tr style="border-bottom: 1px solid black;border-collapse: collapse;">
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;"> <strong>Repeatability</strong></td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;">Not repeatable</td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;">Not repeatable</td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;">Not repeatable</td>
+                           </tr>
+                           <tr style="border-bottom: 1px solid black;border-collapse: collapse;">
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;"> <strong>Obligation</strong></td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;">Mandatory</td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;">Mandatory</td>
+                              <td style="border-bottom: 1px solid black;border-collapse: collapse;">Mandatory</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+                  <div class="leftcol">Data Constraint: </div>
+                  <div class="content">
+                     <div class="p">Must be an existing  <strong>rightsStatementIdentifierType</strong> value.</div>
+                  </div>
                </div>  <a class="tocReturn" href="#toc">[toc]</a></div>
-            <div class="section" id="d1e7559">
+            <div class="section" id="d1e8051">
                <div class="head03"> </div>
                <div class="head03">Event Entity  <a class="tocReturn" href="#toc">[toc]</a></div>
                <div class="listOrdered">
@@ -9839,7 +9834,7 @@
                         at: <a href="http://id.loc.gov/vocabulary/preservation/eventRelatedObjectRole" target="new">http://id.loc.gov/vocabulary/preservation/eventRelatedObjectRole</a>.</div>
                   </div>
                   <div class="leftcol">Example:</div><br></br></div>  <a class="tocReturn" href="#toc">[toc]</a></div>
-            <div class="section" id="d1e8495">
+            <div class="section" id="d1e8987">
                <div class="head03"> </div>
                <div class="head03">Agent Entity  <a class="tocReturn" href="#toc">[toc]</a></div>
                <div class="p">The Agent entity aggregates information about attributes or characteristics
@@ -10438,7 +10433,7 @@
                         at: <a href="http://id.loc.gov/vocabulary/preservation/linkingEnvironmentRole.html" target="new">http://id.loc.gov/vocabulary/preservation/linkingEnvironmentRole.html</a>.</div>
                   </div>
                   <div class="leftcol">Example:</div><br></br></div>  <a class="tocReturn" href="#toc">[toc]</a></div>
-            <div class="section" id="d1e9324">
+            <div class="section" id="d1e9816">
                <div class="head03"> </div>
                <div class="head03">Rights Entity  <a class="tocReturn" href="#toc">[toc]</a></div>
                <div class="p">For the purpose of the PREMIS Data Dictionary, statements of legal rights,
@@ -12432,13 +12427,13 @@
                </div>  <a class="tocReturn" href="#toc">[toc]</a></div>
          </div>
          <div>
-            <div class="section" id="d1e11886">
+            <div class="section" id="d1e12378">
                <div class="head03">Appendix   </div>
                <div class="head03" id="appendix-SPECIALTOPICS">SPECIAL TOPICS  <a class="tocReturn" href="#toc">[toc]</a></div>
                <div class="p">This section describes several important topics that are too detailed for the
                   Data Dictionary itself. The discussion here provides background information
                   about semantic units and illustrates the thinking behind PREMIS.</div>
-               <div class="section" id="d1e11889">
+               <div class="section" id="d1e12381">
                   <div class="head03">Appendix   </div>
                   <div class="head03" id="appendix-Formatinformation">Format information  <a class="tocReturn" href="#toc">[toc]</a></div>
                   <div class="p">Formats are an important aspect of digital preservation but before specific
@@ -12551,7 +12546,7 @@
                      recorded separately. Multiple formats may also be recorded if it is
                      important to indicate the version of each.</div>
                </div>
-               <div class="section" id="d1e11963">
+               <div class="section" id="d1e12455">
                   <div class="head03">Appendix   </div>
                   <div class="head03" id="appendix-Environment">Environment  <a class="tocReturn" href="#toc">[toc]</a></div>
                   <div class="p">Digital materials are distinctly different from analog materials because a
@@ -12656,7 +12651,7 @@
                       <em>environmentDesignationNote</em> nor
                       <em>environmentDesignationExtension</em>.</div>
                </div>
-               <div class="section" id="d1e12053">
+               <div class="section" id="d1e12545">
                   <div class="head03">Appendix   </div>
                   <div class="head03" id="appendix-Designatingaspecificenvironmentimplementationconsiderations">Designating a specific environment: implementation considerations  <a class="tocReturn" href="#toc">[toc]</a></div>
                   <div class="p">The distinction between name and version can be vague in some cases.
@@ -12703,7 +12698,7 @@
                      name and version information and apply it consistently for all their
                      environment descriptions.</div>
                </div>
-               <div class="section" id="d1e12096">
+               <div class="section" id="d1e12588">
                   <div class="head03">Appendix   </div>
                   <div class="head03" id="appendix-Handlingdifferentlevelsofspecificityatthesametimeapossible&#xA;strategy">Handling different levels of specificity at the same time: a possible
                      strategy  <a class="tocReturn" href="#toc">[toc]</a></div>
@@ -12797,7 +12792,7 @@
                      environment information held in PREMIS could help such dissemination
                      mechanism make a decision about how to deliver content.</div>
                </div>
-               <div class="section" id="d1e12141">
+               <div class="section" id="d1e12633">
                   <div class="head03">Appendix   </div>
                   <div class="head03" id="appendix-Objectcharacteristicsandcompositionlevelthe“onion”model">Object characteristics and composition level: the “onion” model  <a class="tocReturn" href="#toc">[toc]</a></div>
                   <div class="p">When an object is compressed or encrypted, the format of the object is
@@ -12893,7 +12888,7 @@
                       <em>compositionLevel</em> is unknown as it is a tangible risk
                      for the preservation of the Object.</div>
                </div>
-               <div class="section" id="d1e12174">
+               <div class="section" id="d1e12666">
                   <div class="head03">Appendix   </div>
                   <div class="head03" id="appendix-Fixity,integrity,authenticity">Fixity, integrity, authenticity  <a class="tocReturn" href="#toc">[toc]</a></div>
                   <div class="p">A digital preservation metadata standard needs to give considerable attention
@@ -12962,7 +12957,7 @@
                      an event. Digital signatures can also aid authentication and are discussed
                      next.</div>
                </div>
-               <div class="section" id="d1e12203">
+               <div class="section" id="d1e12695">
                   <div class="head03">Appendix   </div>
                   <div class="head03" id="appendix-Digitalsignatures">Digital signatures  <a class="tocReturn" href="#toc">[toc]</a></div>
                   <div class="p">Digital signatures rely on an external (mutually trusted) authority to verify
@@ -13042,7 +13037,7 @@
                      suitable approach. For example, a university might regularly publish its
                      public key in its annual report and make it available on its Web site.</div>
                </div>
-               <div class="section" id="d1e12229">
+               <div class="section" id="d1e12721">
                   <div class="head03">Appendix   </div>
                   <div class="head03" id="appendix-Digitalsignaturemetadata">Digital signature metadata  <a class="tocReturn" href="#toc">[toc]</a></div>
                   <div class="p">For a preservation repository to validate a digital signature at a later
@@ -13158,7 +13153,7 @@
                      the "KeyInfo" elements defined in the  <em>XMLDsig</em> schema to
                      define the semantic units recorded in  <em>keyInformation</em>.</div>
                </div>
-               <div class="section" id="d1e12367">
+               <div class="section" id="d1e12859">
                   <div class="head03">Appendix   </div>
                   <div class="head03" id="appendix-Non-coremetadata">Non-core metadata  <a class="tocReturn" href="#toc">[toc]</a></div>
                   <div class="p">PREMIS does not attempt to include every possible metadata concept in the
@@ -13359,7 +13354,7 @@
                      that the two representations have a sibling relationship.</div>
                </div>
             </div>
-            <div class="section" id="d1e12472">
+            <div class="section" id="d1e12964">
                <div class="head03">Appendix   </div>
                <div class="head03" id="appendix-GLOSSARY">GLOSSARY  <a class="tocReturn" href="#toc">[toc]</a></div>
                <div class="p">This glossary defines a number of terms used in this Data Dictionary; recognizing

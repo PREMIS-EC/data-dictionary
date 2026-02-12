@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="inhibitorKey">
-    <head>
-        
+
+<head>
         <!-- PREMIS Semantic unit 1.5.6.3 -->
         <abbr>1.5.6.3</abbr>
         <gi>inhibitorKey</gi>
-        
     </head>
     
     <div type="semanticcomponents">
@@ -18,13 +17,17 @@
         <p>The decryption key or password</p>
     </div>
     
-    <!-- PREMIS Rationale -->
+<!-- <div type="rationale"> -->
+        <!-- PREMIS Rationale -->
+    <!-- </div> -->
+	
+    <!-- <div type="creationmaintenance"> -->
+        <!-- PREMIS Creation / Maintenance -->
+    <!-- </div> -->	
     
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>The key should be provided if known. However, it is not advisable to
-            actually store the <bold>inhibitorKey</bold> in plain text in an unsecure
-            database.</p>
+        <p>The key should be provided if known. However, it is not advisable to actually store the <bold>inhibitorKey</bold> in plain text in an unsecure database.</p>
     </div>
     
     <div type="datatype">
@@ -50,13 +53,13 @@
                 </row>
                 <row>
                     <cell><bold>Repeatability</bold></cell>
-                    <cell> </cell>
+                    <cell>Not applicable</cell>
                     <cell>Not repeatable</cell>
                     <cell>Not repeatable</cell>
                 </row>
                 <row>
                     <cell><bold>Obligation</bold></cell>
-                    <cell> </cell>
+                    <cell>Not applicable</cell>
                     <cell>Optional</cell>
                     <cell>Optional</cell>
                 </row>
