@@ -4,8 +4,8 @@
         <!-- PREMIS Semantic unit 2.3.0 -->
         <abbr>2.3</abbr>
         <gi>eventDateTime</gi>        
-    </head>       
-    <div type="semanticcomponents">
+    </head>
+	<div type="semanticcomponents">
         <!-- PREMIS Semantic components -->
         <p>None</p>
     </div>       

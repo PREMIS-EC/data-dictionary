@@ -16,7 +16,7 @@
     
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>The <bold>eventIdentifierType</bold> value of the related Event.</p>
+        <p>The <italic>eventIdentifierType</italic> value of the related Event.</p>
     </div>
     
 <!-- <div type="rationale"> -->

@@ -13,11 +13,7 @@
     </div>
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>The date range during which permissions assigned by statute applies or are applied to the
-            Object described by the <bold>rightsStatement</bold>. This is distinct from <bold>termOfRule</bold>, which applies to a
-            particular act expressed in <bold>rightsGranted</bold> and may differ from
-            the period of time the license, statute or other basis applies to the
-            content.</p>
+        <p>The date range during which permissions assigned by statute applies or are applied to the Object described by the <italic>rightsStatement</italic>. This is distinct from <italic>termOfRule</italic>, which applies to a particular act expressed in <italic>rightsGranted</italic> and may differ from the period of time the license, statute or other basis applies to the content.</p>
     </div>
     <div type="rationale">
         <!-- PREMIS Rationale -->
@@ -49,10 +45,7 @@
 
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>The repository may wish to retain the history of Rights and restrictions
-            associated with the content over time. Associating active dates with
-            particular Rights bases allows applications to identify which of several
-            <bold>rightsStatements</bold> are in force at a given time.</p>
+        <p>The repository may wish to retain the history of Rights and restrictions associated with the content over time. Associating active dates with particular Rights bases allows applications to identify which of several <italic>rightsStatements</italic> are in force at a given time.</p>
     </div>
 </div>
 

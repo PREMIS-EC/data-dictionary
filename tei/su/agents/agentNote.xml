@@ -27,7 +27,7 @@
         <p>
             <list type="example">
                 <item>--prefix=/opt/local</item>                
-                <item>[configuration options used with a software Agent]</item>
+                <item>Configuration options used with a software Agent</item>
             </list>
         </p>
     </div>
@@ -48,7 +48,7 @@
 
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>Use <bold>agentNote</bold> when relatively limited information must be supplied. If extensive additional information is required, consider using an externally defined schema with <bold>agentExtension</bold> instead.</p>
+        <p>Use <italic>agentNote</italic> when relatively limited information must be supplied. If extensive additional information is required, consider using an externally defined schema with <italic>agentExtension</italic> instead.</p>
     </div>
 </div>
 

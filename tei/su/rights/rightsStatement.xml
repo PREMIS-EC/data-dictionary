@@ -12,16 +12,7 @@
         <p>4.2.2 rightsInformation</p>
         <p>4.2.3 rule</p>
         <p>4.2.4 linkingObjectIdentifier</p>
-<!-- 		<p>4.1.1 rightsStatementIdentifier</p>
-        <p>4.1.2 rightsBasis</p>
-        <p>4.1.3 copyrightInformation</p>
-        <p>4.1.4 licenseInformation</p>
-        <p>4.1.5 statuteInformation</p>
-        <p>4.1.6 otherRightsInformation</p>
-        <p>4.1.7 rightsGranted</p>
-        <p>4.1.8 linkingObjectIdentifier</p>
-        <p>4.1.9 linkingAgentIdentifier</p> -->
-    </div>
+</div>
     <div type="definition">
         <!-- PREMIS Definition -->
         <p>Documentation of the repository's Rights--duty, obligation, or restrictions--to perform one or more actions.</p>
@@ -57,13 +48,7 @@
 
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>This semantic unit is optional because in some cases Rights may be
-            unknown. Institutions are encouraged to record Rights information when
-            possible. Either <bold>rightsStatement</bold> or <bold>rightsExtension</bold>
-            must be present if the Rights entity is included. The
-            <bold>rightsStatement</bold> should be repeated when the act(s)
-            described has (have) more than one basis, or when different acts have
-            different bases.</p>
+        <p>This semantic unit is optional because in some cases Rights may be unknown. Institutions are encouraged to record Rights information when possible. Either <italic>rightsStatement</italic> or <italic>rightsExtension</italic> must be present if the Rights entity is included. The <italic>rightsStatement</italic> should be repeated when the act(s) described has (have) more than one basis, or when different acts have different bases.</p>
     </div>
 </div>
 

@@ -11,7 +11,7 @@
     </div>       
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>The value of the <bold>agentIdentifier</bold>.</p>
+        <p>The value of the <italic>agentIdentifier</italic>.</p>
     </div>       
 
 <!-- <div type="rationale"> -->
@@ -20,7 +20,7 @@
   
     <div type="datatype">
         <!-- PREMIS Data constraint -->
-        <p>Value may be taken from a controlled vocabulary. If <bold>agentType</bold> is organization, a controlled vocabulary is available at: <ref target="http://id.loc.gov/vocabulary/organizations">http://id.loc.gov/vocabulary/organizations</ref>.</p>
+        <p>Value may be taken from a controlled vocabulary. If <italic>agentType</italic> is organization, a controlled vocabulary is available at: <ref target="http://id.loc.gov/vocabulary/organizations">http://id.loc.gov/vocabulary/organizations</ref>.</p>
     </div>
     <div type="examples">
         <!-- PREMIS Examples -->

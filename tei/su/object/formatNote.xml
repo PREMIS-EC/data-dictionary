@@ -25,7 +25,7 @@
     
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>The <bold>formatNote</bold> may contain free text, a reference pointer, or a value from a controlled list.</p>
+        <p>The <italic>formatNote</italic> may contain free text, a reference pointer, or a value from a controlled list.</p>
     </div>
     
     <div type="datatype">

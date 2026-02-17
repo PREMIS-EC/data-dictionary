@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="environmentDesignationNote">
     <head>
-        
         <!-- PREMIS Semantic unit 1.10.4.0 -->
         <abbr>1.10.4</abbr>
         <gi>environmentDesignationNote</gi>

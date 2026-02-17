@@ -89,7 +89,7 @@
     </div>
     <div type="creationmaintenance">
         <!-- PREMIS Creation / Maintenance -->
-        <p>This value could be supplied by the submitter or by the repository. If environment software and hardware information is obtained from an environment registry, <boldi>relatedEnvironmentCharacteristic</boldi> might also be obtained from the registry. Note however that the criteria for “recommended” may be different for different repositories.</p>
+        <p>This value could be supplied by the submitter or by the repository. If environment software and hardware information is obtained from an environment registry, <italic>relatedEnvironmentCharacteristic</italic> might also be obtained from the registry. Note however that the criteria for “recommended” may be different for different repositories.</p>
     </div>
 </div>
 

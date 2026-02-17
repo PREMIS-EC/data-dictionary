@@ -18,17 +18,12 @@
     
     <div type="rationale">
         <!-- PREMIS Rationale -->
-        <p>Size is useful for ensuring the correct number of bytes from storage has
-            been retrieved and that an application has enough room to move or
-            process files. It might also be used when billing for storage.</p>
+        <p>Size is useful for ensuring the correct number of bytes from storage has been retrieved and that an application has enough room to move or process files. It might also be used when billing for storage.</p>
     </div>
     
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>Defining this semantic unit as size in bytes makes it unnecessary to
-            record a unit of measurement. However, for the purpose of data exchange
-            the unit of measurement should be stated or understood by both
-            partners.</p>
+        <p>Defining this semantic unit as size in bytes makes it unnecessary to record a unit of measurement. However, for the purpose of data exchange the unit of measurement should be stated or understood by both partners.</p>
     </div>
     
     <div type="datatype">

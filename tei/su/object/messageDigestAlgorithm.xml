@@ -14,8 +14,7 @@
     
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>The specific algorithm used to construct the message digest for the
-            digital object.</p>
+        <p>The specific algorithm used to construct the message digest for the digital object.</p>
     </div>
     
 <!-- <div type="rationale"> -->
@@ -28,9 +27,7 @@
     
     <div type="datatype">
         <!-- PREMIS Data constraint -->
-        <p>Value should be taken from a controlled vocabulary. A controlled vocabulary list is available at:
-            <ref target="http://id.loc.gov/vocabulary/preservation/cryptographicHashFunctions.html">http://id.loc.gov/vocabulary/preservation/cryptographicHashFunctions.html</ref>.
-        </p>
+        <p>Value should be taken from a controlled vocabulary. A controlled vocabulary list is available at: <ref target="http://id.loc.gov/vocabulary/preservation/cryptographicHashFunctions.html">http://id.loc.gov/vocabulary/preservation/cryptographicHashFunctions.html</ref>.</p>
     </div>
     
     <div type="entity">

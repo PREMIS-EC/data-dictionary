@@ -6,6 +6,7 @@
         <abbr>4.2.3</abbr>
         <gi>rule</gi>
     </head>
+	
     <div type="semanticcomponents">
         <!-- PREMIS Semantic components -->
         <p>4.2.3.1 ruleType</p>

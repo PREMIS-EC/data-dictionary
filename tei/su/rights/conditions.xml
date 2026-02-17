@@ -12,8 +12,7 @@
     </div>
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>Text describing the license or agreement by which permission was
-            granted.</p>
+        <p>Text describing the license or agreement by which permission was granted.</p>
     </div>
 
 <!-- <div type="rationale"> -->
@@ -46,7 +45,7 @@
 
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>This could contain the actual text of the license or agreement, or a paraphrase or summary of it. Most relevant in combination with <bold>rightsBasis</bold> when that is "license" or "other."</p>
+        <p>This could contain the actual text of the license or agreement, or a paraphrase or summary of it. Most relevant in combination with <italic>rightsBasis</italic> when that is "license" or "other."</p>
     </div>
 </div>
 

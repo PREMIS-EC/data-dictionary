@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="formatRegistryName">
     <head>
-        
         <!-- PREMIS Semantic unit 1.5.4.2.1 -->
         <abbr>1.5.4.2.1</abbr>
         <gi>formatRegistryName</gi>
-        
     </head>
     
     <div type="semanticcomponents">

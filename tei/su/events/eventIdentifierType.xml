@@ -45,7 +45,7 @@
     </div>
     <div type="creationmaintenance">
         <!-- PREMIS Creation / Maintenance -->
-        <p>For most preservation repositories, the <bold>eventIdentifierType</bold> will be its own internal numbering system. It can be implicit within the system and provided explicitly only if the data is exported.</p>
+        <p>For most preservation repositories, the <italic>eventIdentifierType</italic> will be its own internal numbering system. It can be implicit within the system and provided explicitly only if the data is exported.</p>
     </div>
 
 <!-- <div type="usagenotes"> -->

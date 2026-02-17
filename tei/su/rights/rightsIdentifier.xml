@@ -6,6 +6,7 @@
         <abbr>4.1</abbr>
         <gi>rightsIdentifier</gi>
     </head>
+	
     <div type="semanticcomponents">
         <!-- PREMIS Semantic components -->
         <p>4.1.1 rightsIdentifierType</p>
@@ -13,14 +14,11 @@
     </div>
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>The designation used to identify the Rights statement uniquely within a
-            preservation repository system.</p>
+        <p>The designation used to identify the Rights statement uniquely within a preservation repository system.</p>
     </div>
     <div type="rationale">
         <!-- PREMIS Rationale -->
-        <p>Each statement of Rights associated with the preservation repository must
-            have a unique identifier to allow it to be related to Events and
-            Agents.</p>
+        <p>Each statement of Rights associated with the preservation repository must have a unique identifier to allow it to be related to Events and Agents.</p>
     </div>
     <div type="datatype">
         <!-- PREMIS Data constraint -->
@@ -43,9 +41,7 @@
     </div>
     <div type="creationmaintenance">
         <!-- PREMIS Creation / Maintenance -->
-        <p>The <italic>rightstIdentifier</italic> is likely to be system generated.
-            There is no global scheme or standard for these identifiers. The
-            identifier is therefore not repeatable.</p>
+        <p>The <italic>rightstIdentifier</italic> is likely to be system generated. There is no global scheme or standard for these identifiers. The identifier is therefore not repeatable.</p>
     </div>
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->

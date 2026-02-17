@@ -27,7 +27,7 @@
     
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>The <bold>creatingApplication</bold> is the application that created the object in its current format, not the application that created the copy written to storage. For example, if a document is created by Microsoft Word and subsequently copied to archive storage by a repository’s Ingest program, the <bold>creatingApplication</bold> is MS Word, not the Ingest program.</p>
+        <p>The <italic>creatingApplication</italic> is the application that created the object in its current format, not the application that created the copy written to storage. For example, if a document is created by Microsoft Word and subsequently copied to archive storage by a repository’s Ingest program, the <italic>creatingApplication</italic> is MS Word, not the Ingest program.</p>
     </div>
     
     <div type="datatype">

@@ -23,29 +23,7 @@
     
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>A file or bitstream can be subject to multiple encodings that must be
-            decoded in reverse order (highest to lowest). For example, file A may be
-            compressed to create file B, which is encrypted to create file C. To
-            recreate a copy of the base file A, one would have to decrypt file C to
-            create file B and then decompress file B to create file A. A
-            <bold>compositionLevel</bold> of zero indicates that the object is a
-            base object and not subject to further decoding, while a level of 1 or
-            higher indicates that one or more decodings must be applied. Numbering
-            goes lowest to highest (first encoded = 0). 0 is base object; 1-n are
-            subsequent encodings. The <bold>compositionLevel</bold> should be set
-            whenever possible, however it is permitted to omit (or use “unknown”) if
-            it not possible to calculate this. Use 0 if there is only one
-            <bold>compositionLevel</bold>. When multiple file objects are bundled
-            together as filestreams within a package file object (e.g., a ZIP file),
-            the individual filestream objects are not composition levels of the
-            package file object. They should be considered separate objects, each
-            with their own composition levels. For example, two encrypted files
-            zipped together and stored in an archive as one file object would be
-            described as three separate objects, each with its own associated
-            metadata. The storage location of the two inner objects would point to
-            the ZIP file, but the ZIP file itself would have only a single
-            composition level (of zero) whose format would be “zip.” See “Object
-            characteristics and composition level”.</p>
+        <p>A file or bitstream can be subject to multiple encodings that must be decoded in reverse order (highest to lowest). For example, file A may be compressed to create file B, which is encrypted to create file C. To recreate a copy of the base file A, one would have to decrypt file C to create file B and then decompress file B to create file A. A <italic>compositionLevel</italic> of zero indicates that the object is a base object and not subject to further decoding, while a level of 1 or higher indicates that one or more decodings must be applied. Numbering goes lowest to highest (first encoded = 0). 0 is base object; 1-n are subsequent encodings. The <italic>compositionLevel</italic> should be set whenever possible, however it is permitted to omit (or use “unknown”) if it not possible to calculate this. Use 0 if there is only one <italic>compositionLevel</italic>. When multiple file objects are bundled together as filestreams within a package file object (e.g., a ZIP file), the individual filestream objects are not composition levels of the package file object. They should be considered separate objects, each with their own composition levels. For example, two encrypted files zipped together and stored in an archive as one file object would be described as three separate objects, each with its own associated metadata. The storage location of the two inner objects would point to the ZIP file, but the ZIP file itself would have only a single composition level (of zero) whose format would be “zip.” See “Object characteristics and composition level”.</p>
     </div>
     
     <div type="datatype">

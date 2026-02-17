@@ -15,12 +15,6 @@
         <p>4.2.2.5 documentationIdentifier</p>
         <p>4.2.2.6 applicableDates</p>
 		<p>4.2.2.7 otherRightsBasis</p>
-<!-- 		<p>4.1.3.1 copyrightStatus</p>
-        <p>4.1.3.2 copyrightJurisdiction</p>
-        <p>4.1.3.3 copyrightStatusDeterminationDate</p>
-        <p>4.1.3.4 copyrightNote</p>
-        <p>4.1.3.5 copyrightDocumentationIdentifier</p>
-        <p>4.1.3.6 copyrightApplicableDates</p> -->
     </div>
     <div type="definition">
         <!-- PREMIS Definition -->
@@ -64,8 +58,6 @@
 
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>When <bold>rightsBasis</bold> is “copyright”, repositories may need to extend this with more
-            detailed information. See the California Digital Library's copyrightMD
-            schema (<ref target="http://www.cdlib.org/groups/rmg//">http://www.cdlib.org/groups/rmg//</ref>) for an example of a more detailed scheme.</p>
+        <p>When <italic>rightsBasis</italic> is “copyright”, repositories may need to extend this with more detailed information. See the California Digital Library's copyright schema (<ref target="http://www.cdlib.org/groups/rmg//">http://www.cdlib.org/groups/rmg//</ref>) for an example of a more detailed scheme.</p>
     </div>
 </div>

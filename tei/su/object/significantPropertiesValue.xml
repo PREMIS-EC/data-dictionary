@@ -13,29 +13,18 @@
     
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>Description of a characteristic of a particular object which has been
-            determined subjectively to be important to maintain through preservation
-            actions.</p>
+        <p>Description of a characteristic of a particular object which has been determined subjectively to be important to maintain through preservation actions.</p>
     </div>
     
     <div type="rationale">
         <!-- PREMIS Rationale -->
-        <p>Repositories may choose to describe significant properties based on a
-            particular aspect or attribute of an object.</p>
+        <p>Repositories may choose to describe significant properties based on a particular aspect or attribute of an object.</p>
     </div>
     
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>If facet:detail pairs are used, the content of
-            <bold>significantPropertiesValue</bold> should describe the significant
-            properties of the object relevant to the aspect, facet, or attribute
-            declared in the <bold>significantPropertiesType</bold> with which it is
-            paired. If facet:detail pairs are not used,
-            <bold>significantPropertiesValue</bold> may be used to freely to
-            describe any characteristic of an object.
-            <bold>significantPropertiesValue</bold> is not repeatable. Multiple
-            significant properties should be described in separate, repeated
-            <bold>significantProperties</bold> container units.</p>
+        <p>If facet:detail pairs are used, the content of <italic>significantPropertiesValue</italic> should describe the significant properties of the object relevant to the aspect, facet, or attribute
+            declared in the <italic>significantPropertiesType</italic> with which it is paired. If facet:detail pairs are not used, <italic>significantPropertiesValue</italic> may be used to freely to describe any characteristic of an object. <italic>significantPropertiesValue</italic> is not repeatable. Multiple significant properties should be described in separate, repeated <italic>significantProperties</italic> container units.</p>
     </div>
     
     <div type="datatype">
@@ -77,33 +66,24 @@
                 </row>
                 <row>
                     <cell><bold>Obligation</bold></cell>
-                    <cell>At least one of the <bold>significantProperties-Value</bold> and
-                        <bold>significantProperties-Extension</bold> subunits must be
-                        present if this container is included, or both may be
-                        used.</cell>
-                    <cell>At least one of the <bold>significantProperties-Value</bold> and
-                        <bold>significantProperties-Extension</bold> subunits must be
-                        present if this container is included, or both may be
-                        used.</cell>
-                    <cell>At least one of the <bold>significantProperties-Value</bold> and
-                        <bold>significantProperties-Extension</bold> subunits must be
-                        present if this container is included, or both may be
-                        used.</cell>
+                    <cell>At least one of the <italic>significantProperties-Value</italic> and <italic>significantProperties-Extension</italic> subunits must be present if this container is included, or both may be used.</cell>
+    <cell>At least one of the <italic>significantProperties-Value</italic> and <italic>significantProperties-Extension</italic> subunits must be present if this container is included, or both may be used.</cell>
+                        <cell>At least one of the <italic>significantProperties-Value</italic> and <italic>significantProperties-Extension</italic> subunits must be present if this container is included, or both may be used.</cell>
                 </row>
                 <row>
                     <cell><bold>Examples</bold></cell>
                     <cell><list type="example">
                             <item>For a Web page containing animation that is not considered essential: Content only.</item>
-                            <item>For detail associated with a <bold>significantPropertiesType</bold> of “behavior”: hyperlinks traversable</item>
+                            <item>For detail associated with a <italic>significantPropertiesType</italic> of “behavior”: hyperlinks traversable</item>
                     </list></cell>
                     <cell><list type="example">
                             <item>For a word processed document with embedded links that are not considered essential: Content only.</item>
-                            <item>For detail associated with a <bold>significantPropertiesType</bold> of “behavior”: editable</item>
-                            <item>For detail associated with a <bold>significantPropertiesType</bold> of “page width”: 210 mm</item>
+                            <item>For detail associated with a <italic>significantPropertiesType</italic> of “behavior”: editable</item>
+                            <item>For detail associated with a <italic>significantPropertiesType</italic> of “page width”: 210 mm</item>
                     </list></cell>
                     <cell><list type="example">
                             <item>For a PDF with an embedded graph, where the lines’ color determines the lines’ meaning: Color.</item>
-                            <item>For detail associated with a <bold>significantPropertiesType</bold> of “appearance”: Color.</item>
+                            <item>For detail associated with a <italic>significantPropertiesType</italic> of “appearance”: Color.</item>
                     </list></cell>
                 </row>
             </table>

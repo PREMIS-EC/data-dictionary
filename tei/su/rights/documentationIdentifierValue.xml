@@ -12,7 +12,7 @@
     </div>
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>The value of the <bold>copyrightDocumentationIdentifier</bold>.</p>
+        <p>The value of the <italic>copyrightDocumentationIdentifier</italic>.</p>
     </div>
 
 <!-- <div type="rationale"> -->

@@ -20,11 +20,7 @@
     
     <div type="rationale">
         <!-- PREMIS Rationale -->
-        <p>The same <bold>format</bold> may be defined in different registries for
-            different purposes. For example, one registry may give detailed format
-            specifications while another has profile information / information about
-            software support and dependencies. If multiple registries are recorded,
-            this semantic unit can be used to distinguish among them.</p>
+        <p>The same <italic>format</italic> may be defined in different registries for different purposes. For example, one registry may give detailed format specifications while another has profile information / information about software support and dependencies. If multiple registries are recorded, this semantic unit can be used to distinguish among them.</p>
     </div>
     
     <!-- <div type="creationmaintenance"> -->

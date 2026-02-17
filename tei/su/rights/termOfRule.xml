@@ -6,6 +6,7 @@
         <abbr>4.2.3.4</abbr>
         <gi>termOfRule</gi>
     </head>
+	
     <div type="semanticcomponents">
         <!-- PREMIS Semantic components -->
         <p>4.2.3.4.1 ruleTrigger</p>

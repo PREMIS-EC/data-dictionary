@@ -18,11 +18,7 @@
     </div>
     <div type="rationale">
         <!-- PREMIS Rationale -->
-        <p>Rights statements must be associated with the objects to which they
-            pertain, either by linking from the Rights statement to the object(s) or
-            by linking from the object(s) to the Rights statement. This semantic
-            unit provides the mechanism for the link from the Rights statement to an
-            object.</p>
+        <p>Rights statements must be associated with the objects to which they pertain, either by linking from the Rights statement to the object(s) or by linking from the object(s) to the Rights statement. This semantic unit provides the mechanism for the link from the Rights statement to an object.</p>
     </div>
     <div type="datatype">
         <!-- PREMIS Data constraint -->

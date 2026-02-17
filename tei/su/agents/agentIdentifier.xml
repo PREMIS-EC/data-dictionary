@@ -44,7 +44,7 @@
     </div>
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>Identifiers must be unique within the repository. The <bold>agentIdentifier</bold> is repeatable in order to allow both repository-assigned and externally-assigned identifiers to be recorded. See Creation/Maintenance notes, above.</p>
+        <p>Identifiers must be unique within the repository. The <italic>agentIdentifier</italic> is repeatable in order to allow both repository-assigned and externally-assigned identifiers to be recorded. See Creation/Maintenance notes, above.</p>
     </div>
 </div>
 

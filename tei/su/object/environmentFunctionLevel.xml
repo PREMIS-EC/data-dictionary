@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="environmentFunctionLevel">
     <head>
-        
         <!-- PREMIS Semantic unit 1.9.2.0 -->
         <abbr>1.9.2</abbr>
         <gi>environmentFunctionLevel</gi>

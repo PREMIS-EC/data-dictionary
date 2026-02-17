@@ -35,7 +35,7 @@
         <p>
             <list type="simple">
                 <label>Obligation</label>
-                <item>Optional (Mandatory in case <bold>rightsBasis</bold> = copyright or statute)</item>
+                <item>Optional (Mandatory in case <italic>rightsBasis</italic> = copyright or statute)</item>
                 <label>Repeatability</label>
                 <item>Not repeatable</item>
             </list>

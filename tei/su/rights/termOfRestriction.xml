@@ -17,7 +17,7 @@
     </div>
     <div type="rationale">
         <!-- PREMIS Rationale -->
-        <p>This allows repositories to express information about time-bounded restrictions like embargoes. If this is applicable, use <bold>restrictionTrigger</bold> to identify the type of start date of enforcement and <bold>restrictionDuration</bold> for the end of the time period that should be recorded.</p>
+        <p>This allows repositories to express information about time-bounded restrictions like embargoes. If this is applicable, use <italic>restrictionTrigger</italic> to identify the type of start date of enforcement and <italic>restrictionDuration</italic> for the end of the time period that should be recorded.</p>
     </div>
     <div type="datatype">
         <!-- PREMIS Data constraint -->

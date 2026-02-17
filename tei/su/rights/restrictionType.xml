@@ -20,8 +20,7 @@
     </div>
     <div type="datatype">
         <!-- PREMIS Data constraint -->
-        <p>Value should be taken from a controlled vocabulary. A controlled vocabulary is available at: http://id.loc.gov/vocabulary/preservation/actionsGranted.html</p>
-<!-- Linked Vocabulary element name and URI must be updated  -->
+        <p>Values should be taken from a controlled vocabulary. A controlled vocabulary is available at: <ref target="https://id.loc.gov/vocabulary/preservation/eventType.html">https://id.loc.gov/vocabulary/preservation/eventType.html</ref>.</p>
  </div>
     <div type="examples">
         <!-- PREMIS Examples -->
@@ -49,7 +48,7 @@
 
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>The Rule defines the class of actions that a repository is allowed to perform. A duty is an obligation–which may be a restriction–and both a duty or permission may be granted by statute or license as documented in <bold>rightsBasis</bold> or institutional policy or contract as documented in <bold>otherRightsBasis</bold>.</p>
+        <p>The Rule defines the class of actions that a repository is allowed to perform. A duty is an obligation–which may be a restriction–and both a duty or permission may be granted by statute or license as documented in <italic>rightsBasis</italic> or institutional policy or contract as documented in <italic>otherRightsBasis</italic>.</p>
     </div>
 </div>
 

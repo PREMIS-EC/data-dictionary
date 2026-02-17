@@ -28,7 +28,7 @@
     
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>It is recommended to further categorize the relationship using <bold>relationshipSubType.</bold></p>
+        <p>It is recommended to further categorize the relationship using <italic>relationshipSubType.</italic></p>
     </div>
     
     <div type="datatype">

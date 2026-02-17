@@ -14,22 +14,17 @@
     
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>A designation of the domain within which the object identifier is
-            unique.</p>
+        <p>A designation of the domain within which the object identifier is unique.</p>
     </div>
     
     <div type="rationale">
         <!-- PREMIS Rationale -->
-        <p>Identifier values cannot be assumed to be unique across domains; the
-            combination of <bold>objectIdentifierType</bold> and
-            <bold>objectIdentifierValue</bold> should ensure uniqueness.</p>
+        <p>Identifier values cannot be assumed to be unique across domains; the combination of <italic>objectIdentifierType</italic> and <italic>objectIdentifierValue</italic> should ensure uniqueness.</p>
     </div>
     
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>The type of the identifier may be implicit within the repository as long
-            as it can be explicitly communicated when the digital object is
-            disseminated outside of it.</p>
+        <p>The type of the identifier may be implicit within the repository as long as it can be explicitly communicated when the digital object is disseminated outside of it.</p>
     </div>
     
     <div type="datatype">

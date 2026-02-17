@@ -27,7 +27,7 @@
     
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>For derivative relationships between Objects <bold>relatedEventIdentifier</bold> must be recorded.</p>
+        <p>For derivative relationships between Objects <italic>relatedEventIdentifier</italic> must be recorded.</p>
     </div>
     
     <div type="datatype">

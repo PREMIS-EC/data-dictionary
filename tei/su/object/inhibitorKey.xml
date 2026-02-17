@@ -27,7 +27,7 @@
     
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>The key should be provided if known. However, it is not advisable to actually store the <bold>inhibitorKey</bold> in plain text in an unsecure database.</p>
+        <p>The key should be provided if known. However, it is not advisable to actually store the <italic>inhibitorKey</italic> in plain text in an unsecure database.</p>
     </div>
     
     <div type="datatype">

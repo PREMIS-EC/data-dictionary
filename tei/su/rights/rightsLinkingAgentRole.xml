@@ -6,6 +6,7 @@
         <abbr>4.4.3</abbr>
         <gi>linkingAgentRole</gi>
     </head>
+	
     <div type="semanticcomponents">
         <!-- PREMIS Semantic components -->
         <p>None</p>
@@ -21,7 +22,7 @@
 
     <div type="datatype">
         <!-- PREMIS Data constraint -->
-        <p>Values should be taken from a controlled vocabulary.</p>
+        <p>Values should be taken from a controlled vocabulary. A controlled vocabulary is available at: <ref target="https://id.loc.gov/vocabulary/preservation/rightsRelatedAgentRole.html">https://id.loc.gov/vocabulary/preservation/rightsRelatedAgentRole.html</ref>.</p>
     </div>
     <div type="examples">
         <!-- PREMIS Examples -->
@@ -32,6 +33,7 @@
                 <item>publisher</item>                
                 <item>rightsholder</item>                
                 <item>grantor</item>
+				<item>assignee</item>
             </list>
         </p>
     </div>

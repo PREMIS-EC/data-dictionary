@@ -15,13 +15,12 @@
     
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>The encoding used for the values of <bold>signatureValue</bold>,
-            <bold>keyInformation.</bold></p>
+        <p>The encoding used for the values of <italic>signatureValue</italic>, <italic>keyInformation.</italic></p>
     </div>
     
     <div type="rationale">
         <!-- PREMIS Rationale -->
-        <p>The values of <bold>signatureValue</bold> and <bold>keyInformation</bold> cannot be interpreted correctly if the encoding is unknown.</p>
+        <p>The values of <italic>signatureValue</italic> and <italic>keyInformation</italic> cannot be interpreted correctly if the encoding is unknown.</p>
     </div>
     
     <div type="datatype">
@@ -76,9 +75,8 @@
         </p>
     </div>
     
-    <div type="creationmaintenance">
+    <!-- <div type="creationmaintenance"> -->
         <!-- PREMIS Creation / Maintenance -->
-        <p>Inhibitors are more likely to be present on an object ingested by the repository than applied by the repository itself. It is hard to detect during ingest if a file is encrypted, but this may be known from the context in which it is ingested. Therefore, information about inhibitors should be supplied as metadata with submitted objects when possible.</p>
-    </div>
+    <!-- </div> -->
 </div>
 

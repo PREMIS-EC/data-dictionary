@@ -15,7 +15,7 @@
     
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>The version of the format named in <bold>formatName</bold>.</p>
+        <p>The version of the format named in <italic>formatName</italic>.</p>
     </div>
     
     <div type="rationale">
@@ -29,7 +29,7 @@
     
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>If the format is versioned, <bold>formatVersion</bold> should be recorded where applicable. It can be either a numeric or chronological designation.</p>
+        <p>If the format is versioned, <italic>formatVersion</italic> should be recorded where applicable. It can be either a numeric or chronological designation.</p>
     </div>
     
     <div type="datatype">

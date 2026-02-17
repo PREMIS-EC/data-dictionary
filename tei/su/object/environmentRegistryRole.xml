@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="environmentRegistryRole">
     <head>
-        
         <!-- PREMIS Semantic unit 1.11.3.0 -->
         <abbr>1.11.3</abbr>
         <gi>environmentRegistryRole</gi>
-        
     </head>
     
     <div type="semanticcomponents">

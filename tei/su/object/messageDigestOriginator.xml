@@ -14,26 +14,17 @@
     
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>The Agent that created the original message digest that is compared in a
-            fixity check.</p>
+        <p>The Agent that created the original message digest that is compared in a fixity check.</p>
     </div>
     
     <div type="rationale">
         <!-- PREMIS Rationale -->
-        <p>A preservation repository may ingest files that have had message digests
-            calculated by the submitter; checking these ensures that the file as
-            received is the same as the file as sent. The repository may also ingest
-            files that do not have message digests, and so must calculate the
-            initial value upon ingest. It can be useful to know what Agent calculated
-            the initial value of the message digest.</p>
+        <p>A preservation repository may ingest files that have had message digests calculated by the submitter; checking these ensures that the file as received is the same as the file as sent. The repository may also ingest files that do not have message digests, and so must calculate the initial value upon ingest. It can be useful to know what Agent calculated the initial value of the message digest.</p>
     </div>
     
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>The originator of the message digest could be represented by a string
-            representing the Agent (e.g., “DRS” referring to the archive itself) or
-            a pointer to an Agent description (e.g., “A0000978” taken here to be an
-            <bold>agentIdentifierValue</bold>)</p>
+        <p>The originator of the message digest could be represented by a string representing the Agent (e.g., “DRS” referring to the archive itself) or a pointer to an Agent description (e.g., “A0000978” taken here to be an <italic>agentIdentifierValue</italic>)</p>
     </div>
     
     <div type="datatype">
@@ -87,9 +78,7 @@
     
     <div type="creationmaintenance">
         <!-- PREMIS Creation / Maintenance -->
-        <p>If the calculation of the initial message digest is treated by the
-            repository as an Event, this information could be obtained from an Event
-            record.</p>
+        <p>If the calculation of the initial message digest is treated by the repository as an Event, this information could be obtained from an Event record.</p>
     </div>
 </div>
 

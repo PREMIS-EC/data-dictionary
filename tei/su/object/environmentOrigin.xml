@@ -15,7 +15,7 @@
     
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>The origin of the environment referenced in <bold>environmentName.</bold></p>
+        <p>The origin of the environment referenced in <italic>environmentName.</italic></p>
     </div>
     
     <div type="rationale">

@@ -13,7 +13,7 @@
     </div>
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>The ending date for which the restriction applies or is applied to the Object described by the <bold>rightsStatement</bold>.</p>
+        <p>The ending date for which the restriction applies or is applied to the Object described by the <italic>rightsStatement</italic>.</p>
     </div>
 
 <!-- <div type="rationale"> -->
@@ -22,10 +22,7 @@
 
     <div type="datatype">
         <!-- PREMIS Data constraint -->
-        <p>To aid machine processing, value should use a structured form. To
-            facilitate exchange of PREMIS-conformant metadata, use of standard
-            conventions, for instance as used in the date elements in the PREMIS
-            schema, is recommended.</p>
+        <p>To aid machine processing, value should use a structured form. To facilitate exchange of PREMIS-conformant metadata, use of standard conventions, for instance as used in the date elements in the PREMIS schema, is recommended.</p>
     </div>
     <div type="examples">
         <!-- PREMIS Examples -->
@@ -53,9 +50,7 @@
 
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>Use “OPEN” for an open ended term of restriction. Omit <bold>endDate</bold>
-            if the ending date is unknown or the permission statement applies to
-            many objects with different end dates.</p>
+        <p>Use “OPEN” for an open ended term of restriction. Omit <italic>endDate</italic> if the ending date is unknown or the permission statement applies to many objects with different end dates.</p>
     </div>
 </div>
 

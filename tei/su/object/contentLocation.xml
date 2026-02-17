@@ -22,7 +22,7 @@
     
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>If the preservation repository uses the <bold>objectIdentifier</bold> as a handle for retrieving data, <bold>contentLocation</bold> is implicit and does not need to be recorded.</p>
+        <p>If the preservation repository uses the <italic>objectIdentifier</italic> as a handle for retrieving data, <italic>contentLocation</italic> is implicit and does not need to be recorded.</p>
     </div>
     
     <div type="datatype">
@@ -71,9 +71,7 @@
     </div>
     <div type="creationmaintenance">
         <!-- PREMIS Creation / Maintenance -->
-        <p>A preservation repository will normally refer to content that it
-            controls. Therefore, it is assumed that the repository will normally
-            assign the <bold>contentLocation</bold>, probably by a program.</p>
+        <p>A preservation repository will normally refer to content that it controls. Therefore, it is assumed that the repository will normally assign the <italic>contentLocation</italic>, probably by a program.</p>
     </div>
 </div>
 

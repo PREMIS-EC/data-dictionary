@@ -5,6 +5,7 @@
         <abbr>4.2.3.2</abbr>
         <gi>action</gi>
     </head>
+	
     <div type="semanticcomponents">
         <!-- PREMIS Semantic components -->
         <p>4.2.3.2.1 actionType</p>

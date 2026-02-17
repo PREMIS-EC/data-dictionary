@@ -12,7 +12,7 @@
     </div>       
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>The value of the <bold>linkingRightsIdentifier</bold>.</p>
+        <p>The value of the <italic>linkingRightsIdentifier</italic>.</p>
     </div>       
 
 <!-- <div type="rationale"> -->
@@ -21,7 +21,7 @@
  
     <div type="datatype">
         <!-- PREMIS Data constraint -->
-        <p>Must be an existing <bold>rightsIdentifierValue</bold> value.</p>
+        <p>Must be an existing <italic>rightsIdentifierValue</italic> value.</p>
     </div>
 
 <!--     <div type="examples"> -->

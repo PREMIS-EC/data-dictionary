@@ -26,7 +26,7 @@
     
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>Either <bold>formatDesignation</bold> or at least one instance of <bold>formatRegistry</bold> is required. If more than one <bold>formatRegistry</bold> needs to be recorded the format container should be repeated to include each additional set of <bold>formatRegistryinformation</bold>.</p>
+        <p>Either <italic>formatDesignation</italic> or at least one instance of <italic>formatRegistry</italic> is required. If more than one <italic>formatRegistry</italic> needs to be recorded the format container should be repeated to include each additional set of <italic>formatRegistryinformation</italic>.</p>
     </div>
     
     <div type="datatype">

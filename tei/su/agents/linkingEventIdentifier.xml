@@ -13,7 +13,7 @@
     </div>       
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>The <bold>eventIdentifier</bold> of an Event associated with the Agent.</p>
+        <p>The <italic>eventIdentifier</italic> of an Event associated with the Agent.</p>
     </div>       
 
 <!-- <div type="rationale"> -->

@@ -15,30 +15,22 @@
     
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>A value indicating the set of preservation functions expected to be
-            applied to the object.</p>
+        <p>A value indicating the set of preservation functions expected to be applied to the object.</p>
     </div>
     
     <div type="rationale">
         <!-- PREMIS Rationale -->
-        <p>Allows a value to be assigned to the <bold>preservationLevel</bold>.</p>
+        <p>Allows a value to be assigned to the <italic>preservationLevel</italic>.</p>
     </div>
     
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>Only one <bold>preservationLevelValue</bold> may be recorded per
-            <bold>preservationLevel</bold> container. If a further
-            <boldi>preservationLevelValue</boldi> applies to the Object in a different
-            context, a separate <bold>preservationLevel</bold> container should be
-            repeated.</p>
+        <p>Only one <italic>preservationLevelValue</italic> may be recorded per <italic>preservationLevel</italic> container. If a further <italic>preservationLevelValue</italic> applies to the Object in a different context, a separate <italic>preservationLevel</italic> container should be repeated.</p>
     </div>
     
     <div type="datatype">
         <!-- PREMIS Data constraint -->
-        <p>Value should be taken from a controlled vocabulary. If
-            <bold>preservationLevelType</bold> and/or <bold>preservationLevelRole</bold>
-            are used, then the available controlled vocabulary should be dependent
-            on the values set for each of these types.</p>
+        <p>Value should be taken from a controlled vocabulary. If <italic>preservationLevelType</italic> and/or <italic>preservationLevelRole</italic> are used, then the available controlled vocabulary should be dependent on the values set for each of these types.</p>
     </div>
     
     <div type="entity">
@@ -90,8 +82,7 @@
     </div>
     <div type="creationmaintenance">
         <!-- PREMIS Creation / Maintenance -->
-        <p>The preservation level may be assigned by the repository or requested
-            by the depositor and submitted as metadata.</p>
+        <p>The preservation level may be assigned by the repository or requested by the depositor and submitted as metadata.</p>
     </div>
 </div>
 

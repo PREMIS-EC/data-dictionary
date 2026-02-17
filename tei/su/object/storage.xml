@@ -16,7 +16,7 @@
     
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>Information about how and where an entity can be found. For bitstreams this means the location within a file. For files this means the physical location in one or more storage systems. Starting with PREMIS version 3.0, <bold>storage</bold> is applicable to representations. For physical representations such as system disks or printed versions of digital files, this means the location of the physical object, such as a shelf location. For digital representations this means the location of the digital object in a storage system, if all files in the representation can be found in this same location.</p>
+        <p>Information about how and where an Object can be found. For bitstreams this means the location within a file. For files this means the physical location in one or more storage systems. Starting with PREMIS version 3.0, <bold>storage</bold> is applicable to representations. For physical representations such as system disks or printed versions of digital files, this means the location of the physical object, such as a shelf location. For digital representations this means the location of the digital object in a storage system, if all files in the representation can be found in this same location.</p>
     </div>
     
     <div type="rationale">

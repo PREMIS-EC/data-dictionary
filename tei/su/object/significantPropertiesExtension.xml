@@ -13,8 +13,7 @@
     
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>A container to include semantic units defined outside of PREMIS for
-            significant properties.</p>
+        <p>A container to include semantic units defined outside of PREMIS for significant properties.</p>
     </div>
     
     <div type="rationale">
@@ -24,27 +23,10 @@
     
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p xml:lang="en">For more granularity or use of externally defined semantic
-            units, extensibility is provided. Either local semantic units or
-            metadata using another specified metadata scheme may be included in
-            addition to PREMIS defined semantic units. When using an extension
-            schema, a reference to that schema must be provided. See further
-            guidance in “Extensibility”.</p>
-        <p>All of this semantic unit’s subunits are optional. At least one of the
-            <bold>significantPropertiesValue</bold> and
-            <bold>significantPropertiesExtension</bold> subunits must be present if
-            the <bold>significantProperties</bold> container is included.</p>
-        <p>If the <bold>significantPropertiesExtension</bold> container needs to be
-            associated explicitly with any PREMIS subunit under
-            significantProperties, the container <bold>significantProperties</bold> is
-            repeated. Also, if extensions from different external schemas are
-            needed, <bold>significantProperties</bold> should be repeated.</p>
-        <p>It is recommended to give information about the metadata used in
-            <bold>significantPropertiesExtension</bold> including date the metadata
-            was created, status of the metadata, internal linking IDs, type of
-            metadata used and its version, message digest and message digest
-            algorithm of the metadata, and type of identifier for external metadata
-            links.</p>
+        <p>For more granularity or use of externally defined semantic units, extensibility is provided. Either local semantic units or metadata using another specified metadata scheme may be included in addition to PREMIS defined semantic units. When using an extension schema, a reference to that schema must be provided. See further guidance in “Extensibility”.</p>
+        <p>All of this semantic unit’s subunits are optional. At least one of the <italic>significantPropertiesValue</italic> and <italic>significantPropertiesExtension</italic> subunits must be present if the <italic>significantProperties</italic> container is included.</p>
+        <p>If the <italic>significantPropertiesExtension</italic> container needs to be associated explicitly with any PREMIS subunit under significantProperties, the container <italic>significantProperties</italic> is repeated. Also, if extensions from different external schemas are needed, <italic>significantProperties</italic> should be repeated.</p>
+        <p>It is recommended to give information about the metadata used in <italic>significantPropertiesExtension</italic> including date the metadata was created, status of the metadata, internal linking IDs, type of metadata used and its version, message digest and message digest algorithm of the metadata, and type of identifier for external metadata links.</p>
     </div>
 	
 	<!--     <div type="examples"> -->
@@ -79,18 +61,9 @@
                 </row>
                 <row>
                     <cell><bold>Obligation</bold></cell>
-                    <cell>At least one of the <bold>significantProperties-Value</bold> and
-                        <bold>significantProperties-Extension</bold> subunits must be
-                        present if the <bold>significantProperties</bold> container is
-                        included, or both may be used</cell>
-                    <cell>At least one of the <bold>significantProperties-Value</bold> and
-                        <bold>significantProperties-Extension</bold> subunits must be
-                        present if the <bold>significantProperties</bold> container is
-                        included, or both may be used</cell>
-                    <cell>At least one of the <bold>significantProperties-Value</bold> and
-                        <bold>significantProperties-Extension</bold> subunits must be
-                        present if the <bold>significantProperties</bold> container is
-                        included, or both may be used</cell>
+                    <cell>At least one of the <italic>significantProperties-Value</italic> and <italic>significantProperties-Extension</italic> subunits must be present if the <italic>significantProperties</italic> container is included, or both may be used</cell>
+                    <cell>At least one of the <italic>significantProperties-Value</italic> and <italic>significantProperties-Extension</italic> subunits must be present if the <italic>significantProperties</italic> container is included, or both may be used</cell>
+                    <cell>At least one of the <italic>significantProperties-Value</italic> and <italic>significantProperties-Extension</italic> subunits must be present if the <italic>significantProperties</italic> container is included, or both may be used</cell>
                 </row>
             </table>
         </p>

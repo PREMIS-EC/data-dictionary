@@ -48,7 +48,7 @@
 
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p><bold>eventDetail</bold> is not necessarily intended to be processed by machine. It may record any information about an Event and/or point to information stored elsewhere. When multiple details about the same Event need to be recorded, the <bold>eventDetailInformation</bold> container must be repeated. <bold>eventDetailExtension</bold> allows more expressivity if required.</p>
+        <p><italic>eventDetail</italic> is not necessarily intended to be processed by machine. It may record any information about an Event and/or point to information stored elsewhere. When multiple details about the same Event need to be recorded, the <italic>eventDetailInformation</italic> container must be repeated. <italic>eventDetailExtension</italic> allows more expressivity if required.</p>
     </div>
 </div>
 

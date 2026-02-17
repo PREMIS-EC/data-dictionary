@@ -14,9 +14,7 @@
     </div>
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>A designation used to identify documentation supporting the specified
-            Rights granted according to copyright uniquely within the repository
-            system.</p>
+        <p>A designation used to identify documentation supporting the specified Rights granted that is unique within the repository system.</p>
     </div>
 
 <!-- <div type="rationale"> -->
@@ -49,16 +47,9 @@
 
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>This semantic unit is intended to refer to a document recording the granting of permission, the expression of requirements
-or restrictions, or other information supporting the specified <bold>rightsBasis</bold>.</p>
-<p>in case of license/agreement: this may be a formal signed contract
-with a customer. If the granting agreement is verbal, this could point
-to a memo by the repository documenting the verbal agreement.</p>
-<p>The identifier is optional because the agreement may not be stored in
-a repository with an identifier. For example, in the case of a verbal
-agreement the entire agreement may be included or described in <bold>conditions</bold>.</p>
-<p>If repeated, use <bold>documentationRole</bold> to distinguish the role of the
-given documentation.</p>
+        <p>This semantic unit is intended to refer to a document recording the granting of permission, the expression of requirements or restrictions, or other information supporting the specified <italic>rightsBasis</italic>.</p>
+		<p>in case of license/agreement: this may be a formal signed contract with a customer. If the granting agreement is verbal, this could point to a memo by the repository documenting the verbal agreement.</p> <p>The identifier is optional because the agreement may not be stored in a repository with an identifier. For example, in the case of a verbal agreement the entire agreement may be included or described in <italic>conditions</italic>.</p>
+		<p>If repeated, use <italic>documentationRole</italic> to distinguish the role of the given documentation.</p>
     </div>
 </div>
 

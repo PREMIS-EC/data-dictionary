@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="linkingRightsStatementIdentifier">
     <head>
-        
         <!-- PREMIS Semantic unit 1.15.0-->
         <abbr>1.15</abbr>
         <gi>linkingRightsStatementIdentifier</gi>
-        
     </head>
     
     <div type="semanticcomponents">

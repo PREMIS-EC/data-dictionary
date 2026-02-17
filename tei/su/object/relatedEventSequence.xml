@@ -28,7 +28,7 @@
     
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>The sequence of a related Event can be inferred from the <bold>eventDateTime</bold> associated with the related Event.</p>
+        <p>The sequence of a related Event can be inferred from the <italic>eventDateTime</italic> associated with the related Event.</p>
     </div>
     
     <div type="datatype">

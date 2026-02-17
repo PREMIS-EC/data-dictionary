@@ -49,7 +49,7 @@
 
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>Although the semantic unit is named <bold>linkingEnvironmentIdentifier</bold>, it links an Agent to an Object. <bold>LinkingEnvironmentIdentifierType</bold> and <bold>linkingEnvironmentIdentifierValue</bold> must therefore match <bold>objectIdentifierType</bold> and <bold>objectIdentifierValue</bold> in the related environment Object.</p>
+        <p>Although the semantic unit is named <italic>linkingEnvironmentIdentifier</italic>, it links an Agent to an Object. <italic>LinkingEnvironmentIdentifierType</italic> and <italic>linkingEnvironmentIdentifierValue</italic> must therefore match <italic>objectIdentifierType</italic> and <italic>objectIdentifierValue</italic> in the related environment Object.</p>
     </div>
 </div>
 

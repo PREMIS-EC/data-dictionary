@@ -18,10 +18,7 @@
     </div>
     <div type="rationale">
         <!-- PREMIS Rationale -->
-        <p>Rights statements may be associated with related Agents, either by
-            linking from the Rights statement to the Agent(s) or by linking from the
-            Agents(s) to the Rights statement. This provides the mechanism for the
-            link from the Rights statement to the Agent.</p>
+        <p>Rights statements may be associated with related Agents, either by linking from the Rights statement to the Agent(s) or by linking from the Agents(s) to the Rights statement. This provides the mechanism for the link from the Rights statement to the Agent.</p>
     </div>
     <div type="datatype">
         <!-- PREMIS Data constraint -->
@@ -49,12 +46,7 @@
 
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>Linking semantic units are mandatory in the sense that a repository needs
-            to know the information, but are defined as optional because PREMIS does
-            not specify in which direction the linkage should be. In particular,
-            <bold>linkingAgentIdentifier</bold> is optional because a relevant Agent
-            may be unknown, or no Agent may be relevant. The latter is likely when
-            the Rights basis is statute.</p>
+        <p>Linking semantic units are mandatory in the sense that a repository needs to know the information, but are defined as optional because PREMIS does not specify in which direction the linkage should be. In particular, <italic>linkingAgentIdentifier</italic> is optional because a relevant Agent may be unknown, or no Agent may be relevant. The latter is likely when <italic>rightsBasis</italic> is statute.</p>
     </div>
 </div>
 

@@ -1137,8 +1137,8 @@
                                 http://fairuse.stanford.edu/commentary_and_analysis/2003_11_hirtle.html</ref>.</note>”
                         and he California Digital Library's draft copyrightMD schema<note n="14">
                             California Digital Library, copyrightMD schema, <ref
-                                target="http://www.cdlib.org/inside/projects/rights/schema/">
-                                http://www.cdlib.org/inside/projects/rights/schema/</ref>.</note>.
+                                target="https://cdlib.org/groups/rights-management-group-copyrightmd/">
+                                https://cdlib.org/groups/rights-management-group-copyrightmd/</ref>.</note>.
                         It should be noted that the proposed uses of copyrightMD and PREMIS Rights
                         are rather different. The copyrightMD schema is intended to document factual
                         information to allow a human being to make an informed copyright assessment
@@ -1353,6 +1353,7 @@
                         <item>documents</item>
                         <item>is documented in</item>
                     </list>
+						<p> This list is kept up-to-date at: <ref target="http://id.loc.gov/vocabulary/preservation/relationshipSubType.html">http://id.loc.gov/vocabulary/preservation/relationshipSubType.html</ref></p>
                     <figure>
                         <graphic url="PREMIS_Figure4.png"/>
                         <figDesc>Figure 4. Dependency relationships between (a) a content and environment
@@ -4323,8 +4324,7 @@
                         Entities: Objects, Agents, Rights, and Events.</item>
 
                     <label>Event:</label>
-                    <item>Preservation-relevant action that involves at least one Digital Object
-                        and/or Agent known to the Preservation Repository.</item>
+                    <item>Action performed within or outside the repository that affects the long term preservation of Objects.</item>
 
                     <label>Extensibility:</label>
                     <item>Property that Semantic Units in the PREMIS Data Dictionary may be
@@ -4461,11 +4461,12 @@
                     <item>Form of Migration in which a version of a Digital Object is created in a
                         new Format with properties more conducive to preservation treatment.
                         Normalization is often implemented as part of the Ingest process.</item>
+						
                     <label>Object:</label>
-                    <item>See Digital Object.</item>
+                    <item>See Digital Object. NOTE: Objects are environment-specific, the scope of PREMIS can also covers a Physical Object so that it can be described and related to a Digital Object. Physical items, such as manuscripts or printed documents, may also be am Object Representation so that both a digital and non-digital Representation can be captured uniformly.</item>
+					
                     <label>Permission:</label>
-                    <item> Agreement between a Rights holder and a Preservation Repository, allowing
-                        the Preservation Repository to undertake some action.</item>
+                    <item> Agreement between a Rights holder and a Preservation Repository, allowing the Preservation Repository to undertake some action.</item>
 
                     <label>Pre-Ingest:</label>
                     <item>Period in the life cycle of a Digital Object before it is Ingested into a

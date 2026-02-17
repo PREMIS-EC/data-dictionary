@@ -26,10 +26,7 @@
     
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>For unidentified formats, <bold>formatName</bold> may be recorded as
-            “unknown”. Whenever possible, controlled vocabularies for
-            <bold>formatName</bold> should come from format or technical
-            registries.</p>
+        <p>For unidentified formats, <italic>formatName</italic> may be recorded as “unknown”. Whenever possible, controlled vocabularies for <italic>formatName</italic> should come from format or technical registries.</p>
     </div>
     
     <div type="datatype">

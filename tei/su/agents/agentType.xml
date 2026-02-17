@@ -4,7 +4,8 @@
         <!-- PREMIS Semantic unit 3.3.0 -->
         <abbr>3.3</abbr>
         <gi>agentType</gi>        
-    </head>       
+    </head>
+	
     <div type="semanticcomponents">
         <!-- PREMIS Semantic components -->
         <p>None</p>

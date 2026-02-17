@@ -12,7 +12,7 @@
     </div>
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>Designation of the basis for the right (permission or obligation) identified by the <bold>rightsIdentifier</bold>.</p>
+        <p>Designation of the basis for the right (permission or obligation) identified by the <italic>rightsIdentifier</italic>.</p>
     </div>
 
 <!-- <div type="rationale"> -->
@@ -51,11 +51,7 @@
 
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>When <bold>rightsBasis</bold> is “other”,
-            <bold>otherRightsBasis</bold> (in <bold>RightsInformation</bold>
-            container) should be provided. If the Rights for the item are public
-            domain, use “copyright”. If they are Fair Use, use “statute”. If more
-            than one basis applies, the entire Rights entity should be repeated.</p>
+        <p>When <italic>rightsBasis</italic> is “other”, <italic>otherRightsBasis</italic> (in <italic>RightsInformation</italic> container) should be provided. If the Rights for the item are public domain, use “copyright”. If they are Fair Use, use “statute”. If more than one basis applies, the entire Rights entity should be repeated.</p>
     </div>
 </div>
 

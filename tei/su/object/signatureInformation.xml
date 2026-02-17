@@ -26,7 +26,7 @@
     
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>Either <bold>signature</bold> or <bold>signatureInformationExtension</bold> may be used. Use of <bold>signatureInformationExtension</bold> with the schema defined in W3C’s XML-Signature Syntax and Processing(<ref target="http://www.w3.org/TR/2002/REC-xmldsig-core-20020212/">http://www.w3.org/TR/2002/REC-xmldsig-core-20020212/</ref>) is encouraged when applicable. See the discussion of digital signatures for more information on use of both PREMIS-defined and externally-defined semantic units.</p>
+        <p>Either <italic>signature</italic> or <italic>signatureInformationExtension</italic> may be used. Use of <italic>signatureInformationExtension</italic> with the schema defined in W3C’s XML-Signature Syntax and Processing(<ref target="http://www.w3.org/TR/2002/REC-xmldsig-core-20020212/">http://www.w3.org/TR/2002/REC-xmldsig-core-20020212/</ref>) is encouraged when applicable. See the discussion of digital signatures for more information on use of both PREMIS-defined and externally-defined semantic units.</p>
     </div>
     
     <div type="datatype">

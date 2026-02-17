@@ -73,9 +73,8 @@
         </p>
     </div>
     
-    <div type="creationmaintenance">
+    <!-- <div type="creationmaintenance"> -->
         <!-- PREMIS Creation / Maintenance -->
-        <p>Inhibitors are more likely to be present on an object ingested by the epository than applied by the repository itself. It is hard to detect during ingest if a file is encrypted, but this may be known from the context in which it is ingested. Therefore, information about inhibitors should be supplied as metadata with submitted objects when possible.</p>
-    </div>
+    <!-- </div> -->
 </div>
 

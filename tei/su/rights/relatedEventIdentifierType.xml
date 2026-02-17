@@ -14,7 +14,7 @@
     
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>The <bold>relatedEventIdentifierType</bold> value of the related event.</p>
+        <p>The <italic>relatedEventIdentifierType</italic> value of the related event.</p>
     </div>
     
 <!-- <div type="rationale"> -->
@@ -23,7 +23,7 @@
 
     <div type="datatype">
         <!-- PREMIS Data constraint -->
-        <p>Must be an existing <bold>eventIdentifierType</bold> value.</p>
+        <p>Must be an existing <italic>eventIdentifierType</italic> value.</p>
     </div>    
 
     <div type="entity">

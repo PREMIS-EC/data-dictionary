@@ -4,7 +4,8 @@
         <!-- PREMIS Semantic unit 2.6.3 -->
         <abbr>2.6.3</abbr>
         <gi>linkingAgentRole</gi>        
-    </head>       
+    </head>
+    
     <div type="semanticcomponents">
         <!-- PREMIS Semantic components -->
         <p>None</p>
