@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="restrictionTrigger">
+    <head>
+        <!-- PREMIS Semantic unit 4.2.3.3.2.1 -->
+        <abbr>4.2.3.3.2.1</abbr>
+        <gi>restrictionTrigger</gi>
+    </head>
+	
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>None</p>
+    </div>
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>The type of start date or startdate-time that launches the enforcement period.</p>
+    </div>
+
+<!-- <div type="rationale"> -->
+        <!-- PREMIS Rationale -->
+    <!-- </div> -->
+
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>Use a local controlled vocabulary to identify the type of trigger.</p>
+    </div>
+    <div type="examples">
+        <!-- PREMIS Examples -->
+        <p>
+            <list type="simple">
+                <item>Date of Classification</item>
+                <item>Donor Agreement Signed</item>
+				<item>Licensing Date</item>
+                <item>Date of Birth</item>
+				<item>Date of Death</item>
+                <item>Date of Publication</item>
+            </list>		
+		</p>
+    </div>
+    <div type="entity">
+        <p>
+            <list type="simple">
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Not repeatable</item>
+            </list>
+        </p>
+    </div>
+
+    <!-- <div type="creationmaintenance"> -->
+        <!-- PREMIS Creation / Maintenance -->
+    <!-- </div> -->
+
+<!-- <div type="usagenotes"> -->
+        <!-- PREMIS Usage notes -->
+    <!-- </div> -->
+
+</div>
+

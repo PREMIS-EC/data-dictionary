@@ -4,7 +4,8 @@
         <!-- PREMIS Semantic unit 3.9.3 -->
         <abbr>3.9.3</abbr>
         <gi>linkingEnvironmentRole</gi>        
-    </head>       
+    </head>
+	
     <div type="semanticcomponents">
         <!-- PREMIS Semantic components -->
         <p>None</p>
@@ -41,13 +42,14 @@
             </list>
         </p>
     </div>
-    <div type="creationmaintenance">
+
+    <!-- <div type="creationmaintenance"> -->
         <!-- PREMIS Creation / Maintenance -->
-        <p></p>
-    </div>
-    <div type="usagenotes">
+    <!-- </div> -->
+
+<!-- <div type="usagenotes"> -->
         <!-- PREMIS Usage notes -->
-        <p></p>
-    </div>
+    <!-- </div> -->
+
 </div>              
 

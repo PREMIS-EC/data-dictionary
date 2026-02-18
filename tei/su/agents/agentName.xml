@@ -4,7 +4,8 @@
         <!-- PREMIS Semantic unit 3.2.0 -->
         <abbr>3.2</abbr>        
         <gi>agentName</gi>        
-    </head>       
+    </head>
+	
     <div type="semanticcomponents">
         <!-- PREMIS Semantic components -->
         <p>None</p>
@@ -48,7 +49,7 @@
     </div>
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>The value is not necessarily unique. If <bold>agentType</bold> is software, <bold>agentVersion</bold> can be used to refine <bold>agentName</bold>.</p>
+        <p>The value is not necessarily unique. If <italic>agentType</italic> is software, <italic>agentVersion</italic> can be used to refine <italic>agentName</italic>.</p>
     </div>
 </div>
 

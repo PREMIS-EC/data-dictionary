@@ -2,34 +2,35 @@
 <div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"
     xml:id="restriction">
     <head>
-        <!-- PREMIS Semantic unit 4.1.7.2.0 -->
-        <abbr>4.1.7.2</abbr>
+        <!-- PREMIS Semantic unit 4.2.2.3.0.0 -->
+        <abbr>4.2.3.3</abbr>
         <gi>restriction</gi>
     </head>
     <div type="semanticcomponents">
         <!-- PREMIS Semantic components -->
-        <p>None</p>
+        <p>4.2.3.3.1 restrictionType</p>
+        <p>4.2.3.3.2 termOfRestriction</p>
     </div>
     <div type="definition">
         <!-- PREMIS Definition -->
         <p>A condition or limitation on the act.</p>
     </div>
-    <div type="rationale">
+
+<!-- <div type="rationale"> -->
         <!-- PREMIS Rationale -->
-        <p/>
-    </div>
+    <!-- </div> -->
+
     <div type="datatype">
         <!-- PREMIS Data constraint -->
-        <p>None</p>
+        <p>Container</p>
     </div>
     <div type="examples">
         <!-- PREMIS Examples -->
         <p>
             <list type="example">
                 <item>No more than three</item>                
-                <item>Allowed only after one year of archival retention has
-                    elapsed</item>                
-                <item>Rightsholder must be notified after completion of act</item>
+                <item>Allowed only after one year of archival retention has elapsed</item>                
+                <item>Rights holder must be notified after completion of act</item>
             </list>
         </p>
     </div>
@@ -43,13 +44,14 @@
             </list>
         </p>
     </div>
-    <div type="creationmaintenance">
+
+    <!-- <div type="creationmaintenance"> -->
         <!-- PREMIS Creation / Maintenance -->
-        <p/>
-    </div>
-    <div type="usagenotes">
+    <!-- </div> -->
+
+<!-- <div type="usagenotes"> -->
         <!-- PREMIS Usage notes -->
-        <p/>
-    </div>
+    <!-- </div> -->
+
 </div>
 

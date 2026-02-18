@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="restrictionDuration">
+    <head>
+        <!-- PREMIS Semantic unit 4.2.3.3.2.2 -->
+        <abbr>4.2.3.3.2.2</abbr>
+        <gi>restrictionDuration</gi>
+    </head>
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>None</p>
+    </div>
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>The time duration for enforcement.</p>
+    </div>
+
+<!-- <div type="rationale"> -->
+        <!-- PREMIS Rationale -->
+    <!-- </div> -->
+
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>To aid machine processing, value should use a structured form. To facilitate exchange of PREMIS-conformant metadata, use of standard conventions, for instance as used in the date elements in the PREMIS schema, is recommended.</p>
+    </div>
+    <div type="examples">
+        <!-- PREMIS Examples -->
+        <p>
+            <list type="example">
+                <item>P5Y</item>                
+                <item>P6M</item>
+                <item>OPEN</item>
+			</list>
+        </p>
+    </div>
+    <div type="entity">
+        <p>
+            <list type="simple">
+                <label>Obligation</label>
+                <item>Optional, Mandatory if there is a trigger</item>
+                <label>Repeatability</label>
+                <item>Not repeatable</item>
+            </list>
+        </p>
+    </div>
+
+    <!-- <div type="creationmaintenance"> -->
+        <!-- PREMIS Creation / Maintenance -->
+    <!-- </div> -->
+
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p>Use “OPEN” for an open ended term of restriction.</p>
+    </div>
+</div>
+
+

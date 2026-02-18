@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="environmentDesignationNote">
     <head>
-        
         <!-- PREMIS Semantic unit 1.10.4.0 -->
         <abbr>1.10.4</abbr>
         <gi>environmentDesignationNote</gi>
@@ -15,24 +14,17 @@
     
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>Any further information required to enhance the correct specification of
-            the environment.</p>
+        <p>Any further information required to enhance the correct specification of the environment.</p>
     </div>
     
     <div type="rationale">
         <!-- PREMIS Rationale -->
-        <p>This semantic unit allows further information to be added in an
-            unstructured way. This information could include restrictions, known
-            issues, issues fixed in this release, information on execution time,
-            etc.</p>
+        <p>This semantic unit allows further information to be added in an unstructured way. This information could include restrictions, known issues, issues fixed in this release, information on execution time, etc.</p>
     </div>
     
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>The Data Dictionary does not prescribe when to use a designation note and
-            when to include the note in the name or version. For example, it is
-            possible to describe the “Ubuntu 12.04 32 bit” operating system in a
-            number of ways including:</p>
+        <p>The Data Dictionary does not prescribe when to use a designation note and when to include the note in the name or version. For example, it is possible to describe the “Ubuntu 12.04 32 bit” operating system in a number of ways including:</p>
         <list type="example">
             <item>Name= “Ubuntu”, Version = “12.04”, Designation Note = “32
                 bit”</item>
@@ -40,10 +32,12 @@
             <item>Name= “Ubuntu” Version = “12.04 32-bit”</item>
             <item>Name= “Ubuntu 12.04 32 bit” </item>
         </list>
-        <p>All of these are acceptable, and which is used will depend on naming
-            conventions in use within the repository, common usage by the individual
-            or organization producing the environment, and other factors.</p>
+        <p>All of these are acceptable, and which is used will depend on naming conventions in use within the repository, common usage by the individual or organization producing the environment, and other factors.</p>
     </div>
+	
+	    <!-- <div type="creationmaintenance"> -->
+        <!-- PREMIS Creation / Maintenance -->
+    <!-- </div> -->
     
     <div type="datatype">
         <!-- PREMIS Data constraint -->

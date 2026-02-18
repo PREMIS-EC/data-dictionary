@@ -15,28 +15,27 @@
     
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>The operations to be performed in order to validate the digital
-            signature.</p>
+        <p>The operations to be performed in order to validate the digital signature.</p>
     </div>
     
     <div type="rationale">
         <!-- PREMIS Rationale -->
-        <p>The repository should not assume that the procedure for validating any
-            particular signature will be known many years in the future without
-            documentation.</p>
+        <p>The repository should not assume that the procedure for validating any particular signature will be known many years in the future without documentation.</p>
     </div>
     
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>This may include the canonicalization method used before calculating the
-            message digest, if the object was normalized before signing. This value
-            could also be a pointer to archive documentation.</p>
+        <p>This may include the canonicalization method used before calculating the message digest, if the object was normalized before signing. This value could also be a pointer to archive documentation.</p>
     </div>
     
     <div type="datatype">
         <!-- PREMIS Data constraint -->
         <p>None</p>
     </div>
+	
+	<!--     <div type="examples"> -->
+        <!-- PREMIS Examples -->
+    <!-- </div> -->
     
     <div type="entity">
         <!-- PREMIS Object category -->
@@ -56,13 +55,13 @@
                 </row>
                 <row>
                     <cell><bold>Repeatability</bold></cell>
-                    <cell> </cell>
+                    <cell>Not applicable</cell>
                     <cell>Not repeatable</cell>
                     <cell>Not repeatable</cell>
                 </row>
                 <row>
                     <cell><bold>Obligation</bold></cell>
-                    <cell> </cell>
+                    <cell>Not applicable</cell>
                     <cell>Mandatory</cell>
                     <cell>Mandatory</cell>
                 </row>
@@ -70,13 +69,8 @@
         </p>
     </div>
     
-    <div type="creationmaintenance">
+    <!-- <div type="creationmaintenance"> -->
         <!-- PREMIS Creation / Maintenance -->
-        <p>Inhibitors are more likely to be present on an object ingested by the
-            repository than applied by the repository itself. It is hard to detect
-            during ingest if a file is encrypted, but this may be known from the
-            context in which it is ingested. Therefore, information about inhibitors
-            should be supplied as metadata with submitted objects when possible.</p>
-    </div>
+    <!-- </div> -->
 </div>
 

@@ -11,21 +11,22 @@
     </div>       
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>A designation of the domain in which the linking Agent identifier is unique.</p>
+        <p>A designation of the domain in which the <italic>linkingAgentIdentifierValue</italic> is unique.</p>
     </div>       
-    <div type="rationale">
+
+<!-- <div type="rationale"> -->
         <!-- PREMIS Rationale -->
-        <p></p>
-    </div>  
+    <!-- </div> -->
+
     <div type="datatype">
         <!-- PREMIS Data constraint -->
-        <p>Must be an existing agentIdentifierType value.</p>
+        <p>Must be an existing <italic>agentIdentifierType</italic> value.</p>
     </div>
     <div type="examples">
         <!-- PREMIS Examples -->
         <p>
             <list type="example">
-                <item>[see examples for agentIdentifierType]</item>
+                <item>See examples for <italic>agentIdentifierType</italic></item>
             </list>
         </p>
     </div>
@@ -39,13 +40,14 @@
             </list>
         </p>
     </div>
-    <div type="creationmaintenance">
+
+    <!-- <div type="creationmaintenance"> -->
         <!-- PREMIS Creation / Maintenance -->
-        <p></p>
-    </div>
-    <div type="usagenotes">
+    <!-- </div> -->
+
+<!-- <div type="usagenotes"> -->
         <!-- PREMIS Usage notes -->
-        <p></p>
-    </div>
+    <!-- </div> -->
+
 </div>
 

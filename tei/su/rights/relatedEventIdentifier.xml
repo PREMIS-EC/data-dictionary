@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="relatedEventIdentifier">
+    
+    <head type="semanticunit">
+        <abbr>4.2.4.6</abbr>
+        <!-- PREMIS Semantic unit 4.2.4.6.0 -->
+        <gi>relatedEventIdentifier</gi>
+    </head>
+    
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>4.2.4.6.1 relatedEventIdentifierType</p>
+        <p>4.2.4.6.2 relatedEventIdentifierValue</p>
+		<p>4.2.4.6.3 relatedEventType</p>
+    </div>
+    
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>A review Event takes place, which has an eventOutcome and an optional <italic>relatedAgentIdentifier</italic> and is linked to the object using <italic>linkingObjectIdentifier</italic>. IF the review event results in a partial update to the rights, a new <italic>rightsStatement</italic> is created, and is linked to the review Event.</p> <p>The outcome of the review could be that nothing has changed. If there is no change, an Event must still be created and linked that reconfirms the status.</p> <p>A <italic>rightsStatement</italic> may also be updated INSTEAD of creating a new <italic>rightsStatement</italic> in cases where the outcome of the review event is a wholesale change, such as the expiration of a license or copyright. Review Events with partial outcomes must have a new <italic>rightsStatement</italic>.</p> <p>The <italic>eventIdentifier</italic> of a review Event may be associated with an Agent using a <italic>relatedAgentIdentifier</italic> with the <italic>relatedAgentRole</italic> of “Authorizer.”</p> <p>If there are review Events associated with one or more Agents, one must be able to link the review Event to each of the agents, and the outcomes of multiple reviews which may relate to any number of agents over time.</p>
+    </div>
+
+<!-- <div type="rationale"> -->
+        <!-- PREMIS Rationale -->
+    <!-- </div> -->
+
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>Container</p>
+    </div>
+
+    <!-- <div type="creationmaintenance"> -->
+        <!-- PREMIS Creation / Maintenance -->
+    <!-- </div> -->
+
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p>Use to link to Events that are not associated with relationships between Objects, such as format validation, virus checking etc. If the Event involves the creation of another Object, use <italic>relatedEventIdentifer</italic> to link the newly-created Object to the Event, and <italic>relatedAgentIdentifier</italic> to link that Event to the Agent.</p> <p>Linking semantic units are mandatory in the sense that a repository needs to know the information, but are defined as optional because PREMIS does not specify in which direction the linkage should be.</p>
+    </div>
+    
+    <div type="entity">
+        <!-- PREMIS Object category -->
+        <p>
+            <table cols="4">
+                <row role="label">
+                    <cell>Object Category</cell>
+                     <cell>Intellectual Entity / Representation</cell>
+                    <cell>File</cell>
+                    <cell>Bitstream</cell>
+                </row>
+                <row>
+                    <cell><bold>Applicability</bold></cell>
+                    <cell>Applicable</cell>
+                    <cell>Not Applicable</cell>
+                    <cell>Not Applicable</cell>
+                </row>
+                <row>
+                    <cell><bold>Repeatability</bold></cell>
+                    <cell>Repeatable</cell>
+                    <cell>Not Applicable</cell>
+                    <cell>Not Applicable</cell>
+                </row>
+                <row>
+                    <cell><bold>Obligation</bold></cell>
+                    <cell>Optional</cell>
+                    <cell>Not Applicable</cell>
+                    <cell>Not Applicable</cell>
+                </row>
+            </table>
+        </p>
+    </div>
+</div>

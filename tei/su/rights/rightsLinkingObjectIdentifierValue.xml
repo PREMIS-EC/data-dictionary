@@ -2,8 +2,8 @@
 <div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"
     xml:id="rightsLinkingObjectIdentifierValue">
     <head>
-        <!-- PREMIS Semantic unit 4.1.8.2 -->
-        <abbr>4.1.8.2</abbr>
+        <!-- PREMIS Semantic unit 4.2.4.2 -->
+        <abbr>4.2.4.2</abbr>
         <gi>linkingObjectIdentifierValue</gi>
     </head>
     <div type="semanticcomponents">
@@ -12,19 +12,20 @@
     </div>
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>The value of the <gi>linkingObjectIdentifier</gi>.</p>
+        <p>The value of the <italic>linkingObjectIdentifier</italic>.</p>
     </div>
-    <div type="rationale">
+
+<!-- <div type="rationale"> -->
         <!-- PREMIS Rationale -->
-        <p/>
-    </div>
+    <!-- </div> -->
+
     <div type="datatype">
         <!-- PREMIS Data constraint -->
-        <p>Must be an existing <gi>objectIdentifierValue</gi> value.</p>
+        <p>Must be an existing <italic>objectIdentifierValue</italic> value.</p>
     </div>
     <div type="examples">
         <!-- PREMIS Examples -->
-        <p/>
+        <p>See examples for <italic>objectIdentifierValue</italic></p>
     </div>
     <div type="entity">
         <p>
@@ -36,13 +37,14 @@
             </list>
         </p>
     </div>
-    <div type="creationmaintenance">
+	
+    <!-- <div type="creationmaintenance"> -->
         <!-- PREMIS Creation / Maintenance -->
-        <p/>
-    </div>
-    <div type="usagenotes">
+    <!-- </div> -->
+
+<!-- <div type="usagenotes"> -->
         <!-- PREMIS Usage notes -->
-        <p/>
-    </div>
+    <!-- </div> -->
+	
 </div>
 

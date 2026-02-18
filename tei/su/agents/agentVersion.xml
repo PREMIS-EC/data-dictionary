@@ -3,7 +3,7 @@
     <head>
         <!-- PREMIS Semantic unit 3.4.0 -->
         <abbr>3.4</abbr>
-        <gi>agentVersion</gi>        
+        <gi>agentVersion</gi>       
     </head>       
     <div type="semanticcomponents">
         <!-- PREMIS Semantic components -->
@@ -11,7 +11,7 @@
     </div>       
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>The version of the Agent referenced in <bold>agentName</bold>, if <bold>agentType</bold> is software or hardware.</p>
+        <p>The version of the Agent referenced in <italic>agentName</italic>, if <italic>agentType</italic> is software or hardware.</p>
     </div>       
     <div type="rationale">
         <!-- PREMIS Rationale -->
@@ -41,13 +41,14 @@
             </list>
         </p>
     </div>
-    <div type="creationmaintenance">
+
+    <!-- <div type="creationmaintenance"> -->
         <!-- PREMIS Creation / Maintenance -->
-        <p></p>
-    </div>
+    <!-- </div> -->
+
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>This semantic unit only applies to machine Agents (hardware or software). If there is no formal version, the date of issuance may be used. The distinction between <bold>agentName</bold> and <bold>agentVersion</bold> can be fuzzy in some cases. Sometimes, a new version of a product becomes a standalone product of its own. For instance, even though JHOVE 2 declares itself as the second major version of the JHOVE file analysis software application, it is a very different product with a different architecture, features and maintaining agency; currently, JHOVE 1 and JHOVE 2 continue to evolve in parallel. For those reasons, it would be better to have JHOVE 2 in <bold>agentName</bold>, and record the specific build number of the software used in the repository in <bold>agentVersion</bold>. In any case, implementers should define their own naming policies to express name and version information and apply it consistently for all their Agent descriptions.If the Agent is also described as an environment Object, implementers may choose to link the Agent to the <bold>environmentObject</bold> using the <bold>linkingEnvironmentIdentifier</bold> semantic unit. In this case, the information in <bold>agentVersion</bold> and <bold>environmentVersion</bold> should be consistent.</p>
+        <p>This semantic unit only applies to machine Agents (hardware or software). If there is no formal version, the date of issuance may be used. The distinction between <italic>agentName</italic> and <italic>agentVersion</italic> can be fuzzy in some cases. Sometimes, a new version of a product becomes a standalone product of its own. For instance, even though JHOVE 2 declares itself as the second major version of the JHOVE file analysis software application, it is a very different product with a different architecture, features and maintaining agency; currently, JHOVE 1 and JHOVE 2 continue to evolve in parallel. For those reasons, it would be better to have JHOVE 2 in <italic>agentName</italic>, and record the specific build number of the software used in the repository in <italic>agentVersion</italic>. In any case, implementers should define their own naming policies to express name and version information and apply it consistently for all their Agent descriptions.If the Agent is also described as an environment Object, implementers may choose to link the Agent to the <italic>environmentObject</italic> using the <italic>linkingEnvironmentIdentifier</italic> semantic unit. In this case, the information in <italic>agentVersion</italic> and <italic>environmentVersion</italic> should be consistent.</p>
     </div>
 </div>
 

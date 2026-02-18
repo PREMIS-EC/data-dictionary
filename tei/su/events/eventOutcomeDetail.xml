@@ -22,10 +22,11 @@
         <!-- PREMIS Data constraint -->
         <p>Container</p>
     </div>
-    <div type="examples">
+
+<!--     <div type="examples"> -->
         <!-- PREMIS Examples -->
-        <p></p>
-    </div>
+    <!-- </div> -->
+
     <div type="entity">
         <p>
             <list type="simple">
@@ -36,13 +37,14 @@
             </list>
         </p>
     </div>
-    <div type="creationmaintenance">
+
+    <!-- <div type="creationmaintenance"> -->
         <!-- PREMIS Creation / Maintenance -->
-        <p></p>
-    </div>
+    <!-- </div> -->
+
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>This may be used to record all error and warning messages issued by a program involved in the Event or to record a pointer to an error log. If the Event was a validity check (e.g., profile conformance) any anomalies or quirks discovered would be recorded here. All subunits of this semantic unit are optional. At least one subunit (i.e. <bold>eventOutcomeDetailNote</bold> and/or <bold>eventOutcomeDetailExtension</bold>) must be present if this container is included.</p>
+        <p>This may be used to record all error and warning messages issued by a program involved in the Event or to record a pointer to an error log. If the Event was a validity check (e.g., profile conformance) any anomalies or quirks discovered would be recorded here. All subunits of this semantic unit are optional. At least one subunit (i.e. <italic>eventOutcomeDetailNote</italic> and/or <italic>eventOutcomeDetailExtension</italic>) must be present if this container is included.</p>
     </div>
 </div>
 

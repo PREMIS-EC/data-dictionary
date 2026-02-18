@@ -1,42 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"
-    xml:id="linkingObjectIdentifier">
+    xml:id="rightsIdentifier">
     <head>
-        <!-- PREMIS Semantic unit 4.1.8.0 -->
-        <abbr>4.1.8</abbr>
-        <gi>linkingObjectIdentifier</gi>
+        <!-- PREMIS Semantic unit 4.1.0 -->
+        <abbr>4.1</abbr>
+        <gi>rightsIdentifier</gi>
     </head>
+	
     <div type="semanticcomponents">
         <!-- PREMIS Semantic components -->
-        <p>4.1.8.1 linkingObjectIdentifierType</p>
-        <p>4.1.8.2 linkingObjectIdentifierValue</p>
-        <p>4.1.8.3 linkingObjectRole</p>
+        <p>4.1.1 rightsIdentifierType</p>
+        <p>4.1.2 rightsIdentifierValue</p>
     </div>
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>The identifier of an object associated with the Rights statement.</p>
+        <p>The designation used to identify the Rights statement uniquely within a preservation repository system.</p>
     </div>
     <div type="rationale">
         <!-- PREMIS Rationale -->
-        <p>Rights statements must be associated with the objects to which they
-            pertain, either by linking from the Rights statement to the object(s) or
-            by linking from the object(s) to the Rights statement. This semantic
-            unit provides the mechanism for the link from the Rights statement to an
-            object.</p>
+        <p>Each statement of Rights associated with the preservation repository must have a unique identifier to allow it to be related to Events and Agents.</p>
     </div>
     <div type="datatype">
         <!-- PREMIS Data constraint -->
         <p>Container</p>
     </div>
-    <div type="examples">
+
+<!--     <div type="examples"> -->
         <!-- PREMIS Examples -->
-        <p/>
-    </div>
+    <!-- </div> -->
+
     <div type="entity">
         <p>
             <list type="simple">
                 <label>Obligation</label>
-                <item>Optional</item>
+                <item>Mandatory</item>
                 <label>Repeatability</label>
                 <item>Repeatable</item>
             </list>
@@ -44,11 +41,11 @@
     </div>
     <div type="creationmaintenance">
         <!-- PREMIS Creation / Maintenance -->
-        <p/>
+        <p>The <italic>rightstIdentifier</italic> is likely to be system generated. There is no global scheme or standard for these identifiers. The identifier is therefore not repeatable.</p>
     </div>
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p/>
+        <p>Identifiers must be unique within the repository.</p>
     </div>
 </div>
 

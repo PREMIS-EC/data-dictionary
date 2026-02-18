@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"  xml:id="linkingRightsStatementIdentifierType">
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="jurisdiction">
     <head>
-        <!-- PREMIS Semantic unit 3.8.1 -->
-        <abbr>3.8.1</abbr>
-        <gi>linkingRightsStatementIdentifierType</gi>
-        
-    </head>       
+        <!-- PREMIS Semantic unit 4.1.3.2 -->
+        <abbr>4.2.2.1</abbr>
+        <gi>jurisdiction</gi>
+    </head>
     <div type="semanticcomponents">
         <!-- PREMIS Semantic components -->
         <p>None</p>
-    </div>       
+    </div>
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>A designation of the domain within which the <bold>linkingRightsStatementIdentifier</bold> is unique.</p>
-    </div>       
+        <p>The country whose copyright laws apply. This may also document statutes covered by indigenous and tribal sovereignty.</p>
+    </div>
     <div type="rationale">
         <!-- PREMIS Rationale -->
-        <p></p>
-    </div>  
+        <p>Copyright law/statutes can vary from country to country.</p>
+    </div>
     <div type="datatype">
         <!-- PREMIS Data constraint -->
-        <p>Must be an existing <bold>rightsStatementIdentifierType</bold> value.</p>
+        <p>Values should be taken from ISO 3166.</p>
     </div>
     <div type="examples">
         <!-- PREMIS Examples -->
         <p>
             <list type="example">
-                <item>URI</item>                
-                <item>LCCN</item>
+               <item>us</item>                
+                <item>de</item>
             </list>
         </p>
     </div>
@@ -35,19 +35,20 @@
         <p>
             <list type="simple">
                 <label>Obligation</label>
-                <item>Mandatory</item>
+                <item>Optional (Mandatory in case <italic>rightsBasis</italic> = copyright or statute)</item>
                 <label>Repeatability</label>
                 <item>Not repeatable</item>
             </list>
         </p>
     </div>
-    <div type="creationmaintenance">
+
+    <!-- <div type="creationmaintenance"> -->
         <!-- PREMIS Creation / Maintenance -->
-        <p></p>
-    </div>
-    <div type="usagenotes">
+    <!-- </div> -->
+
+<!-- <div type="usagenotes"> -->
         <!-- PREMIS Usage notes -->
-        <p></p>
-    </div>
+    <!-- </div> -->
+
 </div>
 

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"  xml:id="linkingRightsIdentifierType">
+    <head>
+        <!-- PREMIS Semantic unit 3.8.1 -->
+        <abbr>3.8.1</abbr>
+        <gi>linkingRightsIdentifierType</gi>
+        
+    </head>       
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>None</p>
+    </div>       
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>A designation of the domain within which the <italic>linkingRightsIdentifier</italic> is unique.</p>
+    </div>       
+
+<!-- <div type="rationale"> -->
+        <!-- PREMIS Rationale -->
+    <!-- </div> -->
+  
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>Must be an existing <italic>rightsIdentifierType</italic> value.</p>
+    </div>
+    <div type="examples">
+        <!-- PREMIS Examples -->
+        <p>
+            <list type="example">
+                <item>URI</item>                
+                <item>LCCN</item>
+            </list>
+        </p>
+    </div>
+    <div type="entity">
+        <p>
+            <list type="simple">
+                <label>Obligation</label>
+                <item>Mandatory</item>
+                <label>Repeatability</label>
+                <item>Not repeatable</item>
+            </list>
+        </p>
+    </div>
+
+    <!-- <div type="creationmaintenance"> -->
+        <!-- PREMIS Creation / Maintenance -->
+    <!-- </div> -->
+
+<!-- <div type="usagenotes"> -->
+        <!-- PREMIS Usage notes -->
+    <!-- </div> -->
+
+</div>
+

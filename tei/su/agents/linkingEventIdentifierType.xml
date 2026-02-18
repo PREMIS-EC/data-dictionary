@@ -12,22 +12,22 @@
     </div>       
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>The <bold>eventIdentifierType</bold> value of the related Event. </p>
+        <p>The <italic>eventIdentifierType</italic> value of the related Event. </p>
     </div>       
-    <div type="rationale">
+
+<!-- <div type="rationale"> -->
         <!-- PREMIS Rationale -->
-        <p></p>
-    </div>  
+    <!-- </div> -->
+  
     <div type="datatype">
         <!-- PREMIS Data constraint -->
-        <p>Must be an existing <bold>eventIdentifierType</bold> value.</p>
+        <p>Must be an existing <italic>eventIdentifierType</italic> value.</p>
     </div>
     <div type="examples">
         <!-- PREMIS Examples -->
         <p>
             <list type="example">
-                <!-- KB the heading example comes from the div type -->
-                <item>[see examples for eventIdentifierType] <!--TODO: INSERT LINK HERE--></item>
+                <item>See examples for <italic>eventIdentifierType</italic></item>
             </list>
         </p>
     </div>
@@ -41,13 +41,14 @@
             </list>
         </p>
     </div>
-    <div type="creationmaintenance">
+
+    <!-- <div type="creationmaintenance"> -->
         <!-- PREMIS Creation / Maintenance -->
-        <p></p>
-    </div>
-    <div type="usagenotes">
+    <!-- </div> -->
+
+<!-- <div type="usagenotes"> -->
         <!-- PREMIS Usage notes -->
-        <p></p>
-    </div>
+    <!-- </div> -->
+
 </div>
 

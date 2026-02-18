@@ -2,8 +2,8 @@
 <div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"
     xml:id="rightsLinkingObjectRole">
     <head>
-        <!-- PREMIS Semantic unit 4.1.8.3 -->
-        <abbr>4.1.8.3</abbr>
+        <!-- PREMIS Semantic unit 4.2.4.3 -->
+        <abbr>4.2.4.3</abbr>
         <gi>linkingObjectRole</gi>
     </head>
     <div type="semanticcomponents">
@@ -12,20 +12,20 @@
     </div>
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>The role of the object associated with an Agent.</p>
+        <p>The role of the Object associated with a Right.</p>
     </div>
     <div type="rationale">
         <!-- PREMIS Rationale -->
-        <p/>
+        <p>Distinguishes the role of the object in relation to a Right. If this is not a direct or explicit relationship, it is necessary to analyze the relationship in the object metadata.</p>
     </div>
     <div type="datatype">
         <!-- PREMIS Data constraint -->
         <p>None</p>
     </div>
-    <div type="examples">
+<!--     <div type="examples"> -->
         <!-- PREMIS Examples -->
-        <p/>
-    </div>
+    <!-- </div> -->
+	
     <div type="entity">
         <p>
             <list type="simple">
@@ -36,16 +36,14 @@
             </list>
         </p>
     </div>
-    <div type="creationmaintenance">
+
+    <!-- <div type="creationmaintenance"> -->
         <!-- PREMIS Creation / Maintenance -->
-        <p/>
-    </div>
+    <!-- </div> -->
+
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>This value need not be supplied in the ordinary case where the role of
-            the linked-to object is to be governed by the Rights statement. If the
-            object has a different relationship to the Rights statement, however, it
-            should be noted here.</p>
+        <p>This value need not be supplied in the ordinary case where the role of the linked-to object is to be governed by the Rights statement. If the object has a different relationship to the Rights statement, however, it should be noted here.</p>
     </div>
-</div>
 
+</div>

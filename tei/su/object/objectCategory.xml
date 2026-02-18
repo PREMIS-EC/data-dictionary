@@ -20,10 +20,7 @@
     
     <div type="rationale">
         <!-- PREMIS Rationale -->
-        <p>Preservation repositories are likely to treat different categories of
-            objects (Intellectual Entities, Representations, Files, and Bitstreams)
-            differently in terms of metadata and data management functions, it is
-            therefore important to differentiate between the categories.</p>
+        <p>Preservation repositories are likely to treat different categories of objects (Intellectual Entities, Representations, Files, and Bitstreams) differently in terms of metadata and data management functions, it is therefore important to differentiate between the categories.</p>
     </div>
     
     <div type="usagenotes">
@@ -33,13 +30,9 @@
     
     <div type="datatype">
         <!-- PREMIS Data constraint URL should be live after transformation-->
-        <p>Value should be taken from a controlled vocabulary. A controlled
-            vocabulary is available at <ref
-                target="http://id.loc.gov/vocabulary/preservation/objectCategory.html"
-                >http://id.loc.gov/vocabulary/preservation/objectCategory.html</ref>
-            .</p>
+        <p>Value should be taken from a controlled vocabulary. A controlled vocabulary is available at <ref target="http://id.loc.gov/vocabulary/preservation/objectCategory.html">http://id.loc.gov/vocabulary/preservation/objectCategory.html</ref>.</p>
     </div>
-    
+	
     <div type="entity">
         <!-- PREMIS Object category -->
         <p>

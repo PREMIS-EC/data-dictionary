@@ -21,10 +21,11 @@
         <!-- PREMIS Data constraint -->
         <p>Container</p>
     </div>
-    <div type="examples">
+
+<!--     <div type="examples"> -->
         <!-- PREMIS Examples -->
-        <p></p>
-    </div>
+    <!-- </div> -->
+
     <div type="entity">
         <p>
             <list type="example">
@@ -35,13 +36,14 @@
             </list>
         </p>
     </div>
-    <div type="creationmaintenance">
+
+    <!-- <div type="creationmaintenance"> -->
         <!-- PREMIS Creation / Maintenance -->
-        <p></p>
-    </div>
+    <!-- </div> -->
+
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>For more granularity or use of externally defined semantic units, extensibility is provided. Either local semantic units or metadata using another specified metadata schema may be included instead of or in addition to PREMIS defined semantic units. When using an extension schema, a reference to that schema must be provided. See further guidance in “Extensibility,” <!--TODO: INSERT LINK HERE-->. If more than one extension needs to be associated explicitly with <bold>eventOutcomeDetailNote</bold>, <bold>eventOutcomeDetailExtension</bold> is repeated. However, if extensions from different external schemas are needed or if the extension is not associated explicitly with <bold>eventOutcomeDetailNote</bold>, the <bold>eventOutcomeDetail</bold> container should be repeated instead. It is recommended to give information about the metadata used in <bold>eventOutcomeDetailExtension</bold> including date the metadata was created, status of the metadata, internal linking IDs, type of metadata used and its version, message digest and message digest algorithm of the metadata, and type of identifier for external metadata links.</p>
+        <p>For more granularity or use of externally defined semantic units, extensibility is provided. Either local semantic units or metadata using another specified metadata schema may be included instead of or in addition to PREMIS defined semantic units. When using an extension schema, a reference to that schema must be provided. See further guidance in “Extensibility,” <!--TODO: INSERT LINK HERE-->. If more than one extension needs to be associated explicitly with <italic>eventOutcomeDetailNote</italic>, <italic>eventOutcomeDetailExtension</italic> is repeated. However, if extensions from different external schemas are needed or if the extension is not associated explicitly with <italic>eventOutcomeDetailNote</italic>, the <italic>eventOutcomeDetail</italic> container should be repeated instead. It is recommended to give information about the metadata used in <italic>eventOutcomeDetailExtension</italic> including date the metadata was created, status of the metadata, internal linking IDs, type of metadata used and its version, message digest and message digest algorithm of the metadata, and type of identifier for external metadata links.</p>
     </div>
 </div>
 

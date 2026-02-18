@@ -15,12 +15,20 @@
     
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>The <bold>eventIdentifierValue</bold> of the related Event.</p>
+        <p>The <italic>eventIdentifierValue</italic> of the related Event.</p>
     </div>
     
-    <!-- PREMIS Rationale -->
+<!-- <div type="rationale"> -->
+        <!-- PREMIS Rationale -->
+    <!-- </div> -->
     
-    <!-- PREMIS Usage notes -->
+    <!-- <div type="creationmaintenance"> -->
+        <!-- PREMIS Creation / Maintenance -->
+    <!-- </div> -->
+
+<!-- <div type="usagenotes"> -->
+        <!-- PREMIS Usage notes -->
+    <!-- </div> -->
     
     <div type="datatype">
         <!-- PREMIS Data constraint -->
@@ -57,9 +65,9 @@
                 </row>
                 <row>
                     <cell><bold>Examples</bold></cell>
-                    <cell>[see examples for <bold>objectIdentifierValue</bold>]</cell>
-                    <cell>[see examples for <bold>objectIdentifierValue</bold>]</cell>
-                    <cell>[see examples for <bold>objectIdentifierValue</bold>]</cell>
+                    <cell>[see examples for <italic>objectIdentifierValue</italic>]</cell>
+                    <cell>[see examples for <italic>objectIdentifierValue</italic>]</cell>
+                    <cell>[see examples for <italic>objectIdentifierValue</italic>]</cell>
                 </row>
             </table>
         </p>

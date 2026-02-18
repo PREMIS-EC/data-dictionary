@@ -13,20 +13,16 @@
     </div>
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>The reference to the location of the content used by the storage
-            system.</p>
+        <p>The reference to the location of the content used by the storage system.</p>
     </div>
     
-    <!-- PREMIS Rationale -->
+<!-- <div type="rationale"> -->
+        <!-- PREMIS Rationale -->
+    <!-- </div> -->
     
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p> This could be a fully qualified path and filename, or the information
-            used by a resolution system (e.g., a handle), or the native information
-            used by a storage management system. For a bitstream or filestream, this
-            would probably be the reference point and offset of the starting
-            position of the bitstream within a file. It is up to the repository to
-            determine the level of granularity that should be recorded.</p>
+        <p> This could be a fully qualified path and filename, or the information used by a resolution system (e.g., a handle), or the native information used by a storage management system. For a bitstream or filestream, this would probably be the reference point and offset of the starting position of the bitstream within a file. It is up to the repository to determine the level of granularity that should be recorded.</p>
     </div>
     
     <div type="datatype">
@@ -94,13 +90,8 @@
             </table>
         </p>
     </div>
-    <div type="creationmaintenance">
+    <!-- <div type="creationmaintenance"> -->
         <!-- PREMIS Creation / Maintenance -->
-        <p>Inhibitors are more likely to be present on an object ingested by the
-            repository than applied by the repository itself. It is hard to detect
-            during ingest if a file is encrypted, but this may be known from the
-            context in which it is ingested. Therefore, information about inhibitors
-            should be supplied as metadata with submitted objects when possible.</p>
-    </div>
+    <!-- </div> -->
 </div>
 

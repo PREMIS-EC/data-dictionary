@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"
     xml:id="environmentFunctionType">
-    <head>
+	<head>
         <!-- PREMIS Semantic unit 1.9.1 -->
         <abbr>1.9.1</abbr>
         <gi>environmentFunctionType</gi>
@@ -17,12 +17,17 @@
         <p>A description of the environment at a given level within the environmental stack.</p>
     </div>
 
-    <!-- PREMIS Rationale -->
+<!-- <div type="rationale"> -->
+        <!-- PREMIS Rationale -->
+    <!-- </div> -->
+	
+    <!-- <div type="creationmaintenance"> -->
+        <!-- PREMIS Creation / Maintenance -->
+    <!-- </div> -->
 
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>The type values used at the higher levels are more generic and those used at the lower
-            levels are more specific.</p>
+        <p>The type values used at the higher levels are more generic and those used at the lower levels are more specific.</p>
     </div>
 
     <div type="datatype">

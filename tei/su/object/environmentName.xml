@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="environmentName">
     <head>
-        
         <!-- PREMIS Semantic unit 1.10.1.0 -->
         <abbr>1.10.1</abbr>
         <gi>environmentName</gi>
@@ -18,14 +17,21 @@
         <p>A commonly accepted name used to describe the environment.</p>
     </div>
     
-    <!-- PREMIS Rationale -->
+<!-- <div type="rationale"> -->
+        <!-- PREMIS Rationale -->
+    <!-- </div> -->
     
-    <!-- PREMIS Usage notes -->
+    <!-- <div type="creationmaintenance"> -->
+        <!-- PREMIS Creation / Maintenance -->
+    <!-- </div> -->
+
+<!-- <div type="usagenotes"> -->
+        <!-- PREMIS Usage notes -->
+    <!-- </div> -->
     
     <div type="datatype">
         <!-- PREMIS Data constraint -->
-        <p>It is recommended to take this information from a controlled
-            vocabulary.</p>
+        <p>It is recommended to take this information from a controlled vocabulary.</p>
     </div>
     
     <div type="entity">

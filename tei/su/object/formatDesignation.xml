@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="formatDesignation">
     <head>
-        
         <!-- PREMIS Semantic unit 1.5.4.1 -->
         <abbr>1.5.4.1</abbr>
         <gi>formatDesignation</gi>
-        
     </head>
     
     <div type="semanticcomponents">
@@ -19,21 +17,17 @@
         <p>An identification of the format of the object.</p>
     </div>
     
-    <!-- PREMIS Rationale -->
+<!-- <div type="rationale"> -->
+        <!-- PREMIS Rationale -->
+    <!-- </div> -->
+	
+	<!--     <div type="examples"> -->
+        <!-- PREMIS Examples -->
+    <!-- </div> -->
     
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>Either <bold>formatDesignation</bold> or at least one instance of
-            <bold>formatRegistry</bold> is required. Both may be included. The most
-            specific format (or format profile) should be recorded. A repository (or
-            format registry) may wish to use multipart format names (e.g.,
-            “TIFF_GeoTIFF” or “WAVE_MPEG_BWF”) to achieve this specificity. For any
-            given file or bitstream, the most specific format identified by the
-            repository should be recorded. A restricted or modified version of a
-            format is considered more specific than the format; for example, GeoTIFF
-            is more specific than TIFF; BWF is more specific than WAVE. If a file or
-            bitstream conforms to more than one format of equal specificity, each
-            should be recorded in separate <bold>format</bold> containers.</p>
+        <p>Either <italic>formatDesignation</italic> or at least one instance of <italic>formatRegistry</italic> is required. Both may be included. The most specific format (or format profile) should be recorded. A repository (or format registry) may wish to use multipart format names (e.g., “TIFF_GeoTIFF” or “WAVE_MPEG_BWF”) to achieve this specificity. For any given file or bitstream, the most specific format identified by the repository should be recorded. A restricted or modified version of a format is considered more specific than the format; for example, GeoTIFF is more specific than TIFF; BWF is more specific than WAVE. If a file or bitstream conforms to more than one format of equal specificity, each should be recorded in separate <italic>format</italic> containers.</p>
     </div>
     
     <div type="datatype">
@@ -66,10 +60,8 @@
                 <row>
                     <cell><bold>Obligation</bold></cell>
                     <cell> </cell>
-                    <cell>At least one subunit must be present if this container is
-                        included.</cell>
-                    <cell>At least one subunit must be present if this container is
-                        included.</cell>
+                    <cell>At least one subunit must be present if this container is included.</cell>
+                    <cell>At least one subunit must be present if this container is included.</cell>
                 </row>
             </table>
         </p>

@@ -4,8 +4,8 @@
         <!-- PREMIS Semantic unit 2.3.0 -->
         <abbr>2.3</abbr>
         <gi>eventDateTime</gi>        
-    </head>       
-    <div type="semanticcomponents">
+    </head>
+	<div type="semanticcomponents">
         <!-- PREMIS Semantic components -->
         <p>None</p>
     </div>       
@@ -13,10 +13,11 @@
         <!-- PREMIS Definition -->
         <p>The single date and time, or date and time range, at or during which the Event occurred.</p>
     </div>       
-    <div type="rationale">
+
+<!-- <div type="rationale"> -->
         <!-- PREMIS Rationale -->
-        <p></p>
-    </div>    
+    <!-- </div> -->
+   
     <div type="datatype">
         <!-- PREMIS Data constraint -->
         <p>To aid machine processing, value should use a structured form. To facilitate exchange of PREMIS-conformant metadata, use of standard conventions, for instance as used in the date elements in the PREMIS schema, is recommended.</p>
@@ -42,10 +43,11 @@
             </list>
         </p>
     </div>
-    <div type="creationmaintenance">
+
+    <!-- <div type="creationmaintenance"> -->
         <!-- PREMIS Creation / Maintenance -->
-        <p></p>
-    </div>
+    <!-- </div> -->
+
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
         <p>Recommended practice is to record the most specific time possible and to designate the time zone.</p>

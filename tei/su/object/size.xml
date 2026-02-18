@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="size">
-    <head>
-        
+	<head>
         <!-- PREMIS Semantic unit 1.5.3 -->
         <abbr>1.5.3</abbr>
         <gi>size</gi>
-        
     </head>
     
     <div type="semanticcomponents">
@@ -20,17 +18,12 @@
     
     <div type="rationale">
         <!-- PREMIS Rationale -->
-        <p>Size is useful for ensuring the correct number of bytes from storage has
-            been retrieved and that an application has enough room to move or
-            process files. It might also be used when billing for storage.</p>
+        <p>Size is useful for ensuring the correct number of bytes from storage has been retrieved and that an application has enough room to move or process files. It might also be used when billing for storage.</p>
     </div>
     
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>Defining this semantic unit as size in bytes makes it unnecessary to
-            record a unit of measurement. However, for the purpose of data exchange
-            the unit of measurement should be stated or understood by both
-            partners.</p>
+        <p>Defining this semantic unit as size in bytes makes it unnecessary to record a unit of measurement. However, for the purpose of data exchange the unit of measurement should be stated or understood by both partners.</p>
     </div>
     
     <div type="datatype">
@@ -56,19 +49,19 @@
                 </row>
                 <row>
                     <cell><bold>Repeatability</bold></cell>
-                    <cell> </cell>
+                    <cell>Not applicable</cell>
                     <cell>Not repeatable</cell>
                     <cell>Not repeatable</cell>
                 </row>
                 <row>
                     <cell><bold>Obligation</bold></cell>
-                    <cell> </cell>
+                    <cell>Not applicable</cell>
                     <cell>Optional</cell>
                     <cell>Optional</cell>
                 </row>
                 <row>
                     <cell><bold>Examples</bold></cell>
-                    <cell> </cell>
+                    <cell>Not applicable</cell>
                     <cell><list type="example">
                             
                             <item>2038937</item>

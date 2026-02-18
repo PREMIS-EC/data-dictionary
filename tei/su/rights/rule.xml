@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="rule">
+    <head>
+        <!-- PREMIS Semantic unit 4.2.3.0 -->
+        <abbr>4.2.3</abbr>
+        <gi>rule</gi>
+    </head>
+	
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>4.2.3.1 ruleType</p>
+        <p>4.2.3.2 action</p>
+        <p>4.2.3.3 restriction</p>
+        <p>4.2.3.4 termOfRule</p>
+        <p>4.2.3.5 ruleNote</p>
+    </div>
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>Statement about the actions a repository has permission or the duty to undertake or is prohibited from undertaking with respect to an Object.</p>
+    </div>
+
+<!-- <div type="rationale"> -->
+        <!-- PREMIS Rationale -->
+    <!-- </div> -->
+
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>Container</p>
+    </div>
+
+<!--     <div type="examples"> -->
+        <!-- PREMIS Examples -->
+    <!-- </div> -->
+
+    <div type="entity">
+        <p>
+            <list type="simple">
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Repeatable</item>
+            </list>
+        </p>
+    </div>
+
+    <!-- <div type="creationmaintenance"> -->
+        <!-- PREMIS Creation / Maintenance -->
+    <!-- </div> -->
+
+<!-- <div type="usagenotes"> -->
+        <!-- PREMIS Usage notes -->
+    <!-- </div> -->
+
+</div>
+

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="applicableDates">
+    <head>
+        <!-- PREMIS Semantic unit 4.2.2.6-->
+        <abbr>4.2.2.6</abbr>
+        <gi>applicableDates</gi>
+    </head>
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>4.2.2.6.1 startDate</p>
+        <p>4.2.2.6.2 endDate</p>
+    </div>
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>The date range during which the particular copyright applies or is applied to the content. This is distinct from the <italic>applicableDatesOfRule</italic>, which applies to a particular act expressed in <italic>rule</italic> and to a specific object or objects, and may differ from the period of time the license, statute, or other basis applies to the content.</p>
+    </div>
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p>Specific dates may apply to the particular copyright granted.</p>
+    </div>
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>Container</p>
+    </div>
+
+<!--     <div type="examples"> -->
+        <!-- PREMIS Examples -->
+    <!-- </div> -->
+
+    <div type="entity">
+        <p>
+            <list type="simple">
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Not repeatable</item>
+            </list>
+        </p>
+    </div>
+
+    <!-- <div type="creationmaintenance"> -->
+        <!-- PREMIS Creation / Maintenance -->
+    <!-- </div> -->
+
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p>The repository may wish to retain the history of Rights and restrictions associated with the content over time. Associating active dates with particular Rights bases allows applications to identify which of several <italic>rightsStatements</italic> are in force at a given time.</p>
+			<p>Most relevant in combination with <italic>rightsBasis</italic> is statute, license or other. In case of copyright the applicable dates usually depend on context of the object; the applicable dates in general would be the start-enddate of the copyright law.</p>
+    </div>
+</div>
+

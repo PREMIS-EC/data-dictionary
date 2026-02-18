@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="rightsInformation">
+    <head>
+        <!-- PREMIS Semantic unit 4.2.2.0 -->
+        <abbr>4.2.2</abbr>
+        <gi>rightsInformation</gi>
+    </head>
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>4.2.2.1 jurisdiction</p>
+        <p>4.2.2.2 conditions</p>
+        <p>4.2.2.3 citation</p>
+        <p>4.2.2.4 note</p>
+        <p>4.2.2.5 documentationIdentifier</p>
+        <p>4.2.2.6 applicableDates</p>
+		<p>4.2.2.7 otherRightsBasis</p>
+    </div>
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>Information about the Rights that apply to the object(s):
+		<list type="bulleted">
+		<item>about the copyright status</item>
+		<item>about a license or other agreement granting permissions or imposing obligations related to an object</item>
+		<item>about a statute allowing use, or imposing obligations to the object</item>
+		<item>about another rightbasis than the above</item>
+		</list>
+		</p>
+    </div>
+
+<!-- <div type="rationale"> -->
+        <!-- PREMIS Rationale -->
+    <!-- </div> -->
+
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>Container</p>
+    </div>
+
+<!--     <div type="examples"> -->
+        <!-- PREMIS Examples -->
+    <!-- </div> -->
+
+    <div type="entity">
+        <p>
+            <list type="simple">
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Not repeatable</item>
+            </list>
+        </p>
+    </div>
+
+    <!-- <div type="creationmaintenance"> -->
+        <!-- PREMIS Creation / Maintenance -->
+    <!-- </div> -->
+
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p>When <italic>rightsBasis</italic> is “copyright”, repositories may need to extend this with more detailed information. See the California Digital Library's copyright schema (<ref target="http://www.cdlib.org/groups/rmg//">http://www.cdlib.org/groups/rmg//</ref>) for an example of a more detailed scheme.</p>
+    </div>
+</div>

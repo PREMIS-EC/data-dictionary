@@ -2,14 +2,14 @@
 <div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"
     xml:id="termOfRestriction">
     <head>
-        <!-- PREMIS Semantic unit 4.1.7.4.0 -->
-        <abbr>4.1.7.4</abbr>
+        <!-- PREMIS Semantic unit 4.2.3.3.2.0 -->
+        <abbr>4.2.3.3.2</abbr>
         <gi>termOfRestriction</gi>
     </head>
     <div type="semanticcomponents">
         <!-- PREMIS Semantic components -->
-        <p>4.1.7.4.1 startDate</p>
-        <p>4.1.7.4.2 endDate</p>
+        <p>4.2.3.3.2.1 restrictionTrigger</p>
+        <p>4.2.3.3.2.2 restrictionDuration</p>
     </div>
     <div type="definition">
         <!-- PREMIS Definition -->
@@ -17,22 +17,17 @@
     </div>
     <div type="rationale">
         <!-- PREMIS Rationale -->
-        <p>The current definition of <bold>termOfGrant</bold> is "time period for the
-            permissions granted". This allows repositories to express information
-            about the Rights granted, but some repositories may need to express
-            time-bounded restrictions like embargoes. To express such restrictions,
-            use the semantic units of termOfRestriction: <bold>startDate</bold> for the
-            beginning of the embargo and <bold>endDate</bold> for the end of the
-            embargo.</p>
+        <p>This allows repositories to express information about time-bounded restrictions like embargoes. If this is applicable, use <italic>restrictionTrigger</italic> to identify the type of start date of enforcement and <italic>restrictionDuration</italic> for the end of the time period that should be recorded.</p>
     </div>
     <div type="datatype">
         <!-- PREMIS Data constraint -->
         <p>Container</p>
     </div>
-    <div type="examples">
+
+<!--     <div type="examples"> -->
         <!-- PREMIS Examples -->
-        <p/>
-    </div>
+    <!-- </div> -->
+
     <div type="entity">
         <p>
             <list type="simple">
@@ -43,13 +38,14 @@
             </list>
         </p>
     </div>
-    <div type="creationmaintenance">
+
+    <!-- <div type="creationmaintenance"> -->
         <!-- PREMIS Creation / Maintenance -->
-        <p/>
-    </div>
-    <div type="usagenotes">
+    <!-- </div> -->
+
+<!-- <div type="usagenotes"> -->
         <!-- PREMIS Usage notes -->
-        <p/>
-    </div>
+    <!-- </div> -->
+
 </div>
 

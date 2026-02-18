@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="fixity">
-    <head>
-        
+    <head>  
         <!-- PREMIS Semantic unit 1.5.2 -->
         <abbr>1.5.2</abbr>
         <gi>fixity</gi>
-        
     </head>
     
     <div type="semanticcomponents">
@@ -17,38 +15,20 @@
     
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>Information used to verify whether an object has been altered in an
-            undocumented or unauthorized way.</p>
+        <p>Information used to verify whether an object has been altered in an undocumented or unauthorized way.</p>
     </div>
     
-    <!-- PREMIS Rationale -->
+<!-- <div type="rationale"> -->
+        <!-- PREMIS Rationale -->
+    <!-- </div> -->
+	
+	<!--     <div type="examples"> -->
+        <!-- PREMIS Examples -->
+    <!-- </div> -->
     
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>To perform a fixity check, a message digest calculated at some earlier
-            time is compared with a message digest calculated at a later time. If
-            the digests are the same, the object was not altered in the interim.
-            (Note that the terms “message digest” and “checksum” are commonly used
-            interchangeably. However, the term “checksum” is more correctly used for
-            the product of a cyclical redundancy check (CRC), whereas the term
-            “message digest” refers to the result of a cryptographic hash function,
-            which is what is referred to here.)The act of performing a fixity check
-            and the date it occurred would be recorded as an Event. The result of
-            the check would be recorded as the <bold>eventOutcome</bold>. Therefore,
-            only the <bold>messageDigestAlgorithm</bold> and <bold>messageDigest</bold> need
-            to be recorded as <gi>objectCharacteristics</gi> for future comparison.
-            Representation level: it could be argued that if a representation
-            consists of a single file or if all the files comprised by a
-            representation are combined (e.g., zipped) into a single file, then a
-            fixity check could be performed on the representation. However, in both
-            cases the fixity check is actually being performed on a file, which in
-            this case happens to be coincidental with a representation. Bitstream
-            level: message digests can be computed for bitstreams although they are
-            not as common as with files. For example, the JPX format, which is a
-            JPEG2000 format, supports the inclusion of MD5 or SHA-1 message digests
-            in internal metadata that was calculated on any range of bytes of the
-            file. For more information, see the special topic on “Fixity, integrity,
-            authenticity,”.</p>
+        <p>To perform a fixity check, a message digest calculated at some earlier time is compared with a message digest calculated at a later time. If the digests are the same, the object was not altered in the interim. (Note that the terms “message digest” and “checksum” are commonly used interchangeably. However, the term “checksum” is more correctly used for the product of a cyclical redundancy check (CRC), whereas the term “message digest” refers to the result of a cryptographic hash function, which is what is referred to here.)The act of performing a fixity check and the date it occurred would be recorded as an Event. The result of the check would be recorded as the <italic>eventOutcome</italic>. Therefore, only the <italic>messageDigestAlgorithm</italic> and <italic>messageDigest</italic> need to be recorded as <gi>objectCharacteristics</gi> for future comparison. Representation level: it could be argued that if a representation consists of a single file or if all the files comprised by a representation are combined (e.g., zipped) into a single file, then a fixity check could be performed on the representation. However, in both cases the fixity check is actually being performed on a file, which in this case happens to be coincidental with a representation. Bitstream level: message digests can be computed for bitstreams although they are not as common as with files. For example, the JPX format, which is a JPEG2000 format, supports the inclusion of MD5 or SHA-1 message digests in internal metadata that was calculated on any range of bytes of the file. For more information, see the special topic on “Fixity, integrity, authenticity,”.</p>
     </div>
     
     <div type="datatype">
@@ -74,13 +54,13 @@
                 </row>
                 <row>
                     <cell><bold>Repeatability</bold></cell>
-                    <cell> </cell>
+                    <cell>Not applicable</cell>
                     <cell>Repeatable</cell>
                     <cell>Repeatable</cell>
                 </row>
                 <row>
                     <cell><bold>Obligation</bold></cell>
-                    <cell> </cell>
+                    <cell>Not applicable</cell>
                     <cell>Optional</cell>
                     <cell>Optional</cell>
                 </row>

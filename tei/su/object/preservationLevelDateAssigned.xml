@@ -2,11 +2,9 @@
 <div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="preservationLevelDateAssigned">
     
     <head>
-        
         <!-- PREMIS Semantic unit 1.3.5 -->
         <abbr>1.3.5</abbr>
         <gi>preservationLevelDateAssigned</gi>
-        
     </head>
     
     <div type="semanticcomponents">
@@ -16,26 +14,26 @@
     
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>The date, or date and time, when a particular
-            <bold>preservationLevelValue</bold> was assigned to the object.</p>
+        <p>The date, or date and time, when a particular <italic>preservationLevelValue</italic> was assigned to the object.</p>
     </div>
     
     <div type="rationale">
         <!-- PREMIS Rationale -->
-        <p>The <bold>preservationLevel</bold> applicable to an object is expected to be
-            reviewed and changed over time, in response to changes in repository
-            preservation requirements, policies, or capabilities relevant to the
-            object. The date that the current <bold>preservationLevelValue</bold> was
-            assigned aids review of decisions.</p>
+        <p>The <italic>preservationLevel</italic> applicable to an object is expected to be reviewed and changed over time, in response to changes in repository preservation requirements, policies, or capabilities relevant to the object. The date that the current <italic>preservationLevelValue</italic> was assigned aids review of decisions.</p>
     </div>
     
     <div type="datatype">
         <!-- PREMIS Data constraint -->
-        <p>To aid machine processing, value should use a structured form. To
-            facilitate exchange of PREMIS-conformant metadata, use of standard
-            conventions, for instance as used in the date elements in the PREMIS
-            schema, is recommended.</p>
+        <p>To aid machine processing, value should use a structured form. To facilitate exchange of PREMIS-conformant metadata, use of standard conventions, for instance as used in the date elements in the PREMIS schema, is recommended.</p>
     </div>
+	
+	    <!-- <div type="creationmaintenance"> -->
+        <!-- PREMIS Creation / Maintenance -->
+    <!-- </div> -->
+
+<!-- <div type="usagenotes"> -->
+        <!-- PREMIS Usage notes -->
+    <!-- </div> -->
     
     <div type="entity">
         <!-- PREMIS Object category -->
@@ -57,13 +55,13 @@
                     <cell><bold>Repeatability</bold></cell>
                     <cell>Not repeatable</cell>
                     <cell>Not repeatable</cell>
-                    <cell> </cell>
+                    <cell>Not applicable</cell>
                 </row>
                 <row>
                     <cell><bold>Obligation</bold></cell>
                     <cell>Optional</cell>
                     <cell>Optional</cell>
-                    <cell> </cell>
+                    <cell>Not aplicable</cell>
                 </row>
                 <row>
                     <cell><bold>Examples</bold></cell>

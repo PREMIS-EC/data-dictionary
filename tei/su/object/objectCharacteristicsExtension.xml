@@ -22,28 +22,14 @@
         <!-- PREMIS Rationale -->
         <p>There may be a need to replace or extend PREMIS defined units.</p>
     </div>
+	
+	    <!-- <div type="creationmaintenance"> -->
+        <!-- PREMIS Creation / Maintenance -->
+    <!-- </div> -->
     
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>For more granularity or use of externally defined semantic units,
-            extensibility is provided. Either local semantic units or metadata using
-            another specified metadata scheme may be included in addition to PREMIS
-            defined semantic units. When using an extension schema, a reference to
-            that schema must be provided. See further guidance in “Extensibility”, 
-            <bold>objectCharacteristicsExtension</bold> is used for additional
-            object characteristics not covered by PREMIS, for instance
-            format-specific metadata that is defined externally. It is not a
-            replacement for units specified in PREMIS.If multiple extensions are
-            needed (e.g., for different purposes), the container
-            <bold>objectCharacteristics</bold> needs to be repeated. Also, if
-            extensions from different external schemas are needed,
-            objectCharacteristics should be repeated.It is recommended to give
-            information about the metadata used in
-            <bold>objectCharacteristicsExtension</bold> including date the metadata
-            was created, status of the metadata, internal linking IDs, type of
-            metadata used and its version, message digest and message digest
-            algorithm of the metadata, and type of identifier for external metadata
-            links.</p>
+        <p>For more granularity or use of externally defined semantic units, extensibility is provided. Either local semantic units or metadata using another specified metadata scheme may be included in addition to PREMIS defined semantic units. When using an extension schema, a reference to that schema must be provided. See further guidance in “Extensibility”, <italic>objectCharacteristicsExtension</italic> is used for additional object characteristics not covered by PREMIS, for instance format-specific metadata that is defined externally. It is not a replacement for units specified in PREMIS.If multiple extensions are needed (e.g., for different purposes), the container <italic>objectCharacteristics</italic> needs to be repeated. Also, if extensions from different external schemas are needed, <italic>objectCharacteristics</italic> should be repeated. It is recommended to give information about the metadata used in <italic>objectCharacteristicsExtension</italic> including date the metadata was created, status of the metadata, internal linking IDs, type of metadata used and its version, message digest and message digest algorithm of the metadata, and type of identifier for external metadata links.</p>
     </div>
     
     <div type="datatype">

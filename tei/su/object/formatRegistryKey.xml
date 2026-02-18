@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="formatRegistryKey">
     <head>
-        
         <!-- PREMIS Semantic unit 1.5.4.2.2 -->
         <abbr>1.5.4.2.2</abbr>
         <gi>formatRegistryKey</gi>
-        
     </head>
     
     <div type="semanticcomponents">
@@ -15,13 +13,20 @@
     
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>The unique key used to reference an entry for this format in the
-            specified format registry.</p>
+        <p>The unique key used to reference an entry for this format in the specified format registry.</p>
     </div>
     
-    <!-- PREMIS Rationale -->
+<!-- <div type="rationale"> -->
+        <!-- PREMIS Rationale -->
+    <!-- </div> -->
     
-    <!-- PREMIS Usage notes -->
+    <!-- <div type="creationmaintenance"> -->
+        <!-- PREMIS Creation / Maintenance -->
+    <!-- </div> -->
+
+<!-- <div type="usagenotes"> -->
+        <!-- PREMIS Usage notes -->
+    <!-- </div> -->
     
     <div type="datatype">
         <!-- PREMIS Data constraint -->
@@ -46,13 +51,13 @@
                 </row>
                 <row>
                     <cell><bold>Repeatability</bold></cell>
-                    <cell> </cell>
+                    <cell>Not applicable</cell>
                     <cell>Not repeatable</cell>
                     <cell>Not repeatable</cell>
                 </row>
                 <row>
                     <cell><bold>Obligation</bold></cell>
-                    <cell> </cell>
+                    <cell>Not applicable</cell>
                     <cell>Mandatory</cell>
                     <cell>Mandatory</cell>
                 </row>

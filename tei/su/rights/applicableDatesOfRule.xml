@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="applicableDatesOfRule">
+    <head>
+        <!-- PREMIS Semantic unit 4.2.4.4.0 -->
+        <abbr>4.2.4.4</abbr>
+        <gi>applicableDatesOfRule</gi>
+    </head>
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>4.2.4.4.1 startDate</p>
+        <p>4.2.4.4.2 endDate</p>
+    </div>
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>The date range during which permissions assigned by statute applies or are applied to the Object described by the <italic>rightsStatement</italic>. This is distinct from <italic>termOfRule</italic>, which applies to a particular act expressed in <italic>rightsGranted</italic> and may differ from the period of time the license, statute or other basis applies to the content.</p>
+    </div>
+    <div type="rationale">
+        <!-- PREMIS Rationale -->
+        <p>Specific dates may apply to the particular Rights granted.</p>
+    </div>
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>Container</p>
+    </div>
+
+<!--     <div type="examples"> -->
+        <!-- PREMIS Examples -->
+    <!-- </div> -->
+
+    <div type="entity">
+        <p>
+            <list type="simple">
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Repeatable</item>
+            </list>
+        </p>
+    </div>
+
+    <!-- <div type="creationmaintenance"> -->
+        <!-- PREMIS Creation / Maintenance -->
+    <!-- </div> -->
+
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p>The repository may wish to retain the history of Rights and restrictions associated with the content over time. Associating active dates with particular Rights bases allows applications to identify which of several <italic>rightsStatements</italic> are in force at a given time.</p>
+    </div>
+</div>
+

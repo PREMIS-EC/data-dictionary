@@ -23,10 +23,11 @@
         <!-- PREMIS Data constraint -->
         <p>Container</p>
     </div>
-    <div type="examples">
+
+<!--     <div type="examples"> -->
         <!-- PREMIS Examples -->
-        <p></p>
-    </div>
+    <!-- </div> -->
+
     <div type="entity">
         <p>
             <list type="simple">
@@ -43,7 +44,7 @@
     </div>
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>Identifiers must be unique within the repository. The <bold>agentIdentifier</bold> is repeatable in order to allow both repository-assigned and externally-assigned identifiers to be recorded. See Creation/Maintenance notes, above.</p>
+        <p>Identifiers must be unique within the repository. The <italic>agentIdentifier</italic> is repeatable in order to allow both repository-assigned and externally-assigned identifiers to be recorded. See Creation/Maintenance notes, above.</p>
     </div>
 </div>
 

@@ -13,12 +13,13 @@
     </div>       
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>The <bold>eventIdentifier</bold> of an Event associated with the Agent.</p>
+        <p>The <italic>eventIdentifier</italic> of an Event associated with the Agent.</p>
     </div>       
-    <div type="rationale">
+
+<!-- <div type="rationale"> -->
         <!-- PREMIS Rationale -->
-        <p></p>
-    </div>  
+    <!-- </div> -->
+ 
     <div type="datatype">
         <!-- PREMIS Data constraint -->
         <p>Container</p>
@@ -37,10 +38,11 @@
             </list>
         </p>
     </div>
-    <div type="creationmaintenance">
+
+    <!-- <div type="creationmaintenance"> -->
         <!-- PREMIS Creation / Maintenance -->
-        <p></p>
-    </div>
+    <!-- </div> -->
+
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
         <p>Linking semantic units are mandatory in the sense that a repository needs to know the information, but are defined as optional because PREMIS does not specify in which direction the linkage should be.</p>

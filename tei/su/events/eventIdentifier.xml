@@ -22,10 +22,11 @@
         <!-- PREMIS Data constraint -->
         <p>Container</p>
     </div> 
-    <div type="examples">
+
+<!--     <div type="examples"> -->
         <!-- PREMIS Examples -->
-        <p></p>
-    </div>
+    <!-- </div> -->
+
     <div type="entity">
         <p>
             <list type="simple">
@@ -38,7 +39,7 @@
     </div>
     <div type="creationmaintenance">
         <!-- PREMIS Creation / Maintenance -->
-        <p>The <bold>eventIdentifier</bold> is likely to be system generated. There is no global scheme or standard for these identifiers. The identifier is therefore not repeatable.</p>
+        <p>The <italic>eventIdentifier</italic> is likely to be system generated. There is no global scheme or standard for these identifiers. The identifier is therefore not repeatable.</p>
     </div>
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->

@@ -16,40 +16,26 @@
     
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>The reason a particular <bold>preservationLevelValue</bold> was applied to
-            the object.</p>
+        <p>The reason a particular <italic>preservationLevelValue</italic> was applied to the object.</p>
     </div>
     
     <div type="rationale">
         <!-- PREMIS Rationale -->
-        <p>Application of a particular <bold>preservationLevelValue</bold> may require
-            justification, especially if it differs from that usually applied
-            according to repository policy. </p>
+        <p>Application of a particular <italic>preservationLevelValue</italic> may require justification, especially if it differs from that usually applied according to repository policy. </p>
     </div>
     
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>This optional semantic unit records the reason for applying the
-            <bold>preservationLevelValue</bold>. This information can be
-            particularly important when the assigned <bold>preservationLevelValue</bold>
-            differs from usual repository policy. For example, a repository may
-            normally assign a <bold>preservationLevelValue</bold> of “full preservation”
-            for JPEG2000 files, but detects that a particular file is defective.
-            This may mean that the repository’s preservation strategy for JPEG2000
-            may not be effective for this particular file, so the repository may
-            assign a <bold>preservationLevelValue</bold> of “bit-level preservation” to
-            this file , recording “defective file” as the rationale. Similarly,
-            legislative requirements or contractual agreements may require a higher
-            level of preservation to be assigned to a particular object than would
-            be assigned to that class of object according to usual policy. In this
-            case, the rationale for the assignment may be recorded as “legislation”
-            or “user pays”, for example. <bold>preservationLevelRationale</bold> may be
-            repeated if more than one reason needs to be recorded.</p>
+        <p>This optional semantic unit records the reason for applying the <italic>preservationLevelValue</italic>. This information can be particularly important when the assigned <italic>preservationLevelValue</italic> differs from usual repository policy. For example, a repository may normally assign a <italic>preservationLevelValue</italic> of “full preservation” for JPEG2000 files, but detects that a particular file is defective. This may mean that the repository’s preservation strategy for JPEG2000 may not be effective for this particular file, so the repository may assign a <italic>preservationLevelValue</italic> of “bit-level preservation” to this file , recording “defective file” as the rationale. Similarly, legislative requirements or contractual agreements may require a higher level of preservation to be assigned to a particular object than would be assigned to that class of object according to usual policy. In this case, the rationale for the assignment may be recorded as “legislation” or “user pays”, for example. <italic>preservationLevelRationale</italic> may be repeated if more than one reason needs to be recorded.</p>
     </div>
         <div type="datatype">
             <!-- PREMIS Data constraint -->
             <p>None</p>
         </div>
+	
+	    <!-- <div type="creationmaintenance"> -->
+        <!-- PREMIS Creation / Maintenance -->
+    <!-- </div> -->
         
         <div type="entity">
             <!-- PREMIS Object category -->
@@ -71,13 +57,13 @@
                         <cell><bold>Repeatability</bold></cell>
                         <cell>Repeatable</cell>
                         <cell>Repeatable</cell>
-                        <cell> </cell>
+                        <cell>Not applicable</cell>
                     </row>
                     <row>
                         <cell><bold>Obligation</bold></cell>
                         <cell>Optional</cell>
                         <cell>Optional</cell>
-                        <cell> </cell>
+                        <cell>Not applicable</cell>
                     </row>
                     <row>
                         <cell><bold>Examples</bold></cell>

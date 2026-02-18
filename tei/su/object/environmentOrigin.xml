@@ -15,20 +15,21 @@
     
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>The origin of the environment referenced in <bold>environmentName.</bold></p>
+        <p>The origin of the environment referenced in <italic>environmentName.</italic></p>
     </div>
     
     <div type="rationale">
         <!-- PREMIS Rationale -->
-        <p>Software or hardware objects are products of an organization or an
-            individual. This information is useful for preservation to further
-            specify which software / hardware object is being described.</p>
+        <p>Software or hardware objects are products of an organization or an individual. This information is useful for preservation to further specify which software / hardware object is being described.</p>
     </div>
     
-    <div type="usagenotes">
+    <!-- <div type="creationmaintenance"> -->
+        <!-- PREMIS Creation / Maintenance -->
+    <!-- </div> -->
+
+<!-- <div type="usagenotes"> -->
         <!-- PREMIS Usage notes -->
-        <p/>
-    </div>
+    <!-- </div> -->
     
     <div type="datatype">
         <!-- PREMIS Data constraint -->

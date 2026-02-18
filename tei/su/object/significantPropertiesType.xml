@@ -15,26 +15,28 @@
     
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>The aspect, facet, or attribute of an object which is being recorded as a
-            significant property.</p>
+        <p>The aspect, facet, or attribute of an object which is being recorded as a significant property.</p>
     </div>
     
     <div type="rationale">
         <!-- PREMIS Rationale -->
-        <p>Repositories may choose to describe significant properties based on a
-            particular aspect or attribute of an object.</p>
+        <p>Repositories may choose to describe significant properties based on a particular aspect or attribute of an object.</p>
     </div>
     
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>This semantic unit is optional and may be used as part of a facet:detail
-            pair with <bold>significantPropertiesValue.</bold></p>
+        <p>This semantic unit is optional and may be used as part of a facet:detail pair with <italic>significantPropertiesValue.</italic></p>
     </div>
     
     <div type="datatype">
         <!-- PREMIS Data constraint -->
         <p>Container</p>
     </div>
+	
+
+	    <!-- <div type="creationmaintenance"> -->
+        <!-- PREMIS Creation / Maintenance -->
+    <!-- </div> -->
     
     <div type="entity">
         <!-- PREMIS Object category -->
@@ -86,7 +88,7 @@
                             <item>typeface</item>
                     </list></cell>
                     <cell><list type="example">
-                            <item>[for an embedded image] color space</item>
+                            <item>For an embedded image: color space</item>
                     </list></cell>
                 </row>
             </table>

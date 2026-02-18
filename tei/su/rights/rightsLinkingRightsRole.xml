@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="rightsLinkingRightsRole">
+    <head>
+        <!-- PREMIS Semantic unit 4.5.3 -->
+        <abbr>4.5.3</abbr>
+        <gi>linkingRightsRole</gi>
+    </head>
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>None</p>
+    </div>
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>The role of the linked <italic>rightsStatement</italic>.</p>
+    </div>
+
+<!-- <div type="rationale"> -->
+        <!-- PREMIS Rationale -->
+    <!-- </div> -->
+
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>Values should be taken from a controlled vocabulary.</p>
+    </div>
+
+        <!-- PREMIS Examples -->
+
+    <div type="entity">
+        <p>
+            <list type="simple">
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Repeatable</item>
+            </list>
+        </p>
+    </div>
+
+    <!-- <div type="creationmaintenance"> -->
+        <!-- PREMIS Creation / Maintenance -->
+    <!-- </div> -->
+
+<!-- <div type="usagenotes"> -->
+        <!-- PREMIS Usage notes -->
+    <!-- </div> -->
+
+</div>
+
+

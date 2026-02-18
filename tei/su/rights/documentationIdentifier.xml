@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="documentationIdentifier">
+    <head>
+        <!-- PREMIS Semantic unit 4.2.2.5.0 -->
+        <abbr>4.2.2.5</abbr>
+        <gi>documentationIdentifier</gi>
+    </head>
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>4.2.2.5.1 documentationIdentifierType</p>
+        <p>4.2.2.5.2 documentationIdentifierValue</p>
+        <p>4.2.2.5.3 documentationRole</p>
+    </div>
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>A designation used to identify documentation supporting the specified Rights granted that is unique within the repository system.</p>
+    </div>
+
+<!-- <div type="rationale"> -->
+        <!-- PREMIS Rationale -->
+    <!-- </div> -->
+
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+        <p>Container</p>
+    </div>
+
+<!--     <div type="examples"> -->
+        <!-- PREMIS Examples -->
+    <!-- </div> -->
+
+    <div type="entity">
+        <p>
+            <list type="simple">
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Repeatable</item>
+            </list>
+        </p>
+    </div>
+
+    <!-- <div type="creationmaintenance"> -->
+        <!-- PREMIS Creation / Maintenance -->
+    <!-- </div> -->
+
+    <div type="usagenotes">
+        <!-- PREMIS Usage notes -->
+        <p>This semantic unit is intended to refer to a document recording the granting of permission, the expression of requirements or restrictions, or other information supporting the specified <italic>rightsBasis</italic>.</p>
+		<p>in case of license/agreement: this may be a formal signed contract with a customer. If the granting agreement is verbal, this could point to a memo by the repository documenting the verbal agreement.</p> <p>The identifier is optional because the agreement may not be stored in a repository with an identifier. For example, in the case of a verbal agreement the entire agreement may be included or described in <italic>conditions</italic>.</p>
+		<p>If repeated, use <italic>documentationRole</italic> to distinguish the role of the given documentation.</p>
+    </div>
+</div>
+

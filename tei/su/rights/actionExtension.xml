@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="actionExtension">
+    <head>
+        <!-- PREMIS Semantic unit 4.2.3.2.2 -->
+        <abbr>4.2.3.2.2</abbr>
+        <gi>actionExtension</gi>
+    </head>
+	
+    <div type="semanticcomponents">
+        <!-- PREMIS Semantic components -->
+        <p>None</p>
+    </div>
+    <div type="definition">
+        <!-- PREMIS Definition -->
+        <p>The action (or act) is optionally extended to add machine readable instructions.</p>
+    </div>
+
+<!-- <div type="rationale"> -->
+        <!-- PREMIS Rationale -->
+    <!-- </div> -->
+
+    <div type="datatype">
+        <!-- PREMIS Data constraint -->
+		<p>None</p>
+       </div>
+
+    <div type="examples">
+        <!-- PREMIS Examples -->
+		<p/>
+    </div>
+    <div type="entity">
+        <p>
+            <list type="simple">
+                <label>Obligation</label>
+                <item>Optional</item>
+                <label>Repeatability</label>
+                <item>Not repeatable</item>
+            </list>
+        </p>
+    </div>
+
+    <!-- <div type="creationmaintenance"> -->
+        <!-- PREMIS Creation / Maintenance -->
+    <!-- </div> -->
+
+<!-- <div type="usagenotes"> -->
+        <!-- PREMIS Usage notes -->
+    <!-- </div> -->
+
+</div>
+

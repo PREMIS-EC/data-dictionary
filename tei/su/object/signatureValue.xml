@@ -15,13 +15,16 @@
     
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>The digital signature; a value generated from the application of a
-            private key to a message digest.</p>
+        <p>The digital signature; a value generated from the application of a private key to a message digest.</p>
     </div>
     
-    <!-- PREMIS Rationale -->
-    
-    <!-- PREMIS Usage notes -->
+<!-- <div type="rationale"> -->
+        <!-- PREMIS Rationale -->
+    <!-- </div> -->
+
+<!-- <div type="usagenotes"> -->
+        <!-- PREMIS Usage notes -->
+    <!-- </div> -->
     
     <div type="datatype">
         <!-- PREMIS Data constraint -->
@@ -70,13 +73,8 @@
         </p>
     </div>
     
-    <div type="creationmaintenance">
+    <!-- <div type="creationmaintenance"> -->
         <!-- PREMIS Creation / Maintenance -->
-        <p>Inhibitors are more likely to be present on an object ingested by the
-            repository than applied by the repository itself. It is hard to detect
-            during ingest if a file is encrypted, but this may be known from the
-            context in which it is ingested. Therefore, information about inhibitors
-            should be supplied as metadata with submitted objects when possible.</p>
-    </div>
+    <!-- </div> -->
 </div>
 

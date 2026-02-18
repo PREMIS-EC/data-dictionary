@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="messageDigest">
     <head>
-        
         <!-- PREMIS Semantic unit 1.5.2.2 -->
         <abbr>1.5.2.2</abbr>
         <gi>messageDigest</gi>
-        
     </head>
     
     <div type="semanticcomponents">
@@ -20,11 +18,16 @@
     
     <div type="rationale">
         <!-- PREMIS Rationale -->
-        <p>This must be stored so that it can be compared in future fixity
-            checks.</p>
+        <p>This must be stored so that it can be compared in future fixity checks.</p>
     </div>
     
-    <!-- PREMIS Usage notes -->
+    <!-- <div type="creationmaintenance"> -->
+        <!-- PREMIS Creation / Maintenance -->
+    <!-- </div> -->	
+	
+<!-- <div type="usagenotes"> -->
+        <!-- PREMIS Usage notes -->
+    <!-- </div> -->
     
     <div type="datatype">
         <!-- PREMIS Data constraint -->

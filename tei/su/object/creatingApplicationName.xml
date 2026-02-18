@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="creatingApplicationName">
-    <head>
-        
+
+<head>
         <!-- PREMIS Semantic unit 1.5.5.1 -->
         <abbr>1.5.5.1</abbr>
         <gi>creatingApplicationName</gi>
-        
     </head>
     
     <div type="semanticcomponents">
@@ -15,20 +14,20 @@
     
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>A designation for the name of the software program that created the
-            object.</p>
+        <p>A designation for the name of the software program that created the object.</p>
     </div>
     
-    <!-- PREMIS Rationale -->
+<!-- <div type="rationale"> -->
+        <!-- PREMIS Rationale -->
+    <!-- </div> -->
+	
+	    <!-- <div type="creationmaintenance"> -->
+        <!-- PREMIS Creation / Maintenance -->
+    <!-- </div> -->
     
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>The <bold>creatingApplication</bold> is the application that created the
-            object in its current format, not the application that created the copy
-            written to storage. For example, if a document is created by Microsoft
-            Word and subsequently copied to archive storage by a repository’s Ingest
-            program, the <bold>creatingApplication</bold> is MS Word, not the Ingest
-            program.</p>
+        <p>The <italic>creatingApplication</italic> is the application that created the object in its current format, not the application that created the copy written to storage. For example, if a document is created by Microsoft Word and subsequently copied to archive storage by a repository’s Ingest program, the <italic>creatingApplication</italic> is MS Word, not the Ingest program.</p>
     </div>
     
     <div type="datatype">

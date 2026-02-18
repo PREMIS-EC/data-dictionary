@@ -40,13 +40,14 @@
             </list>
         </p>
     </div>
-    <div type="creationmaintenance">
+
+    <!-- <div type="creationmaintenance"> -->
         <!-- PREMIS Creation / Maintenance -->
-        <p></p>
-    </div>
+    <!-- </div> -->
+
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>Recommended practice is to use a controlled vocabulary that a system can act upon automatically. Because this is inherently a local vocabulary, there is no general one available. More detail about the outcome may be recorded in <bold>eventOutcomeDetail</bold>. Recommended practice is to define Events with sufficient granularity that each Event has a single outcome.</p>
+        <p>Recommended practice is to use a controlled vocabulary that a system can act upon automatically. Because this is inherently a local vocabulary, there is no general one available. More detail about the outcome may be recorded in <italic>eventOutcomeDetail</italic>. Recommended practice is to define Events with sufficient granularity that each Event has a single outcome.</p>
     </div>
 </div>
 

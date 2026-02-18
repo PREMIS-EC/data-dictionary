@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0" xml:id="inhibitorType">
     <head>
-        
         <!-- PREMIS Semantic unit 1.5.6.1 -->
         <abbr>1.5.6.1</abbr>
         <gi>inhibitorType</gi>
-        
     </head>
     
     <div type="semanticcomponents">
@@ -18,20 +16,22 @@
         <p>The inhibitor method employed.</p>
     </div>
     
-    <!-- PREMIS Rationale -->
+<!-- <div type="rationale"> -->
+        <!-- PREMIS Rationale -->
+    <!-- </div> -->
+	
+    <!-- <div type="creationmaintenance"> -->
+        <!-- PREMIS Creation / Maintenance -->
+    <!-- </div> -->
     
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>Common inhibitors are encryption and password protection. When encryption
-            is used the type of encryption should be specifically indicated, that
-            is, record “DES”, not “encryption”.</p>
+        <p>Common inhibitors are encryption and password protection. When encryption is used the type of encryption should be specifically indicated, that is, record “DES”, not “encryption”.</p>
     </div>
     
     <div type="datatype">
         <!-- PREMIS Data constraint -->
-        <p>Value should be taken from a controlled vocabulary. A controlled
-            vocabulary is available at:
-            <ref target="http://id.loc.gov/vocabulary/preservation/inhibitorType.html">http://id.loc.gov/vocabulary/preservation/inhibitorType.html</ref>.</p>
+        <p>Value should be taken from a controlled vocabulary. A controlled vocabulary is available at: <ref target="http://id.loc.gov/vocabulary/preservation/inhibitorType.html">http://id.loc.gov/vocabulary/preservation/inhibitorType.html</ref>.</p>
     </div>
     
     <div type="entity">
@@ -52,13 +52,13 @@
                 </row>
                 <row>
                     <cell><bold>Repeatability</bold></cell>
-                    <cell> </cell>
+                    <cell>Not applicable</cell>
                     <cell>Not repeatable</cell>
                     <cell>Not repeatable</cell>
                 </row>
                 <row>
                     <cell><bold>Obligation</bold></cell>
-                    <cell> </cell>
+                    <cell>Not applicable</cell>
                     <cell>Mandatory</cell>
                     <cell>Mandatory</cell>
                 </row>

@@ -9,18 +9,20 @@
         <fileDesc>
             <titleStmt>
                 <title xml:lang="eng">PREMIS Data Dictionary for Preservation Metadata</title>
-                <title xml:lang="eng" type="part2">Version 3.0</title>
+                <title xml:lang="eng" type="part2">Version 4.0 DRAFT</title>
                 <respStmt xml:lang="eng">
                     <resp>Prepared and maintained by the </resp>
                     <name>PREMIS Editorial Committee</name>
                 </respStmt>
             </titleStmt>
             <editionStmt>
-                <p xml:lang="eng">November 2015 Edition</p>
+                <p xml:lang="eng">2026 Edition</p>
+			<!-- TODO: Needs Final Date -->	
             </editionStmt>
             <publicationStmt>
                 <publisher xml:lang="eng">Library of Congress, Network Development &amp; MARC
                     Standards Office</publisher>
+					<!-- IS LOC stil the publisher? -->
                 <address>
                     <addrLine>Library of Congress, Network Development &amp; MARC Standards
                         Office</addrLine>
@@ -39,7 +41,7 @@
                         reserved. No part of this publication may be reproduced, stored in a
                         retrieval system or transmitted in any form or by any means, electronic,
                         mechanical or photocopying, recording, or otherwise without attribution.
-                        This is following PREMIS EC decsion on the 21st of April 2021</licence>
+                        This is following a PREMIS EC decision on the 21st of April 2021.</licence>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -54,12 +56,12 @@
                     <titlePart type="main">PREMIS Data Dictionary for preservation
                         metadata</titlePart>
                 </docTitle>
-                <docEdition>Version 3.0 -- June 2015 -- Revised November 2015 (based on pdf version
-                    at https://www.loc.gov/standards/premis/v3/premis-3-0-final.pdf)</docEdition>
+                <docEdition>DRAFT Version 4.0 -- 2026</docEdition>
+					<!-- TODO: Final date -->
                 <byline>Prepared and maintained by the</byline>
                 <docAuthor>PREMIS Editorial Committee</docAuthor>
                 <docImprint>
-                    <docDate>2015</docDate>
+                    <docDate>2026</docDate>
                 </docImprint>
                 <graphic url="premis-wiki-1.png"/>
             </titlePage>
@@ -68,17 +70,16 @@
                     <head>ACKNOWLEDGMENTS</head>
                     <list type="simple">
                         <head>PREMIS Editorial Commttee Members</head>
-                        <item>Rebecca Guenther, Library of Congress, Chair</item>
-                        <item>Karin Bredenberg, Riksarkivet, Swedish National Archives</item>
-                        <item>Angela Dappert, University of Portsmouth</item>
-                        <item>Angela Di Iorio, Sapienza Università di Roma</item>
+                        <item>Karin Bredenberg, Chair, Sydarkivera</item>
+                        <item>Bertrand Caron, TIB Leibniz Information Centre for Science and Technology</item>
+                        <item>David Cirella, Yale University Library</item>
+						<item>Honghu Fu, National Science Library CAS</item>
                         <item>Leslie Johnston, U.S. National Archives and Records Administration</item>
-                        <item>Devon Landes, HBO</item>
-                        <item>Peter McKinney, National Library of New Zealand</item>
-                        <item>Evelyn McLellan, Artefactual Systems</item>
-                        <item>Tracy Meehleib, Library of Congress</item>
-                        <item>Sébastien Peyrard, Bibliothèque nationale de France</item>
-                        <item>Pauline Sinclair, Preservica</item>
+                        <item>Micky Lindlar, TIB Leibniz Information Centre for Science and Technology</item>
+                        <item>Jack O'Sullivan, Preservica</item>
+                        <item>Sarah Romkey, Artefactual Systems</item>
+						<item>Marjolein Steeman, The Netherlands Institute for Sound and Vision</item>
+                        <item>John Zagas, Library of Congress</item>
                         <item>Eld Zierau, Royal Library of Denmark</item>
                     </list>
                 </div>
@@ -93,40 +94,33 @@
                         <item>Priscilla Caplan, Florida Center for Library Automation (co-chair of
                             original PREMIS Working Group)</item>
                         <item>Gerard Clifton, National Library of Australia</item>
+						<item>Angela Dappert, Digital Lifecycle Management, Ltd</item>
+						<item>Kevin DeVorsey, U.S. National Archives and Records Administration</item>
+						<item>Angela Di Iorio, Sapienza Università di Roma </item>
                         <item>Markus Enders, British Library</item>
+						<item>Rebecca Guenther, Library of Congress</item>
                         <item>Noreen Hill, Library and Archives Canada</item>
+						<item>Hanne Mari K. Hindklev, Norwegian Health Archives</item>
                         <item>Karsten Huth, Sächsisches Staatsarchiv, Saxon State Archives</item>
                         <item>David Lake, U.S. National Archives and Records Administration</item>
+						<item>Devon Landes, HBO</item>
                         <item>Brian Lavoie, OCLC</item>
                         <item>Yaniv Levi, ExLibris</item>
                         <item>Bill Leonard, Library and Archives Canada</item>
+						<item>Peter McKinney, National Library of New Zealand</item>
+						<item>Evelyn McLellan, Artefactual Systems</item>
                         <item>Rory McLeod, British Library</item>
+						<item>Tracy Meehleib, Library of Congress</item>
+						<item>Terje Pettersen-Dahl, National Archives of Norway</item>
+						<item>Sebastien Payraud, Bibliothèque nationale de France</item>
                         <item>Robert Sharpe, Preservica</item>
+						<item>Pauline Sinclair, Preservica</item>
                         <item>Robert Wolfe, HBO</item>
+						<item>Milan Valadou, meemoo</item>
                         <item>Zhiwu Xie, Los Alamos National Laboratory</item>
                         <item>Sally Vermaaten, Statistics New Zealand</item>
                         <item>Kate Zwaard, U.S. Government Printing Office, Library of
                             Congress</item>
-                    </list>
-                    <list type="simple">
-                        <head>In addition to Editorial Committee members, the following contributed their
-                            expertise to the work on the Environment Working Group for PREMIS 3:</head>
-                        <item>Conçalo Antunes, Instituto de Engenharia de Sistemas e
-                            Computadores</item>
-                        <item>Artur Caetano, Instituto de Engenharia de Sistemas e
-                            Computadores</item>
-                        <item>Carol Chou, Florida Virtual Campus</item>
-                        <item>Janet Delve, University of Portsmouth</item>
-                        <item>Martin Neumann, University of Karlsruhe</item>
-                        <item>Michael Nolan, Intel</item>
-                    </list>                    
-                    <list type="simple">
-                        <head>In addition to Editorial Committee members, the following contributed their
-                            expertise to the work on the Conformance Statement for PREMIS 3:</head>
-                        <item>Jay Gattuso, National Library of New Zealand</item>
-                        <item>Jan Hutař, Archives New Zealand</item>
-                        <item>Amy Kirchhoff, ITHAKA</item>
-                        <item>Joseph Pawletko, New York University</item>
                     </list>
                     <list type="simple">
                         <head>The following people were the original <italic><bold>Pre</bold>servation
@@ -178,9 +172,10 @@
                     <p>PREMIS maintenance activity Web site: <ref
                             target="http://www.loc.gov/standards/premis/"
                             >http://www.loc.gov/standards/premis/</ref>.</p>
-                    <!-- TODO: Update link nd email for PIG -->
-                    <p>PREMIS Implementers' Group discussion list: pig@loc.gov. To subscribe, send
-                        an e-mail to listserv@loc.gov with the message, "subscribe pig [your
+					<p>PREMIS GitHub: <ref target="https://github.com/PREMIS-EC/">https://github.com/PREMIS-EC/</ref></p>
+                    <!-- DONE TODO: Update link and email for PIG -->
+                    <p>PREMIS Implementers' Group discussion list: PIG@listserv.loc.gov. To subscribe, send
+                        an e-mail to PIG@listserv.loc.gov with the message, "subscribe pig [your
                         name]".</p>
                     <p>Please send comments and questions to premis@loc.gov.</p>
 
@@ -236,7 +231,7 @@
                             2002), <ref
                                 target="http://www.oclc.org/research/projects/pmwg/pm_framework.pdf"
                                 >
-                            http://www.oclc.org/research/projects/pmwg/pm_framework.pdf</ref>.</note>However,
+                            http://www.oclc.org/research/projects/pmwg/pm_framework.pdf</ref>.</note> However,
                         additional work was needed to make these prototype elements implementable.
                         The PREMIS working group was asked to take the PMF group’s work a step
                         further and develop a data dictionary of core metadata for archived digital
@@ -291,13 +286,11 @@
                         the functions of maintaining viability, renderability, understandability,
                         authenticity, and identity in a preservation context. Preservation metadata
                         thus spans a number of the categories typically used to differentiate types
-                        of metadata: administrative (including Rights and permissions), technical,
+                        of metadata: administrative (including Rights, obligations, and permissions), technical,
                         and structural. Particular attention was paid to the documentation of
                         digital provenance (the history of an object) and to the documentation of
                         relationships, especially relationships among different objects within the
-                        preservation repository. Version 3.0 of the Data Dictionary explicitly
-                        expands the scope beyond repository boundaries in order to accommodate
-                        seamless metadata representation across the digital object life-cycle.</p>
+                        preservation repository.</p>
                     <p>The group considered a number of definitions of “core.” In one view, core
                         describes any metadata absolutely required under any circumstances. In
                         another, core means that metadata is applicable to any type of repository
@@ -330,30 +323,19 @@
                 </div>
                 <div>
                     <head>PREMIS Maintenance Activity</head>
-                    <p>Following the release of the Data Dictionary in 2005, the PREMIS working
-                        group retired and the PREMIS Maintenance Activity, sponsored by the Library
-                        of Congress, was initiated to maintain the Data Dictionary and coordinate
-                        other work to advance understanding of preservation metadata and related
-                        topics. In addition to providing a permanent Web home for the Data
-                        Dictionary, XML schema, and related materials, the Maintenance Activity also
-                        operates the PREMIS Implementers Group (PIG) discussion list and wiki,
-                        conducts tutorials on the Data Dictionary and its use, and commissions
-                        focused studies on preservation metadata topics. The Maintenance Activity
-                        also established an Editorial Committee responsible for further development
+                    <p>The PREMIS Editorial Committee is responsible for further development
                         of the Data Dictionary and the XML schema and promoting their use.
                         Themembership of the Editorial Committee reflects a variety of countries and
-                        institutional backgrounds.</p>
+                        institutional backgrounds. Other key maintenance activities include: providing a permanent Web home for the Data Dictionary, XML schema, and related materials, operating the PREMIS Implementers Group (PIG) discussion list and wiki, conducting tutorials on the Data Dictionary and its use, as well as commissioning focused studies on preservation metadata topics.</p>
                     <p>Users identify errors, and provide feedback on ways that the Data Dictionary
                         could be improved to increase its value and ease of application through a
                         variety of mechanisms: Discussion of issues takes place on the PREMIS
                         Implementers Group (PIG) discussion list and wiki, user group meetings take
                         place at PREMIS Implementation Fairs that are organized in conjunction with
                         major conferences and are advertised on the PREMIS website and through
-                        mailing lists, and requests for changes can be submitted through the
-                            <italic>PREMIS Data Dictionary and Schema Revision Process</italic>
-                        specified at <ref
-                            target="http://www.loc.gov/standards/premis/revision-process.html"
-                            >http://www.loc.gov/standards/premis/revision-process.html</ref>.</p>
+                        mailing lists, and requests for changes can be submitted as issues via the PREMIS GitHub repository (<ref
+                            target="https://github.com/PREMIS-EC/"
+                            >https://github.com/PREMIS-EC/</ref>).</p>
                     <p>The members of the Editorial Committee revise the Data Dictionary when a
                         sufficient level of commentary has accumulated to warrant doing so, making
                         every effort to engage stakeholders in the process of revision. The
@@ -413,10 +395,14 @@
                                 <cell>Version 3</cell>
                                 <cell>June 2015</cell>
                             </row>
+                            <row>
+                                <cell>DRAFT Version 4</cell>
+                                <cell>February 2026</cell>
+                    <!-- TODO: Needs Final Date -->								
+                            </row>
                         </table>
                     </p>
-                    <p>Subsequent
-                        versions of the Dictionary have taken advantage of the increase in use of
+                    <p>Versions of the Dictionary have taken advantage of the increase in use of
                         PREMIS and experience of implementing preservation solutions. They have
                         included corrections of errors, clarifications of some semantic units,
                         changes for consistency, and the addition of a few semantic units that
@@ -426,16 +412,15 @@
                         were no major changes affecting existing PREMIS descriptions. Version 2.3
                         contained only changes that affected the XML schema (by adding the ability
                         to designate use of specific controlled vocabularies); these were not
-                        reflected in the Data Dictionary. Further information about this mechanism
-                        is given under the section <!-- TODO: Internal refencing to ID's --> “Supplying Metadata Values”. Starting from version 2.2, a PREMIS OWL
+                        reflected in the Data Dictionary.</p>
+						<p>Starting from version 2.2, a PREMIS OWL
                         ontology is available alongside the XML Schema. It allows one to provide a
                         PREMIS-endorsed flavor of the Data Dictionary so that one can express
                         preservation metadata in RDF. This ontology does not replace but complements
                         XML in areas where RDF may be better suited, such as querying or publishing
                         preservation metadata, or connecting repository-specific data to externally
                         maintained registries.</p>
-                    <p>This version of the Data Dictionary, version 3, includes some major changes
-                        and additions to the Dictionary. These can be highlighted as:</p>
+                    <p>Version 3 of the Data Dictionary was a major revision again, that apart from adding some new semantic units, included several major changes:</p>
                     <list type="bulleted">
                         <item>Repositioning of Intellectual Entity as a category of Object to enable
                             additional description within PREMIS and linking to related PREMIS
@@ -455,9 +440,16 @@
                         <item>Addition of a new semantic unit to the Event entity:
                             eventDetailInformation (O, R).</item>
                     </list>
-                    <p><!-- TODO: Internal refencing to ID's --> Major additions
-                        are discussed in detail below (see the “PREMIS Data Model” and “Environment” sections). Other additions are explained within the relevant section of the
-                        Dictionary.</p>
+                    <p>Version 4 is another major conceptual and structural update, focusing primarily on the Rights Entity:</p>
+					<list type="bulleted">
+					<item>Rephrasing the semantic container rightsGranted to rule, in order to broaden the application of the entity; so that it can record obligations in addition to permissions. Together with the addition of a ruleType to address either ‘permission’ or ‘obligation’.</item>
+					<item>Addition of an extension for actions, to support machine readable content, grouped in a container unit together with actiontype (formerly known as ‘act’).</item>
+					<item>Repositioning termOfGrant and termOfRestriction to a container of the linkingObjectIdentifier, renaming them to ‘applicableDatesOfRule’ and
+‘applicableDatesOfRestriction’, allowing to register different dates for (subsets of) objects that are linked to this rule. This repositioning implies that the linkingRightsIdentifier of the Object is altered concurrently.</item>
+					<item>Addition of a new semantic unit relatedEvent to the linking semantic units (both directions), to support the option to record an Event for a specific Object - Rights combination, for instance a reviewing event or a trigger event.</item>
+					<item>Addition of a container unit that holds ‘trigger’ and ‘duration’ for a rule or restriction. Giving the opportunity to define what type of event (like ‘first publication of an object’ or a specific external event agreed with the rightsholder) will activate a rule/restriction and for how long (duration).</item>
+					<item>Restructuring of the Rights Entity as a whole to be able to refer to the identifier regardless of the use of the extension, positioning the extension as an alternative for the rightsStatement, and merging the containers for separate rightsbases into one container called rightsInformation.</item>
+					</list>
                 </div>
                 <div>
                     <head>PREMIS Awards and Recognition</head>
@@ -465,7 +457,7 @@
                         (given under the auspices of the British Conservation Awards), the 2006
                         Society of American Archivists Preservation Publication Award, and was a
                         finalist for the 2012 Digital Preservation Award for the most outstanding
-                        contribution to digital preservation in the last decade.</p>
+                        contribution to digital preservation in the last decade. In 2022, the PREMIS EC was awarded the DPC 20th Anniversary Award, recognizing the PREMIS Data Dictionary and the work of coordinating efforts across the community.</p>
                 </div>
                 <div>
                     <head>The PREMIS Data Model</head>
@@ -479,25 +471,25 @@
                             entity: objects, files, processes, and metadata modification. Metadata
                             Standards Framework—Preservation Metadata (Revised) (Wellington:
                             National Library of New Zealand, June 2003), <ref
-                                target="http://digitalpreservation.natlib.govt.nz/assets/Uploads/nlnz-data-model-final.pdf"
+                                target="https://ndhadeliver.natlib.govt.nz/delivery/DeliveryManagerServlet?dps_pid=IE753269"
                                 >
-                                http://digitalpreservation.natlib.govt.nz/assets/Uploads/nlnz-data-model-final.pdf</ref>.</note>
+                                https://ndhadeliver.natlib.govt.nz/delivery/DeliveryManagerServlet?dps_pid=IE753269</ref>.</note>
                         Figure 1 provides a graphical illustration of the PREMIS Data Model.</p>
                     <figure>
                         <graphic url="PREMIS_Figure1.png"/>
                         <figDesc>Figure 1. The PREMIS Data Model</figDesc>
                     </figure>
+<!-- TO DO: Get Final Figure> -->
                     <p>In Figure 1, entities are represented by boxes; relationships between
                         entities are represented by arrows. When arrows are bi-directional, then
-                        each entity type contains a semantic unit allowing it to link to the other.
+                        both entity types contain a semantic unit allowing it to link to the other.
                         So, for example, the Rights entity includes a semantic unit recording
                         information about the relationship with an Agent, and the Agent entity
                         includes a semantic unit recording information about associated Rights.</p>
                     <p>The arrow pointing from the Objects entity back to itself indicates that the
                         semantic units defined in the Data Dictionary support the recording of
-                        relationships between Objects. No other entity in the data model supports
-                        relationships of this type; in other words, while Objects can be related to
-                        other Objects, Events cannot be related to other Events, Agents cannot be
+                        relationships between Objects. The same holds for Rights; in other words, while Objects can be related to
+                        other Objects, and Rights can be related to other Rights, Events cannot be related to other Events, and Agents cannot be
                         related to other Agents, and so on. </p>
                     <p>The entities in the PREMIS data model are defined as follows:</p>
                     <p><bold>Object (or Digital Object):</bold> a discrete unit of information
@@ -507,8 +499,7 @@
                             object to be a combination of identifier, metadata, and data. This is
                             not intended to be a conflict. The Object entity in our model is an
                             abstraction defined only to cluster attributes (semantic units) and
-                            clarify relationships.</note> Version 3 introduces the notion that this
-                        can be an environment used as part of the preservation process.</p>
+                            clarify relationships.</note> This can also be an environment used as part of the preservation process.</p>
                     <p><bold>Environment:</bold> Technology (software or hardware) supporting a
                         Digital Object in some way (e.g. rendering or execution). Environments can
                         be described as Intellectual Entities and captured and preserved in the
@@ -519,7 +510,7 @@
                         associated with Events in the life of an Object, or with Rights attached to
                         an Object. It can also be related to an environment Object that acts as an
                         Agent.</p>
-                    <p><bold>Rights Statement:</bold> assertion of one or more Rights or permissions
+                    <p><bold>Rights:</bold> assertion of one or more Rights, obligations, or permissions
                         pertaining to an Object and/or Agent.</p>
                     <p>Each semantic unit defined in the Data Dictionary is mapped to one of the
                         entities in the data model. In this sense, a semantic unit may be viewed as
@@ -559,8 +550,9 @@
                         expressed in many different ways. For example, the statement “Object A is of
                         format B” could be considered a relationship between A and B. The PREMIS
                         model, however, treats format B as a property of Object A. PREMIS reserves
-                        “relationship” for associations between two or more Object entities or
+                        “relationship” for associations between two or more Object entities, Rights entities, or
                         between entities of different types, such as an Object and an Agent.</p>
+						<p>In some cases a relationship defines an association between a specific combination of entities and another entity. Version 4 introduces this type of relationship for Events that take place with regard to one or more Objects in combination with one or more Rights.</p>
                 </div>
                 <div>
                     <head>More on Objects</head>
@@ -573,6 +565,7 @@
                         include other Intellectual Entities; for example, a web site can include a
                         web page and a web page can include an image. An Intellectual Entity may
                         have one or more digital or non-digital Representations.</p>
+						<p>mMany types of intellectual entities - such as books, articles, images, archival collections, or statistical studies – do not necessarily need to be described as part of the preservation metadata and are well-served by descriptive metadata that supports their discovery and retrieval from outside the preservation metadata. Local implementations may model Intellectual Entities outside PREMIS or within it.</p>
                     <p>A <bold>Representation</bold> is the set of files, including structural
                         metadata, needed for a complete rendition of an Intellectual Entity. For
                         example, a journal article may be complete in one PDF file; this single file
@@ -580,8 +573,7 @@
                         SGML file and two image files; these three files constitute the
                         Representation. A third article may be represented by one TIFF image for
                         each of 12 pages plus an XML file of structural metadata showing the order
-                        of the pages; these 13 files constitute the Representation. Starting with
-                        PREMIS version 3.0 physical items, such as manuscripts or printed documents,
+                        of the pages; these 13 files constitute the Representation. Physical items, such as manuscripts or printed documents,
                         may also be Representations so that digital and non-digital Representations
                         can be captured uniformly.</p>
                     <p>A <bold>File</bold> is a named and ordered sequence of bytes that is known to
@@ -599,22 +591,20 @@
                         <graphic url="PREMIS_Figure2.png" />
                         <figDesc>Figure 2. Conceptual view between object categories</figDesc>
                     </figure>
+<!-- TO DO: Confirm that this is still the correct image -->
                 </div>
                 <div>
                     <head>Intellectual Entities</head>
                     <p>An <bold>Intellectual Entity</bold> is a distinct intellectual or artistic
                         creation that is considered relevant to a designated community in the
                         context of digital preservation. An Intellectual Entity can include other
-                        Intellectual Entities and it may have one or more Representations.</p>
-                    <p>Before versions 3.0 of the Data Dictionary Intellectual Entities were
-                        considered out of scope for PREMIS, since many types of Intellectual
+                        Intellectual Entities and it may have one or more Representations. </p>
+                    <p>Many types of Intellectual
                         Entities--such as books, articles, images, archival collections, or
                         statistical studies – do not necessarily need to be described as part of the
                         preservation metadata and are well-served by descriptive metadata that
                         supports their discovery and retrieval from outside the preservation
-                        metadata.</p>
-                    <p>In version 3.0, one now has the choice of modeling Intellectual Entities
-                        outside PREMIS or within it.</p>
+                        metadata. Local implementations may model Intellectual Entities outside PREMIS or within it.</p>
                     <p>Consider an example where the Intellectual Entity is specified outside PREMIS
                         (as has been the case in previous versions). A TIFF Representation for an
                         image has the identifier “galapagos.6754.1”. Note that instead of using the
@@ -943,7 +933,7 @@
                         about the elements of the technical stack of software, hardware and other
                         dependencies needed to correctly interpret the representations, files and
                         bitstreams. Each element of such a technical stack is an environment.</p>
-                    <p>Starting with PREMIS version 3.0, Object entities can be used to capture
+                    <p>Object entities can be used to capture
                         environments that are relevant to the content of the repository. Like
                         content Objects, environments can be described at all Object category levels
                         (Intellectual Entity, Representation, File, Bitstream). Intellectual
@@ -988,7 +978,7 @@
                         also be recorded. For example, a repository might first deaccession an
                         Intellectual Entity, then delete all file objects associated with that
                         entity, and record each deletion as an event.</p>
-                    <p>In the data model Objects are associated with events in two ways. If an
+                    <p>Up to version 3.0 of the data model, Objects are associated with events in two ways. If an
                         object is related to a second object through (because of) an event, the
                         event identifier is recorded in the <italic>relationship</italic> container
                         as the semantic component <italic>relatedEventIdentifier</italic>. If the
@@ -1056,7 +1046,7 @@
                     </table>
                         </p>
                     <p>A given object can be associated in these two ways with any number of
-                        events.</p>
+                        events. Version 4.0 introduces a third way to associate an object with events via the event identifier that is recorded in the linkingObject container of a Rightstatement, as the semantic component relatedEventIdentifier.</p>
                     <p>All events have outcomes (success, failure, etc.). Some events also have
                         outputs; for example, the execution of a program creates a new file object.
                         The semantic units <italic>eventOutcome</italic> and
@@ -1076,18 +1066,32 @@
                         parameters used during a migration event, the nature of the operation
                         (automated, manual or semi-automated) and so on. Such information can be
                         recorded in <italic>eventDetail</italic>.</p>
-                </div>
+						<p><bold><italic>Review Event</italic></bold></p>
+						<p>This is an Event that represents a review of the Rights status. Semantically, there are two types of Rights Review Events:</p>
+						<p>
+						<list type="numbered">
+						<item>A review of the <italic>content</italic> of the Object, such as a privacy review, a review of Classified material, or of previously unreviewed objects. This request may be triggered by a change in statute, the need for a preservation action, or request for dissemination of a Classified, restricted, or unreviewed Object. Note: even the right for staff to take preservation actions may be limited with restricted content, to either individual named staff or a class/group</item>
+						<item>A review of the <italic>rightsStatement</italic> itself related to Copyright or Licensing status, which may be triggered by a request for dissemination or another external trigger, such as a change in statute or the passage of time, which then requires a review of the current rightsStatement.</item>
+						</list>
+						</p>
+						<p>Such review Events will result in an <italic>eventOutcome</italic>: no change, a partial update to Rights, or the addition of a new <italic>rightsStatement</italic>.</p>
+						<p>For review Events for classified or restricted Objects that result in a new redacted version of a file, the eventOutcome should include an appropriate Redaction Code, additional metadata that identifies the statute(s) under which the information remains redacted. It is a local implementation decision to treat a newly created version, such as a redacted version, as a new PREMIS object with its own <italic>rightsStatement</italic>.</p>
+						<p>A <italic>rightsStatement</italic> may also be updated instead of creating a new <italic>rightsStatement</italic> in cases where the outcome of the review Event is a wholesale change, such as the expiration of a restriction, license, or copyright. The Review Event as referred to in the <italic>linkingEventIdentifier</italic> is used to record and track the event leading to the change. Review events with partial outcomes (such as a partial declassification that results in redacted availability) must have a new <italic>rightsStatement</italic>.</p>
+						<p>Rights Review Events will stack over time to provide a review history.</p>
+               <p><bold><italic>Trigger Event</italic></bold></p>
+			   <p>Another example for the use of the <italic>linkingObject</italic> container of the <italic>rightsStatement</italic> is when the related Event represents a trigger that activates a rule for a (set of) objects. The Event will have an <italic>eventDateTime</italic>, that corresponds with the <underline>trigger</underline> as described in the rule, namely what sort of date is used to activate the rule: Birthdate, Death Date, Publication Date, Review for Release, Declassification, etc.</p>
+			   </div>
                 <div>
                     <head>More on Agents</head>
                     <p>Agents are clearly important but are not the focus of the Data Dictionary,
                         which defines only a means to identify the agent and a classification of
                         agent type (person, organization, or software). While more metadata is
                         likely to be necessary, this is left to other initiatives to define in
-                        detail. In version 3.0, the <italic>agentVersion</italic> semantic unit is
+                        detail. In version 3.0, the <italic>agentVersion</italic> semantic unit was
                         added to the Data Dictionary.</p>
                     <p>The data model diagram shows how Agents relate to other entities. An Agent
-                        can be related to Rights Statements in which the agent has an interest. An
-                        Agent can also relate to the Event entity in which the Agent takes an
+                        can be related to Rights Statements in which the agent has an interest. For example, an Agent may be the source of the right (as the rightsholder or contract partner) or a resource (as the software that must be used). Indeed, the ‘target’ of a Rights Statement (to whom the rule applies) will not always be implicitly the repository. One example where Agents can be the recipient/target of a Rights Statement include a class of repository staff with the appropriate security clearances given the right to perform preservation actions. Another example is an indigenous/tribal group being given rights to access Objects that are not available to others.</p>
+						<p>An Agent can also relate to the Event entity in which the Agent takes an
                         action. Each Event can have one or more related Agents. Because a single
                         Agent can perform different roles in different Events, the role of the Agent
                         is a property of the Event entity, not of the Agent entity. Agents relate to
@@ -1133,23 +1137,32 @@
                                 http://fairuse.stanford.edu/commentary_and_analysis/2003_11_hirtle.html</ref>.</note>”
                         and he California Digital Library's draft copyrightMD schema<note n="14">
                             California Digital Library, copyrightMD schema, <ref
-                                target="http://www.cdlib.org/inside/projects/rights/schema/">
-                                http://www.cdlib.org/inside/projects/rights/schema/</ref>.</note>.
+                                target="https://cdlib.org/groups/rights-management-group-copyrightmd/">
+                                https://cdlib.org/groups/rights-management-group-copyrightmd/</ref>.</note>.
                         It should be noted that the proposed uses of copyrightMD and PREMIS Rights
                         are rather different. The copyrightMD schema is intended to document factual
                         information to allow a human being to make an informed copyright assessment
                         of a given work. The PREMIS <italic>rightsStatement</italic> is intended to
                         allow a preservation repository to determine whether it has the right to
                         perform a certain action in an automated fashion, with some documentation of
-                        the basis for the assertion.</p>
+                        the basis for the assertion. The first version of PREMIS limited the Rights Entity to expressing permissions held by an Agent and granted to the preservation repository.</p>
                     <p>Version 2.2 added semantic units to <italic>rightsStatement</italic> to
                         specify a rights basis other than copyright, license or statute (e.g.
                         institutional policy); to be able to link to further information about the
                         rights through a documentation identifier; to associate applicable dates
                         with a Rightsstatement; and to allow for term of restriction in addition to
-                        the existing term of grant.</p>
-                    <p>Version 3 contains no new additions or changes related to Rights
+                        the existing term of grant. PREMIS has thus long been able to model a restriction on Rights, such as an embargo restriction on dissemination.</p>
+                    <p>Version 3 contained no new additions or changes related to Rights
                         Statements.</p>
+						<p>Version 4 introduces some major changes to Rights in order to support a broader use of the concept of Rights. In addition to the permission, there can also be the need to model an obligation; instead of grantedRight the label <italic>rule</italic> is introduced, to cover both types (duty or permission). Consequently the Agent may be used to express the ‘target’ to whom the rule applies. In particular, the ‘target’ would not always be implicitly the repository. It could be a human or software Agent. As such it might be part of the repository, but doesn’t have to be.</p>
+						<p>Secondly, in order to create more machine-actionability an extension is added to support coded text that describes the action, possibly in combination with restriction(s). And the option to define a trigger that activates the action, optional for a period of time (duration). These rules are defined without specific dates, as those may yet be unknown and will most likely differentiate per object. Therefore the dates are modelled in the <italic>linkingObject</italic> semantic unit.</p>
+						<p>Examples</p>
+						<list type="bulleted">
+						<item>SLAs (Service Level Agreements) or other commitments define among other things the storage media type, the transfer mode, the SIPs’ maximum size, etc. So the <italic>rightsStatement</italic> based on a SLA/contract (<italic>rightsBasis</italic>) obliges the Archive to perform preservation actions.</item>
+						<item>There is a need to specify the relationship between the format and its associated tools (characterization, validation, rendering, migration, etc.), a <italic>rightsStatement</italic> modeling a duty imposed on the repository to apply Institutional Policy (<italic>rightsBasis</italic>) to an Object. An Access rule (<italic>rightsStatement</italic>) based on an obligation required by a statute.</item>
+						<item>An Access rule (<italic>rightsStatement</italic>) based on an obligation required by a statute or copyright (<italic>rightsBasis</italic>) grants the repository the right to perform a certain action on multiple objects, but also simultaneously restricts dissemination because the prohibition rule describes an embargo duration, recorded in a duration/time-span of years without a specific start/endDate.</item>
+						</list>
+						<p>Of note, statutes may also represent the cultural and statutory rights of indigenous and tribal peoples to determine who may perform preservation actions and to which groups objects may be disseminated.</p>
                 </div>
                 <div>
                     <head>General Topics on the Structure and Use of the Data Dictionary</head>
@@ -1340,12 +1353,20 @@
                         <item>documents</item>
                         <item>is documented in</item>
                     </list>
+						<p> This list is kept up-to-date at: <ref target="http://id.loc.gov/vocabulary/preservation/relationshipSubType.html">http://id.loc.gov/vocabulary/preservation/relationshipSubType.html</ref></p>
                     <figure>
                         <graphic url="PREMIS_Figure4.png"/>
                         <figDesc>Figure 4. Dependency relationships between (a) a content and environment
                             Object and (b) between two environment Objects.</figDesc>
                     </figure>
                 </div>
+				<div>
+				<head>Relationships between Rights</head>
+				<p>In previous iterations of PREMIS there was no way to track the history of <italic>RightsStatement</italic>s (R) or relationships between them, such as changes to Rights over time that must be recorded, or that are dependent on one another or trigger conditions. A new <italic>linkingRightsIdentifier</italic> has been added which points to each applicable Rights entity. The Rights entity may have more than one <italic>rightsStatement</italic>.</p>
+				<p>This linking between <italic>rightsStatement</italic>s can be applied in a situation where there is a dependency. For instance to reference a new <italic>rightStatement</italic> that may overrule a current <italic>rightsStatement</italic>. For example, under copyright the permission to provide access to the objects will be restricted by the copyright legislation. A license may lift the restrictions set by copyright. A second <italic>rightsStatement</italic> is needed. This statement describes the rights granted by the rightsholder
+(possibly the same Agent as is linked to the copyright statement). In this case the license statement has priority over the copyright statement.</p>
+<p>This may also be used to track changing rights related to trigger situations. For example, the initial <italic>rightsStatement</italic> is based on contractual agreement with a publisher; a second <italic>rightsStatement</italic> based on a contractual agreement with publisher goes into effect when trigger conditions are met. It allows the repository to assert its amended rights when the condition is met: the second <italic>rightsStatement</italic> overrules the first and the history of the rights over time is documented.</p>
+				</div>
                 <div>
                     <head>Relationships between Entities of different types</head>
                     <p>The data model diagram uses arrows to show relationships between entities of
@@ -1358,6 +1379,7 @@
                         Dictionary by the semantic units
                             <italic>linkingRightsStatementIdentifier</italic> and
                             <italic>linkingEventIdentifier</italic>.</p>
+							<p>It is understood that, when a relationship between entities of different types is bi-directional, it can be stated from entity of type A to entity of type B or in the opposite direction, depending on what seems best suited to implementers. Nevertheless, some relationships are more expressive from one of the entities - for example, if one wants to express that an Object was used as documentation in an Event, they will need to record that in the Event <italic>linkingObjectIdentifier</italic> semantic container, as the Object <italic>linkingEventIdentifier</italic> semantic container has no semantic unit to express the role of the Object in the Event.</p>
                 </div>
                 <div>
                     <head>The 1:1 principle</head>
@@ -1675,10 +1697,8 @@
                         the first release of the Data Dictionary and schemas. Version 2.0 of the
                         Data Dictionary introduced a formal mechanism for extensibility within the
                         schemas for a small number of semantic units which were deemed prime
-                        candidates for extension. Version 3.0 has added the following extensible
-                        semantic units: eventDetailInformation and environmentDesignation. Later
-                        revisions of the Data Dictionary may add to this initial set of extensible
-                        semantic units if warranted.</p>
+                        candidates for extension. Version 3.0 added the following extensible
+                        semantic units: eventDetailInformation and environmentDesignation. Version 4.0 adds another extensible semantic unit: <italic>actionextension</italic>.</p>
                     <p>The semantic units for which extensibility is supported in the schemas
                         are:</p>
                     <list type="bulleted">
@@ -1693,6 +1713,7 @@
                         <item>eventOutcomeDetail [within eventOutcomeInformation, Event
                             entity]</item>
                         <item>rights [Rights entity]</item>
+						<item>action [within rightsStatement, Rights entity]</item>
                         <item>agent [Agent entity]</item>
                     </list>
                     <p>These semantic units may be extended by use of an extension container within
@@ -1765,16 +1786,13 @@
                         <item>preservationLevelDateAssigned (under preservationLevel)</item>
                         <item>dateCreatedByApplication (under creatingApplication)</item>
                         <item>eventDateTime (under Event)</item>
-                        <item>copyrightStatusDeterminationDate (under copyrightInformation)</item>
-                        <item>statuteInformationDeterminationDate (under statuteInformation)</item>
-                        <item>startDate (under statuteApplicableDates, copyrightApplicableDates,
-                            otherRightsApplicableDates, termOfGrant, and termOfRestriction)</item>
-                        <item>endDate (under statuteApplicableDates, copyrightApplicableDates,
-                            otherRightsApplicableDates, termOfGrant, and termOfRestriction)</item>
+                        <item>startDate and endDate (under applicableDates, within rightsInformation)</item>
+                        <item>startDate and endDate (under applicableDatesOfRule, within linkingObjectIdentifer, Rights)</item>
+                        <item>startDate and endDate (under applicableDatesOfRestriction, within linkingObjectIdentifer, Rights)</item>
                     </list>
                 </div>
                 <div>
-                    <head>THE PREMIS DATA DICTIONARY VERSION 3.0</head>
+                    <head>THE PREMIS DATA DICTIONARY VERSION 4.0</head>
                     <p>The PREMIS Data Dictionary includes semantic units for Objects, Events,
                         Agents, and Rights. The template for each entry includes a place for notes
                         about how to create or use the semantic unit. In some cases the group felt
@@ -1914,8 +1932,8 @@
                         can properly identify Agents that have acted upon Objects in its care,
                         additional Agent characteristics will be determined by local requirements;
                         many can be modeled on existing standard metadata element sets.</p>
-                    <p><bold>Rights: </bold>PREMIS primarily defines characteristics of Rights and
-                        permissions concerned with preservation activities, not those associated
+                    <p><bold>Rights: </bold>PREMIS defines characteristics of Rights and
+                        permissions or obligations concerned with preservation activities, including those associated
                         with access and/or distribution. The semantic units allow for extensibility
                         to use an external Rights metadata scheme.</p>
                     <p><bold>Technical metadata: </bold>Technical metadata describes the physical
@@ -1938,18 +1956,14 @@
                         specific DVD units, such as manufacturer, dye material, and dye thickness.
                         PREMIS leaves the definition of metadata for describing media
                         characteristics to specialists in these areas.</p>
-                    <p><bold>Business rules: </bold>The working group made no attempt to describe
-                        the business rules of a repository, although certainly this metadata is
-                        essential for preservation within the repository. Business rules codify the
+                    <p><bold>Business rules: </bold>Business rules codify the
                         application of preservation strategies and document repository policies,
                         services, charges, and roles. Retention periods, disposition, risk
                         assessment, permanence ratings, schedules for media refreshment, and so on
                         are pertinent to objects but are not actual properties of Objects. A single
                         exception was made for the level of preservation treatment to be accorded an
                         object (preservationLevel) because this was felt to be critical information
-                        for any preservation repository. A more thorough treatment of business rules
-                        could be added to the data model by defining a Rules entity similar to
-                        Rights, although this is not included in the current revision.</p>
+                        for any preservation repository. Version 4 introduces a new approach for the treatment of business rules, which can now be implemented by defining a rule (type: obligation) in a rightsStatement.</p>
                 </div>
             </div>
         </front>
@@ -2393,7 +2407,7 @@
                 <xi:include href="su/object/linkingEventIdentifier.xml" parse="xml"/>
                 <xi:include href="su/object/linkingEventIdentifierType.xml" parse="xml"/>
                 <xi:include href="su/object/linkingEventIdentifierValue.xml" parse="xml"/>
-                <xi:include href="su/object/linkingRightsStatementIdentifier.xml" parse="xml"/>
+				<xi:include href="su/object/linkingRightsStatementIdentifier.xml" parse="xml"/>
                 <xi:include href="su/object/linkingRightsStatementIdentifierType.xml" parse="xml"/>
                 <xi:include href="su/object/linkingRightsStatementIdentifierValue.xml" parse="xml"/>
             </div>
@@ -2416,8 +2430,9 @@
                         <head>Entity properties</head>
                         <item>Must be related to one or more Objects.</item>
                         <item>Can be related to one or more Agents.</item>
-                        <item>Links between entities may be recorded from either direction and need
-                            not be bi-directional.</item>
+                        <item>Can be related to Rights entities as review events for rights status.</item>
+						<p>Links between entities may be recorded from either direction and need not be bi-directional.</p>
+						<p>The Event entity may be pointed to from a linking relation between Object and Rights. In this case the Rights of that particular Object (or Objects) are related to the event. For example when, as an outcome of a Review, the rightsStatement has been changed, or newly created.</p>
                     </list>
                     <table cols="1">
                         <head>Entity semantic units</head>
@@ -2516,6 +2531,7 @@
                         management and preservation events in the life of a data object. Agent
                         information serves to identify an Agent unambiguously from all other Agent
                         entities.</p>
+						<p>An agent is a person, organization, hardware, or software, or may also be a group (an organizational unit or a class of staff with some shared characteristic, such as all staff in a preservation unit or all staff with a specific security clearance). A note on the word “repository”: the term is sometimes used to refer to an organization, and sometimes refers to repository software or a system.</p>
                     <p>A piece of software or hardware that is captured as an Agent can also be
                         preserved in a repository and described as an environment O bject, for
                         example, as source code or an ISO disk image. In this case, implementers may
@@ -2528,7 +2544,7 @@
                     <p>The only mandatory semantic unit is agentIdentifier.</p>
                     <list type="bulleted">
                         <head>Entity properties</head>
-                        <item>May hold or grant one or more Rights.</item>
+                        <item>May hold or grant one or more Rights. (resp. be committed to or impose an obligation)</item>
                         <item>May carry out, authorize, or compel one or more Events.</item>
                         <item>May create or act upon one or more Objects through an Event or with
                             respect to a Rights statement.</item>
@@ -2569,13 +2585,13 @@
                             <cell n="1"> 3.7.2 linkingEventIdentifierValue (M, NR) </cell>
                         </row>
                         <row>
-                            <cell> 3.8 linkingRightsStatementIdentifier (O, R) </cell>
+                            <cell> 3.8 linkingRightsIdentifier (O, R) </cell>
                         </row>
                         <row>
-                            <cell n="1"> 3.8.1 linkingRightsStatementIdentifierType (M, NR) </cell>
+                            <cell n="1"> 3.8.1 linkingRightsIdentifierType (M, NR) </cell>
                         </row>
                         <row>
-                            <cell n="1"> 3.8.2 linkingRightsStatementIdentifierValue (M, NR) </cell>
+                            <cell n="1"> 3.8.2 linkingRightsIdentifierValue (M, NR) </cell>
                         </row>
                         <row>
                             <cell> 3.9 linkingEnvironmentIdentifier (O, R) </cell>
@@ -2603,9 +2619,9 @@
                 <xi:include href="su/agents/linkingEventIdentifier.xml" parse="xml"/>
                 <xi:include href="su/agents/linkingEventIdentifierType.xml" parse="xml"/>
                 <xi:include href="su/agents/linkingEventIdentifierValue.xml" parse="xml"/>
-                <xi:include href="su/agents/linkingRightsStatementIdentifier.xml" parse="xml"/>
-                <xi:include href="su/agents/linkingRightsStatementIdentifierType.xml" parse="xml"/>
-                <xi:include href="su/agents/linkingRightsStatementIdentifierValue.xml" parse="xml"/>
+                <xi:include href="su/agents/linkingRightsIdentifier.xml" parse="xml"/>
+                <xi:include href="su/agents/linkingRightsIdentifierType.xml" parse="xml"/>
+                <xi:include href="su/agents/linkingRightsIdentifierValue.xml" parse="xml"/>
                 <xi:include href="su/agents/linkingEnvironmentIdentifier.xml" parse="xml"/>
                 <xi:include href="su/agents/linkingEnvironmentIdentifierType.xml" parse="xml"/>
                 <xi:include href="su/agents/linkingEnvironmentIdentifierValue.xml" parse="xml"/>
@@ -2614,32 +2630,199 @@
             <div type="elements" xml:id="rights">
                 <div type="Introduction">
                     <head>Rights Entity</head>
-                    <p>For the purpose of the PREMIS Data Dictionary, statements of legal rights and
-                        permissions are taken to be constructs that can be described as the Rights
+                    <p>For the purpose of the PREMIS Data Dictionary, statements of legal rights,
+                        permissions, and obligations are taken to be constructs that can be described as the Rights
                         entity. Rights are entitlements grantedto Agents by copyright or other
                         intellectual property law. Permissions are powers or privileges granted by
-                        agreement between a rightsholder and another party or parties.</p>
-                    <p>A repository might wish to record a variety of Rights information including
+                        agreement between a rightsholder (the Agent) and another party or parties (being the repository). In fact it can even be that the repository that grants rights to another party or parties (Agents).</p>
+                    <p>Obligations are also based on such agreements, but with a binding character. And in that case the Agent might be an instrument (software, hardware) or a contract partner (organisation, person etc).</p>
+					<p>In the situation that the copyright belongs to a third party (the rights holder), permission can be granted through an agreement (a license) to perform actions for which copyright is required. The Repository might want to record the duration of the license as well as when the copyright as such expires, thus ending the need for licensing. Especially when permission is generic, rather than relating to a specific request or a one-time action. The Rights Entity of the (generic) license can be linked to the Rights Entity of the copyright, to make their relation explicit.</p>
+					<p>A repository might wish to record a variety of Rights information including
                         abstract Rightsstatements and statements of permissions that apply to
                         external Agents and to objects not held within the repository. The minimum
                         core Rights information that a preservation repository must know, however,
-                        is what Rights or permissions a repository has to carry out actions related
+                        is what Rights, being permissions or obligations, a repository has to carry out actions related
                         to objects within the repository. These may generally be granted by
-                        copyright law, by statute, or by a license agreement with the rightsholder.
+                        copyright law, by statute, or by a license agreement with the rightsholder or another third party.
                         In some situations the basis for the rights is for other reasons, for
                         instance institutional policy. </p>
                     <p>If the repository records Rights information, either <bold>rightsStatement</bold>
                         or <bold>rightsExtension</bold> must be present.</p>
                     <list type="bulleted">
                         <head>Entity properties</head>
-                        <item>May be related to one or more Objects.</item>
+                        <item>May be related to one or more Objects, with one or more Events.</item>
                         <item>May be related to one or more Agents.</item>
-                        <item>Links between entities may be recorded from either direction and need
-                            not be bi-directional.</item>
+							<item>Rights entities may be related to one or more Rights.</item>
                     </list>
+					<p>Links between entities may be recorded from either direction and need not be bi-directional.</p>
                     <table cols="1">
                         <head>Entity semantic units</head>
+						<row>
+                            <cell n="1"> 4.1 rightsIdentifier (M, NR) </cell>
+                        </row>
                         <row>
+                            <cell n="2"> 4.1.1 rightsIdentifierType (M, NR) </cell>
+                        </row>
+                        <row>
+                            <cell n="2"> 4.1.2 rightsIdentifierValue (M, NR) </cell>
+                        </row>
+						    <row>
+                            <cell n="1"> 4.2 rightsStatement (O, R) </cell>
+                        </row>
+						<row>
+                            <cell n="2"> 4.2.1 rightsBasis (M, NR) </cell>
+                        </row>
+						<row>
+                            <cell n="2"> 4.2.2 rightsInformation (O, NR) </cell>
+                        </row>
+						<row>
+                            <cell n="3"> 4.2.2.1 jurisdiction (O, NR) </cell>
+                        </row>
+						<row>
+                            <cell n="2"> 4.2.2.2 conditions (O, NR) </cell>
+                        </row>
+						<row>
+                            <cell n="2"> 4.2.2.3 citation (O, NR) </cell>
+                        </row>
+						<row>
+                            <cell n="2"> 4.2.2.4 note (O,R) </cell>
+                        </row>
+						<row>
+						<cell n="2"> 4.2.2.5 documentationIdentifier (O, R) </cell>
+                        </row>
+						<row>
+							<cell n="3"> 4.2.2.5.1 documentationIdentifierType (M, NR) </cell>
+                        </row>
+						<row>
+							<cell n="3"> 4.2.2.5.2 documentationIdentifierValue (M, NR) </cell>
+                        </row>
+						<row>
+							<cell n="3"> 4.2.2.5.3 documentationRole (O, NR) </cell>
+                        </row>
+						<row>
+                            <cell n="2"> 4.2.2.6 applicableDates (O, NR) </cell>
+                        </row>
+						<row>
+							<cell n="3"> 4.2.2.6.1 startDate (O, NR) </cell>
+                        </row>
+						<row>
+							<cell n="3"> 4.2.2.6.2 enddate </cell>
+                        </row>
+						<row>
+                            <cell n="2"> 4.2.2.7 otherRightsBasis </cell>
+                        </row>
+						<row>
+                            <cell n="1"> 4.2.3 rule (O, R) </cell>
+                        </row>
+						<row>
+                            <cell n="2"> 4.2.3.1 ruleType (M, NR) </cell>
+                        </row>						
+                        <row>
+                            <cell n="2"> 4.2.3.2 action (M, NR) </cell>
+                        </row>
+                        <row>
+                            <cell n="3"> 4.2.3.2.1 actionType (M, NR) </cell>
+                        </row>
+                        <row>
+                            <cell n="3"> 4.2.3.2.2 actionExtension (O, NR) </cell>
+                        </row>
+                        <row>						
+                            <cell n="2"> 4.2.3.3 restriction (O, R) </cell>
+                        </row>
+                        <row>
+                            <cell n="3"> 4.2.3.3.1 restrictionType (M, NR) </cell>
+                        </row>
+						<row>
+                            <cell n="3"> 4.2.3.3.2 termOfRestriction (O, NR) </cell>
+                        </row>
+						<row>
+                            <cell n="3"> 4.2.3.3.2.1 restrictionTrigger (O, NR) </cell>
+						</row>
+                        <row>
+                            <cell n="3"> 4.2.3.3.2.2 restrictionDuration (O, NR) </cell>
+                        </row>						
+                        <row>
+                            <cell n="2"> 4.2.3.4 termOfRule (O, NR) </cell>
+                        </row>
+						<row>
+                            <cell n="3"> 4.2.3.4.1 ruleTrigger (O, NR) </cell>
+                         </row>
+						 <row>
+                            <cell n="3"> 4.2.3.4.2 ruleDuration (O, NR) </cell>
+                        </row>	
+                        <row>
+                            <cell n="2"> 4.2.3.5 ruleNote (O, R) </cell>
+                        </row>					
+						<row>
+                            <cell n="1"> 4.2.4 linkingObjectIdentifier (O, R) </cell>
+                        </row>
+                        <row>
+                            <cell n="2"> 4.2.4.1 linkingObjectIdentifierType (M, NR) </cell>
+                        </row>
+                        <row>
+                            <cell n="2"> 4.2.4.2 linkingObjectIdentifierValue (M, NR) </cell>
+                        </row>
+                        <row>
+                            <cell n="2"> 4.2.4.3 linkingObjectRole (O, R) </cell>
+                        </row>
+                        <row>
+                            <cell n="2"> 4.2.4.4 applicableDatesOfRule (O, R) </cell>
+                        </row>
+                        <row>
+                            <cell n="3"> 4.2.4.4.1 startDate (M, NR) </cell>
+                        </row>
+                        <row>
+                            <cell n="3"> 4.2.4.2.2 endDate (O, NR) </cell>
+                        </row>
+                        <row>
+                            <cell n="2"> 4.2.4.5 applicableDatesOfRestriction (O, R) </cell>
+                        </row>
+                        <row>
+                            <cell n="3"> 4.2.4.5.1 startDate (M, NR) </cell>
+                        </row>
+                        <row>
+                            <cell n="3"> 4.2.4.5.2 endDate (O, NR) </cell>
+                        </row>
+						<row>
+							<cell n="1"> 4.2.4.6 relatedEventIdentifier (O, R) </cell>
+                        </row>
+                        <row>
+                            <cell n="2"> 4.2.4.6.1 relatedEventIdentifierType (M, NR) </cell>
+                        </row>
+                        <row>
+                            <cell n="2"> 4.2.4.6.2 relatedEeventIdentifierValue (M, NR) </cell>
+                        </row>
+						<row>
+							<cell n="2"> 4.2.4.6.3 relatedEventType (O, R) </cell>
+                        </row>
+                        <row>
+                            <cell n="1"> 4.3 rightsExtension (O, R) </cell>
+                        </row>
+                        <row>
+                            <cell n="1"> 4.4 linkingAgentIdentifier (O, R) </cell>
+                        </row>
+                        <row>
+                            <cell n="2"> 4.4.1 linkingAgentIdentifierType (M, NR) </cell>
+                        </row>
+                        <row>
+                            <cell n="2"> 4.4.2 linkingAgentIdentifierValue (M, NR) </cell>
+                        </row>
+                        <row>
+                            <cell n="2"> 4.4.3 linkingAgentRole (O, R) </cell>
+                        </row>
+                        <row>
+                            <cell n="1"> 4.5 linkingRightsIdentifier (O, R) </cell>
+                        </row>
+                        <row>
+                            <cell n="2"> 4.5.1 linkingRightsIdentifierType (M, NR) </cell>
+                        </row>
+                        <row>
+                            <cell n="2"> 4.5.2 linkingRightsIdentifierValue (M, NR) </cell>
+                        </row>
+                        <row>
+                            <cell n="2"> 4.5.3 linkingRightsRole (O, R) </cell>
+                        </row>							
+<!-- 					    <row>
                             <cell> 4.1 rightsStatement (O, R) </cell>
                         </row>
                         <row>
@@ -2842,14 +3025,69 @@
                         </row>
                         <row>
                             <cell> 4.2 rightsExtension (O, R) </cell>
-                        </row>
+                        </row> -->
                     </table>
                 </div>
+                <xi:include href="su/rights/rightsIdentifier.xml" parse="xml"/>
+                <xi:include href="su/rights/rightsIdentifierType.xml" parse="xml"/>
+                <xi:include href="su/rights/rightsIdentifierValue.xml" parse="xml"/>
                 <xi:include href="su/rights/rightsStatement.xml" parse="xml"/>
+                <xi:include href="su/rights/rightsBasis.xml" parse="xml"/>
+				<xi:include href="su/rights/rightsInformation.xml" parse="xml"/>
+				<xi:include href="su/rights/jurisdiction.xml" parse="xml"/>
+				<xi:include href="su/rights/conditions.xml" parse="xml"/>
+				<xi:include href="su/rights/citation.xml" parse="xml"/>
+				<xi:include href="su/rights/note.xml" parse="xml"/>
+				<xi:include href="su/rights/documentationIdentifier.xml" parse="xml"/>
+                <xi:include href="su/rights/documentationIdentifierType.xml" parse="xml"/>
+                <xi:include href="su/rights/documentationIdentifierValue.xml" parse="xml"/>
+                <xi:include href="su/rights/documentationRole.xml" parse="xml"/> 
+				<xi:include href="su/rights/applicableDates.xml" parse="xml"/>
+                <xi:include href="su/rights/startDate.xml" parse="xml"/>
+                <xi:include href="su/rights/endDate.xml" parse="xml"/>
+				<xi:include href="su/rights/otherRightsBasis.xml" parse="xml"/>
+				<xi:include href="su/rights/rule.xml" parse="xml"/>				
+				<xi:include href="su/rights/ruleType.xml" parse="xml"/>				
+				<xi:include href="su/rights/action.xml" parse="xml"/>
+				<xi:include href="su/rights/actionType.xml" parse="xml"/>
+				<xi:include href="su/rights/actionExtension.xml" parse="xml"/>
+				<xi:include href="su/rights/restriction.xml" parse="xml"/>
+				<xi:include href="su/rights/restrictionType.xml" parse="xml"/>						
+				<xi:include href="su/rights/termOfRestriction.xml" parse="xml"/>
+				<xi:include href="su/rights/restrictionTrigger.xml" parse="xml"/>
+				<xi:include href="su/rights/restrictionDuration.xml" parse="xml"/>
+				<xi:include href="su/rights/termOfRule.xml" parse="xml"/>
+				<xi:include href="su/rights/ruleTrigger.xml" parse="xml"/>
+				<xi:include href="su/rights/ruleDuration.xml" parse="xml"/>
+				<xi:include href="su/rights/ruleNote.xml" parse="xml"/>
+				<xi:include href="su/rights/rightslinkingObjectIdentifier.xml" parse="xml"/>
+                <xi:include href="su/rights/rightsLinkingObjectIdentifierType.xml" parse="xml"/>
+                <xi:include href="su/rights/rightsLinkingObjectIdentifierValue.xml" parse="xml"/>
+                <xi:include href="su/rights/rightsLinkingObjectRole.xml" parse="xml"/>
+                <xi:include href="su/rights/applicableDatesOfRule.xml" parse="xml"/>				
+                <xi:include href="su/rights/applicableDatesOfRuleStartDate.xml" parse="xml"/>				
+                <xi:include href="su/rights/applicableDatesOfRuleEndDate.xml" parse="xml"/>					
+                <xi:include href="su/rights/applicableDatesOfRestriction.xml" parse="xml"/>	
+                <xi:include href="su/rights/applicableDatesOfRestrictionStartDate.xml" parse="xml"/>	
+                <xi:include href="su/rights/applicableDatesOfRestrictionEndDate.xml" parse="xml"/>	
+                <xi:include href="su/rights/relatedEventIdentifier.xml" parse="xml"/>	
+                <xi:include href="su/rights/relatedEventIdentifierType.xml" parse="xml"/>	
+                <xi:include href="su/rights/relatedEventIdentifierValue.xml" parse="xml"/>	
+                <xi:include href="su/rights/relatedEventType.xml" parse="xml"/>	
+                <xi:include href="su/rights/rightsLinkingAgentIdentifier.xml" parse="xml"/>
+                <xi:include href="su/rights/rightsLinkingAgentIdentifierType.xml" parse="xml"/>
+                <xi:include href="su/rights/rightsLinkingAgentIdentifierValue.xml" parse="xml"/>
+                <xi:include href="su/rights/rightsLinkingAgentRole.xml" parse="xml"/>
+                <xi:include href="su/rights/rightsExtension.xml" parse="xml"/>				
+                <xi:include href="su/rights/rightsLinkingRightsIdentifier.xml" parse="xml"/>
+                <xi:include href="su/rights/rightsLinkingRightsIdentifierType.xml" parse="xml"/>
+                <xi:include href="su/rights/rightsLinkingRightsIdentifierValue.xml" parse="xml"/>
+                <xi:include href="su/rights/rightsLinkingRightsRole.xml" parse="xml"/>
+<!-- 				<xi:include href="su/rights/rightsStatement.xml" parse="xml"/>
                 <xi:include href="su/rights/rightsStatementIdentifier.xml" parse="xml"/>
                 <xi:include href="su/rights/rightsStatementIdentifierType.xml" parse="xml"/>
                 <xi:include href="su/rights/rightsStatementIdentifierValue.xml" parse="xml"/>
-                <xi:include href="su/rights/rightsBasis.xml" parse="xml"/>
+				<xi:include href="su/rights/rightsBasis.xml" parse="xml"/>
                 <xi:include href="su/rights/copyrightInformation.xml" parse="xml"/>
                 <xi:include href="su/rights/copyrightStatus.xml" parse="xml"/>
                 <xi:include href="su/rights/copyrightJurisdiction.xml" parse="xml"/>
@@ -2913,7 +3151,7 @@
                 <xi:include href="su/rights/rightsLinkingAgentIdentifierValue.xml" parse="xml"/>
                 <xi:include href="su/rights/rightsLinkingAgentRole.xml" parse="xml"/>
                 <xi:include href="su/rights/rightsExtension.xml" parse="xml"/>
-             </div>
+ -->             </div>
        </body>
         <back>
             <div type="appendix" xml:id="appendixSpecialTopics">
@@ -4086,8 +4324,7 @@
                         Entities: Objects, Agents, Rights, and Events.</item>
 
                     <label>Event:</label>
-                    <item>Preservation-relevant action that involves at least one Digital Object
-                        and/or Agent known to the Preservation Repository.</item>
+                    <item>Action performed within or outside the repository that affects the long term preservation of Objects.</item>
 
                     <label>Extensibility:</label>
                     <item>Property that Semantic Units in the PREMIS Data Dictionary may be
@@ -4224,11 +4461,12 @@
                     <item>Form of Migration in which a version of a Digital Object is created in a
                         new Format with properties more conducive to preservation treatment.
                         Normalization is often implemented as part of the Ingest process.</item>
+						
                     <label>Object:</label>
-                    <item>See Digital Object.</item>
+                    <item>See Digital Object. NOTE: Objects are environment-specific, the scope of PREMIS can also covers a Physical Object so that it can be described and related to a Digital Object. Physical items, such as manuscripts or printed documents, may also be am Object Representation so that both a digital and non-digital Representation can be captured uniformly.</item>
+					
                     <label>Permission:</label>
-                    <item> Agreement between a Rights holder and a Preservation Repository, allowing
-                        the Preservation Repository to undertake some action.</item>
+                    <item> Agreement between a Rights holder and a Preservation Repository, allowing the Preservation Repository to undertake some action.</item>
 
                     <label>Pre-Ingest:</label>
                     <item>Period in the life cycle of a Digital Object before it is Ingested into a
@@ -4278,7 +4516,7 @@
                         of the Intellectual Entity.</item>
 
                     <label>Rights:</label>
-                    <item>Assertions of one or more legal entitlements or permissions pertaining to
+                    <item>Assertions of one or more legal entitlements, permissions, or obligations pertaining to
                         a Digital Object and/or an Agent.</item>
 
                     <label>Root:</label>

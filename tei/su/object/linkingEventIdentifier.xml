@@ -16,18 +16,24 @@
     
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>The <bold>eventIdentifierType</bold> value of the related Event.</p>
+        <p>The <italic>eventIdentifierType</italic> value of the related Event.</p>
     </div>
     
-    <!-- PREMIS Rationale -->
+<!-- <div type="rationale"> -->
+        <!-- PREMIS Rationale -->
+    <!-- </div> -->
+
+<!--     <div type="examples"> -->
+        <!-- PREMIS Examples -->
+    <!-- </div> -->
+	
+	    <!-- <div type="creationmaintenance"> -->
+        <!-- PREMIS Creation / Maintenance -->
+    <!-- </div> -->
     
     <div type="usagenotes">
         <!-- PREMIS Usage notes -->
-        <p>Use to link to Events that are not associated with relationships between
-            Objects, such as format validation, virus checking, etc. Linking
-            semantic units are mandatory in the sense that a repository needs to
-            know the information, but are defined as optional because PREMIS does
-            not specify in which direction the linkage should be.</p>
+        <p>Use to link to Events that are not associated with relationships between Objects, such as format validation, virus checking, etc. Linking semantic units are mandatory in the sense that a repository needs to know the information, but are defined as optional because PREMIS does not specify in which direction the linkage should be.</p>
     </div>
     
     <div type="datatype">

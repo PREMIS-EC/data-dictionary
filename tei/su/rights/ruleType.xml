@@ -1,30 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"  xml:id="linkingRightsStatementIdentifierValue">
+<div type="elementDocumentation" xmlns="http://www.tei-c.org/ns/1.0"
+    xml:id="ruleType">
     <head>
-        <!-- PREMIS Semantic unit 3.8.2 -->
-        <abbr>3.8.2</abbr>
-        <gi>linkingRightsStatementIdentifierValue</gi>
-        
-    </head>       
+        <!-- PREMIS Semantic unit 4.2.3.1 -->
+        <abbr>4.2.3.1</abbr>
+        <gi>ruleType</gi>
+    </head>
+	
     <div type="semanticcomponents">
         <!-- PREMIS Semantic components -->
         <p>None</p>
-    </div>       
+    </div>
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>The value of the <bold>linkingRightsStatementIdentifier</bold>.</p>
-    </div>       
-    <div type="rationale">
+        <p>A categorization of the nature of the Rule.</p>
+    </div>
+
+<!-- <div type="rationale"> -->
         <!-- PREMIS Rationale -->
-        <p></p>
-    </div>  
+    <!-- </div> -->
+
     <div type="datatype">
         <!-- PREMIS Data constraint -->
-        <p>Must be an existing <bold>rightsStatementtIdentifierValue</bold> value.</p>
+        <p>Value should be taken from a controlled vocabulary.</p>
     </div>
     <div type="examples">
         <!-- PREMIS Examples -->
-        <p></p>
+        <p>
+		    <list type="simple">
+                <item>duty</item>
+                <item>permission</item>
+            </list>
+		</p>
     </div>
     <div type="entity">
         <p>
@@ -36,13 +43,14 @@
             </list>
         </p>
     </div>
-    <div type="creationmaintenance">
+
+    <!-- <div type="creationmaintenance"> -->
         <!-- PREMIS Creation / Maintenance -->
-        <p></p>
-    </div>
-    <div type="usagenotes">
+    <!-- </div> -->
+
+<!-- <div type="usagenotes"> -->
         <!-- PREMIS Usage notes -->
-        <p></p>
-    </div>
+    <!-- </div> -->
+
 </div>
 

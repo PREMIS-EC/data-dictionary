@@ -11,20 +11,22 @@
     </div>       
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>The value of the linking Object identifier.</p>
+        <p>The value of the <italic>linkingObjectIdentifier</italic>.</p>
     </div>       
-    <div type="rationale">
+
+<!-- <div type="rationale"> -->
         <!-- PREMIS Rationale -->
-        <p></p>
-    </div>  
+    <!-- </div> -->
+
     <div type="datatype">
         <!-- PREMIS Data constraint -->
-        <p>Must be an existing <bold>objectIdentifierValue</bold> value.</p>
+        <p>Must be an existing <italic>objectIdentifierValue</italic> value.</p>
     </div>
-    <div type="examples">
+
+<!--     <div type="examples"> -->
         <!-- PREMIS Examples -->
-        <p></p>
-    </div>
+    <!-- </div> -->
+
     <div type="entity">
         <p>
             <list type="simple">
@@ -35,13 +37,14 @@
             </list>
         </p>
     </div>
-    <div type="creationmaintenance">
+
+    <!-- <div type="creationmaintenance"> -->
         <!-- PREMIS Creation / Maintenance -->
-        <p></p>
-    </div>
-    <div type="usagenotes">
+    <!-- </div> -->
+
+<!-- <div type="usagenotes"> -->
         <!-- PREMIS Usage notes -->
-        <p></p>
-    </div>
+    <!-- </div> -->
+
 </div>
 

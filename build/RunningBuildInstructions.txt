@@ -12,6 +12,8 @@ script premis path
 Example:
 generate_tag_libraries.bat premis ../tei/DD-eng.xml
 
+.\generate_tag_libraries.bat premis ../tei/DD-eng.xml
+
 The script will run and give you information about errors that is found.
 
 The resulting pdf and html is found in the same folder named premis.pdf and premis.html.

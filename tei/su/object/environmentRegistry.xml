@@ -5,7 +5,6 @@
         <!-- PREMIS Semantic unit 1.11.0 -->
         <abbr>1.11</abbr>
         <gi>environmentRegistry</gi>
-        
     </head>
     
     <div type="semanticcomponents">
@@ -17,18 +16,25 @@
     
     <div type="definition">
         <!-- PREMIS Definition -->
-        <p>Identifies details about the registry where further information about the
-            environment can be found.</p>
+        <p>Identifies details about the registry where further information about the environment can be found.</p>
     </div>
     
     <div type="rationale">
         <!-- PREMIS Rationale -->
-        <p>If external registries are available to the preservation repository, they
-            may provide an excellent way of referencing detailed information about
-            the environment.</p>
+        <p>If external registries are available to the preservation repository, they may provide an excellent way of referencing detailed information about the environment.</p>
     </div>
     
-    <!-- PREMIS Usage notes -->
+    <!-- <div type="creationmaintenance"> -->
+        <!-- PREMIS Creation / Maintenance -->
+    <!-- </div> -->
+
+<!-- <div type="usagenotes"> -->
+        <!-- PREMIS Usage notes -->
+    <!-- </div> -->
+	
+<!--     <div type="examples"> -->
+        <!-- PREMIS Examples -->
+    <!-- </div> -->
     
     <div type="datatype">
         <!-- PREMIS Data constraint -->
